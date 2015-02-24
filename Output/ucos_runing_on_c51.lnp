@@ -1,0 +1,3 @@
+".\Output\STARTUP.obj" 
+TO ".\Output\ucos_runing_on_c51" 
+PRINT(".\List\ucos_runing_on_c51.m51") RAMSIZE(256) 

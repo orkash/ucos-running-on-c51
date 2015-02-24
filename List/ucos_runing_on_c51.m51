@@ -1,4 +1,4 @@
-BL51 BANKED LINKER/LOCATER V6.22                                                        02/24/2015  14:39:40  PAGE 1
+BL51 BANKED LINKER/LOCATER V6.22                                                        02/24/2015  16:14:31  PAGE 1
 
 
 BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
@@ -59,7 +59,7 @@ SYMBOL TABLE OF MODULE:  .\Output\ucos_runing_on_c51 (?C_STARTUP)
   C:0003H         SYMBOL        STARTUP1
   N:0000H         SYMBOL        XBPSTACK
   N:0000H         SYMBOL        XBPSTACKTOP
-BL51 BANKED LINKER/LOCATER V6.22                                                      02/24/2015  14:39:40  PAGE 2
+BL51 BANKED LINKER/LOCATER V6.22                                                      02/24/2015  16:14:31  PAGE 2
 
 
   N:0000H         SYMBOL        XDATALEN

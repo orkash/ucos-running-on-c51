@@ -1,10 +1,10 @@
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 1   
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_CORE
 OBJECT MODULE PLACED IN .\Output\os_core.obj
-COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_core.c BROWSE DEBUG OBJECTEXTEND PRINT(.\List\os_core.lst) TABS(2
-                    -) OBJECT(.\Output\os_core.obj)
+COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_core.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os
+                    -_core.lst) TABS(2) OBJECT(.\Output\os_core.obj)
 
 line level    source
 
@@ -34,7 +34,201 @@ line level    source
   24          #ifndef  OS_MASTER_FILE
   25          #define  OS_GLOBALS
   26          #include <ucos_ii.h>
-*** WARNING C318 IN LINE 26 OF Source\os_core.c: can't open file 'ucos_ii.h'
+*** WARNING C318 IN LINE 44 OF .\Source\ucos_ii.h: can't open file 'app_cfg.h'
+*** WARNING C318 IN LINE 45 OF .\Source\ucos_ii.h: can't open file 'os_cfg.h'
+*** WARNING C322 IN LINE 72 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 81 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 170 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 345 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 419 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 463 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 479 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 506 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 520 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 537 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 2   
+
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 577 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 581 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 589 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 593 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 605 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 656 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C202 IN LINE 672 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
+*** ERROR C136 IN LINE 672 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 684 OF .\Source\ucos_ii.h: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+*** ERROR C136 IN LINE 684 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 691 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
+*** ERROR C136 IN LINE 691 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 692 OF .\Source\ucos_ii.h: 'OS_MAX_TASKS': undefined identifier
+*** ERROR C136 IN LINE 692 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** WARNING C322 IN LINE 694 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 708 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 712 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 823 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 904 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 999 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1044 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1049 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1056 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1068 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1073 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1083 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1093 OF .\Source\ucos_ii.h: unknown identifier
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 3   
+
+*** WARNING C322 IN LINE 1100 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1120 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1127 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1131 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1144 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1193 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1212 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1253 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1267 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1289 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1301 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1321 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1327 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1339 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C320 IN LINE 1393 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generat
+             -ion for Event Flags"
+*** ERROR C320 IN LINE 1435 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generat
+             -ion for MAILBOXES"
+*** ERROR C320 IN LINE 1469 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generati
+             -on for MEMORY MANAGER"
+*** ERROR C320 IN LINE 1495 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code genera
+             -tion for MUTEX"
+*** ERROR C320 IN LINE 1517 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation
+             - for QUEUES"
+*** ERROR C320 IN LINE 1567 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generati
+             -on for SEMAPHORES"
+*** ERROR C320 IN LINE 1597 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your applica
+             -tion"
+*** WARNING C322 IN LINE 1609 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C320 IN LINE 1614 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+*** ERROR C320 IN LINE 1618 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the stat
+             -istics task"
+*** ERROR C320 IN LINE 1622 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+*** ERROR C320 IN LINE 1626 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from st
+             -atistics task"
+*** ERROR C320 IN LINE 1630 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskCha
+             -ngePrio()"
+*** ERROR C320 IN LINE 1634 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()
+             -"
+*** ERROR C320 IN LINE 1638 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCrea
+             -teExt()"
+*** ERROR C320 IN LINE 1642 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+*** ERROR C320 IN LINE 1646 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+*** ERROR C320 IN LINE 1650 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend
+             -() and OSTaskResume()"
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 4   
+
+*** ERROR C320 IN LINE 1654 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+*** ERROR C320 IN LINE 1658 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specif
+             -ic registers"
+*** ERROR C320 IN LINE 1672 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one 
+             -second"
+*** ERROR C320 IN LINE 1676 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMS
+             -M()"
+*** ERROR C320 IN LINE 1680 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyR
+             -esume()"
+*** ERROR C320 IN LINE 1684 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() a
+             -nd OSTimeSet()"
+*** ERROR C320 IN LINE 1694 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Ti
+             -mer Management"
+*** ERROR C320 IN LINE 1746 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument 
+             -checking"
+*** ERROR C320 IN LINE 1751 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the p
+             -rocessor port files when 1"
+*** ERROR C320 IN LINE 1756 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are cal
+             -led from the uC/OS-II hooks"
+*** ERROR C320 IN LINE 1761 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for d
+             -ebugging or not"
+*** ERROR C320 IN LINE 1766 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that c
+             -an be assigned"
+*** ERROR C320 IN LINE 1771 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks
+             - in your application"
+*** ERROR C320 IN LINE 1780 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() a
+             -nd OSSchedUnlock()"
+*** ERROR C320 IN LINE 1785 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMul
+             -ti()"
+*** ERROR C320 IN LINE 1790 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run
+             --time task profiling"
+*** ERROR C320 IN LINE 1795 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code
+             - for OSTaskSwHook() or not"
+*** ERROR C320 IN LINE 1800 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a ti
+             -me with uC/OS-View"
+*** ERROR C320 IN LINE 1805 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the co
+             -de for OSTimeTickHook() or not"
   27          #endif
   28          
   29          /*
@@ -47,7 +241,6 @@ line level    source
   36          */
   37          
   38          INT8U  const  OSUnMapTbl[256] = {
-*** ERROR C129 IN LINE 38 OF Source\os_core.c: missing ';' before 'const'
   39              0u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0x00 to 0x0F                   */
   40              4u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0x10 to 0x1F                   */
   41              5u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0x20 to 0x2F                   */
@@ -61,9 +254,9 @@ line level    source
   49              5u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0xA0 to 0xAF                   */
   50              4u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0xB0 to 0xBF                   */
   51              6u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0xC0 to 0xCF                   */
-  52              4u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0xD0 to 0xDF                   */
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 2   
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 5   
 
+  52              4u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0xD0 to 0xDF                   */
   53              5u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0xE0 to 0xEF                   */
   54              4u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u  /* 0xF0 to 0xFF                   */
   55          };
@@ -123,11 +316,15 @@ line level    source
  107          #if (OS_EVENT_EN) && (OS_EVENT_NAME_EN > 0u)
 *** WARNING C322 IN LINE 107 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 107 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 107 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 107 OF Source\os_core.c: unknown identifier
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 6   
+
+*** WARNING C322 IN LINE 107 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 107 OF Source\os_core.c: unknown identifier
               INT8U  OSEventNameGet (OS_EVENT   *pevent,
                                      INT8U     **pname,
                                      INT8U      *perr)
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 3   
-
               {
                   INT8U      len;
               #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
@@ -185,13 +382,13 @@ line level    source
  165          *
  166          * Arguments  : pevent    is a pointer to the event group.  'pevent' can point either to a semaphore,
  167          *                        a mutex, a mailbox or a queue.  Where this function is concerned, it doesn't
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 7   
+
  168          *                        matter the actual type.
  169          *
  170          *              pname     is a pointer to an ASCII string that will be used as the name of the semaphore,
  171          *                        mutex, mailbox or queue.
  172          *
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 4   
-
  173          *              perr      is a pointer to an error code that can contain one of the following values:
  174          *
  175          *                        OS_ERR_NONE                if the requested task is resumed
@@ -206,6 +403,10 @@ line level    source
  184          */
  185          
  186          #if (OS_EVENT_EN) && (OS_EVENT_NAME_EN > 0u)
+*** WARNING C322 IN LINE 186 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 186 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 186 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 186 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 186 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 186 OF Source\os_core.c: unknown identifier
               void  OSEventNameSet (OS_EVENT  *pevent,
@@ -245,6 +446,8 @@ line level    source
                       case OS_EVENT_TYPE_Q:
                            break;
               
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 8   
+
                       default:
                            *perr = OS_ERR_EVENT_TYPE;
                            return;
@@ -254,8 +457,6 @@ line level    source
                   OS_EXIT_CRITICAL();
                   *perr = OS_ERR_NONE;
               }
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 5   
-
               #endif
  234          
  235          /*$PAGE*/
@@ -309,6 +510,8 @@ line level    source
  283          *
  284          * Notes      : 1) a. Validate 'pevents_pend' array as valid OS_EVENTs :
  285          *
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 9   
+
  286          *                        semaphores, mailboxes, queues
  287          *
  288          *                 b. Return ALL available events and messages, if any
@@ -318,8 +521,6 @@ line level    source
  292          *
  293          *                 d. Wait on any of multiple events
  294          *
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 6   
-
  295          *                 e. Remove current task priority as pending from each events's wait list
  296          *                      Performed in OS_EventTaskRdy(), if events posted or aborted
  297          *
@@ -333,6 +534,10 @@ line level    source
  305          */
  306          /*$PAGE*/
  307          #if ((OS_EVENT_EN) && (OS_EVENT_MULTI_EN > 0u))
+*** WARNING C322 IN LINE 307 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 307 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 307 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 307 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 307 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 307 OF Source\os_core.c: unknown identifier
               INT16U  OSEventPendMulti (OS_EVENT  **pevents_pend,
@@ -369,6 +574,8 @@ line level    source
                   if (*pevents_pend  == (OS_EVENT *)0) {              /* Validate 'pevents_pend'                     */
                      *perr =  OS_ERR_PEVENT_NULL;
                       return (0u);
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 10  
+
                   }
                   if (pevents_rdy  == (OS_EVENT **)0) {               /* Validate 'pevents_rdy'                      */
                      *perr =  OS_ERR_PEVENT_NULL;
@@ -382,8 +589,6 @@ line level    source
               
                  *pevents_rdy = (OS_EVENT *)0;                        /* Init array to NULL in case of errors        */
               
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 7   
-
                   pevents     =  pevents_pend;
                   pevent      = *pevents;
                   while  (pevent != (OS_EVENT *)0) {
@@ -433,6 +638,8 @@ line level    source
                           case OS_EVENT_TYPE_SEM:
                                if (pevent->OSEventCnt > 0u) {         /* If semaphore count > 0, resource available; */
                                    pevent->OSEventCnt--;              /* ... decrement semaphore,                ... */
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 11  
+
                                   *pevents_rdy++ =  pevent;           /* ... and return available semaphore event    */
                                     events_rdy   =  OS_TRUE;
                                   *pmsgs_rdy++   = (void *)0;         /* NO message returned  for semaphores         */
@@ -446,8 +653,6 @@ line level    source
               
               #if (OS_MBOX_EN > 0u)
                           case OS_EVENT_TYPE_MBOX:
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 8   
-
                                if (pevent->OSEventPtr != (void *)0) { /* If mailbox NOT empty;                   ... */
                                                                       /* ... return available message,           ... */
                                   *pmsgs_rdy++         = (void *)pevent->OSEventPtr;
@@ -497,6 +702,8 @@ line level    source
                   if ( events_rdy == OS_TRUE) {                       /* Return any events already available         */
                      *pevents_rdy = (OS_EVENT *)0;                    /* NULL terminate return event array           */
                       OS_EXIT_CRITICAL();
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 12  
+
                      *perr        =  OS_ERR_NONE;
                       return (events_rdy_nbr);
                   }
@@ -510,8 +717,6 @@ line level    source
               
                   OS_EXIT_CRITICAL();
                   OS_Sched();                                         /* Find next highest priority task ready       */
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 9   
-
                   OS_ENTER_CRITICAL();
               
                   switch (OSTCBCur->OSTCBStatPend) {                  /* Handle event posted, aborted, or timed-out  */
@@ -561,6 +766,8 @@ line level    source
                                     return (events_rdy_nbr);
                            }
                           *perr = OS_ERR_NONE;
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 13  
+
                            break;
               
                       case OS_STAT_PEND_ABORT:
@@ -574,8 +781,6 @@ line level    source
                           *perr        =  OS_ERR_TIMEOUT;             /* Indicate that events timed out              */
                            break;
                   }
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 10  
-
               
                   OSTCBCur->OSTCBStat          =  OS_STAT_RDY;        /* Set   task  status to ready                 */
                   OSTCBCur->OSTCBStatPend      =  OS_STAT_PEND_OK;    /* Clear pend  status                          */
@@ -607,66 +812,66 @@ line level    source
  569          
  570          void  OSInit (void)
  571          {
- 572              OSInitHookBegin();                                           /* Call port specific initialization code
+ 572   1          OSInitHookBegin();                                           /* Call port specific initialization code
              -   */
- 573          
- 574              OS_InitMisc();                                               /* Initialize miscellaneous variables    
+ 573   1      
+ 574   1          OS_InitMisc();                                               /* Initialize miscellaneous variables    
              -   */
- 575          
- 576              OS_InitRdyList();                                            /* Initialize the Ready List             
+ 575   1      
+ 576   1          OS_InitRdyList();                                            /* Initialize the Ready List             
              -   */
- 577          
- 578              OS_InitTCBList();                                            /* Initialize the free list of OS_TCBs   
+ 577   1      
+ 578   1          OS_InitTCBList();                                            /* Initialize the free list of OS_TCBs   
              -   */
- 579          
- 580              OS_InitEventList();                                          /* Initialize the free list of OS_EVENTs 
+ 579   1      
+ 580   1          OS_InitEventList();                                          /* Initialize the free list of OS_EVENTs 
              -   */
- 581          
- 582          #if (OS_FLAG_EN > 0u) && (OS_MAX_FLAGS > 0u)
+ 581   1      
+ 582   1      #if (OS_FLAG_EN > 0u) && (OS_MAX_FLAGS > 0u)
 *** WARNING C322 IN LINE 582 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 582 OF Source\os_core.c: unknown identifier
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 14  
+
                   OS_FlagInit();                                               /* Initialize the event flag structures  
              -   */
               #endif
- 585          
- 586          #if (OS_MEM_EN > 0u) && (OS_MAX_MEM_PART > 0u)
+ 585   1      
+ 586   1      #if (OS_MEM_EN > 0u) && (OS_MAX_MEM_PART > 0u)
 *** WARNING C322 IN LINE 586 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 586 OF Source\os_core.c: unknown identifier
                   OS_MemInit();                                                /* Initialize the memory manager         
              -   */
               #endif
- 589          
- 590          #if (OS_Q_EN > 0u) && (OS_MAX_QS > 0u)
+ 589   1      
+ 590   1      #if (OS_Q_EN > 0u) && (OS_MAX_QS > 0u)
 *** WARNING C322 IN LINE 590 OF Source\os_core.c: unknown identifier
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 11  
-
 *** WARNING C322 IN LINE 590 OF Source\os_core.c: unknown identifier
                   OS_QInit();                                                  /* Initialize the message queue structure
              -s  */
               #endif
- 593          
- 594              OS_InitTaskIdle();                                           /* Create the Idle Task                  
+ 593   1      
+ 594   1          OS_InitTaskIdle();                                           /* Create the Idle Task                  
              -   */
- 595          #if OS_TASK_STAT_EN > 0u
+ 595   1      #if OS_TASK_STAT_EN > 0u
 *** WARNING C322 IN LINE 595 OF Source\os_core.c: unknown identifier
                   OS_InitTaskStat();                                           /* Create the Statistic Task             
              -   */
               #endif
- 598          
- 599          #if OS_TMR_EN > 0u
+ 598   1      
+ 599   1      #if OS_TMR_EN > 0u
 *** WARNING C322 IN LINE 599 OF Source\os_core.c: unknown identifier
                   OSTmr_Init();                                                /* Initialize the Timer Manager          
              -   */
               #endif
- 602          
- 603              OSInitHookEnd();                                             /* Call port specific init. code         
+ 602   1      
+ 603   1          OSInitHookEnd();                                             /* Call port specific init. code         
              -   */
- 604          
- 605          #if OS_DEBUG_EN > 0u
+ 604   1      
+ 605   1      #if OS_DEBUG_EN > 0u
 *** WARNING C322 IN LINE 605 OF Source\os_core.c: unknown identifier
                   OSDebugInit();
               #endif
- 608          }
+ 608   1      }
  609          /*$PAGE*/
  610          /*
  611          *********************************************************************************************************
@@ -689,21 +894,21 @@ line level    source
  628          *                 end of the ISR.
  629          *              5) You are allowed to nest interrupts up to 255 levels deep.
  630          *              6) I removed the OS_ENTER_CRITICAL() and OS_EXIT_CRITICAL() around the increment because
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 15  
+
  631          *                 OSIntEnter() is always called with interrupts disabled.
  632          *********************************************************************************************************
  633          */
  634          
  635          void  OSIntEnter (void)
  636          {
- 637              if (OSRunning == OS_TRUE) {
- 638                  if (OSIntNesting < 255u) {
- 639                      OSIntNesting++;                      /* Increment ISR nesting level                        */
- 640                  }
- 641              }
- 642          }
+ 637   1          if (OSRunning == OS_TRUE) {
+ 638   2              if (OSIntNesting < 255u) {
+ 639   3                  OSIntNesting++;                      /* Increment ISR nesting level                        */
+ 640   3              }
+ 641   2          }
+ 642   1      }
  643          /*$PAGE*/
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 12  
-
  644          /*
  645          *********************************************************************************************************
  646          *                                               EXIT ISR
@@ -725,35 +930,37 @@ line level    source
  662          
  663          void  OSIntExit (void)
  664          {
- 665          #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register */
+ 665   1      #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register */
 *** WARNING C322 IN LINE 665 OF Source\os_core.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
- 668          
- 669          
- 670          
- 671              if (OSRunning == OS_TRUE) {
- 672                  OS_ENTER_CRITICAL();
- 673                  if (OSIntNesting > 0u) {                           /* Prevent OSIntNesting from wrapping       */
- 674                      OSIntNesting--;
- 675                  }
- 676                  if (OSIntNesting == 0u) {                          /* Reschedule only if all ISRs complete ... */
- 677                      if (OSLockNesting == 0u) {                     /* ... and not locked.                      */
- 678                          OS_SchedNew();
- 679                          OSTCBHighRdy = OSTCBPrioTbl[OSPrioHighRdy];
- 680                          if (OSPrioHighRdy != OSPrioCur) {          /* No Ctx Sw if current task is highest rdy */
- 681          #if OS_TASK_PROFILE_EN > 0u
+ 668   1      
+ 669   1      
+ 670   1      
+ 671   1          if (OSRunning == OS_TRUE) {
+ 672   2              OS_ENTER_CRITICAL();
+ 673   2              if (OSIntNesting > 0u) {                           /* Prevent OSIntNesting from wrapping       */
+ 674   3                  OSIntNesting--;
+ 675   3              }
+ 676   2              if (OSIntNesting == 0u) {                          /* Reschedule only if all ISRs complete ... */
+ 677   3                  if (OSLockNesting == 0u) {                     /* ... and not locked.                      */
+ 678   4                      OS_SchedNew();
+ 679   4                      OSTCBHighRdy = OSTCBPrioTbl[OSPrioHighRdy];
+ 680   4                      if (OSPrioHighRdy != OSPrioCur) {          /* No Ctx Sw if current task is highest rdy */
+ 681   5      #if OS_TASK_PROFILE_EN > 0u
 *** WARNING C322 IN LINE 681 OF Source\os_core.c: unknown identifier
                                   OSTCBHighRdy->OSTCBCtxSwCtr++;         /* Inc. # of context switches to this task  */
               #endif
- 684                              OSCtxSwCtr++;                          /* Keep track of the number of ctx switches */
- 685                              OSIntCtxSw();                          /* Perform interrupt level ctx switch       */
- 686                          }
- 687                      }
- 688                  }
- 689                  OS_EXIT_CRITICAL();
- 690              }
- 691          }
+ 684   5                          OSCtxSwCtr++;                          /* Keep track of the number of ctx switches */
+ 685   5                          OSIntCtxSw();                          /* Perform interrupt level ctx switch       */
+ 686   5                      }
+ 687   4                  }
+ 688   3              }
+ 689   2              OS_EXIT_CRITICAL();
+ 690   2          }
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 16  
+
+ 691   1      }
  692          /*$PAGE*/
  693          /*
  694          *********************************************************************************************************
@@ -766,8 +973,6 @@ line level    source
  701          *
  702          * Returns    : none
  703          *
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 13  
-
  704          * Note(s)    : 1) You should call this function when you no longer want to allow application code to
  705          *                 create kernel objects.
  706          *              2) You need to define the macro 'OS_SAFETY_CRITICAL_IEC61508'
@@ -817,6 +1022,8 @@ line level    source
                           }
                       }
                       OS_EXIT_CRITICAL();
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 17  
+
                   }
               }
               #endif
@@ -830,8 +1037,6 @@ line level    source
  762          *
  763          * Arguments  : none
  764          *
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 14  
-
  765          * Returns    : none
  766          *
  767          * Notes      : 1) You MUST invoke OSSchedLock() and OSSchedUnlock() in pair.  In other words, for every
@@ -881,6 +1086,8 @@ line level    source
  810          *
  811          * Arguments  : none
  812          *
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 18  
+
  813          * Returns    : none
  814          *
  815          * Note       : OSStartHighRdy() MUST:
@@ -893,16 +1100,14 @@ line level    source
  822          
  823          void  OSStart (void)
  824          {
- 825              if (OSRunning == OS_FALSE) {
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 15  
-
- 826                  OS_SchedNew();                               /* Find highest priority's task priority number   */
- 827                  OSPrioCur     = OSPrioHighRdy;
- 828                  OSTCBHighRdy  = OSTCBPrioTbl[OSPrioHighRdy]; /* Point to highest priority task ready to run    */
- 829                  OSTCBCur      = OSTCBHighRdy;
- 830                  OSStartHighRdy();                            /* Execute target specific code to start task     */
- 831              }
- 832          }
+ 825   1          if (OSRunning == OS_FALSE) {
+ 826   2              OS_SchedNew();                               /* Find highest priority's task priority number   */
+ 827   2              OSPrioCur     = OSPrioHighRdy;
+ 828   2              OSTCBHighRdy  = OSTCBPrioTbl[OSPrioHighRdy]; /* Point to highest priority task ready to run    */
+ 829   2              OSTCBCur      = OSTCBHighRdy;
+ 830   2              OSStartHighRdy();                            /* Execute target specific code to start task     */
+ 831   2          }
+ 832   1      }
  833          /*$PAGE*/
  834          /*
  835          *********************************************************************************************************
@@ -945,6 +1150,8 @@ line level    source
                   OS_EXIT_CRITICAL();
               }
               #endif
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 19  
+
  874          /*$PAGE*/
  875          /*
  876          *********************************************************************************************************
@@ -958,39 +1165,37 @@ line level    source
  884          *
  885          * Returns    : none
  886          *********************************************************************************************************
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 16  
-
  887          */
  888          
  889          void  OSTimeTick (void)
  890          {
- 891              OS_TCB    *ptcb;
- 892          #if OS_TICK_STEP_EN > 0u
+ 891   1          OS_TCB    *ptcb;
+ 892   1      #if OS_TICK_STEP_EN > 0u
 *** WARNING C322 IN LINE 892 OF Source\os_core.c: unknown identifier
                   BOOLEAN    step;
               #endif
- 895          #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register    
+ 895   1      #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register    
              - */
 *** WARNING C322 IN LINE 895 OF Source\os_core.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
- 898          
- 899          
- 900          
- 901          #if OS_TIME_TICK_HOOK_EN > 0u
+ 898   1      
+ 899   1      
+ 900   1      
+ 901   1      #if OS_TIME_TICK_HOOK_EN > 0u
 *** WARNING C322 IN LINE 901 OF Source\os_core.c: unknown identifier
                   OSTimeTickHook();                                      /* Call user definable hook                    
              - */
               #endif
- 904          #if OS_TIME_GET_SET_EN > 0u
+ 904   1      #if OS_TIME_GET_SET_EN > 0u
 *** WARNING C322 IN LINE 904 OF Source\os_core.c: unknown identifier
                   OS_ENTER_CRITICAL();                                   /* Update the 32-bit tick counter              
              - */
                   OSTime++;
                   OS_EXIT_CRITICAL();
               #endif
- 909              if (OSRunning == OS_TRUE) {
- 910          #if OS_TICK_STEP_EN > 0u
+ 909   1          if (OSRunning == OS_TRUE) {
+ 910   2      #if OS_TICK_STEP_EN > 0u
 *** WARNING C322 IN LINE 910 OF Source\os_core.c: unknown identifier
                       switch (OSTickStepState) {                         /* Determine whether we need to process a tick 
              - */
@@ -1009,6 +1214,8 @@ line level    source
              - */
                                step            = OS_TRUE;                /*      ... step command from uC/OS-View       
              - */
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 20  
+
                                OSTickStepState = OS_TICK_STEP_WAIT;
                                break;
               
@@ -1022,44 +1229,42 @@ line level    source
              - */
                           return;
                       }
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 17  
-
               #endif
- 934                  ptcb = OSTCBList;                                  /* Point at first TCB in TCB list              
+ 934   2              ptcb = OSTCBList;                                  /* Point at first TCB in TCB list              
              - */
- 935                  while (ptcb->OSTCBPrio != OS_TASK_IDLE_PRIO) {     /* Go through all TCBs in TCB list             
+ 935   2              while (ptcb->OSTCBPrio != OS_TASK_IDLE_PRIO) {     /* Go through all TCBs in TCB list             
              - */
- 936                      OS_ENTER_CRITICAL();
- 937                      if (ptcb->OSTCBDly != 0u) {                    /* No, Delayed or waiting for event with TO    
+ 936   3                  OS_ENTER_CRITICAL();
+ 937   3                  if (ptcb->OSTCBDly != 0u) {                    /* No, Delayed or waiting for event with TO    
              - */
- 938                          ptcb->OSTCBDly--;                          /* Decrement nbr of ticks to end of delay      
+ 938   4                      ptcb->OSTCBDly--;                          /* Decrement nbr of ticks to end of delay      
              - */
- 939                          if (ptcb->OSTCBDly == 0u) {                /* Check for timeout                           
+ 939   4                      if (ptcb->OSTCBDly == 0u) {                /* Check for timeout                           
              - */
- 940          
- 941                              if ((ptcb->OSTCBStat & OS_STAT_PEND_ANY) != OS_STAT_RDY) {
- 942                                  ptcb->OSTCBStat  &= (INT8U)~(INT8U)OS_STAT_PEND_ANY;          /* Yes, Clear status
+ 940   5      
+ 941   5                          if ((ptcb->OSTCBStat & OS_STAT_PEND_ANY) != OS_STAT_RDY) {
+ 942   6                              ptcb->OSTCBStat  &= (INT8U)~(INT8U)OS_STAT_PEND_ANY;          /* Yes, Clear status
              - flag   */
- 943                                  ptcb->OSTCBStatPend = OS_STAT_PEND_TO;                 /* Indicate PEND timeout   
+ 943   6                              ptcb->OSTCBStatPend = OS_STAT_PEND_TO;                 /* Indicate PEND timeout   
              - */
- 944                              } else {
- 945                                  ptcb->OSTCBStatPend = OS_STAT_PEND_OK;
- 946                              }
- 947          
- 948                              if ((ptcb->OSTCBStat & OS_STAT_SUSPEND) == OS_STAT_RDY) {  /* Is task suspended?      
+ 944   6                          } else {
+ 945   6                              ptcb->OSTCBStatPend = OS_STAT_PEND_OK;
+ 946   6                          }
+ 947   5      
+ 948   5                          if ((ptcb->OSTCBStat & OS_STAT_SUSPEND) == OS_STAT_RDY) {  /* Is task suspended?      
              - */
- 949                                  OSRdyGrp               |= ptcb->OSTCBBitY;             /* No,  Make ready         
+ 949   6                              OSRdyGrp               |= ptcb->OSTCBBitY;             /* No,  Make ready         
              - */
- 950                                  OSRdyTbl[ptcb->OSTCBY] |= ptcb->OSTCBBitX;
- 951                              }
- 952                          }
- 953                      }
- 954                      ptcb = ptcb->OSTCBNext;                        /* Point at next TCB in TCB list               
+ 950   6                              OSRdyTbl[ptcb->OSTCBY] |= ptcb->OSTCBBitX;
+ 951   6                          }
+ 952   5                      }
+ 953   4                  }
+ 954   3                  ptcb = ptcb->OSTCBNext;                        /* Point at next TCB in TCB list               
              - */
- 955                      OS_EXIT_CRITICAL();
- 956                  }
- 957              }
- 958          }
+ 955   3                  OS_EXIT_CRITICAL();
+ 956   3              }
+ 957   2          }
+ 958   1      }
  959          
  960          /*$PAGE*/
  961          /*
@@ -1073,21 +1278,21 @@ line level    source
  969          * Arguments  : none
  970          *
  971          * Returns    : the version number of uC/OS-II multiplied by 100.
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 21  
+
  972          *********************************************************************************************************
  973          */
  974          
  975          INT16U  OSVersion (void)
  976          {
- 977              return (OS_VERSION);
- 978          }
+ 977   1          return (OS_VERSION);
+ 978   1      }
  979          
  980          /*$PAGE*/
  981          /*
  982          *********************************************************************************************************
  983          *                                            DUMMY FUNCTION
  984          *
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 18  
-
  985          * Description: This function doesn't do anything.  It is called by OSTaskDel().
  986          *
  987          * Arguments  : none
@@ -1133,6 +1338,12 @@ line level    source
 1026          */
 1027          #if (OS_EVENT_EN)
 *** WARNING C322 IN LINE 1027 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1027 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1027 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1027 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1027 OF Source\os_core.c: unknown identifier
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 22  
+
               INT8U  OS_EventTaskRdy (OS_EVENT  *pevent,
                                       void      *pmsg,
                                       INT8U      msk,
@@ -1150,8 +1361,6 @@ line level    source
               #if OS_LOWEST_PRIO <= 63u
                   y    = OSUnMapTbl[pevent->OSEventGrp];              /* Find HPT waiting for message                */
                   x    = OSUnMapTbl[pevent->OSEventTbl[y]];
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 19  
-
                   prio = (INT8U)((y << 3u) + x);                      /* Find priority of task getting the msg       */
               #else
                   if ((pevent->OSEventGrp & 0xFFu) != 0u) {           /* Find HPT waiting for message                */
@@ -1197,6 +1406,8 @@ line level    source
 1087          /*$PAGE*/
 1088          /*
 1089          *********************************************************************************************************
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 23  
+
 1090          *                                   MAKE TASK WAIT FOR EVENT TO OCCUR
 1091          *
 1092          * Description: This function is called by other uC/OS-II services to suspend a task because an event has
@@ -1211,11 +1422,13 @@ line level    source
 1101          */
 1102          #if (OS_EVENT_EN)
 *** WARNING C322 IN LINE 1102 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1102 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1102 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1102 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1102 OF Source\os_core.c: unknown identifier
               void  OS_EventTaskWait (OS_EVENT *pevent)
               {
                   INT8U  y;
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 20  
-
               
               
                   OSTCBCur->OSTCBEventPtr               = pevent;                 /* Store ptr to ECB in TCB         */
@@ -1249,10 +1462,16 @@ line level    source
 1136          #if ((OS_EVENT_EN) && (OS_EVENT_MULTI_EN > 0u))
 *** WARNING C322 IN LINE 1136 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 1136 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1136 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1136 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1136 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1136 OF Source\os_core.c: unknown identifier
               void  OS_EventTaskWaitMulti (OS_EVENT **pevents_wait)
               {
                   OS_EVENT **pevents;
                   OS_EVENT  *pevent;
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 24  
+
                   INT8U      y;
               
               
@@ -1278,8 +1497,6 @@ line level    source
 1163          /*$PAGE*/
 1164          /*
 1165          *********************************************************************************************************
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 21  
-
 1166          *                                   REMOVE TASK FROM EVENT WAIT LIST
 1167          *
 1168          * Description: Remove a task from an event's wait list.
@@ -1294,6 +1511,10 @@ line level    source
 1177          *********************************************************************************************************
 1178          */
 1179          #if (OS_EVENT_EN)
+*** WARNING C322 IN LINE 1179 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1179 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1179 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1179 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 1179 OF Source\os_core.c: unknown identifier
               void  OS_EventTaskRemove (OS_TCB   *ptcb,
                                         OS_EVENT *pevent)
@@ -1313,6 +1534,8 @@ line level    source
 1195          *********************************************************************************************************
 1196          *                             REMOVE TASK FROM MULTIPLE EVENTS WAIT LISTS
 1197          *
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 25  
+
 1198          * Description: Remove a task from multiple events' wait lists.
 1199          *
 1200          * Arguments  : ptcb             is a pointer to the task to remove.
@@ -1325,6 +1548,10 @@ line level    source
 1207          *********************************************************************************************************
 1208          */
 1209          #if ((OS_EVENT_EN) && (OS_EVENT_MULTI_EN > 0u))
+*** WARNING C322 IN LINE 1209 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1209 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1209 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1209 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 1209 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 1209 OF Source\os_core.c: unknown identifier
               void  OS_EventTaskRemoveMulti (OS_TCB    *ptcb,
@@ -1342,8 +1569,6 @@ line level    source
                   bitx    =  ptcb->OSTCBBitX;
                   pevents =  pevents_multi;
                   pevent  = *pevents;
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 22  
-
                   while (pevent != (OS_EVENT *)0) {                   /* Remove task from all events' wait lists     */
                       pevent->OSEventTbl[y]  &= (OS_PRIO)~bitx;
                       if (pevent->OSEventTbl[y] == 0u) {
@@ -1369,6 +1594,12 @@ line level    source
 1247          *********************************************************************************************************
 1248          */
 1249          #if (OS_EVENT_EN)
+*** WARNING C322 IN LINE 1249 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1249 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1249 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1249 OF Source\os_core.c: unknown identifier
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 26  
+
 *** WARNING C322 IN LINE 1249 OF Source\os_core.c: unknown identifier
               void  OS_EventWaitListInit (OS_EVENT *pevent)
               {
@@ -1397,7 +1628,11 @@ line level    source
 1274          
 1275          static  void  OS_InitEventList (void)
 1276          {
-1277          #if (OS_EVENT_EN) && (OS_MAX_EVENTS > 0u)
+1277   1      #if (OS_EVENT_EN) && (OS_MAX_EVENTS > 0u)
+*** WARNING C322 IN LINE 1277 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1277 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1277 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1277 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 1277 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 1277 OF Source\os_core.c: unknown identifier
               #if (OS_MAX_EVENTS > 1u)
@@ -1406,8 +1641,6 @@ line level    source
                   OS_EVENT  *pevent1;
                   OS_EVENT  *pevent2;
               
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 23  
-
               
                   OS_MemClr((INT8U *)&OSEventTbl[0], sizeof(OSEventTbl)); /* Clear the event table                   */
                   for (ix = 0u; ix < (OS_MAX_EVENTS - 1u); ix++) {        /* Init. list of free EVENT control blocks */
@@ -1429,6 +1662,8 @@ line level    source
                   OSEventFreeList                 = &OSEventTbl[0];
               #else
                   OSEventFreeList                 = &OSEventTbl[0];       /* Only have ONE event control block       */
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 27  
+
                   OSEventFreeList->OSEventType    = OS_EVENT_TYPE_UNUSED;
                   OSEventFreeList->OSEventPtr     = (OS_EVENT *)0;
               #if OS_EVENT_NAME_EN > 0u
@@ -1436,7 +1671,7 @@ line level    source
               #endif
               #endif
               #endif
-1312          }
+1312   1      }
 1313          /*$PAGE*/
 1314          /*
 1315          *********************************************************************************************************
@@ -1453,34 +1688,32 @@ line level    source
 1326          
 1327          static  void  OS_InitMisc (void)
 1328          {
-1329          #if OS_TIME_GET_SET_EN > 0u
+1329   1      #if OS_TIME_GET_SET_EN > 0u
 *** WARNING C322 IN LINE 1329 OF Source\os_core.c: unknown identifier
                   OSTime                    = 0uL;                       /* Clear the 32-bit system clock            */
               #endif
-1332          
-1333              OSIntNesting              = 0u;                        /* Clear the interrupt nesting counter      */
-1334              OSLockNesting             = 0u;                        /* Clear the scheduling lock counter        */
-1335          
-1336              OSTaskCtr                 = 0u;                        /* Clear the number of tasks                */
-1337          
-1338              OSRunning                 = OS_FALSE;                  /* Indicate that multitasking not started   */
-1339          
-1340              OSCtxSwCtr                = 0u;                        /* Clear the context switch counter         */
-1341              OSIdleCtr                 = 0uL;                       /* Clear the 32-bit idle counter            */
-1342          
-1343          #if OS_TASK_STAT_EN > 0u
+1332   1      
+1333   1          OSIntNesting              = 0u;                        /* Clear the interrupt nesting counter      */
+1334   1          OSLockNesting             = 0u;                        /* Clear the scheduling lock counter        */
+1335   1      
+1336   1          OSTaskCtr                 = 0u;                        /* Clear the number of tasks                */
+1337   1      
+1338   1          OSRunning                 = OS_FALSE;                  /* Indicate that multitasking not started   */
+1339   1      
+1340   1          OSCtxSwCtr                = 0u;                        /* Clear the context switch counter         */
+1341   1          OSIdleCtr                 = 0uL;                       /* Clear the 32-bit idle counter            */
+1342   1      
+1343   1      #if OS_TASK_STAT_EN > 0u
 *** WARNING C322 IN LINE 1343 OF Source\os_core.c: unknown identifier
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 24  
-
                   OSIdleCtrRun              = 0uL;
                   OSIdleCtrMax              = 0uL;
                   OSStatRdy                 = OS_FALSE;                  /* Statistic task is not ready              */
               #endif
-1348          
-1349          #ifdef OS_SAFETY_CRITICAL_IEC61508
+1348   1      
+1349   1      #ifdef OS_SAFETY_CRITICAL_IEC61508
                   OSSafetyCriticalStartFlag = OS_FALSE;                  /* Still allow creation of objects          */
               #endif
-1352          }
+1352   1      }
 1353          /*$PAGE*/
 1354          /*
 1355          *********************************************************************************************************
@@ -1493,24 +1726,26 @@ line level    source
 1362          *
 1363          * Returns    : none
 1364          *********************************************************************************************************
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 28  
+
 1365          */
 1366          
 1367          static  void  OS_InitRdyList (void)
 1368          {
-1369              INT8U  i;
-1370          
-1371          
-1372              OSRdyGrp      = 0u;                                    /* Clear the ready list                     */
-1373              for (i = 0u; i < OS_RDY_TBL_SIZE; i++) {
-1374                  OSRdyTbl[i] = 0u;
-1375              }
-1376          
-1377              OSPrioCur     = 0u;
-1378              OSPrioHighRdy = 0u;
-1379          
-1380              OSTCBHighRdy  = (OS_TCB *)0;
-1381              OSTCBCur      = (OS_TCB *)0;
-1382          }
+1369   1          INT8U  i;
+1370   1      
+1371   1      
+1372   1          OSRdyGrp      = 0u;                                    /* Clear the ready list                     */
+1373   1          for (i = 0u; i < OS_RDY_TBL_SIZE; i++) {
+1374   2              OSRdyTbl[i] = 0u;
+1375   2          }
+1376   1      
+1377   1          OSPrioCur     = 0u;
+1378   1          OSPrioHighRdy = 0u;
+1379   1      
+1380   1          OSTCBHighRdy  = (OS_TCB *)0;
+1381   1          OSTCBCur      = (OS_TCB *)0;
+1382   1      }
 1383          
 1384          /*$PAGE*/
 1385          /*
@@ -1528,15 +1763,13 @@ line level    source
 1397          
 1398          static  void  OS_InitTaskIdle (void)
 1399          {
-1400          #if OS_TASK_NAME_EN > 0u
+1400   1      #if OS_TASK_NAME_EN > 0u
 *** WARNING C322 IN LINE 1400 OF Source\os_core.c: unknown identifier
                   INT8U  err;
               #endif
-1403          
-1404          
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 25  
-
-1405          #if OS_TASK_CREATE_EXT_EN > 0u
+1403   1      
+1404   1      
+1405   1      #if OS_TASK_CREATE_EXT_EN > 0u
 *** WARNING C322 IN LINE 1405 OF Source\os_core.c: unknown identifier
                   #if OS_STK_GROWTH == 1u
                   (void)OSTaskCreateExt(OS_TaskIdle,
@@ -1557,6 +1790,8 @@ line level    source
                   #else
                   (void)OSTaskCreateExt(OS_TaskIdle,
                                         (void *)0,                                 /* No arguments passed to OS_TaskIdle
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 29  
+
              -() */
                                         &OSTaskIdleStk[0],                         /* Set Top-Of-Stack                  
              -   */
@@ -1572,25 +1807,25 @@ line level    source
              -k  */
                   #endif
               #else
-1428              #if OS_STK_GROWTH == 1u
+1428   1          #if OS_STK_GROWTH == 1u
 *** WARNING C322 IN LINE 1428 OF Source\os_core.c: unknown identifier
                   (void)OSTaskCreate(OS_TaskIdle,
                                      (void *)0,
                                      &OSTaskIdleStk[OS_TASK_IDLE_STK_SIZE - 1u],
                                      OS_TASK_IDLE_PRIO);
                   #else
-1434              (void)OSTaskCreate(OS_TaskIdle,
-1435                                 (void *)0,
-1436                                 &OSTaskIdleStk[0],
-1437                                 OS_TASK_IDLE_PRIO);
-1438              #endif
-1439          #endif
-1440          
-1441          #if OS_TASK_NAME_EN > 0u
+1434   1          (void)OSTaskCreate(OS_TaskIdle,
+1435   1                             (void *)0,
+1436   1                             &OSTaskIdleStk[0],
+1437   1                             OS_TASK_IDLE_PRIO);
+1438   1          #endif
+1439   1      #endif
+1440   1      
+1441   1      #if OS_TASK_NAME_EN > 0u
 *** WARNING C322 IN LINE 1441 OF Source\os_core.c: unknown identifier
                   OSTaskNameSet(OS_TASK_IDLE_PRIO, (INT8U *)(void *)"uC/OS-II Idle", &err);
               #endif
-1444          }
+1444   1      }
 1445          /*$PAGE*/
 1446          /*
 1447          *********************************************************************************************************
@@ -1598,8 +1833,6 @@ line level    source
 1449          *                                      CREATING THE STATISTIC TASK
 1450          *
 1451          * Description: This function creates the Statistic Task.
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 26  
-
 1452          *
 1453          * Arguments  : none
 1454          *
@@ -1621,6 +1854,8 @@ line level    source
                   (void)OSTaskCreateExt(OS_TaskStat,
                                         (void *)0,                                   /* No args passed to OS_TaskStat()*
              -/
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 30  
+
                                         &OSTaskStatStk[OS_TASK_STAT_STK_SIZE - 1u],  /* Set Top-Of-Stack               *
              -/
                                         OS_TASK_STAT_PRIO,                           /* One higher than the idle task  *
@@ -1662,8 +1897,6 @@ line level    source
                   #else
                   (void)OSTaskCreate(OS_TaskStat,
                                      (void *)0,                                      /* No args passed to OS_TaskStat()*
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 27  
-
              -/
                                      &OSTaskStatStk[0],                              /* Set Top-Of-Stack               *
              -/
@@ -1685,6 +1918,8 @@ line level    source
 1513          *
 1514          * Description: This function is called by OSInit() to initialize the free list of OS_TCBs.
 1515          *
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 31  
+
 1516          * Arguments  : none
 1517          *
 1518          * Returns    : none
@@ -1693,41 +1928,39 @@ line level    source
 1521          
 1522          static  void  OS_InitTCBList (void)
 1523          {
-1524              INT8U    ix;
-1525              INT8U    ix_next;
-1526              OS_TCB  *ptcb1;
-1527              OS_TCB  *ptcb2;
-1528          
-1529          
-1530              OS_MemClr((INT8U *)&OSTCBTbl[0],     sizeof(OSTCBTbl));      /* Clear all the TCBs                 */
-1531              OS_MemClr((INT8U *)&OSTCBPrioTbl[0], sizeof(OSTCBPrioTbl));  /* Clear the priority table           */
-1532              for (ix = 0u; ix < (OS_MAX_TASKS + OS_N_SYS_TASKS - 1u); ix++) {    /* Init. list of free TCBs     */
-1533                  ix_next =  ix + 1u;
-1534                  ptcb1   = &OSTCBTbl[ix];
-1535                  ptcb2   = &OSTCBTbl[ix_next];
-1536                  ptcb1->OSTCBNext = ptcb2;
-1537          #if OS_TASK_NAME_EN > 0u
+1524   1          INT8U    ix;
+1525   1          INT8U    ix_next;
+1526   1          OS_TCB  *ptcb1;
+1527   1          OS_TCB  *ptcb2;
+1528   1      
+1529   1      
+1530   1          OS_MemClr((INT8U *)&OSTCBTbl[0],     sizeof(OSTCBTbl));      /* Clear all the TCBs                 */
+1531   1          OS_MemClr((INT8U *)&OSTCBPrioTbl[0], sizeof(OSTCBPrioTbl));  /* Clear the priority table           */
+1532   1          for (ix = 0u; ix < (OS_MAX_TASKS + OS_N_SYS_TASKS - 1u); ix++) {    /* Init. list of free TCBs     */
+1533   2              ix_next =  ix + 1u;
+1534   2              ptcb1   = &OSTCBTbl[ix];
+1535   2              ptcb2   = &OSTCBTbl[ix_next];
+1536   2              ptcb1->OSTCBNext = ptcb2;
+1537   2      #if OS_TASK_NAME_EN > 0u
 *** WARNING C322 IN LINE 1537 OF Source\os_core.c: unknown identifier
                       ptcb1->OSTCBTaskName = (INT8U *)(void *)"?";             /* Unknown name                       */
               #endif
-1540              }
-1541              ptcb1                   = &OSTCBTbl[ix];
-1542              ptcb1->OSTCBNext        = (OS_TCB *)0;                       /* Last OS_TCB                        */
-1543          #if OS_TASK_NAME_EN > 0u
+1540   2          }
+1541   1          ptcb1                   = &OSTCBTbl[ix];
+1542   1          ptcb1->OSTCBNext        = (OS_TCB *)0;                       /* Last OS_TCB                        */
+1543   1      #if OS_TASK_NAME_EN > 0u
 *** WARNING C322 IN LINE 1543 OF Source\os_core.c: unknown identifier
                   ptcb1->OSTCBTaskName    = (INT8U *)(void *)"?";              /* Unknown name                       */
               #endif
-1546              OSTCBList               = (OS_TCB *)0;                       /* TCB lists initializations          */
-1547              OSTCBFreeList           = &OSTCBTbl[0];
-1548          }
+1546   1          OSTCBList               = (OS_TCB *)0;                       /* TCB lists initializations          */
+1547   1          OSTCBFreeList           = &OSTCBTbl[0];
+1548   1      }
 1549          /*$PAGE*/
 1550          /*
 1551          *********************************************************************************************************
 1552          *                                        CLEAR A SECTION OF MEMORY
 1553          *
 1554          * Description: This function is called by other uC/OS-II services to clear a contiguous block of RAM.
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 28  
-
 1555          *
 1556          * Arguments  : pdest    is the start of the RAM to clear (i.e. write 0x00 to)
 1557          *
@@ -1746,11 +1979,13 @@ line level    source
 1570          void  OS_MemClr (INT8U  *pdest,
 1571                           INT16U  size)
 1572          {
-1573              while (size > 0u) {
-1574                  *pdest++ = (INT8U)0;
-1575                  size--;
-1576              }
-1577          }
+1573   1          while (size > 0u) {
+1574   2              *pdest++ = (INT8U)0;
+1575   2              size--;
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 32  
+
+1576   2          }
+1577   1      }
 1578          /*$PAGE*/
 1579          /*
 1580          *********************************************************************************************************
@@ -1781,17 +2016,15 @@ line level    source
 1604                            INT8U  *psrc,
 1605                            INT16U  size)
 1606          {
-1607              while (size > 0u) {
-1608                  *pdest++ = *psrc++;
-1609                  size--;
-1610              }
-1611          }
+1607   1          while (size > 0u) {
+1608   2              *pdest++ = *psrc++;
+1609   2              size--;
+1610   2          }
+1611   1      }
 1612          /*$PAGE*/
 1613          /*
 1614          *********************************************************************************************************
 1615          *                                              SCHEDULER
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 29  
-
 1616          *
 1617          * Description: This function is called by other uC/OS-II services to determine whether a new, high
 1618          *              priority task has been made ready to run.  This function is invoked by TASK level code
@@ -1808,30 +2041,32 @@ line level    source
 1629          
 1630          void  OS_Sched (void)
 1631          {
-1632          #if OS_CRITICAL_METHOD == 3u                           /* Allocate storage for CPU status register     */
+1632   1      #if OS_CRITICAL_METHOD == 3u                           /* Allocate storage for CPU status register     */
 *** WARNING C322 IN LINE 1632 OF Source\os_core.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-1635          
-1636          
-1637          
-1638              OS_ENTER_CRITICAL();
-1639              if (OSIntNesting == 0u) {                          /* Schedule only if all ISRs done and ...       */
-1640                  if (OSLockNesting == 0u) {                     /* ... scheduler is not locked                  */
-1641                      OS_SchedNew();
-1642                      OSTCBHighRdy = OSTCBPrioTbl[OSPrioHighRdy];
-1643                      if (OSPrioHighRdy != OSPrioCur) {          /* No Ctx Sw if current task is highest rdy     */
-1644          #if OS_TASK_PROFILE_EN > 0u
+1635   1      
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 33  
+
+1636   1      
+1637   1      
+1638   1          OS_ENTER_CRITICAL();
+1639   1          if (OSIntNesting == 0u) {                          /* Schedule only if all ISRs done and ...       */
+1640   2              if (OSLockNesting == 0u) {                     /* ... scheduler is not locked                  */
+1641   3                  OS_SchedNew();
+1642   3                  OSTCBHighRdy = OSTCBPrioTbl[OSPrioHighRdy];
+1643   3                  if (OSPrioHighRdy != OSPrioCur) {          /* No Ctx Sw if current task is highest rdy     */
+1644   4      #if OS_TASK_PROFILE_EN > 0u
 *** WARNING C322 IN LINE 1644 OF Source\os_core.c: unknown identifier
                               OSTCBHighRdy->OSTCBCtxSwCtr++;         /* Inc. # of context switches to this task      */
               #endif
-1647                          OSCtxSwCtr++;                          /* Increment context switch counter             */
-1648                          OS_TASK_SW();                          /* Perform a context switch                     */
-1649                      }
-1650                  }
-1651              }
-1652              OS_EXIT_CRITICAL();
-1653          }
+1647   4                      OSCtxSwCtr++;                          /* Increment context switch counter             */
+1648   4                      OS_TASK_SW();                          /* Perform a context switch                     */
+1649   4                  }
+1650   3              }
+1651   2          }
+1652   1          OS_EXIT_CRITICAL();
+1653   1      }
 1654          
 1655          
 1656          /*
@@ -1852,16 +2087,14 @@ line level    source
 1671          
 1672          static  void  OS_SchedNew (void)
 1673          {
-1674          #if OS_LOWEST_PRIO <= 63u                        /* See if we support up to 64 tasks                   */
+1674   1      #if OS_LOWEST_PRIO <= 63u                        /* See if we support up to 64 tasks                   */
 *** WARNING C322 IN LINE 1674 OF Source\os_core.c: unknown identifier
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 30  
-
-1675              INT8U   y;
-1676          
-1677          
-1678              y             = OSUnMapTbl[OSRdyGrp];
-1679              OSPrioHighRdy = (INT8U)((y << 3u) + OSUnMapTbl[OSRdyTbl[y]]);
-1680          #else                                            /* We support up to 256 tasks                         */
+1675   1          INT8U   y;
+1676   1      
+1677   1      
+1678   1          y             = OSUnMapTbl[OSRdyGrp];
+1679   1          OSPrioHighRdy = (INT8U)((y << 3u) + OSUnMapTbl[OSRdyTbl[y]]);
+1680   1      #else                                            /* We support up to 256 tasks                         */
                   INT8U     y;
                   OS_PRIO  *ptbl;
               
@@ -1877,8 +2110,10 @@ line level    source
                   } else {
                       OSPrioHighRdy = (INT8U)((y << 4u) + OSUnMapTbl[(OS_PRIO)(*ptbl >> 8u) & 0xFFu] + 8u);
                   }
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 34  
+
               #endif
-1697          }
+1697   1      }
 1698          
 1699          /*$PAGE*/
 1700          /*
@@ -1918,8 +2153,6 @@ line level    source
               }
               #endif
 1730          /*$PAGE*/
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 31  
-
 1731          /*
 1732          *********************************************************************************************************
 1733          *                                              IDLE TASK
@@ -1941,23 +2174,25 @@ line level    source
 1749          *********************************************************************************************************
 1750          */
 1751          
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 35  
+
 1752          void  OS_TaskIdle (void *p_arg)
 1753          {
-1754          #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
+1754   1      #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
 *** WARNING C322 IN LINE 1754 OF Source\os_core.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-1757          
-1758          
-1759          
-1760              p_arg = p_arg;                               /* Prevent compiler warning for not using 'p_arg'     */
-1761              for (;;) {
-1762                  OS_ENTER_CRITICAL();
-1763                  OSIdleCtr++;
-1764                  OS_EXIT_CRITICAL();
-1765                  OSTaskIdleHook();                        /* Call user definable HOOK                           */
-1766              }
-1767          }
+1757   1      
+1758   1      
+1759   1      
+1760   1          p_arg = p_arg;                               /* Prevent compiler warning for not using 'p_arg'     */
+1761   1          for (;;) {
+1762   2              OS_ENTER_CRITICAL();
+1763   2              OSIdleCtr++;
+1764   2              OS_EXIT_CRITICAL();
+1765   2              OSTaskIdleHook();                        /* Call user definable HOOK                           */
+1766   2          }
+1767   1      }
 1768          /*$PAGE*/
 1769          /*
 1770          *********************************************************************************************************
@@ -1982,8 +2217,6 @@ line level    source
 1789          *                 maximum value for the idle counter.
 1790          *********************************************************************************************************
 1791          */
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 32  
-
 1792          
 1793          #if OS_TASK_STAT_EN > 0u
 *** WARNING C322 IN LINE 1793 OF Source\os_core.c: unknown identifier
@@ -2005,6 +2238,8 @@ line level    source
               #if OS_TASK_SUSPEND_EN > 0u
                       (void)OSTaskSuspend(OS_PRIO_SELF);
               #else
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 36  
+
                       for (;;) {
                           OSTimeDly(OS_TICKS_PER_SEC);
                       }
@@ -2046,8 +2281,6 @@ line level    source
                   OS_STK_DATA  stk_data;
                   INT8U        err;
                   INT8U        prio;
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 33  
-
               
               
                   for (prio = 0u; prio <= OS_TASK_IDLE_PRIO; prio++) {
@@ -2069,6 +2302,8 @@ line level    source
                       }
                   }
               }
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 37  
+
               #endif
 1873          /*$PAGE*/
 1874          /*
@@ -2110,8 +2345,6 @@ line level    source
 1910          *              OS_ERR_TASK_NO_MORE_TCB  if there are no more free TCBs to be allocated and thus, the task 
              -cannot
 1911          *                                  be created.
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 34  
-
 1912          *
 1913          * Note       : This function is INTERNAL to uC/OS-II and your application should not call it.
 1914          *********************************************************************************************************
@@ -2125,29 +2358,31 @@ line level    source
 1922                             void    *pext,
 1923                             INT16U   opt)
 1924          {
-1925              OS_TCB    *ptcb;
-1926          #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register */
+1925   1          OS_TCB    *ptcb;
+1926   1      #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register */
 *** WARNING C322 IN LINE 1926 OF Source\os_core.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-1929          #if OS_TASK_REG_TBL_SIZE > 0u
+1929   1      #if OS_TASK_REG_TBL_SIZE > 0u
 *** WARNING C322 IN LINE 1929 OF Source\os_core.c: unknown identifier
                   INT8U      i;
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 38  
+
               #endif
-1932          
-1933          
-1934              OS_ENTER_CRITICAL();
-1935              ptcb = OSTCBFreeList;                                  /* Get a free TCB from the free TCB list    */
-1936              if (ptcb != (OS_TCB *)0) {
-1937                  OSTCBFreeList            = ptcb->OSTCBNext;        /* Update pointer to free TCB list          */
-1938                  OS_EXIT_CRITICAL();
-1939                  ptcb->OSTCBStkPtr        = ptos;                   /* Load Stack pointer in TCB                */
-1940                  ptcb->OSTCBPrio          = prio;                   /* Load task priority into TCB              */
-1941                  ptcb->OSTCBStat          = OS_STAT_RDY;            /* Task is ready to run                     */
-1942                  ptcb->OSTCBStatPend      = OS_STAT_PEND_OK;        /* Clear pend status                        */
-1943                  ptcb->OSTCBDly           = 0u;                     /* Task is not delayed                      */
-1944          
-1945          #if OS_TASK_CREATE_EXT_EN > 0u
+1932   1      
+1933   1      
+1934   1          OS_ENTER_CRITICAL();
+1935   1          ptcb = OSTCBFreeList;                                  /* Get a free TCB from the free TCB list    */
+1936   1          if (ptcb != (OS_TCB *)0) {
+1937   2              OSTCBFreeList            = ptcb->OSTCBNext;        /* Update pointer to free TCB list          */
+1938   2              OS_EXIT_CRITICAL();
+1939   2              ptcb->OSTCBStkPtr        = ptos;                   /* Load Stack pointer in TCB                */
+1940   2              ptcb->OSTCBPrio          = prio;                   /* Load task priority into TCB              */
+1941   2              ptcb->OSTCBStat          = OS_STAT_RDY;            /* Task is ready to run                     */
+1942   2              ptcb->OSTCBStatPend      = OS_STAT_PEND_OK;        /* Clear pend status                        */
+1943   2              ptcb->OSTCBDly           = 0u;                     /* Task is not delayed                      */
+1944   2      
+1945   2      #if OS_TASK_CREATE_EXT_EN > 0u
 *** WARNING C322 IN LINE 1945 OF Source\os_core.c: unknown identifier
                       ptcb->OSTCBExtPtr        = pext;                   /* Store pointer to TCB extension           */
                       ptcb->OSTCBStkSize       = stk_size;               /* Store stack size                         */
@@ -2155,55 +2390,59 @@ line level    source
                       ptcb->OSTCBOpt           = opt;                    /* Store task options                       */
                       ptcb->OSTCBId            = id;                     /* Store task ID                            */
               #else
-1952                  pext                     = pext;                   /* Prevent compiler warning if not used     */
-1953                  stk_size                 = stk_size;
-1954                  pbos                     = pbos;
-1955                  opt                      = opt;
-1956                  id                       = id;
-1957          #endif
-1958          
-1959          #if OS_TASK_DEL_EN > 0u
+1952   2              pext                     = pext;                   /* Prevent compiler warning if not used     */
+1953   2              stk_size                 = stk_size;
+1954   2              pbos                     = pbos;
+1955   2              opt                      = opt;
+1956   2              id                       = id;
+1957   2      #endif
+1958   2      
+1959   2      #if OS_TASK_DEL_EN > 0u
 *** WARNING C322 IN LINE 1959 OF Source\os_core.c: unknown identifier
                       ptcb->OSTCBDelReq        = OS_ERR_NONE;
               #endif
-1962          
-1963          #if OS_LOWEST_PRIO <= 63u                                         /* Pre-compute X, Y                  */
+1962   2      
+1963   2      #if OS_LOWEST_PRIO <= 63u                                         /* Pre-compute X, Y                  */
 *** WARNING C322 IN LINE 1963 OF Source\os_core.c: unknown identifier
-1964                  ptcb->OSTCBY             = (INT8U)(prio >> 3u);
-1965                  ptcb->OSTCBX             = (INT8U)(prio & 0x07u);
-1966          #else                                                             /* Pre-compute X, Y                  */
+1964   2              ptcb->OSTCBY             = (INT8U)(prio >> 3u);
+1965   2              ptcb->OSTCBX             = (INT8U)(prio & 0x07u);
+1966   2      #else                                                             /* Pre-compute X, Y                  */
                       ptcb->OSTCBY             = (INT8U)((INT8U)(prio >> 4u) & 0xFFu);
                       ptcb->OSTCBX             = (INT8U) (prio & 0x0Fu);
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 35  
-
               #endif
-1970                                                                            /* Pre-compute BitX and BitY         */
-1971                  ptcb->OSTCBBitY          = (OS_PRIO)(1uL << ptcb->OSTCBY);
-1972                  ptcb->OSTCBBitX          = (OS_PRIO)(1uL << ptcb->OSTCBX);
-1973          
-1974          #if (OS_EVENT_EN)
+1970   2                                                                        /* Pre-compute BitX and BitY         */
+1971   2              ptcb->OSTCBBitY          = (OS_PRIO)(1uL << ptcb->OSTCBY);
+1972   2              ptcb->OSTCBBitX          = (OS_PRIO)(1uL << ptcb->OSTCBX);
+1973   2      
+1974   2      #if (OS_EVENT_EN)
+*** WARNING C322 IN LINE 1974 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1974 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1974 OF Source\os_core.c: unknown identifier
+*** WARNING C322 IN LINE 1974 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 1974 OF Source\os_core.c: unknown identifier
                       ptcb->OSTCBEventPtr      = (OS_EVENT  *)0;         /* Task is not pending on an  event         */
               #if (OS_EVENT_MULTI_EN > 0u)
                       ptcb->OSTCBEventMultiPtr = (OS_EVENT **)0;         /* Task is not pending on any events        */
               #endif
               #endif
-1980          
-1981          #if (OS_FLAG_EN > 0u) && (OS_MAX_FLAGS > 0u) && (OS_TASK_DEL_EN > 0u)
+1980   2      
+1981   2      #if (OS_FLAG_EN > 0u) && (OS_MAX_FLAGS > 0u) && (OS_TASK_DEL_EN > 0u)
 *** WARNING C322 IN LINE 1981 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 1981 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 1981 OF Source\os_core.c: unknown identifier
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:39:14 PAGE 39  
+
                       ptcb->OSTCBFlagNode  = (OS_FLAG_NODE *)0;          /* Task is not pending on an event flag     */
               #endif
-1984          
-1985          #if (OS_MBOX_EN > 0u) || ((OS_Q_EN > 0u) && (OS_MAX_QS > 0u))
+1984   2      
+1985   2      #if (OS_MBOX_EN > 0u) || ((OS_Q_EN > 0u) && (OS_MAX_QS > 0u))
 *** WARNING C322 IN LINE 1985 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 1985 OF Source\os_core.c: unknown identifier
 *** WARNING C322 IN LINE 1985 OF Source\os_core.c: unknown identifier
                       ptcb->OSTCBMsg       = (void *)0;                  /* No message received                      */
               #endif
-1988          
-1989          #if OS_TASK_PROFILE_EN > 0u
+1988   2      
+1989   2      #if OS_TASK_PROFILE_EN > 0u
 *** WARNING C322 IN LINE 1989 OF Source\os_core.c: unknown identifier
                       ptcb->OSTCBCtxSwCtr    = 0uL;                      /* Initialize profiling variables           */
                       ptcb->OSTCBCyclesStart = 0uL;
@@ -2211,43 +2450,41 @@ line level    source
                       ptcb->OSTCBStkBase     = (OS_STK *)0;
                       ptcb->OSTCBStkUsed     = 0uL;
               #endif
-1996          
-1997          #if OS_TASK_NAME_EN > 0u
+1996   2      
+1997   2      #if OS_TASK_NAME_EN > 0u
 *** WARNING C322 IN LINE 1997 OF Source\os_core.c: unknown identifier
                       ptcb->OSTCBTaskName    = (INT8U *)(void *)"?";
               #endif
-2000          
-2001          #if OS_TASK_REG_TBL_SIZE > 0u                              /* Initialize the task variables            */
+2000   2      
+2001   2      #if OS_TASK_REG_TBL_SIZE > 0u                              /* Initialize the task variables            */
 *** WARNING C322 IN LINE 2001 OF Source\os_core.c: unknown identifier
                       for (i = 0u; i < OS_TASK_REG_TBL_SIZE; i++) {
                           ptcb->OSTCBRegTbl[i] = 0u;
                       }
               #endif
-2006          
-2007                  OSTCBInitHook(ptcb);
-2008          
-2009                  OSTaskCreateHook(ptcb);                            /* Call user defined hook                   */
-2010          
-2011                  OS_ENTER_CRITICAL();
-2012                  OSTCBPrioTbl[prio] = ptcb;
-2013                  ptcb->OSTCBNext    = OSTCBList;                    /* Link into TCB chain                      */
-2014                  ptcb->OSTCBPrev    = (OS_TCB *)0;
-2015                  if (OSTCBList != (OS_TCB *)0) {
-2016                      OSTCBList->OSTCBPrev = ptcb;
-2017                  }
-2018                  OSTCBList               = ptcb;
-2019                  OSRdyGrp               |= ptcb->OSTCBBitY;         /* Make task ready to run                   */
-2020                  OSRdyTbl[ptcb->OSTCBY] |= ptcb->OSTCBBitX;
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 10:26:10 PAGE 36  
-
-2021                  OSTaskCtr++;                                       /* Increment the #tasks counter             */
-2022                  OS_EXIT_CRITICAL();
-2023                  return (OS_ERR_NONE);
-2024              }
-2025              OS_EXIT_CRITICAL();
-2026              return (OS_ERR_TASK_NO_MORE_TCB);
-2027          }
+2006   2      
+2007   2              OSTCBInitHook(ptcb);
+2008   2      
+2009   2              OSTaskCreateHook(ptcb);                            /* Call user defined hook                   */
+2010   2      
+2011   2              OS_ENTER_CRITICAL();
+2012   2              OSTCBPrioTbl[prio] = ptcb;
+2013   2              ptcb->OSTCBNext    = OSTCBList;                    /* Link into TCB chain                      */
+2014   2              ptcb->OSTCBPrev    = (OS_TCB *)0;
+2015   2              if (OSTCBList != (OS_TCB *)0) {
+2016   3                  OSTCBList->OSTCBPrev = ptcb;
+2017   3              }
+2018   2              OSTCBList               = ptcb;
+2019   2              OSRdyGrp               |= ptcb->OSTCBBitY;         /* Make task ready to run                   */
+2020   2              OSRdyTbl[ptcb->OSTCBY] |= ptcb->OSTCBBitX;
+2021   2              OSTaskCtr++;                                       /* Increment the #tasks counter             */
+2022   2              OS_EXIT_CRITICAL();
+2023   2              return (OS_ERR_NONE);
+2024   2          }
+2025   1          OS_EXIT_CRITICAL();
+2026   1          return (OS_ERR_TASK_NO_MORE_TCB);
+2027   1      }
 2028                                                                                                                                                       
              -                                                                                
 
-C51 COMPILATION COMPLETE.  74 WARNING(S),  1 ERROR(S)
+C51 COMPILATION COMPLETE.  231 WARNING(S),  44 ERROR(S)

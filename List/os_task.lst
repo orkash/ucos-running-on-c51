@@ -1,10 +1,10 @@
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 1   
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_TASK
 OBJECT MODULE PLACED IN .\Output\os_task.obj
-COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_task.c BROWSE DEBUG OBJECTEXTEND PRINT(.\List\os_task.lst) TABS(2
-                    -) OBJECT(.\Output\os_task.obj)
+COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_task.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os
+                    -_task.lst) TABS(2) OBJECT(.\Output\os_task.obj)
 
 line level    source
 
@@ -33,7 +33,201 @@ line level    source
   23          
   24          #ifndef  OS_MASTER_FILE
   25          #include <ucos_ii.h>
-*** WARNING C318 IN LINE 25 OF Source\os_task.c: can't open file 'ucos_ii.h'
+*** WARNING C318 IN LINE 44 OF .\Source\ucos_ii.h: can't open file 'app_cfg.h'
+*** WARNING C318 IN LINE 45 OF .\Source\ucos_ii.h: can't open file 'os_cfg.h'
+*** WARNING C322 IN LINE 72 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 81 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 170 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 345 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 419 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 463 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 479 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 506 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 520 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 537 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 2   
+
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 577 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 581 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 589 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 593 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 605 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 656 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C202 IN LINE 672 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
+*** ERROR C136 IN LINE 672 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 684 OF .\Source\ucos_ii.h: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+*** ERROR C136 IN LINE 684 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 691 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
+*** ERROR C136 IN LINE 691 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 692 OF .\Source\ucos_ii.h: 'OS_MAX_TASKS': undefined identifier
+*** ERROR C136 IN LINE 692 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** WARNING C322 IN LINE 694 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 708 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 712 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 823 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 904 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 999 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1044 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1049 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1056 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1068 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1073 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1083 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1093 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1100 OF .\Source\ucos_ii.h: unknown identifier
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 3   
+
+*** WARNING C322 IN LINE 1120 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1127 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1131 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1144 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1193 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1212 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1253 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1267 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1289 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1301 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1321 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1327 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1339 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C320 IN LINE 1393 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generat
+             -ion for Event Flags"
+*** ERROR C320 IN LINE 1435 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generat
+             -ion for MAILBOXES"
+*** ERROR C320 IN LINE 1469 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generati
+             -on for MEMORY MANAGER"
+*** ERROR C320 IN LINE 1495 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code genera
+             -tion for MUTEX"
+*** ERROR C320 IN LINE 1517 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation
+             - for QUEUES"
+*** ERROR C320 IN LINE 1567 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generati
+             -on for SEMAPHORES"
+*** ERROR C320 IN LINE 1597 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your applica
+             -tion"
+*** WARNING C322 IN LINE 1609 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C320 IN LINE 1614 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+*** ERROR C320 IN LINE 1618 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the stat
+             -istics task"
+*** ERROR C320 IN LINE 1622 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+*** ERROR C320 IN LINE 1626 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from st
+             -atistics task"
+*** ERROR C320 IN LINE 1630 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskCha
+             -ngePrio()"
+*** ERROR C320 IN LINE 1634 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()
+             -"
+*** ERROR C320 IN LINE 1638 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCrea
+             -teExt()"
+*** ERROR C320 IN LINE 1642 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+*** ERROR C320 IN LINE 1646 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+*** ERROR C320 IN LINE 1650 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend
+             -() and OSTaskResume()"
+*** ERROR C320 IN LINE 1654 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 4   
+
+*** ERROR C320 IN LINE 1658 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specif
+             -ic registers"
+*** ERROR C320 IN LINE 1672 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one 
+             -second"
+*** ERROR C320 IN LINE 1676 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMS
+             -M()"
+*** ERROR C320 IN LINE 1680 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyR
+             -esume()"
+*** ERROR C320 IN LINE 1684 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() a
+             -nd OSTimeSet()"
+*** ERROR C320 IN LINE 1694 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Ti
+             -mer Management"
+*** ERROR C320 IN LINE 1746 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument 
+             -checking"
+*** ERROR C320 IN LINE 1751 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the p
+             -rocessor port files when 1"
+*** ERROR C320 IN LINE 1756 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are cal
+             -led from the uC/OS-II hooks"
+*** ERROR C320 IN LINE 1761 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for d
+             -ebugging or not"
+*** ERROR C320 IN LINE 1766 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that c
+             -an be assigned"
+*** ERROR C320 IN LINE 1771 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks
+             - in your application"
+*** ERROR C320 IN LINE 1780 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() a
+             -nd OSSchedUnlock()"
+*** ERROR C320 IN LINE 1785 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMul
+             -ti()"
+*** ERROR C320 IN LINE 1790 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run
+             --time task profiling"
+*** ERROR C320 IN LINE 1795 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code
+             - for OSTaskSwHook() or not"
+*** ERROR C320 IN LINE 1800 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a ti
+             -me with uC/OS-View"
+*** ERROR C320 IN LINE 1805 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the co
+             -de for OSTimeTickHook() or not"
   26          #endif
   27          
   28          /*$PAGE*/
@@ -60,10 +254,10 @@ line level    source
   48          */
   49          
   50          #if OS_TASK_CHANGE_PRIO_EN > 0u
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 5   
+
 *** WARNING C322 IN LINE 50 OF Source\os_task.c: unknown identifier
               INT8U  OSTaskChangePrio (INT8U  oldprio,
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 2   
-
                                        INT8U  newprio)
               {
               #if (OS_EVENT_EN)
@@ -124,10 +318,10 @@ line level    source
                   bitx_new              = (OS_PRIO)(1uL << x_new);
               
                   OSTCBPrioTbl[oldprio] = (OS_TCB *)0;                    /* Remove TCB from old priority            */
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 6   
+
                   OSTCBPrioTbl[newprio] =  ptcb;                          /* Place pointer to TCB @ new priority     */
                   y_old                 =  ptcb->OSTCBY;
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 3   
-
                   bity_old              =  ptcb->OSTCBBitY;
                   bitx_old              =  ptcb->OSTCBBitX;
                   if ((OSRdyTbl[y_old] &   bitx_old) != 0u) {             /* If task is ready make it not            */
@@ -188,10 +382,10 @@ line level    source
  171          *              be created prior to the start of multitasking or by a running task.  A task cannot be
  172          *              created by an ISR.
  173          *
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 7   
+
  174          * Arguments  : task     is a pointer to the task's code
  175          *
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 4   
-
  176          *              p_arg    is a pointer to an optional data area which can be used to pass parameters to
  177          *                       the task when the task first executes.  Where the task is concerned it thinks
  178          *                       it was invoked and passed the argument 'p_arg' as follows:
@@ -252,10 +446,10 @@ line level    source
                   if (OSIntNesting > 0u) {                 /* Make sure we don't create the task from within an ISR  */
                       OS_EXIT_CRITICAL();
                       return (OS_ERR_TASK_CREATE_ISR);
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 8   
+
                   }
                   if (OSTCBPrioTbl[prio] == (OS_TCB *)0) { /* Make sure task doesn't already exist at this priority  */
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 5   
-
                       OSTCBPrioTbl[prio] = OS_TCB_RESERVED;/* Reserve the priority to prevent others from doing ...  */
                                                            /* ... the same thing until task is created.              */
                       OS_EXIT_CRITICAL();
@@ -316,10 +510,10 @@ line level    source
  294          *                        memory to low memory).  'pbos' will thus point to the LOWEST (valid) memory
  295          *                        location of the stack.  If OS_STK_GROWTH is set to 0, 'pbos' will point to the
  296          *                        HIGHEST memory location of the stack and the stack will grow with increasing
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 9   
+
  297          *                        memory locations.  'pbos' MUST point to a valid 'free' data item.
  298          *
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 6   
-
  299          *              stk_size  is the size of the stack in number of elements.  If OS_STK is set to INT8U,
  300          *                        'stk_size' corresponds to the number of bytes available.  If OS_STK is set to
  301          *                        INT16U, 'stk_size' contains the number of 16-bit entries available.  Finally, if
@@ -380,10 +574,10 @@ line level    source
                       return (OS_ERR_PRIO_INVALID);
                   }
               #endif
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 10  
+
                   OS_ENTER_CRITICAL();
                   if (OSIntNesting > 0u) {                 /* Make sure we don't create the task from within an ISR  */
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 7   
-
                       OS_EXIT_CRITICAL();
                       return (OS_ERR_TASK_CREATE_ISR);
                   }
@@ -444,10 +638,10 @@ line level    source
  417          *              3) An ISR cannot delete a task.
  418          *              4) The lock nesting counter is incremented because, for a brief instant, if the current
  419          *                 task is being deleted, the current task would not be able to be rescheduled because it
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 11  
+
  420          *                 is removed from the ready list.  Incrementing the nesting counter prevents another task
  421          *                 from being schedule.  This means that an ISR would return to the current task which is
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 8   
-
  422          *                 being deleted.  The rest of the deletion would thus be able to be completed.
  423          *********************************************************************************************************
  424          */
@@ -508,10 +702,10 @@ line level    source
                   if (ptcb->OSTCBEventMultiPtr != (OS_EVENT **)0) {   /* Remove this task from any events' wait lists*/
                       OS_EventTaskRemoveMulti(ptcb, ptcb->OSTCBEventMultiPtr);
                   }
-              #endif
-              #endif
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 9   
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 12  
 
+              #endif
+              #endif
               
               #if (OS_FLAG_EN > 0u) && (OS_MAX_FLAGS > 0u)
                   pnode = ptcb->OSTCBFlagNode;
@@ -572,10 +766,10 @@ line level    source
  540          *              this function by specifying OS_PRIO_SELF and monitors the returned value.  If the return
  541          *              value is OS_ERR_TASK_DEL_REQ, another task requested a task delete.  Task #10 would look li
              -ke
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 13  
+
  542          *              this:
  543          *
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 10  
-
  544          *                   void Task(void *p_arg)
  545          *                   {
  546          *                       .
@@ -636,10 +830,10 @@ line level    source
                   OS_ENTER_CRITICAL();
                   ptcb = OSTCBPrioTbl[prio];
                   if (ptcb == (OS_TCB *)0) {                                  /* Task to delete must exist           */
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 14  
+
                       OS_EXIT_CRITICAL();
                       return (OS_ERR_TASK_NOT_EXIST);                         /* Task must already be deleted        */
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 11  
-
                   }
                   if (ptcb == OS_TCB_RESERVED) {                              /* Must NOT be assigned to a Mutex     */
                       OS_EXIT_CRITICAL();
@@ -700,10 +894,10 @@ line level    source
               #if OS_ARG_CHK_EN > 0u
                   if (prio > OS_LOWEST_PRIO) {                         /* Task priority valid ?                      */
                       if (prio != OS_PRIO_SELF) {
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 15  
+
                           *perr = OS_ERR_PRIO_INVALID;                 /* No                                         */
                           return (0u);
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 12  
-
                       }
                   }
                   if (pname == (INT8U **)0) {                          /* Is 'pname' a NULL pointer?                 */
@@ -764,10 +958,10 @@ line level    source
  719          */
  720          #if OS_TASK_NAME_EN > 0u
 *** WARNING C322 IN LINE 720 OF Source\os_task.c: unknown identifier
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 16  
+
               void  OSTaskNameSet (INT8U   prio,
                                    INT8U  *pname,
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 13  
-
                                    INT8U  *perr)
               {
                   OS_TCB    *ptcb;
@@ -828,10 +1022,10 @@ line level    source
  780          * Description: This function is called to resume a previously suspended task.  This is the only call that
  781          *              will remove an explicit task suspension.
  782          *
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 17  
+
  783          * Arguments  : prio     is the priority of the task to resume.
  784          *
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 14  
-
  785          * Returns    : OS_ERR_NONE                if the requested task is resumed
  786          *              OS_ERR_PRIO_INVALID        if the priority you specify is higher that the maximum allowed
  787          *                                         (i.e. >= OS_LOWEST_PRIO)
@@ -892,10 +1086,10 @@ line level    source
  841          /*$PAGE*/
  842          /*
  843          *********************************************************************************************************
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 18  
+
  844          *                                             STACK CHECKING
  845          *
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 15  
-
  846          * Description: This function is called to check the amount of free memory left on the specified task's
  847          *              stack.
  848          *
@@ -956,10 +1150,10 @@ line level    source
                   }
                   if ((ptcb->OSTCBOpt & OS_TASK_OPT_STK_CHK) == 0u) { /* Make sure stack checking option is set      */
                       OS_EXIT_CRITICAL();
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 19  
+
                       return (OS_ERR_TASK_OPT);
                   }
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 16  
-
                   nfree = 0u;
                   size  = ptcb->OSTCBStkSize;
                   pchk  = ptcb->OSTCBStkBottom;
@@ -1020,10 +1214,10 @@ line level    source
                       return (OS_ERR_TASK_SUSPEND_IDLE);
                   }
                   if (prio >= OS_LOWEST_PRIO) {                               /* Task priority valid ?               */
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 20  
+
                       if (prio != OS_PRIO_SELF) {
                           return (OS_ERR_PRIO_INVALID);
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 17  
-
                       }
                   }
               #endif
@@ -1084,10 +1278,10 @@ line level    source
                                   OS_TCB  *p_task_data)
               {
                   OS_TCB    *ptcb;
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 21  
+
               #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
                   OS_CPU_SR  cpu_sr = 0u;
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 18  
-
               #endif
               
               
@@ -1148,10 +1342,10 @@ line level    source
 1083          *********************************************************************************************************
 1084          */
 1085          
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 22  
+
 1086          #if OS_TASK_REG_TBL_SIZE > 0u
 *** WARNING C322 IN LINE 1086 OF Source\os_task.c: unknown identifier
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 19  
-
               INT32U  OSTaskRegGet (INT8U   prio,
                                     INT8U   id,
                                     INT8U  *perr)
@@ -1212,10 +1406,10 @@ line level    source
 1144          *                        OS_ERR_ID_INVALID      if the 'id' is not between 0 and OS_TASK_REG_TBL_SIZE-1
 1145          *
 1146          * Returns    : The current value of the task's variable or 0 if an error is detected.
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 23  
+
 1147          *
 1148          * Note(s)    : The maximum number of task variables is 254
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 20  
-
 1149          *********************************************************************************************************
 1150          */
 1151          
@@ -1275,11 +1469,10 @@ line level    source
 1204          void  OS_TaskReturn (void)
 1205          {
 1206   1          OSTaskReturnHook(OSTCBCur);                   /* Call hook to let user decide on what to do        */
-*** ERROR C202 IN LINE 1206 OF Source\os_task.c: 'OSTCBCur': undefined identifier
 1207   1      
-1208   1      #if OS_TASK_DEL_EN > 0u
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:26:13 PAGE 21  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 10:39:21 PAGE 24  
 
+1208   1      #if OS_TASK_DEL_EN > 0u
 *** WARNING C322 IN LINE 1208 OF Source\os_task.c: unknown identifier
                   (void)OSTaskDel(OS_PRIO_SELF);                /* Delete task if it accidentally returns!           */
               #else
@@ -1341,4 +1534,4 @@ line level    source
 1263                                                                                                                                                       
              -                                                                                
 
-C51 COMPILATION COMPLETE.  18 WARNING(S),  2 ERROR(S)
+C51 COMPILATION COMPLETE.  131 WARNING(S),  45 ERROR(S)

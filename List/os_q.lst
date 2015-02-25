@@ -1,10 +1,10 @@
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 1   
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_Q
 OBJECT MODULE PLACED IN .\Output\os_q.obj
-COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_q.c BROWSE DEBUG OBJECTEXTEND PRINT(.\List\os_q.lst) TABS(2) OBJE
-                    -CT(.\Output\os_q.obj)
+COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_q.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os_q.
+                    -lst) TABS(2) OBJECT(.\Output\os_q.obj)
 
 line level    source
 
@@ -33,7 +33,201 @@ line level    source
   23          
   24          #ifndef  OS_MASTER_FILE
   25          #include <ucos_ii.h>
-*** WARNING C318 IN LINE 25 OF Source\os_q.c: can't open file 'ucos_ii.h'
+*** WARNING C318 IN LINE 44 OF .\Source\ucos_ii.h: can't open file 'app_cfg.h'
+*** WARNING C318 IN LINE 45 OF .\Source\ucos_ii.h: can't open file 'os_cfg.h'
+*** WARNING C322 IN LINE 72 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 81 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 170 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 345 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 419 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 463 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 479 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 506 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 520 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 537 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 2   
+
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 577 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 581 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 589 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 593 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 605 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 656 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C202 IN LINE 672 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
+*** ERROR C136 IN LINE 672 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 684 OF .\Source\ucos_ii.h: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+*** ERROR C136 IN LINE 684 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 691 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
+*** ERROR C136 IN LINE 691 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 692 OF .\Source\ucos_ii.h: 'OS_MAX_TASKS': undefined identifier
+*** ERROR C136 IN LINE 692 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** WARNING C322 IN LINE 694 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 708 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 712 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 823 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 904 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 999 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1044 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1049 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1056 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1068 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1073 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1083 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1093 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1100 OF .\Source\ucos_ii.h: unknown identifier
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 3   
+
+*** WARNING C322 IN LINE 1120 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1127 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1131 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1144 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1193 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1212 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1253 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1267 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1289 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1301 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1321 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1327 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1339 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C320 IN LINE 1393 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generat
+             -ion for Event Flags"
+*** ERROR C320 IN LINE 1435 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generat
+             -ion for MAILBOXES"
+*** ERROR C320 IN LINE 1469 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generati
+             -on for MEMORY MANAGER"
+*** ERROR C320 IN LINE 1495 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code genera
+             -tion for MUTEX"
+*** ERROR C320 IN LINE 1517 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation
+             - for QUEUES"
+*** ERROR C320 IN LINE 1567 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generati
+             -on for SEMAPHORES"
+*** ERROR C320 IN LINE 1597 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your applica
+             -tion"
+*** WARNING C322 IN LINE 1609 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C320 IN LINE 1614 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+*** ERROR C320 IN LINE 1618 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the stat
+             -istics task"
+*** ERROR C320 IN LINE 1622 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+*** ERROR C320 IN LINE 1626 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from st
+             -atistics task"
+*** ERROR C320 IN LINE 1630 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskCha
+             -ngePrio()"
+*** ERROR C320 IN LINE 1634 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()
+             -"
+*** ERROR C320 IN LINE 1638 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCrea
+             -teExt()"
+*** ERROR C320 IN LINE 1642 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+*** ERROR C320 IN LINE 1646 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+*** ERROR C320 IN LINE 1650 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend
+             -() and OSTaskResume()"
+*** ERROR C320 IN LINE 1654 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 4   
+
+*** ERROR C320 IN LINE 1658 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specif
+             -ic registers"
+*** ERROR C320 IN LINE 1672 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one 
+             -second"
+*** ERROR C320 IN LINE 1676 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMS
+             -M()"
+*** ERROR C320 IN LINE 1680 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyR
+             -esume()"
+*** ERROR C320 IN LINE 1684 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() a
+             -nd OSTimeSet()"
+*** ERROR C320 IN LINE 1694 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Ti
+             -mer Management"
+*** ERROR C320 IN LINE 1746 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument 
+             -checking"
+*** ERROR C320 IN LINE 1751 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the p
+             -rocessor port files when 1"
+*** ERROR C320 IN LINE 1756 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are cal
+             -led from the uC/OS-II hooks"
+*** ERROR C320 IN LINE 1761 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for d
+             -ebugging or not"
+*** ERROR C320 IN LINE 1766 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that c
+             -an be assigned"
+*** ERROR C320 IN LINE 1771 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks
+             - in your application"
+*** ERROR C320 IN LINE 1780 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() a
+             -nd OSSchedUnlock()"
+*** ERROR C320 IN LINE 1785 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMul
+             -ti()"
+*** ERROR C320 IN LINE 1790 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run
+             --time task profiling"
+*** ERROR C320 IN LINE 1795 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code
+             - for OSTaskSwHook() or not"
+*** ERROR C320 IN LINE 1800 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a ti
+             -me with uC/OS-View"
+*** ERROR C320 IN LINE 1805 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the co
+             -de for OSTimeTickHook() or not"
   26          #endif
   27          
   28          #if (OS_Q_EN > 0u) && (OS_MAX_QS > 0u)
@@ -60,10 +254,10 @@ line level    source
               * Returns    : != (void *)0  is the message in the queue if one is available.  The message is removed
               *                            from the so the next time OSQAccept() is called, the queue will contain
               *                            one less entry.
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 5   
+
               *              == (void *)0  if you received a NULL pointer message
               *                            if the queue is empty or,
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 2   
-
               *                            if 'pevent' is a NULL pointer or,
               *                            if you passed an invalid event type
               *
@@ -124,10 +318,10 @@ line level    source
               *
               * Description: This function creates a message queue if free event control blocks are available.
               *
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 6   
+
               * Arguments  : start         is a pointer to the base address of the message queue storage area.  The
               *                            storage area MUST be declared as an array of pointers to 'void' as follows
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 3   
-
               *
               *                            void *MessageStorage[size]
               *
@@ -188,10 +382,10 @@ line level    source
                           pevent->OSEventPtr = (void *)OSEventFreeList; /* No,  Return event control block on error  */
                           OSEventFreeList    = pevent;
                           OS_EXIT_CRITICAL();
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 7   
+
                           pevent = (OS_EVENT *)0;
                       }
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 4   
-
                   }
                   return (pevent);
               }
@@ -252,10 +446,10 @@ line level    source
               
               
               #ifdef OS_SAFETY_CRITICAL
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 8   
+
                   if (perr == (INT8U *)0) {
                       OS_SAFETY_CRITICAL_EXCEPTION();
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 5   
-
                   }
               #endif
               
@@ -316,10 +510,10 @@ line level    source
                            pevent->OSEventPtr     = OSEventFreeList;     /* Return Event Control Block to free list  */
                            pevent->OSEventCnt     = 0u;
                            OSEventFreeList        = pevent;              /* Get next free event control block        */
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 9   
+
                            OS_EXIT_CRITICAL();
                            if (tasks_waiting == OS_TRUE) {               /* Reschedule only if task(s) were waiting  */
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 6   
-
                                OS_Sched();                               /* Find highest priority task ready to run  */
                            }
                            *perr                  = OS_ERR_NONE;
@@ -380,10 +574,10 @@ line level    source
                   pq->OSQOut     = pq->OSQStart;
                   pq->OSQEntries = 0u;
                   OS_EXIT_CRITICAL();
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 10  
+
                   return (OS_ERR_NONE);
               }
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 7   
-
               #endif
               
               /*$PAGE*/
@@ -444,10 +638,10 @@ line level    source
               
               #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {               /* Validate 'pevent'                                  */
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 11  
+
                       *perr = OS_ERR_PEVENT_NULL;
                       return ((void *)0);
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 8   
-
                   }
               #endif
                   if (pevent->OSEventType != OS_EVENT_TYPE_Q) {/* Validate event block type                          */
@@ -508,10 +702,10 @@ line level    source
                   OSTCBCur->OSTCBMsg           = (void      *)0;    /* Clear  received message                       */
                   OS_EXIT_CRITICAL();
                   return (pmsg);                                    /* Return received message                       */
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 12  
+
               }
               /*$PAGE*/
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 9   
-
               /*
               *********************************************************************************************************
               *                                      ABORT WAITING ON A MESSAGE QUEUE
@@ -572,10 +766,10 @@ line level    source
                       *perr = OS_ERR_EVENT_TYPE;
                       return (0u);
                   }
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 13  
+
                   OS_ENTER_CRITICAL();
                   if (pevent->OSEventGrp != 0u) {                        /* See if any task waiting on queue?        */
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 10  
-
                       nbr_tasks = 0u;
                       switch (opt) {
                           case OS_PEND_OPT_BROADCAST:                    /* Do we need to abort ALL waiting tasks?   */
@@ -636,10 +830,10 @@ line level    source
               #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {                     /* Validate 'pevent'                            */
                       return (OS_ERR_PEVENT_NULL);
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 14  
+
                   }
               #endif
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 11  
-
                   if (pevent->OSEventType != OS_EVENT_TYPE_Q) {      /* Validate event block type                    */
                       return (OS_ERR_EVENT_TYPE);
                   }
@@ -700,10 +894,10 @@ line level    source
               
               #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {                    /* Validate 'pevent'                             */
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 15  
+
                       return (OS_ERR_PEVENT_NULL);
                   }
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 12  
-
               #endif
                   if (pevent->OSEventType != OS_EVENT_TYPE_Q) {     /* Validate event block type                     */
                       return (OS_ERR_EVENT_TYPE);
@@ -764,10 +958,10 @@ line level    source
               #if OS_Q_POST_OPT_EN > 0u
               INT8U  OSQPostOpt (OS_EVENT  *pevent,
                                  void      *pmsg,
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 16  
+
                                  INT8U      opt)
               {
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 13  
-
                   OS_Q      *pq;
               #if OS_CRITICAL_METHOD == 3u                          /* Allocate storage for CPU status register      */
                   OS_CPU_SR  cpu_sr = 0u;
@@ -828,10 +1022,10 @@ line level    source
               * Description: This function obtains information about a message queue.
               *
               * Arguments  : pevent        is a pointer to the event control block associated with the desired queue
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 17  
+
               *
               *              p_q_data      is a pointer to a structure that will contain information about the message
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 14  
-
               *                            queue.
               *
               * Returns    : OS_ERR_NONE         The call was successful and the message was sent
@@ -892,10 +1086,10 @@ line level    source
               *                                      QUEUE MODULE INITIALIZATION
               *
               * Description : This function is called by uC/OS-II to initialize the message queue module.  Your
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 18  
+
               *               application MUST NOT call this function.
               *
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:26:12 PAGE 15  
-
               * Arguments   :  none
               *
               * Returns     : none
@@ -935,16 +1129,4 @@ line level    source
  893                                                                                                                                                       
              -                                                                                
 
-
-MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =   ----    ----
-   CONSTANT SIZE    =   ----    ----
-   XDATA SIZE       =   ----    ----
-   PDATA SIZE       =   ----    ----
-   DATA SIZE        =   ----    ----
-   IDATA SIZE       =   ----    ----
-   BIT SIZE         =   ----    ----
-END OF MODULE INFORMATION.
-
-
-C51 COMPILATION COMPLETE.  3 WARNING(S),  0 ERROR(S)
+C51 COMPILATION COMPLETE.  116 WARNING(S),  44 ERROR(S)

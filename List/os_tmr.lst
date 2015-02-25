@@ -1,10 +1,10 @@
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 1   
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_TMR
 OBJECT MODULE PLACED IN .\Output\os_tmr.obj
-COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_tmr.c BROWSE DEBUG OBJECTEXTEND PRINT(.\List\os_tmr.lst) TABS(2) 
-                    -OBJECT(.\Output\os_tmr.obj)
+COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_tmr.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os_
+                    -tmr.lst) TABS(2) OBJECT(.\Output\os_tmr.obj)
 
 line level    source
 
@@ -35,7 +35,201 @@ line level    source
   23          */
   24          
   25          #include <ucos_ii.h>
-*** WARNING C318 IN LINE 25 OF Source\os_tmr.c: can't open file 'ucos_ii.h'
+*** WARNING C318 IN LINE 44 OF .\Source\ucos_ii.h: can't open file 'app_cfg.h'
+*** WARNING C318 IN LINE 45 OF .\Source\ucos_ii.h: can't open file 'os_cfg.h'
+*** WARNING C322 IN LINE 72 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 81 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 170 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 345 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 419 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 463 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 479 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 506 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 520 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 537 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 2   
+
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 577 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 581 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 589 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 593 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 605 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 656 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C202 IN LINE 672 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
+*** ERROR C136 IN LINE 672 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 684 OF .\Source\ucos_ii.h: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+*** ERROR C136 IN LINE 684 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 691 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
+*** ERROR C136 IN LINE 691 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** ERROR C202 IN LINE 692 OF .\Source\ucos_ii.h: 'OS_MAX_TASKS': undefined identifier
+*** ERROR C136 IN LINE 692 OF .\Source\ucos_ii.h: invalid dimension size: [0]
+*** WARNING C322 IN LINE 694 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 708 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 712 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 823 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 904 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 999 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1044 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1049 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1056 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1068 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1073 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1083 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 3   
+
+*** WARNING C322 IN LINE 1093 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1100 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1120 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1127 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1131 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1144 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1193 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1212 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1253 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1267 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1289 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1301 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1321 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1327 OF .\Source\ucos_ii.h: unknown identifier
+*** WARNING C322 IN LINE 1339 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C320 IN LINE 1393 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generat
+             -ion for Event Flags"
+*** ERROR C320 IN LINE 1435 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generat
+             -ion for MAILBOXES"
+*** ERROR C320 IN LINE 1469 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generati
+             -on for MEMORY MANAGER"
+*** ERROR C320 IN LINE 1495 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code genera
+             -tion for MUTEX"
+*** ERROR C320 IN LINE 1517 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation
+             - for QUEUES"
+*** ERROR C320 IN LINE 1567 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generati
+             -on for SEMAPHORES"
+*** ERROR C320 IN LINE 1597 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your applica
+             -tion"
+*** WARNING C322 IN LINE 1609 OF .\Source\ucos_ii.h: unknown identifier
+*** ERROR C320 IN LINE 1614 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+*** ERROR C320 IN LINE 1618 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the stat
+             -istics task"
+*** ERROR C320 IN LINE 1622 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+*** ERROR C320 IN LINE 1626 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from st
+             -atistics task"
+*** ERROR C320 IN LINE 1630 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskCha
+             -ngePrio()"
+*** ERROR C320 IN LINE 1634 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()
+             -"
+*** ERROR C320 IN LINE 1638 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCrea
+             -teExt()"
+*** ERROR C320 IN LINE 1642 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+*** ERROR C320 IN LINE 1646 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+*** ERROR C320 IN LINE 1650 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 4   
+
+             -() and OSTaskResume()"
+*** ERROR C320 IN LINE 1654 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+*** ERROR C320 IN LINE 1658 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specif
+             -ic registers"
+*** ERROR C320 IN LINE 1672 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one 
+             -second"
+*** ERROR C320 IN LINE 1676 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMS
+             -M()"
+*** ERROR C320 IN LINE 1680 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyR
+             -esume()"
+*** ERROR C320 IN LINE 1684 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() a
+             -nd OSTimeSet()"
+*** ERROR C320 IN LINE 1694 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Ti
+             -mer Management"
+*** ERROR C320 IN LINE 1746 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument 
+             -checking"
+*** ERROR C320 IN LINE 1751 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the p
+             -rocessor port files when 1"
+*** ERROR C320 IN LINE 1756 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are cal
+             -led from the uC/OS-II hooks"
+*** ERROR C320 IN LINE 1761 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for d
+             -ebugging or not"
+*** ERROR C320 IN LINE 1766 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that c
+             -an be assigned"
+*** ERROR C320 IN LINE 1771 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks
+             - in your application"
+*** ERROR C320 IN LINE 1780 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() a
+             -nd OSSchedUnlock()"
+*** ERROR C320 IN LINE 1785 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMul
+             -ti()"
+*** ERROR C320 IN LINE 1790 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run
+             --time task profiling"
+*** ERROR C320 IN LINE 1795 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code
+             - for OSTaskSwHook() or not"
+*** ERROR C320 IN LINE 1800 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a ti
+             -me with uC/OS-View"
+*** ERROR C320 IN LINE 1805 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the co
+             -de for OSTimeTickHook() or not"
   26          
   27          /*
   28          **********************************************************************************************************
@@ -60,10 +254,10 @@ line level    source
              -**************
   44          */
   45          
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 5   
+
   46          #define  OS_TMR_LINK_DLY       0u
   47          #define  OS_TMR_LINK_PERIODIC  1u
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 2   
-
   48          
   49          /*
   50          **********************************************************************************************************
@@ -124,10 +318,10 @@ line level    source
   96          *                               OS_ERR_TMR_INVALID_DLY     you specified an invalid delay
   97          *                               OS_ERR_TMR_INVALID_PERIOD  you specified an invalid period
   98          *                               OS_ERR_TMR_INVALID_OPT     you specified an invalid option
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 6   
+
   99          *                               OS_ERR_TMR_ISR             if the call was made from an ISR
  100          *                               OS_ERR_TMR_NON_AVAIL       if there are no free timers from the timer pool
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 3   
-
  101          *
  102          * Returns    : A pointer to an OS_TMR data structure.
  103          *              This is the 'handle' that your application will use to reference the timer created.
@@ -188,10 +382,10 @@ line level    source
                       return ((OS_TMR *)0);
                   }
                   OSSchedLock();
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 7   
+
                   ptmr = OSTmr_Alloc();                                   /* Obtain a timer from the free pool          
              -            */
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 4   
-
                   if (ptmr == (OS_TMR *)0) {
                       OSSchedUnlock();
                       *perr = OS_ERR_TMR_NON_AVAIL;
@@ -252,10 +446,10 @@ line level    source
                   if (ptmr == (OS_TMR *)0) {
                       *perr = OS_ERR_TMR_INVALID;
                       return (OS_FALSE);
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 8   
+
                   }
               #endif
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 5   
-
                   if (ptmr->OSTmrType != OS_TMR_TYPE) {                   /* Validate timer structure                   
              -            */
                       *perr = OS_ERR_TMR_INVALID_TYPE;
@@ -316,10 +510,10 @@ line level    source
  264          *              perr          Is a pointer to an error code.  '*perr' will contain one of the following:
  265          *                               OS_ERR_NONE               The call was successful
  266          *                               OS_ERR_TMR_INVALID_DEST   'pdest' is a NULL pointer
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 9   
+
  267          *                               OS_ERR_TMR_INVALID        'ptmr'  is a NULL pointer
  268          *                               OS_ERR_TMR_INVALID_TYPE   'ptmr'  is not pointing to an OS_TMR
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 6   
-
  269          *                               OS_ERR_NAME_GET_ISR       if the call was made from an ISR
  270          *                               OS_ERR_TMR_INACTIVE       'ptmr'  points to a timer that is not active
  271          *                               OS_ERR_TMR_INVALID_STATE  the timer is in an invalid state
@@ -380,10 +574,10 @@ line level    source
              -            */
                            OSSchedUnlock();
                            *perr = OS_ERR_TMR_INACTIVE;
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 10  
+
                            return (0u);
               
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 7   
-
                       default:
                            OSSchedUnlock();
                            *perr = OS_ERR_TMR_INVALID_STATE;
@@ -444,10 +638,10 @@ line level    source
                       *perr = OS_ERR_TMR_INVALID_TYPE;
                       return (0u);
                   }
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 11  
+
                   if (OSIntNesting > 0u) {                           /* See if trying to call from an ISR               
              -            */
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 8   
-
                       *perr = OS_ERR_TMR_ISR;
                       return (0u);
                   }
@@ -508,10 +702,10 @@ line level    source
  433          *                                    FIND OUT WHAT STATE A TIMER IS IN
  434          *
  435          * Description: This function is called to determine what state the timer is in:
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 12  
+
  436          *
  437          *                  OS_TMR_STATE_UNUSED     the timer has not been created
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 9   
-
  438          *                  OS_TMR_STATE_STOPPED    the timer has been created but has not been started or has been
              - stopped
  439          *                  OS_TMR_COMPLETED        the timer is in ONE-SHOT mode and has completed it's timeout
@@ -572,10 +766,10 @@ line level    source
                            *perr = OS_ERR_NONE;
                            break;
               
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 13  
+
                       default:
                            *perr = OS_ERR_TMR_INVALID_STATE;
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 10  
-
                            break;
                   }
                   OSSchedUnlock();
@@ -636,10 +830,10 @@ line level    source
                   }
                   OSSchedLock();
                   switch (ptmr->OSTmrState) {
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 14  
+
                       case OS_TMR_STATE_RUNNING:                          /* Restart the timer                          
              -            */
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 11  
-
                            OSTmr_Unlink(ptmr);                            /* ... Stop the timer                         
              -            */
                            OSTmr_Link(ptmr, OS_TMR_LINK_DLY);             /* ... Link timer to timer wheel              
@@ -700,10 +894,10 @@ line level    source
  598          *              perr          Is a pointer to an error code.  '*perr' will contain one of the following:
  599          *                               OS_ERR_NONE
  600          *                               OS_ERR_TMR_INVALID         'ptmr' is a NULL pointer
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 15  
+
  601          *                               OS_ERR_TMR_INVALID_TYPE    'ptmr'  is not pointing to an OS_TMR
  602          *                               OS_ERR_TMR_ISR             if the function was called from an ISR
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 12  
-
  603          *                               OS_ERR_TMR_INACTIVE        if the timer was not created
  604          *                               OS_ERR_TMR_INVALID_OPT     if you specified an invalid option for 'opt'
  605          *                               OS_ERR_TMR_STOPPED         if the timer was already stopped
@@ -764,10 +958,10 @@ line level    source
                                         (*pfnct)((void *)ptmr, ptmr->OSTmrCallbackArg);  /* Use callback arg when timer 
              -was created */
                                     } else {
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 16  
+
                                         *perr = OS_ERR_TMR_NO_CALLBACK;
                                     }
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 13  
-
                                     break;
               
                                case OS_TMR_OPT_CALLBACK_ARG:
@@ -828,10 +1022,10 @@ line level    source
  706          * Returns    : OS_ERR_NONE         The call was successful and the timer task was signaled.
  707          *              OS_ERR_SEM_OVF      If OSTmrSignal() was called more often than OSTmr_Task() can handle the
              - timers.
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 17  
+
  708          *                                  This would indicate that your system is heavily loaded.
  709          *              OS_ERR_EVENT_TYPE   Unlikely you would get this error because the semaphore used for signal
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 14  
-
              -ing is created
  710          *                                  by uC/OS-II.
  711          *              OS_ERR_PEVENT_NULL  Again, unlikely you would ever get this error because the semaphore use
@@ -892,10 +1086,10 @@ line level    source
  760          /*
  761          **********************************************************************************************************
              -**************
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 18  
+
  762          *                                             RETURN A TIMER TO THE FREE LIST
  763          *
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 15  
-
  764          * Description: This function is called to return a timer object to the free list of timers.
  765          *
  766          * Arguments  : ptmr     is a pointer to the timer to free
@@ -956,10 +1150,10 @@ line level    source
               #endif
                   INT16U   ix;
                   INT16U   ix_next;
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 19  
+
                   OS_TMR  *ptmr1;
                   OS_TMR  *ptmr2;
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 16  
-
               
               
                   OS_MemClr((INT8U *)&OSTmrTbl[0],      sizeof(OSTmrTbl));            /* Clear all the TMRs             
@@ -1020,10 +1214,10 @@ line level    source
  866          **********************************************************************************************************
              -**************
  867          */
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 20  
+
  868          
  869          #if OS_TMR_EN > 0u
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 17  
-
 *** WARNING C322 IN LINE 869 OF Source\os_tmr.c: unknown identifier
               static  void  OSTmr_InitTask (void)
               {
@@ -1084,10 +1278,10 @@ line level    source
               }
               #endif
  918          
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 21  
+
  919          /*$PAGE*/
  920          /*
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 18  
-
  921          **********************************************************************************************************
              -**************
  922          *                                         INSERT A TIMER INTO THE TIMER WHEEL
@@ -1148,10 +1342,10 @@ line level    source
                   ptmr->OSTmrPrev = (void *)0;                                   /* Timer always inserted as first node 
              -in list     */
               }
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 22  
+
               #endif
  973          
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 19  
-
  974          /*$PAGE*/
  975          /*
  976          **********************************************************************************************************
@@ -1212,10 +1406,10 @@ line level    source
 1025          * Description: This task is created by OSTmrInit().
 1026          *
 1027          * Arguments  : none
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:39:23 PAGE 23  
+
 1028          *
 1029          * Returns    : none
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 20  
-
 1030          **********************************************************************************************************
              -**************
 1031          */
@@ -1275,18 +1469,4 @@ line level    source
 1073                                                                                                                                                       
              -                                                                                
 
-
-MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =   ----    ----
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 10:26:14 PAGE 21  
-
-   CONSTANT SIZE    =   ----    ----
-   XDATA SIZE       =   ----    ----
-   PDATA SIZE       =   ----    ----
-   DATA SIZE        =   ----    ----
-   IDATA SIZE       =   ----    ----
-   BIT SIZE         =   ----    ----
-END OF MODULE INFORMATION.
-
-
-C51 COMPILATION COMPLETE.  18 WARNING(S),  0 ERROR(S)
+C51 COMPILATION COMPLETE.  131 WARNING(S),  44 ERROR(S)

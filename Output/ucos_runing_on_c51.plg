@@ -142,341 +142,6 @@ Source\OS_CPU_A.asm(207): error A9: SYNTAX ERROR
 compiling OS_CPU_C.c...
 Source\OS_CPU_C.c(2): warning C318: can't open file 'includes.h'
 Source\OS_CPU_C.c(9): error C141: syntax error near 'opt', expected ')'
-Source\OS_CPU_C.c(12): error C202: 'OS_STK': undefined identifier
-Source\OS_CPU_C.c(14): error C202: 'opt': undefined identifier
-Source\OS_CPU_C.c(15): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(15): error C141: syntax error near ')'
-Source\OS_CPU_C.c(16): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(17): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(17): error C141: syntax error near 'task'
-Source\OS_CPU_C.c(18): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(18): error C141: syntax error near 'task'
-Source\OS_CPU_C.c(19): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(20): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(21): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(22): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(23): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(24): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(25): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(26): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(27): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(28): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(29): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(30): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(31): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(33): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(34): error C202: 'stk': undefined identifier
-Source\OS_CPU_C.c(38): warning C322: unknown identifier
-Source\OS_CPU_C.c(89): error C202: 'TMOD': undefined identifier
-Source\OS_CPU_C.c(90): error C202: 'TMOD': undefined identifier
-Source\OS_CPU_C.c(91): error C202: 'TH0': undefined identifier
-Source\OS_CPU_C.c(92): error C202: 'TL0': undefined identifier
-Source\OS_CPU_C.c(93): error C202: 'ET0': undefined identifier
-Source\OS_CPU_C.c(94): error C202: 'TR0': undefined identifier
-compiling os_core.c...
-Source\os_core.c(26): warning C318: can't open file 'ucos_ii.h'
-Source\os_core.c(38): error C129: missing ';' before 'const'
-Source\os_core.c(72): warning C322: unknown identifier
-Source\os_core.c(107): warning C322: unknown identifier
-Source\os_core.c(107): warning C322: unknown identifier
-Source\os_core.c(186): warning C322: unknown identifier
-Source\os_core.c(186): warning C322: unknown identifier
-Source\os_core.c(307): warning C322: unknown identifier
-Source\os_core.c(307): warning C322: unknown identifier
-Source\os_core.c(582): warning C322: unknown identifier
-Source\os_core.c(582): warning C322: unknown identifier
-Source\os_core.c(586): warning C322: unknown identifier
-Source\os_core.c(586): warning C322: unknown identifier
-Source\os_core.c(590): warning C322: unknown identifier
-Source\os_core.c(590): warning C322: unknown identifier
-Source\os_core.c(595): warning C322: unknown identifier
-Source\os_core.c(599): warning C322: unknown identifier
-Source\os_core.c(605): warning C322: unknown identifier
-Source\os_core.c(665): warning C322: unknown identifier
-Source\os_core.c(681): warning C322: unknown identifier
-Source\os_core.c(735): warning C322: unknown identifier
-Source\os_core.c(772): warning C322: unknown identifier
-Source\os_core.c(854): warning C322: unknown identifier
-Source\os_core.c(892): warning C322: unknown identifier
-Source\os_core.c(895): warning C322: unknown identifier
-Source\os_core.c(901): warning C322: unknown identifier
-Source\os_core.c(904): warning C322: unknown identifier
-Source\os_core.c(910): warning C322: unknown identifier
-Source\os_core.c(993): warning C322: unknown identifier
-Source\os_core.c(1027): warning C322: unknown identifier
-Source\os_core.c(1102): warning C322: unknown identifier
-Source\os_core.c(1136): warning C322: unknown identifier
-Source\os_core.c(1136): warning C322: unknown identifier
-Source\os_core.c(1179): warning C322: unknown identifier
-Source\os_core.c(1209): warning C322: unknown identifier
-Source\os_core.c(1209): warning C322: unknown identifier
-Source\os_core.c(1249): warning C322: unknown identifier
-Source\os_core.c(1277): warning C322: unknown identifier
-Source\os_core.c(1277): warning C322: unknown identifier
-Source\os_core.c(1329): warning C322: unknown identifier
-Source\os_core.c(1343): warning C322: unknown identifier
-Source\os_core.c(1400): warning C322: unknown identifier
-Source\os_core.c(1405): warning C322: unknown identifier
-Source\os_core.c(1428): warning C322: unknown identifier
-Source\os_core.c(1441): warning C322: unknown identifier
-Source\os_core.c(1459): warning C322: unknown identifier
-Source\os_core.c(1537): warning C322: unknown identifier
-Source\os_core.c(1543): warning C322: unknown identifier
-Source\os_core.c(1632): warning C322: unknown identifier
-Source\os_core.c(1644): warning C322: unknown identifier
-Source\os_core.c(1674): warning C322: unknown identifier
-Source\os_core.c(1716): warning C322: unknown identifier
-Source\os_core.c(1716): warning C322: unknown identifier
-Source\os_core.c(1716): warning C322: unknown identifier
-Source\os_core.c(1716): warning C322: unknown identifier
-Source\os_core.c(1716): warning C322: unknown identifier
-Source\os_core.c(1754): warning C322: unknown identifier
-Source\os_core.c(1793): warning C322: unknown identifier
-Source\os_core.c(1844): warning C322: unknown identifier
-Source\os_core.c(1844): warning C322: unknown identifier
-Source\os_core.c(1926): warning C322: unknown identifier
-Source\os_core.c(1929): warning C322: unknown identifier
-Source\os_core.c(1945): warning C322: unknown identifier
-Source\os_core.c(1959): warning C322: unknown identifier
-Source\os_core.c(1963): warning C322: unknown identifier
-Source\os_core.c(1974): warning C322: unknown identifier
-Source\os_core.c(1981): warning C322: unknown identifier
-Source\os_core.c(1981): warning C322: unknown identifier
-Source\os_core.c(1981): warning C322: unknown identifier
-Source\os_core.c(1985): warning C322: unknown identifier
-Source\os_core.c(1985): warning C322: unknown identifier
-Source\os_core.c(1985): warning C322: unknown identifier
-Source\os_core.c(1989): warning C322: unknown identifier
-Source\os_core.c(1997): warning C322: unknown identifier
-Source\os_core.c(2001): warning C322: unknown identifier
-compiling os_dbg_r.c...
-Source\os_dbg_r.c(24): warning C318: can't open file 'ucos_ii.h'
-Source\os_dbg_r.c(32): error C129: missing ';' before 'const'
-Source\os_dbg_r.c(34): warning C322: unknown identifier
-Source\os_dbg_r.c(142): warning C322: unknown identifier
-Source\os_dbg_r.c(225): warning C322: unknown identifier
-compiling os_flag.c...
-Source\os_flag.c(25): warning C318: can't open file 'ucos_ii.h'
-Source\os_flag.c(28): warning C322: unknown identifier
-Source\os_flag.c(28): warning C322: unknown identifier
-compiling os_mbox.c...
-Source\os_mbox.c(25): warning C318: can't open file 'ucos_ii.h'
-Source\os_mbox.c(28): warning C322: unknown identifier
-compiling os_mem.c...
-Source\os_mem.c(25): warning C318: can't open file 'ucos_ii.h'
-Source\os_mem.c(28): warning C322: unknown identifier
-Source\os_mem.c(28): warning C322: unknown identifier
-compiling os_mutex.c...
-Source\os_mutex.c(25): warning C318: can't open file 'ucos_ii.h'
-Source\os_mutex.c(29): warning C322: unknown identifier
-compiling os_q.c...
-Source\os_q.c(25): warning C318: can't open file 'ucos_ii.h'
-Source\os_q.c(28): warning C322: unknown identifier
-Source\os_q.c(28): warning C322: unknown identifier
-compiling os_sem.c...
-Source\os_sem.c(25): warning C318: can't open file 'ucos_ii.h'
-Source\os_sem.c(28): warning C322: unknown identifier
-compiling os_task.c...
-Source\os_task.c(25): warning C318: can't open file 'ucos_ii.h'
-Source\os_task.c(50): warning C322: unknown identifier
-Source\os_task.c(206): warning C322: unknown identifier
-Source\os_task.c(328): warning C322: unknown identifier
-Source\os_task.c(426): warning C322: unknown identifier
-Source\os_task.c(572): warning C322: unknown identifier
-Source\os_task.c(639): warning C322: unknown identifier
-Source\os_task.c(720): warning C322: unknown identifier
-Source\os_task.c(794): warning C322: unknown identifier
-Source\os_task.c(861): warning C322: unknown identifier
-Source\os_task.c(861): warning C322: unknown identifier
-Source\os_task.c(946): warning C322: unknown identifier
-Source\os_task.c(1019): warning C322: unknown identifier
-Source\os_task.c(1086): warning C322: unknown identifier
-Source\os_task.c(1152): warning C322: unknown identifier
-Source\os_task.c(1206): error C202: 'OSTCBCur': undefined identifier
-Source\os_task.c(1208): warning C322: unknown identifier
-Source\os_task.c(1212): error C202: 'OS_TICKS_PER_SEC': undefined identifier
-Source\os_task.c(1240): warning C322: unknown identifier
-Source\os_task.c(1240): warning C322: unknown identifier
-compiling os_time.c...
-Source\os_time.c(25): warning C318: can't open file 'ucos_ii.h'
-Source\os_time.c(44): error C141: syntax error near 'ticks', expected ')'
-Source\os_time.c(46): error C202: 'INT8U': undefined identifier
-Source\os_time.c(46): error C141: syntax error near 'y'
-Source\os_time.c(47): warning C322: unknown identifier
-Source\os_time.c(53): error C202: 'OSIntNesting': undefined identifier
-Source\os_time.c(56): error C202: 'OSLockNesting': undefined identifier
-Source\os_time.c(59): error C202: 'ticks': undefined identifier
-Source\os_time.c(98): warning C322: unknown identifier
-Source\os_time.c(161): warning C322: unknown identifier
-Source\os_time.c(221): warning C322: unknown identifier
-Source\os_time.c(250): warning C322: unknown identifier
-compiling os_tmr.c...
-Source\os_tmr.c(25): warning C318: can't open file 'ucos_ii.h'
-Source\os_tmr.c(55): warning C322: unknown identifier
-Source\os_tmr.c(107): warning C322: unknown identifier
-Source\os_tmr.c(200): warning C322: unknown identifier
-Source\os_tmr.c(277): warning C322: unknown identifier
-Source\os_tmr.c(277): warning C322: unknown identifier
-Source\os_tmr.c(356): warning C322: unknown identifier
-Source\os_tmr.c(456): warning C322: unknown identifier
-Source\os_tmr.c(524): warning C322: unknown identifier
-Source\os_tmr.c(614): warning C322: unknown identifier
-Source\os_tmr.c(716): warning C322: unknown identifier
-Source\os_tmr.c(740): warning C322: unknown identifier
-Source\os_tmr.c(772): warning C322: unknown identifier
-Source\os_tmr.c(808): warning C322: unknown identifier
-Source\os_tmr.c(869): warning C322: unknown identifier
-Source\os_tmr.c(937): warning C322: unknown identifier
-Source\os_tmr.c(987): warning C322: unknown identifier
-Source\os_tmr.c(1033): warning C322: unknown identifier
-compiling ucos_ii.c...
-Source\ucos_ii.c(24): warning C318: can't open file 'ucos_ii.h'
-Source\ucos_ii.c(28): warning C318: can't open file 'os_core.c'
-Source\ucos_ii.c(29): warning C318: can't open file 'os_flag.c'
-Source\ucos_ii.c(30): warning C318: can't open file 'os_mbox.c'
-Source\ucos_ii.c(31): warning C318: can't open file 'os_mem.c'
-Source\ucos_ii.c(32): warning C318: can't open file 'os_mutex.c'
-Source\ucos_ii.c(33): warning C318: can't open file 'os_q.c'
-Source\ucos_ii.c(34): warning C318: can't open file 'os_sem.c'
-Source\ucos_ii.c(35): warning C318: can't open file 'os_task.c'
-Source\ucos_ii.c(36): warning C318: can't open file 'os_time.c'
-Source\ucos_ii.c(37): warning C318: can't open file 'os_tmr.c'
-Target not created
-Rebuild target 'Target 1'
-assembling STARTUP.A51...
-assembling OS_CPU_A.asm...
-Source\OS_CPU_A.asm(85): error A9: SYNTAX ERROR
-Source\OS_CPU_A.asm(88): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(91): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(92): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(93): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(94): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(95): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(97): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(98): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(99): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(100): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(101): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(102): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(103): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(104): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(106): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(107): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(109): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(111): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(112): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(113): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(114): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(115): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(117): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(119): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(120): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(121): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(122): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(123): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(124): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(126): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(127): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(129): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(130): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(133): error A9: SYNTAX ERROR
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(138): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(139): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(140): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(141): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(143): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(145): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(146): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(147): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(148): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(150): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(151): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(152): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(153): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(154): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(155): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(156): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(157): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(159): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(160): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(161): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(163): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(164): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(165): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(166): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(167): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(169): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(170): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(171): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(172): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(173): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(174): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(176): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(178): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(179): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(180): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(181): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(182): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(183): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(184): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(185): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(187): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(188): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(189): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(190): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(191): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(194): error A9: SYNTAX ERROR
-Source\OS_CPU_A.asm(198): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(199): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(200): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(201): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(202): error A37: OPERATION INVALID IN THIS SEGMENT
-Source\OS_CPU_A.asm(207): error A9: SYNTAX ERROR
-compiling OS_CPU_C.c...
-Source\OS_CPU_C.c(2): warning C318: can't open file 'includes.h'
-Source\OS_CPU_C.c(9): error C141: syntax error near 'opt', expected ')'
 Source\OS_CPU_C.c(11): error C202: 'OS_STK': undefined identifier
 Source\OS_CPU_C.c(13): error C202: 'opt': undefined identifier
 Source\OS_CPU_C.c(14): error C202: 'stk': undefined identifier
@@ -509,13 +174,181 @@ Source\OS_CPU_C.c(91): error C202: 'TL0': undefined identifier
 Source\OS_CPU_C.c(92): error C202: 'ET0': undefined identifier
 Source\OS_CPU_C.c(93): error C202: 'TR0': undefined identifier
 compiling os_core.c...
-Source\os_core.c(26): warning C318: can't open file 'ucos_ii.h'
-Source\os_core.c(38): error C129: missing ';' before 'const'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
 Source\os_core.c(72): warning C322: unknown identifier
 Source\os_core.c(107): warning C322: unknown identifier
 Source\os_core.c(107): warning C322: unknown identifier
+Source\os_core.c(107): warning C322: unknown identifier
+Source\os_core.c(107): warning C322: unknown identifier
+Source\os_core.c(107): warning C322: unknown identifier
+Source\os_core.c(107): warning C322: unknown identifier
 Source\os_core.c(186): warning C322: unknown identifier
 Source\os_core.c(186): warning C322: unknown identifier
+Source\os_core.c(186): warning C322: unknown identifier
+Source\os_core.c(186): warning C322: unknown identifier
+Source\os_core.c(186): warning C322: unknown identifier
+Source\os_core.c(186): warning C322: unknown identifier
+Source\os_core.c(307): warning C322: unknown identifier
+Source\os_core.c(307): warning C322: unknown identifier
+Source\os_core.c(307): warning C322: unknown identifier
+Source\os_core.c(307): warning C322: unknown identifier
 Source\os_core.c(307): warning C322: unknown identifier
 Source\os_core.c(307): warning C322: unknown identifier
 Source\os_core.c(582): warning C322: unknown identifier
@@ -539,13 +372,41 @@ Source\os_core.c(904): warning C322: unknown identifier
 Source\os_core.c(910): warning C322: unknown identifier
 Source\os_core.c(993): warning C322: unknown identifier
 Source\os_core.c(1027): warning C322: unknown identifier
+Source\os_core.c(1027): warning C322: unknown identifier
+Source\os_core.c(1027): warning C322: unknown identifier
+Source\os_core.c(1027): warning C322: unknown identifier
+Source\os_core.c(1027): warning C322: unknown identifier
+Source\os_core.c(1102): warning C322: unknown identifier
+Source\os_core.c(1102): warning C322: unknown identifier
+Source\os_core.c(1102): warning C322: unknown identifier
+Source\os_core.c(1102): warning C322: unknown identifier
 Source\os_core.c(1102): warning C322: unknown identifier
 Source\os_core.c(1136): warning C322: unknown identifier
 Source\os_core.c(1136): warning C322: unknown identifier
+Source\os_core.c(1136): warning C322: unknown identifier
+Source\os_core.c(1136): warning C322: unknown identifier
+Source\os_core.c(1136): warning C322: unknown identifier
+Source\os_core.c(1136): warning C322: unknown identifier
+Source\os_core.c(1179): warning C322: unknown identifier
+Source\os_core.c(1179): warning C322: unknown identifier
+Source\os_core.c(1179): warning C322: unknown identifier
+Source\os_core.c(1179): warning C322: unknown identifier
 Source\os_core.c(1179): warning C322: unknown identifier
 Source\os_core.c(1209): warning C322: unknown identifier
 Source\os_core.c(1209): warning C322: unknown identifier
+Source\os_core.c(1209): warning C322: unknown identifier
+Source\os_core.c(1209): warning C322: unknown identifier
+Source\os_core.c(1209): warning C322: unknown identifier
+Source\os_core.c(1209): warning C322: unknown identifier
 Source\os_core.c(1249): warning C322: unknown identifier
+Source\os_core.c(1249): warning C322: unknown identifier
+Source\os_core.c(1249): warning C322: unknown identifier
+Source\os_core.c(1249): warning C322: unknown identifier
+Source\os_core.c(1249): warning C322: unknown identifier
+Source\os_core.c(1277): warning C322: unknown identifier
+Source\os_core.c(1277): warning C322: unknown identifier
+Source\os_core.c(1277): warning C322: unknown identifier
+Source\os_core.c(1277): warning C322: unknown identifier
 Source\os_core.c(1277): warning C322: unknown identifier
 Source\os_core.c(1277): warning C322: unknown identifier
 Source\os_core.c(1329): warning C322: unknown identifier
@@ -575,6 +436,10 @@ Source\os_core.c(1945): warning C322: unknown identifier
 Source\os_core.c(1959): warning C322: unknown identifier
 Source\os_core.c(1963): warning C322: unknown identifier
 Source\os_core.c(1974): warning C322: unknown identifier
+Source\os_core.c(1974): warning C322: unknown identifier
+Source\os_core.c(1974): warning C322: unknown identifier
+Source\os_core.c(1974): warning C322: unknown identifier
+Source\os_core.c(1974): warning C322: unknown identifier
 Source\os_core.c(1981): warning C322: unknown identifier
 Source\os_core.c(1981): warning C322: unknown identifier
 Source\os_core.c(1981): warning C322: unknown identifier
@@ -585,34 +450,1290 @@ Source\os_core.c(1989): warning C322: unknown identifier
 Source\os_core.c(1997): warning C322: unknown identifier
 Source\os_core.c(2001): warning C322: unknown identifier
 compiling os_dbg_r.c...
-Source\os_dbg_r.c(24): warning C318: can't open file 'ucos_ii.h'
-Source\os_dbg_r.c(32): error C129: missing ';' before 'const'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
+Source\os_dbg_r.c(32): error C202: 'OS_DEBUG_EN': undefined identifier
 Source\os_dbg_r.c(34): warning C322: unknown identifier
 Source\os_dbg_r.c(142): warning C322: unknown identifier
 Source\os_dbg_r.c(225): warning C322: unknown identifier
 compiling os_flag.c...
-Source\os_flag.c(25): warning C318: can't open file 'ucos_ii.h'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
 Source\os_flag.c(28): warning C322: unknown identifier
 Source\os_flag.c(28): warning C322: unknown identifier
 compiling os_mbox.c...
-Source\os_mbox.c(25): warning C318: can't open file 'ucos_ii.h'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
 Source\os_mbox.c(28): warning C322: unknown identifier
 compiling os_mem.c...
-Source\os_mem.c(25): warning C318: can't open file 'ucos_ii.h'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
 Source\os_mem.c(28): warning C322: unknown identifier
 Source\os_mem.c(28): warning C322: unknown identifier
 compiling os_mutex.c...
-Source\os_mutex.c(25): warning C318: can't open file 'ucos_ii.h'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
 Source\os_mutex.c(29): warning C322: unknown identifier
 compiling os_q.c...
-Source\os_q.c(25): warning C318: can't open file 'ucos_ii.h'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
 Source\os_q.c(28): warning C322: unknown identifier
 Source\os_q.c(28): warning C322: unknown identifier
 compiling os_sem.c...
-Source\os_sem.c(25): warning C318: can't open file 'ucos_ii.h'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
 Source\os_sem.c(28): warning C322: unknown identifier
 compiling os_task.c...
-Source\os_task.c(25): warning C318: can't open file 'ucos_ii.h'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
 Source\os_task.c(50): warning C322: unknown identifier
 Source\os_task.c(206): warning C322: unknown identifier
 Source\os_task.c(328): warning C322: unknown identifier
@@ -627,26 +1748,333 @@ Source\os_task.c(946): warning C322: unknown identifier
 Source\os_task.c(1019): warning C322: unknown identifier
 Source\os_task.c(1086): warning C322: unknown identifier
 Source\os_task.c(1152): warning C322: unknown identifier
-Source\os_task.c(1206): error C202: 'OSTCBCur': undefined identifier
 Source\os_task.c(1208): warning C322: unknown identifier
 Source\os_task.c(1212): error C202: 'OS_TICKS_PER_SEC': undefined identifier
 Source\os_task.c(1240): warning C322: unknown identifier
 Source\os_task.c(1240): warning C322: unknown identifier
 compiling os_time.c...
-Source\os_time.c(25): warning C318: can't open file 'ucos_ii.h'
-Source\os_time.c(44): error C141: syntax error near 'ticks', expected ')'
-Source\os_time.c(46): error C202: 'INT8U': undefined identifier
-Source\os_time.c(46): error C141: syntax error near 'y'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
 Source\os_time.c(47): warning C322: unknown identifier
-Source\os_time.c(53): error C202: 'OSIntNesting': undefined identifier
-Source\os_time.c(56): error C202: 'OSLockNesting': undefined identifier
-Source\os_time.c(59): error C202: 'ticks': undefined identifier
 Source\os_time.c(98): warning C322: unknown identifier
 Source\os_time.c(161): warning C322: unknown identifier
 Source\os_time.c(221): warning C322: unknown identifier
 Source\os_time.c(250): warning C322: unknown identifier
 compiling os_tmr.c...
-Source\os_tmr.c(25): warning C318: can't open file 'ucos_ii.h'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
 Source\os_tmr.c(55): warning C322: unknown identifier
 Source\os_tmr.c(107): warning C322: unknown identifier
 Source\os_tmr.c(200): warning C322: unknown identifier
@@ -665,15 +2093,327 @@ Source\os_tmr.c(937): warning C322: unknown identifier
 Source\os_tmr.c(987): warning C322: unknown identifier
 Source\os_tmr.c(1033): warning C322: unknown identifier
 compiling ucos_ii.c...
-Source\ucos_ii.c(24): warning C318: can't open file 'ucos_ii.h'
-Source\ucos_ii.c(28): warning C318: can't open file 'os_core.c'
-Source\ucos_ii.c(29): warning C318: can't open file 'os_flag.c'
-Source\ucos_ii.c(30): warning C318: can't open file 'os_mbox.c'
-Source\ucos_ii.c(31): warning C318: can't open file 'os_mem.c'
-Source\ucos_ii.c(32): warning C318: can't open file 'os_mutex.c'
-Source\ucos_ii.c(33): warning C318: can't open file 'os_q.c'
-Source\ucos_ii.c(34): warning C318: can't open file 'os_sem.c'
-Source\ucos_ii.c(35): warning C318: can't open file 'os_task.c'
-Source\ucos_ii.c(36): warning C318: can't open file 'os_time.c'
-Source\ucos_ii.c(37): warning C318: can't open file 'os_tmr.c'
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
+.\Source\ucos_ii.h(72): warning C322: unknown identifier
+.\Source\ucos_ii.h(81): warning C322: unknown identifier
+.\Source\ucos_ii.h(170): warning C322: unknown identifier
+.\Source\ucos_ii.h(345): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(351): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(372): warning C322: unknown identifier
+.\Source\ucos_ii.h(419): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(433): warning C322: unknown identifier
+.\Source\ucos_ii.h(463): warning C322: unknown identifier
+.\Source\ucos_ii.h(479): warning C322: unknown identifier
+.\Source\ucos_ii.h(506): warning C322: unknown identifier
+.\Source\ucos_ii.h(520): warning C322: unknown identifier
+.\Source\ucos_ii.h(537): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(548): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(552): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(556): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(560): warning C322: unknown identifier
+.\Source\ucos_ii.h(577): warning C322: unknown identifier
+.\Source\ucos_ii.h(581): warning C322: unknown identifier
+.\Source\ucos_ii.h(589): warning C322: unknown identifier
+.\Source\ucos_ii.h(593): warning C322: unknown identifier
+.\Source\ucos_ii.h(605): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(646): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(651): warning C322: unknown identifier
+.\Source\ucos_ii.h(656): warning C322: unknown identifier
+.\Source\ucos_ii.h(672): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(672): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(684): error C202: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
+.\Source\ucos_ii.h(684): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(691): error C202: 'OS_LOWEST_PRIO': undefined identifier
+.\Source\ucos_ii.h(691): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(692): error C202: 'OS_MAX_TASKS': undefined identifier
+.\Source\ucos_ii.h(692): error C136: invalid dimension size: [0]
+.\Source\ucos_ii.h(694): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(698): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(703): warning C322: unknown identifier
+.\Source\ucos_ii.h(708): warning C322: unknown identifier
+.\Source\ucos_ii.h(712): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(743): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(771): warning C322: unknown identifier
+.\Source\ucos_ii.h(823): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(870): warning C322: unknown identifier
+.\Source\ucos_ii.h(904): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(940): warning C322: unknown identifier
+.\Source\ucos_ii.h(999): warning C322: unknown identifier
+.\Source\ucos_ii.h(1044): warning C322: unknown identifier
+.\Source\ucos_ii.h(1049): warning C322: unknown identifier
+.\Source\ucos_ii.h(1056): warning C322: unknown identifier
+.\Source\ucos_ii.h(1068): warning C322: unknown identifier
+.\Source\ucos_ii.h(1073): warning C322: unknown identifier
+.\Source\ucos_ii.h(1083): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1088): warning C322: unknown identifier
+.\Source\ucos_ii.h(1093): warning C322: unknown identifier
+.\Source\ucos_ii.h(1100): warning C322: unknown identifier
+.\Source\ucos_ii.h(1120): warning C322: unknown identifier
+.\Source\ucos_ii.h(1127): warning C322: unknown identifier
+.\Source\ucos_ii.h(1131): warning C322: unknown identifier
+.\Source\ucos_ii.h(1144): warning C322: unknown identifier
+.\Source\ucos_ii.h(1193): warning C322: unknown identifier
+.\Source\ucos_ii.h(1212): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1216): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1237): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1249): warning C322: unknown identifier
+.\Source\ucos_ii.h(1253): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1259): warning C322: unknown identifier
+.\Source\ucos_ii.h(1267): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1271): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1277): warning C322: unknown identifier
+.\Source\ucos_ii.h(1289): warning C322: unknown identifier
+.\Source\ucos_ii.h(1301): warning C322: unknown identifier
+.\Source\ucos_ii.h(1321): warning C322: unknown identifier
+.\Source\ucos_ii.h(1327): warning C322: unknown identifier
+.\Source\ucos_ii.h(1339): warning C322: unknown identifier
+.\Source\ucos_ii.h(1393): error C320: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generation for Event Flags"
+.\Source\ucos_ii.h(1435): error C320: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generation for MAILBOXES"
+.\Source\ucos_ii.h(1469): error C320: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generation for MEMORY MANAGER"
+.\Source\ucos_ii.h(1495): error C320: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code generation for MUTEX"
+.\Source\ucos_ii.h(1517): error C320: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation for QUEUES"
+.\Source\ucos_ii.h(1567): error C320: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generation for SEMAPHORES"
+.\Source\ucos_ii.h(1597): error C320: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your application"
+.\Source\ucos_ii.h(1609): warning C322: unknown identifier
+.\Source\ucos_ii.h(1614): error C320: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
+.\Source\ucos_ii.h(1618): error C320: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the statistics task"
+.\Source\ucos_ii.h(1622): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
+.\Source\ucos_ii.h(1626): error C320: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from statistics task"
+.\Source\ucos_ii.h(1630): error C320: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskChangePrio()"
+.\Source\ucos_ii.h(1634): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()"
+.\Source\ucos_ii.h(1638): error C320: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCreateExt()"
+.\Source\ucos_ii.h(1642): error C320: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
+.\Source\ucos_ii.h(1646): error C320: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
+.\Source\ucos_ii.h(1650): error C320: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend() and OSTaskResume()"
+.\Source\ucos_ii.h(1654): error C320: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
+.\Source\ucos_ii.h(1658): error C320: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specific registers"
+.\Source\ucos_ii.h(1672): error C320: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one second"
+.\Source\ucos_ii.h(1676): error C320: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMSM()"
+.\Source\ucos_ii.h(1680): error C320: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyResume()"
+.\Source\ucos_ii.h(1684): error C320: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() and OSTimeSet()"
+.\Source\ucos_ii.h(1694): error C320: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Timer Management"
+.\Source\ucos_ii.h(1746): error C320: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument checking"
+.\Source\ucos_ii.h(1751): error C320: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the processor port files when 1"
+.\Source\ucos_ii.h(1756): error C320: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are called from the uC/OS-II hooks"
+.\Source\ucos_ii.h(1761): error C320: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for debugging or not"
+.\Source\ucos_ii.h(1766): error C320: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that can be assigned"
+.\Source\ucos_ii.h(1771): error C320: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks in your application"
+.\Source\ucos_ii.h(1780): error C320: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() and OSSchedUnlock()"
+.\Source\ucos_ii.h(1785): error C320: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMulti()"
+.\Source\ucos_ii.h(1790): error C320: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run-time task profiling"
+.\Source\ucos_ii.h(1795): error C320: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code for OSTaskSwHook() or not"
+.\Source\ucos_ii.h(1800): error C320: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a time with uC/OS-View"
+.\Source\ucos_ii.h(1805): error C320: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the code for OSTimeTickHook() or not"
+.\Source\os_core.c(72): warning C322: unknown identifier
+.\Source\os_core.c(107): warning C322: unknown identifier
+.\Source\os_core.c(107): warning C322: unknown identifier
+.\Source\os_core.c(107): warning C322: unknown identifier
+.\Source\os_core.c(107): warning C322: unknown identifier
+.\Source\os_core.c(107): warning C322: unknown identifier
+.\Source\os_core.c(107): warning C322: unknown identifier
+.\Source\os_core.c(186): warning C322: unknown identifier
+.\Source\os_core.c(186): warning C322: unknown identifier
+.\Source\os_core.c(186): warning C322: unknown identifier
+.\Source\os_core.c(186): warning C322: unknown identifier
+.\Source\os_core.c(186): warning C322: unknown identifier
+.\Source\os_core.c(186): warning C322: unknown identifier
+.\Source\os_core.c(307): warning C322: unknown identifier
+.\Source\os_core.c(307): warning C322: unknown identifier
+.\Source\os_core.c(307): warning C322: unknown identifier
+.\Source\os_core.c(307): warning C322: unknown identifier
+.\Source\os_core.c(307): warning C322: unknown identifier
+.\Source\os_core.c(307): warning C322: unknown identifier
+.\Source\os_core.c(582): warning C322: unknown identifier
+.\Source\os_core.c(582): warning C322: unknown identifier
+.\Source\os_core.c(586): warning C322: unknown identifier
+.\Source\os_core.c(586): warning C322: unknown identifier
+.\Source\os_core.c(590): warning C322: unknown identifier
+.\Source\os_core.c(590): warning C322: unknown identifier
+.\Source\os_core.c(595): warning C322: unknown identifier
+.\Source\os_core.c(599): warning C322: unknown identifier
+.\Source\os_core.c(605): warning C322: unknown identifier
+.\Source\os_core.c(665): warning C322: unknown identifier
+.\Source\os_core.c(681): warning C322: unknown identifier
+.\Source\os_core.c(735): warning C322: unknown identifier
+.\Source\os_core.c(772): warning C322: unknown identifier
+.\Source\os_core.c(854): warning C322: unknown identifier
+.\Source\os_core.c(892): warning C322: unknown identifier
+.\Source\os_core.c(895): warning C322: unknown identifier
+.\Source\os_core.c(901): warning C322: unknown identifier
+.\Source\os_core.c(904): warning C322: unknown identifier
+.\Source\os_core.c(910): warning C322: unknown identifier
+.\Source\os_core.c(993): warning C322: unknown identifier
+.\Source\os_core.c(1027): warning C322: unknown identifier
+.\Source\os_core.c(1027): warning C322: unknown identifier
+.\Source\os_core.c(1027): warning C322: unknown identifier
+.\Source\os_core.c(1027): warning C322: unknown identifier
+.\Source\os_core.c(1027): warning C322: unknown identifier
+.\Source\os_core.c(1102): warning C322: unknown identifier
+.\Source\os_core.c(1102): warning C322: unknown identifier
+.\Source\os_core.c(1102): warning C322: unknown identifier
+.\Source\os_core.c(1102): warning C322: unknown identifier
+.\Source\os_core.c(1102): warning C322: unknown identifier
+.\Source\os_core.c(1136): warning C322: unknown identifier
+.\Source\os_core.c(1136): warning C322: unknown identifier
+.\Source\os_core.c(1136): warning C322: unknown identifier
+.\Source\os_core.c(1136): warning C322: unknown identifier
+.\Source\os_core.c(1136): warning C322: unknown identifier
+.\Source\os_core.c(1136): warning C322: unknown identifier
+.\Source\os_core.c(1179): warning C322: unknown identifier
+.\Source\os_core.c(1179): warning C322: unknown identifier
+.\Source\os_core.c(1179): warning C322: unknown identifier
+.\Source\os_core.c(1179): warning C322: unknown identifier
+.\Source\os_core.c(1179): warning C322: unknown identifier
+.\Source\os_core.c(1209): warning C322: unknown identifier
+.\Source\os_core.c(1209): warning C322: unknown identifier
+.\Source\os_core.c(1209): warning C322: unknown identifier
+.\Source\os_core.c(1209): warning C322: unknown identifier
+.\Source\os_core.c(1209): warning C322: unknown identifier
+.\Source\os_core.c(1209): warning C322: unknown identifier
+.\Source\os_core.c(1249): warning C322: unknown identifier
+.\Source\os_core.c(1249): warning C322: unknown identifier
+.\Source\os_core.c(1249): warning C322: unknown identifier
+.\Source\os_core.c(1249): warning C322: unknown identifier
+.\Source\os_core.c(1249): warning C322: unknown identifier
+.\Source\os_core.c(1277): warning C322: unknown identifier
+.\Source\os_core.c(1277): warning C322: unknown identifier
+.\Source\os_core.c(1277): warning C322: unknown identifier
+.\Source\os_core.c(1277): warning C322: unknown identifier
+.\Source\os_core.c(1277): warning C322: unknown identifier
+.\Source\os_core.c(1277): warning C322: unknown identifier
+.\Source\os_core.c(1329): warning C322: unknown identifier
+.\Source\os_core.c(1343): warning C322: unknown identifier
+.\Source\os_core.c(1400): warning C322: unknown identifier
+.\Source\os_core.c(1405): warning C322: unknown identifier
+.\Source\os_core.c(1428): warning C322: unknown identifier
+.\Source\os_core.c(1441): warning C322: unknown identifier
+.\Source\os_core.c(1459): warning C322: unknown identifier
+.\Source\os_core.c(1537): warning C322: unknown identifier
+.\Source\os_core.c(1543): warning C322: unknown identifier
+.\Source\os_core.c(1632): warning C322: unknown identifier
+.\Source\os_core.c(1644): warning C322: unknown identifier
+.\Source\os_core.c(1674): warning C322: unknown identifier
+.\Source\os_core.c(1716): warning C322: unknown identifier
+.\Source\os_core.c(1716): warning C322: unknown identifier
+.\Source\os_core.c(1716): warning C322: unknown identifier
+.\Source\os_core.c(1716): warning C322: unknown identifier
+.\Source\os_core.c(1716): warning C322: unknown identifier
+.\Source\os_core.c(1754): warning C322: unknown identifier
+.\Source\os_core.c(1793): warning C322: unknown identifier
+.\Source\os_core.c(1844): warning C322: unknown identifier
+.\Source\os_core.c(1844): warning C322: unknown identifier
+.\Source\os_core.c(1926): warning C322: unknown identifier
+.\Source\os_core.c(1929): warning C322: unknown identifier
+.\Source\os_core.c(1945): warning C322: unknown identifier
+.\Source\os_core.c(1959): warning C322: unknown identifier
+.\Source\os_core.c(1963): warning C322: unknown identifier
+.\Source\os_core.c(1974): warning C322: unknown identifier
+.\Source\os_core.c(1974): warning C322: unknown identifier
+.\Source\os_core.c(1974): warning C322: unknown identifier
+.\Source\os_core.c(1974): warning C322: unknown identifier
+.\Source\os_core.c(1974): warning C322: unknown identifier
+.\Source\os_core.c(1981): warning C322: unknown identifier
+.\Source\os_core.c(1981): warning C322: unknown identifier
+.\Source\os_core.c(1981): warning C322: unknown identifier
+.\Source\os_core.c(1985): warning C322: unknown identifier
+.\Source\os_core.c(1985): warning C322: unknown identifier
+.\Source\os_core.c(1985): warning C322: unknown identifier
+.\Source\os_core.c(1989): warning C322: unknown identifier
+.\Source\os_core.c(1997): warning C322: unknown identifier
+.\Source\os_core.c(2001): warning C322: unknown identifier
+.\Source\os_flag.c(28): warning C322: unknown identifier
+.\Source\os_flag.c(28): warning C322: unknown identifier
+.\Source\os_mbox.c(28): warning C322: unknown identifier
+.\Source\os_mem.c(28): warning C322: unknown identifier
+.\Source\os_mem.c(28): warning C322: unknown identifier
+.\Source\os_mutex.c(29): warning C322: unknown identifier
+.\Source\os_q.c(28): warning C322: unknown identifier
+.\Source\os_q.c(28): warning C322: unknown identifier
+.\Source\os_sem.c(28): warning C322: unknown identifier
+.\Source\os_task.c(50): warning C322: unknown identifier
+.\Source\os_task.c(206): warning C322: unknown identifier
+.\Source\os_task.c(328): warning C322: unknown identifier
+.\Source\os_task.c(426): warning C322: unknown identifier
+.\Source\os_task.c(572): warning C322: unknown identifier
+.\Source\os_task.c(639): warning C322: unknown identifier
+.\Source\os_task.c(720): warning C322: unknown identifier
+.\Source\os_task.c(794): warning C322: unknown identifier
+.\Source\os_task.c(861): warning C322: unknown identifier
+.\Source\os_task.c(861): warning C322: unknown identifier
+.\Source\os_task.c(946): warning C322: unknown identifier
+.\Source\os_task.c(1019): warning C322: unknown identifier
+.\Source\os_task.c(1086): warning C322: unknown identifier
+.\Source\os_task.c(1152): warning C322: unknown identifier
+.\Source\os_task.c(1208): warning C322: unknown identifier
+.\Source\os_task.c(1240): warning C322: unknown identifier
+.\Source\os_task.c(1240): warning C322: unknown identifier
+.\Source\os_time.c(47): warning C322: unknown identifier
+.\Source\os_time.c(98): warning C322: unknown identifier
+.\Source\os_time.c(161): warning C322: unknown identifier
+.\Source\os_time.c(221): warning C322: unknown identifier
+.\Source\os_time.c(250): warning C322: unknown identifier
+.\Source\os_tmr.c(55): warning C322: unknown identifier
+.\Source\os_tmr.c(107): warning C322: unknown identifier
+.\Source\os_tmr.c(200): warning C322: unknown identifier
+.\Source\os_tmr.c(277): warning C322: unknown identifier
+.\Source\os_tmr.c(277): warning C322: unknown identifier
+.\Source\os_tmr.c(356): warning C322: unknown identifier
+.\Source\os_tmr.c(456): warning C322: unknown identifier
+.\Source\os_tmr.c(524): warning C322: unknown identifier
+.\Source\os_tmr.c(614): warning C322: unknown identifier
+.\Source\os_tmr.c(716): warning C322: unknown identifier
+.\Source\os_tmr.c(740): warning C322: unknown identifier
+.\Source\os_tmr.c(772): warning C322: unknown identifier
+.\Source\os_tmr.c(808): warning C322: unknown identifier
+.\Source\os_tmr.c(869): warning C322: unknown identifier
+.\Source\os_tmr.c(937): warning C322: unknown identifier
+.\Source\os_tmr.c(987): warning C322: unknown identifier
+.\Source\os_tmr.c(1033): warning C322: unknown identifier
 Target not created

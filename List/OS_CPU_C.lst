@@ -1,0 +1,143 @@
+C51 COMPILER V9.51   OS_CPU_C                                                              02/25/2015 10:26:09 PAGE 1   
+
+
+C51 COMPILER V9.51, COMPILATION OF MODULE OS_CPU_C
+OBJECT MODULE PLACED IN .\Output\OS_CPU_C.obj
+COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\OS_CPU_C.c BROWSE DEBUG OBJECTEXTEND PRINT(.\List\OS_CPU_C.lst) TABS
+                    -(2) OBJECT(.\Output\OS_CPU_C.obj)
+
+line level    source
+
+   1          #define OS_CPU_GLOBALS
+   2          #include "includes.h"
+*** WARNING C318 IN LINE 2 OF Source\OS_CPU_C.c: can't open file 'includes.h'
+   3          
+   4          /*
+   5          *********************************************************************************************************
+   6                                        初始化任务堆栈
+   7          *********************************************************************************************************
+   8          */
+   9          void *OSTaskStkInit(void (*task)(void *pd), void *ppdata, void *ptos, INT16U opt) reentrant
+*** ERROR C141 IN LINE 9 OF Source\OS_CPU_C.c: syntax error near 'opt', expected ')'
+  10          {
+  11   1        OS_STK *stk;
+*** ERROR C202 IN LINE 11 OF Source\OS_CPU_C.c: 'OS_STK': undefined identifier
+  12   1        ppdata = ppdata;
+  13   1        opt = opt;                 //OPT没被用到，保留此语句防止警告产生
+*** ERROR C202 IN LINE 13 OF Source\OS_CPU_C.c: 'opt': undefined identifier
+  14   1        stk = (OS_STK*)ptos;       //用户堆栈最底有效地址
+*** ERROR C202 IN LINE 14 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+*** ERROR C141 IN LINE 14 OF Source\OS_CPU_C.c: syntax error near ')'
+  15   1        *stk++ = 15;               //用户堆栈长度
+*** ERROR C202 IN LINE 15 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  16   1        *stk++ = (INT16U)task & 0xff;      //任务地址低8位
+*** ERROR C202 IN LINE 16 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+*** ERROR C141 IN LINE 16 OF Source\OS_CPU_C.c: syntax error near 'task'
+  17   1        *stk++ = (INT16U)task >> 8;        //任务地址高8位
+*** ERROR C202 IN LINE 17 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+*** ERROR C141 IN LINE 17 OF Source\OS_CPU_C.c: syntax error near 'task'
+  18   1        *stk++ = 0x00;                     //PSW
+*** ERROR C202 IN LINE 18 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  19   1        *stk++ = 0x0A;                     //ACC
+*** ERROR C202 IN LINE 19 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  20   1        *stk++ = 0x0B;                     //B
+*** ERROR C202 IN LINE 20 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  21   1        *stk++ = 0x00;                     //DPL
+*** ERROR C202 IN LINE 21 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  22   1        *stk++ = 0x00;                     //DPH
+*** ERROR C202 IN LINE 22 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  23   1        *stk++ = 0x00;                     //R0
+*** ERROR C202 IN LINE 23 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  24   1        *stk++ = 0x01;                     //R1
+*** ERROR C202 IN LINE 24 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  25   1        *stk++ = 0x02;                     //R2
+*** ERROR C202 IN LINE 25 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  26   1        *stk++ = 0x03;                     //R3
+*** ERROR C202 IN LINE 26 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  27   1        *stk++ = 0x04;                     //R4
+*** ERROR C202 IN LINE 27 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  28   1        *stk++ = 0x05;                     //R5
+*** ERROR C202 IN LINE 28 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  29   1        *stk++ = 0x06;                     //R6
+*** ERROR C202 IN LINE 29 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  30   1        *stk++ = 0x07;                     //R7
+*** ERROR C202 IN LINE 30 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+C51 COMPILER V9.51   OS_CPU_C                                                              02/25/2015 10:26:09 PAGE 2   
+
+  31   1        //不保存SP，任务切换时根据用户堆栈长度计算得出
+  32   1        *stk++ = (INT16U)(ptos+MaxStkSize) >> 8;      //?C_XBP仿真堆栈指针高8位
+*** ERROR C202 IN LINE 32 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  33   1        *stk++ = (INT16U)(ptos+MaxStkSize) & 0xff;    //?C_XBP仿真堆栈指针低8位
+*** ERROR C202 IN LINE 33 OF Source\OS_CPU_C.c: 'stk': undefined identifier
+  34   1        return ((void*)ptos);
+  35   1      }
+  36          
+  37          #if OS_CPU_HOOKS_EN
+*** WARNING C322 IN LINE 37 OF Source\OS_CPU_C.c: unknown identifier
+              /*
+              **************************************************************************************
+              *                          任务创建钩挂函数
+              **************************************************************************************
+              */
+              void OSTackCreateHook(OS_TCB *ptcb) reentrant
+              {
+                ptcb = ptcb;
+              }
+              
+              /*
+              **************************************************************************************
+              *                          任务删除钩挂函数
+              **************************************************************************************
+              */
+              void OSTackDelHook(OS_TCB *ptcb) reentrant
+              {
+                ptcb = ptcb;
+              }
+              
+              /*
+              **************************************************************************************
+              *                          任务切换钩挂函数
+              **************************************************************************************
+              */
+              void OSTaskSwHook(void) reentrant
+              {
+              }
+              
+              /*
+              **************************************************************************************
+              *                          统计任务钩挂函数
+              **************************************************************************************
+              */
+              void OSTaskStatHook(void) reentrant
+              {
+              }
+              
+              /*
+              **************************************************************************************
+              *                          定时钩挂函数
+              **************************************************************************************
+              */
+              void OSTimeTickHook(void) reentrant
+              {
+              }
+              #endif
+  85          //初始化定时器0
+  86          void InitTimer0(void) reentrant
+  87          {
+  88   1        TMOD = TMOD & 0x00;
+*** ERROR C202 IN LINE 88 OF Source\OS_CPU_C.c: 'TMOD': undefined identifier
+C51 COMPILER V9.51   OS_CPU_C                                                              02/25/2015 10:26:09 PAGE 3   
+
+  89   1        TMOD = TMOD | 0x01;         //方式1（16位定时器），仅受TR0控制
+*** ERROR C202 IN LINE 89 OF Source\OS_CPU_C.c: 'TMOD': undefined identifier
+  90   1        TH0 = 0xB1;                 //定义Tick=50次/秒（即0.02秒/次）
+*** ERROR C202 IN LINE 90 OF Source\OS_CPU_C.c: 'TH0': undefined identifier
+  91   1        TL0 = 0xE0;
+*** ERROR C202 IN LINE 91 OF Source\OS_CPU_C.c: 'TL0': undefined identifier
+  92   1        ET0 = 1;                    //允许T0中断
+*** ERROR C202 IN LINE 92 OF Source\OS_CPU_C.c: 'ET0': undefined identifier
+  93   1        TR0 = 1;
+*** ERROR C202 IN LINE 93 OF Source\OS_CPU_C.c: 'TR0': undefined identifier
+  94   1      }
+
+C51 COMPILATION COMPLETE.  2 WARNING(S),  31 ERROR(S)

@@ -7,7 +7,7 @@ D:\documents\GitHub\ucos-running-on-c51\ucos_runing_on_c51.uvproj
 Project File Date:  02/25/2015
 
 <h2>Output:</h2>
-Build target 'Target 1'
+Rebuild target 'Target 1'
 assembling STARTUP.A51...
 assembling OS_CPU_A.asm...
 Source\OS_CPU_A.asm(85): error A9: SYNTAX ERROR
@@ -139,7 +139,208 @@ Source\OS_CPU_A.asm(200): error A37: OPERATION INVALID IN THIS SEGMENT
 Source\OS_CPU_A.asm(201): error A37: OPERATION INVALID IN THIS SEGMENT
 Source\OS_CPU_A.asm(202): error A37: OPERATION INVALID IN THIS SEGMENT
 Source\OS_CPU_A.asm(207): error A9: SYNTAX ERROR
-Source\OS_CPU_A.asm(219): warning A41: MISSING 'END' STATEMENT
+compiling OS_CPU_C.c...
+Source\OS_CPU_C.c(2): warning C318: can't open file 'includes.h'
+Source\OS_CPU_C.c(9): error C141: syntax error near 'opt', expected ')'
+Source\OS_CPU_C.c(12): error C202: 'OS_STK': undefined identifier
+Source\OS_CPU_C.c(14): error C202: 'opt': undefined identifier
+Source\OS_CPU_C.c(15): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(15): error C141: syntax error near ')'
+Source\OS_CPU_C.c(16): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(17): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(17): error C141: syntax error near 'task'
+Source\OS_CPU_C.c(18): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(18): error C141: syntax error near 'task'
+Source\OS_CPU_C.c(19): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(20): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(21): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(22): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(23): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(24): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(25): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(26): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(27): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(28): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(29): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(30): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(31): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(33): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(34): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(38): warning C322: unknown identifier
+Source\OS_CPU_C.c(89): error C202: 'TMOD': undefined identifier
+Source\OS_CPU_C.c(90): error C202: 'TMOD': undefined identifier
+Source\OS_CPU_C.c(91): error C202: 'TH0': undefined identifier
+Source\OS_CPU_C.c(92): error C202: 'TL0': undefined identifier
+Source\OS_CPU_C.c(93): error C202: 'ET0': undefined identifier
+Source\OS_CPU_C.c(94): error C202: 'TR0': undefined identifier
+compiling os_core.c...
+Source\os_core.c(26): warning C318: can't open file 'ucos_ii.h'
+Source\os_core.c(38): error C129: missing ';' before 'const'
+Source\os_core.c(72): warning C322: unknown identifier
+Source\os_core.c(107): warning C322: unknown identifier
+Source\os_core.c(107): warning C322: unknown identifier
+Source\os_core.c(186): warning C322: unknown identifier
+Source\os_core.c(186): warning C322: unknown identifier
+Source\os_core.c(307): warning C322: unknown identifier
+Source\os_core.c(307): warning C322: unknown identifier
+Source\os_core.c(582): warning C322: unknown identifier
+Source\os_core.c(582): warning C322: unknown identifier
+Source\os_core.c(586): warning C322: unknown identifier
+Source\os_core.c(586): warning C322: unknown identifier
+Source\os_core.c(590): warning C322: unknown identifier
+Source\os_core.c(590): warning C322: unknown identifier
+Source\os_core.c(595): warning C322: unknown identifier
+Source\os_core.c(599): warning C322: unknown identifier
+Source\os_core.c(605): warning C322: unknown identifier
+Source\os_core.c(665): warning C322: unknown identifier
+Source\os_core.c(681): warning C322: unknown identifier
+Source\os_core.c(735): warning C322: unknown identifier
+Source\os_core.c(772): warning C322: unknown identifier
+Source\os_core.c(854): warning C322: unknown identifier
+Source\os_core.c(892): warning C322: unknown identifier
+Source\os_core.c(895): warning C322: unknown identifier
+Source\os_core.c(901): warning C322: unknown identifier
+Source\os_core.c(904): warning C322: unknown identifier
+Source\os_core.c(910): warning C322: unknown identifier
+Source\os_core.c(993): warning C322: unknown identifier
+Source\os_core.c(1027): warning C322: unknown identifier
+Source\os_core.c(1102): warning C322: unknown identifier
+Source\os_core.c(1136): warning C322: unknown identifier
+Source\os_core.c(1136): warning C322: unknown identifier
+Source\os_core.c(1179): warning C322: unknown identifier
+Source\os_core.c(1209): warning C322: unknown identifier
+Source\os_core.c(1209): warning C322: unknown identifier
+Source\os_core.c(1249): warning C322: unknown identifier
+Source\os_core.c(1277): warning C322: unknown identifier
+Source\os_core.c(1277): warning C322: unknown identifier
+Source\os_core.c(1329): warning C322: unknown identifier
+Source\os_core.c(1343): warning C322: unknown identifier
+Source\os_core.c(1400): warning C322: unknown identifier
+Source\os_core.c(1405): warning C322: unknown identifier
+Source\os_core.c(1428): warning C322: unknown identifier
+Source\os_core.c(1441): warning C322: unknown identifier
+Source\os_core.c(1459): warning C322: unknown identifier
+Source\os_core.c(1537): warning C322: unknown identifier
+Source\os_core.c(1543): warning C322: unknown identifier
+Source\os_core.c(1632): warning C322: unknown identifier
+Source\os_core.c(1644): warning C322: unknown identifier
+Source\os_core.c(1674): warning C322: unknown identifier
+Source\os_core.c(1716): warning C322: unknown identifier
+Source\os_core.c(1716): warning C322: unknown identifier
+Source\os_core.c(1716): warning C322: unknown identifier
+Source\os_core.c(1716): warning C322: unknown identifier
+Source\os_core.c(1716): warning C322: unknown identifier
+Source\os_core.c(1754): warning C322: unknown identifier
+Source\os_core.c(1793): warning C322: unknown identifier
+Source\os_core.c(1844): warning C322: unknown identifier
+Source\os_core.c(1844): warning C322: unknown identifier
+Source\os_core.c(1926): warning C322: unknown identifier
+Source\os_core.c(1929): warning C322: unknown identifier
+Source\os_core.c(1945): warning C322: unknown identifier
+Source\os_core.c(1959): warning C322: unknown identifier
+Source\os_core.c(1963): warning C322: unknown identifier
+Source\os_core.c(1974): warning C322: unknown identifier
+Source\os_core.c(1981): warning C322: unknown identifier
+Source\os_core.c(1981): warning C322: unknown identifier
+Source\os_core.c(1981): warning C322: unknown identifier
+Source\os_core.c(1985): warning C322: unknown identifier
+Source\os_core.c(1985): warning C322: unknown identifier
+Source\os_core.c(1985): warning C322: unknown identifier
+Source\os_core.c(1989): warning C322: unknown identifier
+Source\os_core.c(1997): warning C322: unknown identifier
+Source\os_core.c(2001): warning C322: unknown identifier
+compiling os_dbg_r.c...
+Source\os_dbg_r.c(24): warning C318: can't open file 'ucos_ii.h'
+Source\os_dbg_r.c(32): error C129: missing ';' before 'const'
+Source\os_dbg_r.c(34): warning C322: unknown identifier
+Source\os_dbg_r.c(142): warning C322: unknown identifier
+Source\os_dbg_r.c(225): warning C322: unknown identifier
+compiling os_flag.c...
+Source\os_flag.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_flag.c(28): warning C322: unknown identifier
+Source\os_flag.c(28): warning C322: unknown identifier
+compiling os_mbox.c...
+Source\os_mbox.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_mbox.c(28): warning C322: unknown identifier
+compiling os_mem.c...
+Source\os_mem.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_mem.c(28): warning C322: unknown identifier
+Source\os_mem.c(28): warning C322: unknown identifier
+compiling os_mutex.c...
+Source\os_mutex.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_mutex.c(29): warning C322: unknown identifier
+compiling os_q.c...
+Source\os_q.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_q.c(28): warning C322: unknown identifier
+Source\os_q.c(28): warning C322: unknown identifier
+compiling os_sem.c...
+Source\os_sem.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_sem.c(28): warning C322: unknown identifier
+compiling os_task.c...
+Source\os_task.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_task.c(50): warning C322: unknown identifier
+Source\os_task.c(206): warning C322: unknown identifier
+Source\os_task.c(328): warning C322: unknown identifier
+Source\os_task.c(426): warning C322: unknown identifier
+Source\os_task.c(572): warning C322: unknown identifier
+Source\os_task.c(639): warning C322: unknown identifier
+Source\os_task.c(720): warning C322: unknown identifier
+Source\os_task.c(794): warning C322: unknown identifier
+Source\os_task.c(861): warning C322: unknown identifier
+Source\os_task.c(861): warning C322: unknown identifier
+Source\os_task.c(946): warning C322: unknown identifier
+Source\os_task.c(1019): warning C322: unknown identifier
+Source\os_task.c(1086): warning C322: unknown identifier
+Source\os_task.c(1152): warning C322: unknown identifier
+Source\os_task.c(1206): error C202: 'OSTCBCur': undefined identifier
+Source\os_task.c(1208): warning C322: unknown identifier
+Source\os_task.c(1212): error C202: 'OS_TICKS_PER_SEC': undefined identifier
+Source\os_task.c(1240): warning C322: unknown identifier
+Source\os_task.c(1240): warning C322: unknown identifier
+compiling os_time.c...
+Source\os_time.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_time.c(44): error C141: syntax error near 'ticks', expected ')'
+Source\os_time.c(46): error C202: 'INT8U': undefined identifier
+Source\os_time.c(46): error C141: syntax error near 'y'
+Source\os_time.c(47): warning C322: unknown identifier
+Source\os_time.c(53): error C202: 'OSIntNesting': undefined identifier
+Source\os_time.c(56): error C202: 'OSLockNesting': undefined identifier
+Source\os_time.c(59): error C202: 'ticks': undefined identifier
+Source\os_time.c(98): warning C322: unknown identifier
+Source\os_time.c(161): warning C322: unknown identifier
+Source\os_time.c(221): warning C322: unknown identifier
+Source\os_time.c(250): warning C322: unknown identifier
+compiling os_tmr.c...
+Source\os_tmr.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_tmr.c(55): warning C322: unknown identifier
+Source\os_tmr.c(107): warning C322: unknown identifier
+Source\os_tmr.c(200): warning C322: unknown identifier
+Source\os_tmr.c(277): warning C322: unknown identifier
+Source\os_tmr.c(277): warning C322: unknown identifier
+Source\os_tmr.c(356): warning C322: unknown identifier
+Source\os_tmr.c(456): warning C322: unknown identifier
+Source\os_tmr.c(524): warning C322: unknown identifier
+Source\os_tmr.c(614): warning C322: unknown identifier
+Source\os_tmr.c(716): warning C322: unknown identifier
+Source\os_tmr.c(740): warning C322: unknown identifier
+Source\os_tmr.c(772): warning C322: unknown identifier
+Source\os_tmr.c(808): warning C322: unknown identifier
+Source\os_tmr.c(869): warning C322: unknown identifier
+Source\os_tmr.c(937): warning C322: unknown identifier
+Source\os_tmr.c(987): warning C322: unknown identifier
+Source\os_tmr.c(1033): warning C322: unknown identifier
+compiling ucos_ii.c...
+Source\ucos_ii.c(24): warning C318: can't open file 'ucos_ii.h'
+Source\ucos_ii.c(28): warning C318: can't open file 'os_core.c'
+Source\ucos_ii.c(29): warning C318: can't open file 'os_flag.c'
+Source\ucos_ii.c(30): warning C318: can't open file 'os_mbox.c'
+Source\ucos_ii.c(31): warning C318: can't open file 'os_mem.c'
+Source\ucos_ii.c(32): warning C318: can't open file 'os_mutex.c'
+Source\ucos_ii.c(33): warning C318: can't open file 'os_q.c'
+Source\ucos_ii.c(34): warning C318: can't open file 'os_sem.c'
+Source\ucos_ii.c(35): warning C318: can't open file 'os_task.c'
+Source\ucos_ii.c(36): warning C318: can't open file 'os_time.c'
+Source\ucos_ii.c(37): warning C318: can't open file 'os_tmr.c'
 Target not created
 Rebuild target 'Target 1'
 assembling STARTUP.A51...
@@ -273,4 +474,206 @@ Source\OS_CPU_A.asm(200): error A37: OPERATION INVALID IN THIS SEGMENT
 Source\OS_CPU_A.asm(201): error A37: OPERATION INVALID IN THIS SEGMENT
 Source\OS_CPU_A.asm(202): error A37: OPERATION INVALID IN THIS SEGMENT
 Source\OS_CPU_A.asm(207): error A9: SYNTAX ERROR
+compiling OS_CPU_C.c...
+Source\OS_CPU_C.c(2): warning C318: can't open file 'includes.h'
+Source\OS_CPU_C.c(9): error C141: syntax error near 'opt', expected ')'
+Source\OS_CPU_C.c(11): error C202: 'OS_STK': undefined identifier
+Source\OS_CPU_C.c(13): error C202: 'opt': undefined identifier
+Source\OS_CPU_C.c(14): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(14): error C141: syntax error near ')'
+Source\OS_CPU_C.c(15): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(16): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(16): error C141: syntax error near 'task'
+Source\OS_CPU_C.c(17): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(17): error C141: syntax error near 'task'
+Source\OS_CPU_C.c(18): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(19): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(20): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(21): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(22): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(23): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(24): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(25): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(26): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(27): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(28): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(29): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(30): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(32): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(33): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(37): warning C322: unknown identifier
+Source\OS_CPU_C.c(88): error C202: 'TMOD': undefined identifier
+Source\OS_CPU_C.c(89): error C202: 'TMOD': undefined identifier
+Source\OS_CPU_C.c(90): error C202: 'TH0': undefined identifier
+Source\OS_CPU_C.c(91): error C202: 'TL0': undefined identifier
+Source\OS_CPU_C.c(92): error C202: 'ET0': undefined identifier
+Source\OS_CPU_C.c(93): error C202: 'TR0': undefined identifier
+compiling os_core.c...
+Source\os_core.c(26): warning C318: can't open file 'ucos_ii.h'
+Source\os_core.c(38): error C129: missing ';' before 'const'
+Source\os_core.c(72): warning C322: unknown identifier
+Source\os_core.c(107): warning C322: unknown identifier
+Source\os_core.c(107): warning C322: unknown identifier
+Source\os_core.c(186): warning C322: unknown identifier
+Source\os_core.c(186): warning C322: unknown identifier
+Source\os_core.c(307): warning C322: unknown identifier
+Source\os_core.c(307): warning C322: unknown identifier
+Source\os_core.c(582): warning C322: unknown identifier
+Source\os_core.c(582): warning C322: unknown identifier
+Source\os_core.c(586): warning C322: unknown identifier
+Source\os_core.c(586): warning C322: unknown identifier
+Source\os_core.c(590): warning C322: unknown identifier
+Source\os_core.c(590): warning C322: unknown identifier
+Source\os_core.c(595): warning C322: unknown identifier
+Source\os_core.c(599): warning C322: unknown identifier
+Source\os_core.c(605): warning C322: unknown identifier
+Source\os_core.c(665): warning C322: unknown identifier
+Source\os_core.c(681): warning C322: unknown identifier
+Source\os_core.c(735): warning C322: unknown identifier
+Source\os_core.c(772): warning C322: unknown identifier
+Source\os_core.c(854): warning C322: unknown identifier
+Source\os_core.c(892): warning C322: unknown identifier
+Source\os_core.c(895): warning C322: unknown identifier
+Source\os_core.c(901): warning C322: unknown identifier
+Source\os_core.c(904): warning C322: unknown identifier
+Source\os_core.c(910): warning C322: unknown identifier
+Source\os_core.c(993): warning C322: unknown identifier
+Source\os_core.c(1027): warning C322: unknown identifier
+Source\os_core.c(1102): warning C322: unknown identifier
+Source\os_core.c(1136): warning C322: unknown identifier
+Source\os_core.c(1136): warning C322: unknown identifier
+Source\os_core.c(1179): warning C322: unknown identifier
+Source\os_core.c(1209): warning C322: unknown identifier
+Source\os_core.c(1209): warning C322: unknown identifier
+Source\os_core.c(1249): warning C322: unknown identifier
+Source\os_core.c(1277): warning C322: unknown identifier
+Source\os_core.c(1277): warning C322: unknown identifier
+Source\os_core.c(1329): warning C322: unknown identifier
+Source\os_core.c(1343): warning C322: unknown identifier
+Source\os_core.c(1400): warning C322: unknown identifier
+Source\os_core.c(1405): warning C322: unknown identifier
+Source\os_core.c(1428): warning C322: unknown identifier
+Source\os_core.c(1441): warning C322: unknown identifier
+Source\os_core.c(1459): warning C322: unknown identifier
+Source\os_core.c(1537): warning C322: unknown identifier
+Source\os_core.c(1543): warning C322: unknown identifier
+Source\os_core.c(1632): warning C322: unknown identifier
+Source\os_core.c(1644): warning C322: unknown identifier
+Source\os_core.c(1674): warning C322: unknown identifier
+Source\os_core.c(1716): warning C322: unknown identifier
+Source\os_core.c(1716): warning C322: unknown identifier
+Source\os_core.c(1716): warning C322: unknown identifier
+Source\os_core.c(1716): warning C322: unknown identifier
+Source\os_core.c(1716): warning C322: unknown identifier
+Source\os_core.c(1754): warning C322: unknown identifier
+Source\os_core.c(1793): warning C322: unknown identifier
+Source\os_core.c(1844): warning C322: unknown identifier
+Source\os_core.c(1844): warning C322: unknown identifier
+Source\os_core.c(1926): warning C322: unknown identifier
+Source\os_core.c(1929): warning C322: unknown identifier
+Source\os_core.c(1945): warning C322: unknown identifier
+Source\os_core.c(1959): warning C322: unknown identifier
+Source\os_core.c(1963): warning C322: unknown identifier
+Source\os_core.c(1974): warning C322: unknown identifier
+Source\os_core.c(1981): warning C322: unknown identifier
+Source\os_core.c(1981): warning C322: unknown identifier
+Source\os_core.c(1981): warning C322: unknown identifier
+Source\os_core.c(1985): warning C322: unknown identifier
+Source\os_core.c(1985): warning C322: unknown identifier
+Source\os_core.c(1985): warning C322: unknown identifier
+Source\os_core.c(1989): warning C322: unknown identifier
+Source\os_core.c(1997): warning C322: unknown identifier
+Source\os_core.c(2001): warning C322: unknown identifier
+compiling os_dbg_r.c...
+Source\os_dbg_r.c(24): warning C318: can't open file 'ucos_ii.h'
+Source\os_dbg_r.c(32): error C129: missing ';' before 'const'
+Source\os_dbg_r.c(34): warning C322: unknown identifier
+Source\os_dbg_r.c(142): warning C322: unknown identifier
+Source\os_dbg_r.c(225): warning C322: unknown identifier
+compiling os_flag.c...
+Source\os_flag.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_flag.c(28): warning C322: unknown identifier
+Source\os_flag.c(28): warning C322: unknown identifier
+compiling os_mbox.c...
+Source\os_mbox.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_mbox.c(28): warning C322: unknown identifier
+compiling os_mem.c...
+Source\os_mem.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_mem.c(28): warning C322: unknown identifier
+Source\os_mem.c(28): warning C322: unknown identifier
+compiling os_mutex.c...
+Source\os_mutex.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_mutex.c(29): warning C322: unknown identifier
+compiling os_q.c...
+Source\os_q.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_q.c(28): warning C322: unknown identifier
+Source\os_q.c(28): warning C322: unknown identifier
+compiling os_sem.c...
+Source\os_sem.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_sem.c(28): warning C322: unknown identifier
+compiling os_task.c...
+Source\os_task.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_task.c(50): warning C322: unknown identifier
+Source\os_task.c(206): warning C322: unknown identifier
+Source\os_task.c(328): warning C322: unknown identifier
+Source\os_task.c(426): warning C322: unknown identifier
+Source\os_task.c(572): warning C322: unknown identifier
+Source\os_task.c(639): warning C322: unknown identifier
+Source\os_task.c(720): warning C322: unknown identifier
+Source\os_task.c(794): warning C322: unknown identifier
+Source\os_task.c(861): warning C322: unknown identifier
+Source\os_task.c(861): warning C322: unknown identifier
+Source\os_task.c(946): warning C322: unknown identifier
+Source\os_task.c(1019): warning C322: unknown identifier
+Source\os_task.c(1086): warning C322: unknown identifier
+Source\os_task.c(1152): warning C322: unknown identifier
+Source\os_task.c(1206): error C202: 'OSTCBCur': undefined identifier
+Source\os_task.c(1208): warning C322: unknown identifier
+Source\os_task.c(1212): error C202: 'OS_TICKS_PER_SEC': undefined identifier
+Source\os_task.c(1240): warning C322: unknown identifier
+Source\os_task.c(1240): warning C322: unknown identifier
+compiling os_time.c...
+Source\os_time.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_time.c(44): error C141: syntax error near 'ticks', expected ')'
+Source\os_time.c(46): error C202: 'INT8U': undefined identifier
+Source\os_time.c(46): error C141: syntax error near 'y'
+Source\os_time.c(47): warning C322: unknown identifier
+Source\os_time.c(53): error C202: 'OSIntNesting': undefined identifier
+Source\os_time.c(56): error C202: 'OSLockNesting': undefined identifier
+Source\os_time.c(59): error C202: 'ticks': undefined identifier
+Source\os_time.c(98): warning C322: unknown identifier
+Source\os_time.c(161): warning C322: unknown identifier
+Source\os_time.c(221): warning C322: unknown identifier
+Source\os_time.c(250): warning C322: unknown identifier
+compiling os_tmr.c...
+Source\os_tmr.c(25): warning C318: can't open file 'ucos_ii.h'
+Source\os_tmr.c(55): warning C322: unknown identifier
+Source\os_tmr.c(107): warning C322: unknown identifier
+Source\os_tmr.c(200): warning C322: unknown identifier
+Source\os_tmr.c(277): warning C322: unknown identifier
+Source\os_tmr.c(277): warning C322: unknown identifier
+Source\os_tmr.c(356): warning C322: unknown identifier
+Source\os_tmr.c(456): warning C322: unknown identifier
+Source\os_tmr.c(524): warning C322: unknown identifier
+Source\os_tmr.c(614): warning C322: unknown identifier
+Source\os_tmr.c(716): warning C322: unknown identifier
+Source\os_tmr.c(740): warning C322: unknown identifier
+Source\os_tmr.c(772): warning C322: unknown identifier
+Source\os_tmr.c(808): warning C322: unknown identifier
+Source\os_tmr.c(869): warning C322: unknown identifier
+Source\os_tmr.c(937): warning C322: unknown identifier
+Source\os_tmr.c(987): warning C322: unknown identifier
+Source\os_tmr.c(1033): warning C322: unknown identifier
+compiling ucos_ii.c...
+Source\ucos_ii.c(24): warning C318: can't open file 'ucos_ii.h'
+Source\ucos_ii.c(28): warning C318: can't open file 'os_core.c'
+Source\ucos_ii.c(29): warning C318: can't open file 'os_flag.c'
+Source\ucos_ii.c(30): warning C318: can't open file 'os_mbox.c'
+Source\ucos_ii.c(31): warning C318: can't open file 'os_mem.c'
+Source\ucos_ii.c(32): warning C318: can't open file 'os_mutex.c'
+Source\ucos_ii.c(33): warning C318: can't open file 'os_q.c'
+Source\ucos_ii.c(34): warning C318: can't open file 'os_sem.c'
+Source\ucos_ii.c(35): warning C318: can't open file 'os_task.c'
+Source\ucos_ii.c(36): warning C318: can't open file 'os_time.c'
+Source\ucos_ii.c(37): warning C318: can't open file 'os_tmr.c'
 Target not created

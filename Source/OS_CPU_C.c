@@ -6,8 +6,7 @@
                               初始化任务堆栈
 *********************************************************************************************************
 */
-void *OSTaskStkInit(void (*task)(void *pd), void *ppdata, void *ptos, INT16U opt)
-reentrant
+void *OSTaskStkInit(void (*task)(void *pd), void *ppdata, void *ptos, INT16U opt) reentrant
 {
 	OS_STK *stk;
 	ppdata = ppdata;
@@ -41,8 +40,7 @@ reentrant
 *                          任务创建钩挂函数
 **************************************************************************************
 */
-void OSTackCreateHook(OS_TCB *ptcb) 
-reentrant
+void OSTackCreateHook(OS_TCB *ptcb) reentrant
 {
 	ptcb = ptcb;
 }
@@ -52,8 +50,7 @@ reentrant
 *                          任务删除钩挂函数
 **************************************************************************************
 */
-void OSTackDelHook(OS_TCB *ptcb)
-reentrant
+void OSTackDelHook(OS_TCB *ptcb) reentrant
 {
 	ptcb = ptcb;
 }
@@ -63,3 +60,35 @@ reentrant
 *                          任务切换钩挂函数
 **************************************************************************************
 */
+void OSTaskSwHook(void) reentrant
+{
+}
+
+/*
+**************************************************************************************
+*                          统计任务钩挂函数
+**************************************************************************************
+*/
+void OSTaskStatHook(void) reentrant
+{
+}
+
+/*
+**************************************************************************************
+*                          定时钩挂函数
+**************************************************************************************
+*/
+void OSTimeTickHook(void) reentrant
+{
+}
+#endif
+//初始化定时器0
+void InitTimer0(void) reentrant
+{
+	TMOD = TMOD & 0x00;
+	TMOD = TMOD | 0x01;         //方式1（16位定时器），仅受TR0控制
+	TH0 = 0xB1;                 //定义Tick=50次/秒（即0.02秒/次）
+	TL0 = 0xE0;
+	ET0 = 1;                    //允许T0中断
+	TR0 = 1;
+}

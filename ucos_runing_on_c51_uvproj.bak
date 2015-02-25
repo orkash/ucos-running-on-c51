@@ -365,6 +365,11 @@
               <FileType>5</FileType>
               <FilePath>.\Source\OS_CPU.h</FilePath>
             </File>
+            <File>
+              <FileName>OS_CPU_C.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Source\OS_CPU_C.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -1,4 +1,4 @@
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 10:39:22 PAGE 1   
+C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 11:31:53 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_TIME
@@ -34,200 +34,6 @@ line level    source
   24          #ifndef  OS_MASTER_FILE
   25          #include <ucos_ii.h>
 *** WARNING C318 IN LINE 44 OF .\Source\ucos_ii.h: can't open file 'app_cfg.h'
-*** WARNING C318 IN LINE 45 OF .\Source\ucos_ii.h: can't open file 'os_cfg.h'
-*** WARNING C322 IN LINE 72 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 81 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 170 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 345 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 419 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 463 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 479 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 506 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 520 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 537 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 10:39:22 PAGE 2   
-
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 577 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 581 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 589 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 593 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 605 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 656 OF .\Source\ucos_ii.h: unknown identifier
-*** ERROR C202 IN LINE 672 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
-*** ERROR C136 IN LINE 672 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** ERROR C202 IN LINE 684 OF .\Source\ucos_ii.h: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
-*** ERROR C136 IN LINE 684 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** ERROR C202 IN LINE 691 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
-*** ERROR C136 IN LINE 691 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** ERROR C202 IN LINE 692 OF .\Source\ucos_ii.h: 'OS_MAX_TASKS': undefined identifier
-*** ERROR C136 IN LINE 692 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** WARNING C322 IN LINE 694 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 708 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 712 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 823 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 904 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 999 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1044 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1049 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1056 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1068 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1073 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1083 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1093 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1100 OF .\Source\ucos_ii.h: unknown identifier
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 10:39:22 PAGE 3   
-
-*** WARNING C322 IN LINE 1120 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1127 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1131 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1144 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1193 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1212 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1253 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1267 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1289 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1301 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1321 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1327 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1339 OF .\Source\ucos_ii.h: unknown identifier
-*** ERROR C320 IN LINE 1393 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generat
-             -ion for Event Flags"
-*** ERROR C320 IN LINE 1435 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generat
-             -ion for MAILBOXES"
-*** ERROR C320 IN LINE 1469 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generati
-             -on for MEMORY MANAGER"
-*** ERROR C320 IN LINE 1495 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code genera
-             -tion for MUTEX"
-*** ERROR C320 IN LINE 1517 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation
-             - for QUEUES"
-*** ERROR C320 IN LINE 1567 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generati
-             -on for SEMAPHORES"
-*** ERROR C320 IN LINE 1597 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your applica
-             -tion"
-*** WARNING C322 IN LINE 1609 OF .\Source\ucos_ii.h: unknown identifier
-*** ERROR C320 IN LINE 1614 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
-*** ERROR C320 IN LINE 1618 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the stat
-             -istics task"
-*** ERROR C320 IN LINE 1622 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
-*** ERROR C320 IN LINE 1626 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from st
-             -atistics task"
-*** ERROR C320 IN LINE 1630 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskCha
-             -ngePrio()"
-*** ERROR C320 IN LINE 1634 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()
-             -"
-*** ERROR C320 IN LINE 1638 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCrea
-             -teExt()"
-*** ERROR C320 IN LINE 1642 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
-*** ERROR C320 IN LINE 1646 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
-*** ERROR C320 IN LINE 1650 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend
-             -() and OSTaskResume()"
-*** ERROR C320 IN LINE 1654 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 10:39:22 PAGE 4   
-
-*** ERROR C320 IN LINE 1658 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specif
-             -ic registers"
-*** ERROR C320 IN LINE 1672 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one 
-             -second"
-*** ERROR C320 IN LINE 1676 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMS
-             -M()"
-*** ERROR C320 IN LINE 1680 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyR
-             -esume()"
-*** ERROR C320 IN LINE 1684 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() a
-             -nd OSTimeSet()"
-*** ERROR C320 IN LINE 1694 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Ti
-             -mer Management"
-*** ERROR C320 IN LINE 1746 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument 
-             -checking"
-*** ERROR C320 IN LINE 1751 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the p
-             -rocessor port files when 1"
-*** ERROR C320 IN LINE 1756 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are cal
-             -led from the uC/OS-II hooks"
-*** ERROR C320 IN LINE 1761 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for d
-             -ebugging or not"
-*** ERROR C320 IN LINE 1766 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that c
-             -an be assigned"
-*** ERROR C320 IN LINE 1771 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks
-             - in your application"
-*** ERROR C320 IN LINE 1780 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() a
-             -nd OSSchedUnlock()"
-*** ERROR C320 IN LINE 1785 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMul
-             -ti()"
-*** ERROR C320 IN LINE 1790 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run
-             --time task profiling"
-*** ERROR C320 IN LINE 1795 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code
-             - for OSTaskSwHook() or not"
-*** ERROR C320 IN LINE 1800 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a ti
-             -me with uC/OS-View"
-*** ERROR C320 IN LINE 1805 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the co
-             -de for OSTimeTickHook() or not"
   26          #endif
   27          
   28          /*
@@ -254,10 +60,10 @@ line level    source
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
   50   1      
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 10:39:22 PAGE 5   
-
   51   1      
   52   1      
+C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 11:31:53 PAGE 2   
+
   53   1          if (OSIntNesting > 0u) {                     /* See if trying to call from an ISR                  */
   54   2              return;
   55   2          }
@@ -304,25 +110,24 @@ line level    source
   96          */
   97          
   98          #if OS_TIME_DLY_HMSM_EN > 0u
-*** WARNING C322 IN LINE 98 OF Source\os_time.c: unknown identifier
-              INT8U  OSTimeDlyHMSM (INT8U   hours,
-                                    INT8U   minutes,
-                                    INT8U   seconds,
-                                    INT16U  ms)
-              {
-                  INT32U ticks;
-              
-              
-                  if (OSIntNesting > 0u) {                     /* See if trying to call from an ISR                  */
-                      return (OS_ERR_TIME_DLY_ISR);
-                  }
-                  if (OSLockNesting > 0u) {                    /* See if called with scheduler locked                */
-                      return (OS_ERR_SCHED_LOCKED);
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 10:39:22 PAGE 6   
-
-                  }
-              #if OS_ARG_CHK_EN > 0u
+  99          INT8U  OSTimeDlyHMSM (INT8U   hours,
+ 100                                INT8U   minutes,
+ 101                                INT8U   seconds,
+ 102                                INT16U  ms)
+ 103          {
+ 104   1          INT32U ticks;
+ 105   1      
+ 106   1      
+ 107   1          if (OSIntNesting > 0u) {                     /* See if trying to call from an ISR                  */
+ 108   2              return (OS_ERR_TIME_DLY_ISR);
+ 109   2          }
+ 110   1          if (OSLockNesting > 0u) {                    /* See if called with scheduler locked                */
+ 111   2              return (OS_ERR_SCHED_LOCKED);
+ 112   2          }
+ 113   1      #if OS_ARG_CHK_EN > 0u
                   if (hours == 0u) {
+C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 11:31:53 PAGE 3   
+
                       if (minutes == 0u) {
                           if (seconds == 0u) {
                               if (ms == 0u) {
@@ -341,14 +146,14 @@ line level    source
                       return (OS_ERR_TIME_INVALID_MS);
                   }
               #endif
-                                                               /* Compute the total number of clock ticks required.. */
-                                                               /* .. (rounded to the nearest tick)                   */
-                  ticks = ((INT32U)hours * 3600uL + (INT32U)minutes * 60uL + (INT32U)seconds) * OS_TICKS_PER_SEC
-                        + OS_TICKS_PER_SEC * ((INT32U)ms + 500uL / OS_TICKS_PER_SEC) / 1000uL;
-                  OSTimeDly(ticks);
-                  return (OS_ERR_NONE);
-              }
-              #endif
+ 133   1                                                       /* Compute the total number of clock ticks required.. */
+ 134   1                                                       /* .. (rounded to the nearest tick)                   */
+ 135   1          ticks = ((INT32U)hours * 3600uL + (INT32U)minutes * 60uL + (INT32U)seconds) * OS_TICKS_PER_SEC
+ 136   1                + OS_TICKS_PER_SEC * ((INT32U)ms + 500uL / OS_TICKS_PER_SEC) / 1000uL;
+ 137   1          OSTimeDly(ticks);
+ 138   1          return (OS_ERR_NONE);
+ 139   1      }
+ 140          #endif
  141          /*$PAGE*/
  142          /*
  143          *********************************************************************************************************
@@ -371,54 +176,54 @@ line level    source
  159          */
  160          
  161          #if OS_TIME_DLY_RESUME_EN > 0u
-*** WARNING C322 IN LINE 161 OF Source\os_time.c: unknown identifier
-              INT8U  OSTimeDlyResume (INT8U prio)
-              {
-                  OS_TCB    *ptcb;
-              #if OS_CRITICAL_METHOD == 3u                                   /* Storage for CPU status register      */
+ 162          INT8U  OSTimeDlyResume (INT8U prio)
+ 163          {
+ 164   1          OS_TCB    *ptcb;
+ 165   1      #if OS_CRITICAL_METHOD == 3u                                   /* Storage for CPU status register      */
+*** WARNING C322 IN LINE 165 OF Source\os_time.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-              
-              
-              
-                  if (prio >= OS_LOWEST_PRIO) {
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 10:39:22 PAGE 7   
+ 168   1      
+ 169   1      
+ 170   1      
+ 171   1          if (prio >= OS_LOWEST_PRIO) {
+ 172   2              return (OS_ERR_PRIO_INVALID);
+ 173   2          }
+ 174   1          OS_ENTER_CRITICAL();
+C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 11:31:53 PAGE 4   
 
-                      return (OS_ERR_PRIO_INVALID);
-                  }
-                  OS_ENTER_CRITICAL();
-                  ptcb = OSTCBPrioTbl[prio];                                 /* Make sure that task exist            */
-                  if (ptcb == (OS_TCB *)0) {
-                      OS_EXIT_CRITICAL();
-                      return (OS_ERR_TASK_NOT_EXIST);                        /* The task does not exist              */
-                  }
-                  if (ptcb == OS_TCB_RESERVED) {
-                      OS_EXIT_CRITICAL();
-                      return (OS_ERR_TASK_NOT_EXIST);                        /* The task does not exist              */
-                  }
-                  if (ptcb->OSTCBDly == 0u) {                                /* See if task is delayed               */
-                      OS_EXIT_CRITICAL();
-                      return (OS_ERR_TIME_NOT_DLY);                          /* Indicate that task was not delayed   */
-                  }
-              
-                  ptcb->OSTCBDly = 0u;                                       /* Clear the time delay                 */
-                  if ((ptcb->OSTCBStat & OS_STAT_PEND_ANY) != OS_STAT_RDY) {
-                      ptcb->OSTCBStat     &= ~OS_STAT_PEND_ANY;              /* Yes, Clear status flag               */
-                      ptcb->OSTCBStatPend  =  OS_STAT_PEND_TO;               /* Indicate PEND timeout                */
-                  } else {
-                      ptcb->OSTCBStatPend  =  OS_STAT_PEND_OK;
-                  }
-                  if ((ptcb->OSTCBStat & OS_STAT_SUSPEND) == OS_STAT_RDY) {  /* Is task suspended?                   */
-                      OSRdyGrp               |= ptcb->OSTCBBitY;             /* No,  Make ready                      */
-                      OSRdyTbl[ptcb->OSTCBY] |= ptcb->OSTCBBitX;
-                      OS_EXIT_CRITICAL();
-                      OS_Sched();                                            /* See if this is new highest priority  */
-                  } else {
-                      OS_EXIT_CRITICAL();                                    /* Task may be suspended                */
-                  }
-                  return (OS_ERR_NONE);
-              }
-              #endif
+ 175   1          ptcb = OSTCBPrioTbl[prio];                                 /* Make sure that task exist            */
+ 176   1          if (ptcb == (OS_TCB *)0) {
+ 177   2              OS_EXIT_CRITICAL();
+ 178   2              return (OS_ERR_TASK_NOT_EXIST);                        /* The task does not exist              */
+ 179   2          }
+ 180   1          if (ptcb == OS_TCB_RESERVED) {
+ 181   2              OS_EXIT_CRITICAL();
+ 182   2              return (OS_ERR_TASK_NOT_EXIST);                        /* The task does not exist              */
+ 183   2          }
+ 184   1          if (ptcb->OSTCBDly == 0u) {                                /* See if task is delayed               */
+ 185   2              OS_EXIT_CRITICAL();
+ 186   2              return (OS_ERR_TIME_NOT_DLY);                          /* Indicate that task was not delayed   */
+ 187   2          }
+ 188   1      
+ 189   1          ptcb->OSTCBDly = 0u;                                       /* Clear the time delay                 */
+ 190   1          if ((ptcb->OSTCBStat & OS_STAT_PEND_ANY) != OS_STAT_RDY) {
+ 191   2              ptcb->OSTCBStat     &= ~OS_STAT_PEND_ANY;              /* Yes, Clear status flag               */
+ 192   2              ptcb->OSTCBStatPend  =  OS_STAT_PEND_TO;               /* Indicate PEND timeout                */
+ 193   2          } else {
+ 194   2              ptcb->OSTCBStatPend  =  OS_STAT_PEND_OK;
+ 195   2          }
+ 196   1          if ((ptcb->OSTCBStat & OS_STAT_SUSPEND) == OS_STAT_RDY) {  /* Is task suspended?                   */
+ 197   2              OSRdyGrp               |= ptcb->OSTCBBitY;             /* No,  Make ready                      */
+ 198   2              OSRdyTbl[ptcb->OSTCBY] |= ptcb->OSTCBBitX;
+ 199   2              OS_EXIT_CRITICAL();
+ 200   2              OS_Sched();                                            /* See if this is new highest priority  */
+ 201   2          } else {
+ 202   2              OS_EXIT_CRITICAL();                                    /* Task may be suspended                */
+ 203   2          }
+ 204   1          return (OS_ERR_NONE);
+ 205   1      }
+ 206          #endif
  207          /*$PAGE*/
  208          /*
  209          *********************************************************************************************************
@@ -434,24 +239,24 @@ line level    source
  219          */
  220          
  221          #if OS_TIME_GET_SET_EN > 0u
-*** WARNING C322 IN LINE 221 OF Source\os_time.c: unknown identifier
-              INT32U  OSTimeGet (void)
-              {
-                  INT32U     ticks;
-              #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
+ 222          INT32U  OSTimeGet (void)
+ 223          {
+ 224   1          INT32U     ticks;
+ 225   1      #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
+*** WARNING C322 IN LINE 225 OF Source\os_time.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-              
-              
-              
-                  OS_ENTER_CRITICAL();
-                  ticks = OSTime;
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 10:39:22 PAGE 8   
+ 228   1      
+ 229   1      
+ 230   1      
+ 231   1          OS_ENTER_CRITICAL();
+ 232   1          ticks = OSTime;
+ 233   1          OS_EXIT_CRITICAL();
+ 234   1          return (ticks);
+ 235   1      }
+C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 11:31:53 PAGE 5   
 
-                  OS_EXIT_CRITICAL();
-                  return (ticks);
-              }
-              #endif
+ 236          #endif
  237          
  238          /*
  239          *********************************************************************************************************
@@ -466,21 +271,33 @@ line level    source
  248          */
  249          
  250          #if OS_TIME_GET_SET_EN > 0u
-*** WARNING C322 IN LINE 250 OF Source\os_time.c: unknown identifier
-              void  OSTimeSet (INT32U ticks)
-              {
-              #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
+ 251          void  OSTimeSet (INT32U ticks)
+ 252          {
+ 253   1      #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
+*** WARNING C322 IN LINE 253 OF Source\os_time.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-              
-              
-              
-                  OS_ENTER_CRITICAL();
-                  OSTime = ticks;
-                  OS_EXIT_CRITICAL();
-              }
-              #endif
+ 256   1      
+ 257   1      
+ 258   1      
+ 259   1          OS_ENTER_CRITICAL();
+ 260   1          OSTime = ticks;
+ 261   1          OS_EXIT_CRITICAL();
+ 262   1      }
+ 263          #endif
  264                                                                                                                                                       
              -                                                                                
 
-C51 COMPILATION COMPLETE.  119 WARNING(S),  44 ERROR(S)
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    516    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      11
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  5 WARNING(S),  0 ERROR(S)

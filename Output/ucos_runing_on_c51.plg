@@ -140,7 +140,6 @@ Source\OS_CPU_A.asm(201): error A37: OPERATION INVALID IN THIS SEGMENT
 Source\OS_CPU_A.asm(202): error A37: OPERATION INVALID IN THIS SEGMENT
 Source\OS_CPU_A.asm(207): error A9: SYNTAX ERROR
 compiling OS_CPU_C.c...
-Source\OS_CPU_C.c(2): warning C318: can't open file 'includes.h'
 Source\OS_CPU_C.c(9): error C141: syntax error near 'opt', expected ')'
 Source\OS_CPU_C.c(11): error C202: 'OS_STK': undefined identifier
 Source\OS_CPU_C.c(13): error C202: 'opt': undefined identifier
@@ -167,12 +166,6 @@ Source\OS_CPU_C.c(30): error C202: 'stk': undefined identifier
 Source\OS_CPU_C.c(32): error C202: 'stk': undefined identifier
 Source\OS_CPU_C.c(33): error C202: 'stk': undefined identifier
 Source\OS_CPU_C.c(37): warning C322: unknown identifier
-Source\OS_CPU_C.c(88): error C202: 'TMOD': undefined identifier
-Source\OS_CPU_C.c(89): error C202: 'TMOD': undefined identifier
-Source\OS_CPU_C.c(90): error C202: 'TH0': undefined identifier
-Source\OS_CPU_C.c(91): error C202: 'TL0': undefined identifier
-Source\OS_CPU_C.c(92): error C202: 'ET0': undefined identifier
-Source\OS_CPU_C.c(93): error C202: 'TR0': undefined identifier
 compiling os_core.c...
 .\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
 .\Source\ucos_ii.h(45): warning C318: can't open file 'os_cfg.h'
@@ -2416,4 +2409,369 @@ compiling ucos_ii.c...
 .\Source\os_tmr.c(937): warning C322: unknown identifier
 .\Source\os_tmr.c(987): warning C322: unknown identifier
 .\Source\os_tmr.c(1033): warning C322: unknown identifier
+Target not created
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+assembling OS_CPU_A.asm...
+Source\OS_CPU_A.asm(85): error A9: SYNTAX ERROR
+Source\OS_CPU_A.asm(88): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(91): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(92): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(93): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(94): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(95): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(97): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(98): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(99): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(100): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(101): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(102): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(103): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(104): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(106): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(107): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(109): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(111): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(112): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(113): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(114): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(115): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(117): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(119): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(120): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(121): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(122): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(123): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(124): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(126): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(127): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(128): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(129): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(130): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(133): error A9: SYNTAX ERROR
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(135): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(138): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(139): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(140): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(141): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(143): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(145): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(146): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(147): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(148): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(150): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(151): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(152): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(153): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(154): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(155): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(156): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(157): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(159): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(160): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(161): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(163): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(164): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(165): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(166): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(167): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(169): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(170): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(171): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(172): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(173): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(174): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(176): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(178): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(179): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(180): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(181): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(182): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(183): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(184): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(185): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(187): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(188): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(189): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(190): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(191): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(194): error A9: SYNTAX ERROR
+Source\OS_CPU_A.asm(198): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(199): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(200): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(201): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(202): error A37: OPERATION INVALID IN THIS SEGMENT
+Source\OS_CPU_A.asm(207): error A9: SYNTAX ERROR
+compiling OS_CPU_C.c...
+Source\OS_CPU_C.c(9): error C141: syntax error near 'opt', expected ')'
+Source\OS_CPU_C.c(11): error C202: 'OS_STK': undefined identifier
+Source\OS_CPU_C.c(13): error C202: 'opt': undefined identifier
+Source\OS_CPU_C.c(14): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(14): error C141: syntax error near ')'
+Source\OS_CPU_C.c(15): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(16): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(16): error C141: syntax error near 'task'
+Source\OS_CPU_C.c(17): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(17): error C141: syntax error near 'task'
+Source\OS_CPU_C.c(18): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(19): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(20): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(21): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(22): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(23): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(24): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(25): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(26): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(27): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(28): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(29): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(30): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(32): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(33): error C202: 'stk': undefined identifier
+Source\OS_CPU_C.c(37): warning C322: unknown identifier
+compiling os_core.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+Source\os_core.c(113): warning C322: unknown identifier
+Source\os_core.c(191): warning C322: unknown identifier
+Source\os_core.c(322): warning C322: unknown identifier
+Source\os_core.c(665): warning C322: unknown identifier
+Source\os_core.c(685): warning C206: 'OSIntCtxSw': missing function-prototype
+Source\os_core.c(738): warning C322: unknown identifier
+Source\os_core.c(775): warning C322: unknown identifier
+Source\os_core.c(830): warning C206: 'OSStartHighRdy': missing function-prototype
+Source\os_core.c(857): warning C322: unknown identifier
+Source\os_core.c(895): warning C322: unknown identifier
+Source\os_core.c(1406): warning C322: unknown identifier
+Source\os_core.c(1468): warning C322: unknown identifier
+Source\os_core.c(1632): warning C322: unknown identifier
+Source\os_core.c(1648): warning C206: 'OSCtxSw': missing function-prototype
+Source\os_core.c(1754): warning C322: unknown identifier
+Source\os_core.c(1796): warning C322: unknown identifier
+Source\os_core.c(1860): warning C322: unknown identifier
+Source\os_core.c(1926): warning C322: unknown identifier
+Source\os_core.c(2028): error C249: 'DATA': SEGMENT TOO LARGE
+compiling os_dbg_r.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+compiling os_flag.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+Source\os_flag.c(100): warning C322: unknown identifier
+Source\os_flag.c(218): warning C322: unknown identifier
+Source\os_flag.c(305): warning C322: unknown identifier
+Source\os_flag.c(417): warning C322: unknown identifier
+Source\os_flag.c(486): warning C322: unknown identifier
+Source\os_flag.c(591): warning C322: unknown identifier
+Source\os_flag.c(768): warning C322: unknown identifier
+Source\os_flag.c(832): warning C322: unknown identifier
+Source\os_flag.c(957): warning C322: unknown identifier
+compiling os_mbox.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+Source\os_mbox.c(50): warning C322: unknown identifier
+Source\os_mbox.c(91): warning C322: unknown identifier
+Source\os_mbox.c(167): warning C322: unknown identifier
+Source\os_mbox.c(287): warning C322: unknown identifier
+Source\os_mbox.c(399): warning C322: unknown identifier
+Source\os_mbox.c(476): warning C322: unknown identifier
+Source\os_mbox.c(549): warning C322: unknown identifier
+Source\os_mbox.c(617): warning C322: unknown identifier
+compiling os_mem.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+Source\os_mem.c(69): warning C322: unknown identifier
+Source\os_mem.c(157): warning C322: unknown identifier
+Source\os_mem.c(216): warning C322: unknown identifier
+Source\os_mem.c(279): warning C322: unknown identifier
+Source\os_mem.c(334): warning C322: unknown identifier
+Source\os_mem.c(382): warning C322: unknown identifier
+compiling os_mutex.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+Source\os_mutex.c(88): warning C322: unknown identifier
+Source\os_mutex.c(174): warning C322: unknown identifier
+Source\os_mutex.c(280): warning C322: unknown identifier
+Source\os_mutex.c(424): warning C322: unknown identifier
+Source\os_mutex.c(576): warning C322: unknown identifier
+Source\os_mutex.c(651): warning C322: unknown identifier
+compiling os_q.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+Source\os_q.c(66): warning C322: unknown identifier
+Source\os_q.c(130): warning C322: unknown identifier
+Source\os_q.c(229): warning C322: unknown identifier
+Source\os_q.c(340): warning C322: unknown identifier
+Source\os_q.c(407): warning C322: unknown identifier
+Source\os_q.c(523): warning C322: unknown identifier
+Source\os_q.c(598): warning C322: unknown identifier
+Source\os_q.c(661): warning C322: unknown identifier
+Source\os_q.c(734): warning C322: unknown identifier
+Source\os_q.c(812): warning C322: unknown identifier
+compiling os_sem.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+Source\os_sem.c(52): warning C322: unknown identifier
+Source\os_sem.c(97): warning C322: unknown identifier
+Source\os_sem.c(175): warning C322: unknown identifier
+Source\os_sem.c(293): warning C322: unknown identifier
+Source\os_sem.c(402): warning C322: unknown identifier
+Source\os_sem.c(473): warning C322: unknown identifier
+Source\os_sem.c(531): warning C322: unknown identifier
+Source\os_sem.c(591): warning C322: unknown identifier
+compiling os_task.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+Source\os_task.c(68): warning C322: unknown identifier
+Source\os_task.c(214): warning C322: unknown identifier
+Source\os_task.c(341): warning C322: unknown identifier
+Source\os_task.c(433): warning C322: unknown identifier
+Source\os_task.c(577): warning C322: unknown identifier
+Source\os_task.c(646): warning C322: unknown identifier
+Source\os_task.c(726): warning C322: unknown identifier
+Source\os_task.c(798): warning C322: unknown identifier
+Source\os_task.c(869): warning C322: unknown identifier
+Source\os_task.c(908): warning C322: unknown identifier
+Source\os_task.c(952): warning C322: unknown identifier
+Source\os_task.c(1024): warning C322: unknown identifier
+Source\os_task.c(1091): warning C322: unknown identifier
+Source\os_task.c(1158): warning C322: unknown identifier
+Source\os_task.c(1247): warning C322: unknown identifier
+compiling os_time.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+Source\os_time.c(47): warning C322: unknown identifier
+Source\os_time.c(165): warning C322: unknown identifier
+Source\os_time.c(225): warning C322: unknown identifier
+Source\os_time.c(253): warning C322: unknown identifier
+compiling os_tmr.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+Source\os_tmr.c(652): error C212: indirect call: parameters do not fit within registers
+Source\os_tmr.c(661): error C212: indirect call: parameters do not fit within registers
+Source\os_tmr.c(878): warning C322: unknown identifier
+Source\os_tmr.c(892): error C202: 'OS_TASK_TMR_PRIO': undefined identifier
+Source\os_tmr.c(914): error C202: 'OS_TASK_TMR_PRIO': undefined identifier
+Source\os_tmr.c(1064): error C212: indirect call: parameters do not fit within registers
+compiling ucos_ii.c...
+.\Source\ucos_ii.h(44): warning C318: can't open file 'app_cfg.h'
+.\Source\os_core.c(113): warning C322: unknown identifier
+.\Source\os_core.c(191): warning C322: unknown identifier
+.\Source\os_core.c(322): warning C322: unknown identifier
+.\Source\os_core.c(665): warning C322: unknown identifier
+.\Source\os_core.c(685): warning C206: 'OSIntCtxSw': missing function-prototype
+.\Source\os_core.c(738): warning C322: unknown identifier
+.\Source\os_core.c(775): warning C322: unknown identifier
+.\Source\os_core.c(830): warning C206: 'OSStartHighRdy': missing function-prototype
+.\Source\os_core.c(857): warning C322: unknown identifier
+.\Source\os_core.c(895): warning C322: unknown identifier
+.\Source\os_core.c(1406): warning C322: unknown identifier
+.\Source\os_core.c(1468): warning C322: unknown identifier
+.\Source\os_core.c(1632): warning C322: unknown identifier
+.\Source\os_core.c(1648): warning C206: 'OSCtxSw': missing function-prototype
+.\Source\os_core.c(1754): warning C322: unknown identifier
+.\Source\os_core.c(1796): warning C322: unknown identifier
+.\Source\os_core.c(1860): warning C322: unknown identifier
+.\Source\os_core.c(1926): warning C322: unknown identifier
+.\Source\os_flag.c(100): warning C322: unknown identifier
+.\Source\os_flag.c(218): warning C322: unknown identifier
+.\Source\os_flag.c(305): warning C322: unknown identifier
+.\Source\os_flag.c(417): warning C322: unknown identifier
+.\Source\os_flag.c(486): warning C322: unknown identifier
+.\Source\os_flag.c(591): warning C322: unknown identifier
+.\Source\os_flag.c(768): warning C322: unknown identifier
+.\Source\os_flag.c(832): warning C322: unknown identifier
+.\Source\os_flag.c(957): warning C322: unknown identifier
+.\Source\os_mbox.c(50): warning C322: unknown identifier
+.\Source\os_mbox.c(91): warning C322: unknown identifier
+.\Source\os_mbox.c(167): warning C322: unknown identifier
+.\Source\os_mbox.c(287): warning C322: unknown identifier
+.\Source\os_mbox.c(399): warning C322: unknown identifier
+.\Source\os_mbox.c(476): warning C322: unknown identifier
+.\Source\os_mbox.c(549): warning C322: unknown identifier
+.\Source\os_mbox.c(617): warning C322: unknown identifier
+.\Source\os_mem.c(69): warning C322: unknown identifier
+.\Source\os_mem.c(157): warning C322: unknown identifier
+.\Source\os_mem.c(216): warning C322: unknown identifier
+.\Source\os_mem.c(279): warning C322: unknown identifier
+.\Source\os_mem.c(334): warning C322: unknown identifier
+.\Source\os_mem.c(382): warning C322: unknown identifier
+.\Source\os_mutex.c(88): warning C322: unknown identifier
+.\Source\os_mutex.c(174): warning C322: unknown identifier
+.\Source\os_mutex.c(280): warning C322: unknown identifier
+.\Source\os_mutex.c(424): warning C322: unknown identifier
+.\Source\os_mutex.c(576): warning C322: unknown identifier
+.\Source\os_mutex.c(651): warning C322: unknown identifier
+.\Source\os_q.c(66): warning C322: unknown identifier
+.\Source\os_q.c(130): warning C322: unknown identifier
+.\Source\os_q.c(229): warning C322: unknown identifier
+.\Source\os_q.c(340): warning C322: unknown identifier
+.\Source\os_q.c(407): warning C322: unknown identifier
+.\Source\os_q.c(523): warning C322: unknown identifier
+.\Source\os_q.c(598): warning C322: unknown identifier
+.\Source\os_q.c(661): warning C322: unknown identifier
+.\Source\os_q.c(734): warning C322: unknown identifier
+.\Source\os_q.c(812): warning C322: unknown identifier
+.\Source\os_sem.c(52): warning C322: unknown identifier
+.\Source\os_sem.c(97): warning C322: unknown identifier
+.\Source\os_sem.c(175): warning C322: unknown identifier
+.\Source\os_sem.c(293): warning C322: unknown identifier
+.\Source\os_sem.c(402): warning C322: unknown identifier
+.\Source\os_sem.c(473): warning C322: unknown identifier
+.\Source\os_sem.c(531): warning C322: unknown identifier
+.\Source\os_sem.c(591): warning C322: unknown identifier
+.\Source\os_task.c(68): warning C322: unknown identifier
+.\Source\os_task.c(214): warning C322: unknown identifier
+.\Source\os_task.c(341): warning C322: unknown identifier
+.\Source\os_task.c(433): warning C322: unknown identifier
+.\Source\os_task.c(577): warning C322: unknown identifier
+.\Source\os_task.c(646): warning C322: unknown identifier
+.\Source\os_task.c(726): warning C322: unknown identifier
+.\Source\os_task.c(798): warning C322: unknown identifier
+.\Source\os_task.c(869): warning C322: unknown identifier
+.\Source\os_task.c(908): warning C322: unknown identifier
+.\Source\os_task.c(952): warning C322: unknown identifier
+.\Source\os_task.c(1024): warning C322: unknown identifier
+.\Source\os_task.c(1091): warning C322: unknown identifier
+.\Source\os_task.c(1158): warning C322: unknown identifier
+.\Source\os_task.c(1247): warning C322: unknown identifier
+.\Source\os_time.c(47): warning C322: unknown identifier
+.\Source\os_time.c(165): warning C322: unknown identifier
+.\Source\os_time.c(225): warning C322: unknown identifier
+.\Source\os_time.c(253): warning C322: unknown identifier
+.\Source\os_tmr.c(652): error C212: indirect call: parameters do not fit within registers
+.\Source\os_tmr.c(661): error C212: indirect call: parameters do not fit within registers
+.\Source\os_tmr.c(878): warning C322: unknown identifier
+.\Source\os_tmr.c(892): error C202: 'OS_TASK_TMR_PRIO': undefined identifier
+.\Source\os_tmr.c(914): error C202: 'OS_TASK_TMR_PRIO': undefined identifier
+.\Source\os_tmr.c(1064): error C212: indirect call: parameters do not fit within registers
 Target not created

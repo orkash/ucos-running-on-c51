@@ -1,4 +1,4 @@
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 10:39:13 PAGE     1
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 11:31:49 PAGE     1
 
 
 MACRO ASSEMBLER A51 V8.02b
@@ -65,7 +65,7 @@ LOC  OBJ            LINE     SOURCE
                       55                ; PUSH SP      ; 不比保存SP，任务切换时由相应程序调整
                       56                ENDM
                       57     
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 10:39:13 PAGE     2
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 11:31:49 PAGE     2
 
                       58     ; 定义出栈宏
                       59     POPALL MACRO
@@ -133,7 +133,7 @@ LOC  OBJ            LINE     SOURCE
 *** ____________________________________^
 *** ERROR #A37 IN 100 (Source\OS_CPU_A.asm, LINE 100): OPERATION INVALID IN THIS SEGMENT
                      101                MOVX A, @DPTR
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 10:39:13 PAGE     3
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 11:31:49 PAGE     3
 
 *** ____________________________________^
 *** ERROR #A37 IN 101 (Source\OS_CPU_A.asm, LINE 101): OPERATION INVALID IN THIS SEGMENT
@@ -201,7 +201,7 @@ LOC  OBJ            LINE     SOURCE
 *** ____________________________________^
 *** ERROR #A37 IN 126 (Source\OS_CPU_A.asm, LINE 126): OPERATION INVALID IN THIS SEGMENT
                      127                MOV  @R0, #01
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 10:39:13 PAGE     4
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 11:31:49 PAGE     4
 
 *** ____________________________________^
 *** ERROR #A37 IN 127 (Source\OS_CPU_A.asm, LINE 127): OPERATION INVALID IN THIS SEGMENT
@@ -269,7 +269,7 @@ LOC  OBJ            LINE     SOURCE
                      150+1              POP PSW
 *** ____________________________________^
 *** ERROR #A37 IN 150 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 10:39:13 PAGE     5
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 11:31:49 PAGE     5
 
                      151                SETB EA
 *** ____________________________________^
@@ -337,7 +337,7 @@ LOC  OBJ            LINE     SOURCE
 *** ERROR #A37 IN 174 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
                      175+1              MOV  A,R6
 *** ____________________________________^
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 10:39:13 PAGE     6
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 11:31:49 PAGE     6
 
 *** ERROR #A37 IN 175 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
                      176+1              PUSH ACC
@@ -405,7 +405,7 @@ LOC  OBJ            LINE     SOURCE
                      201                MOV  DPL, R1
 *** ____________________________________^
 *** ERROR #A37 IN 201 (Source\OS_CPU_A.asm, LINE 157): OPERATION INVALID IN THIS SEGMENT
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 10:39:13 PAGE     7
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 11:31:49 PAGE     7
 
                      202                ; 保存堆栈长度
                      203                MOV  A, R5
@@ -473,7 +473,7 @@ LOC  OBJ            LINE     SOURCE
 *** ____________________________________^
 *** ERROR #A37 IN 226 (Source\OS_CPU_A.asm, LINE 182): OPERATION INVALID IN THIS SEGMENT
                      227                INC  R1
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 10:39:13 PAGE     8
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 11:31:49 PAGE     8
 
 *** ____________________________________^
 *** ERROR #A37 IN 227 (Source\OS_CPU_A.asm, LINE 183): OPERATION INVALID IN THIS SEGMENT
@@ -541,11 +541,11 @@ LOC  OBJ            LINE     SOURCE
 0040 120000   F      283                LCALL _?OSIntExit
                      284                POPALL
 0065 32              307                RETI
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 10:39:13 PAGE     9
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 11:31:49 PAGE     9
 
                      308                
                      309                END
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 10:39:13 PAGE    10
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 11:31:49 PAGE    10
 
 SYMBOL TABLE LISTING
 ------ ----- -------

@@ -1,4 +1,4 @@
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 1   
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_Q
@@ -34,533 +34,341 @@ line level    source
   24          #ifndef  OS_MASTER_FILE
   25          #include <ucos_ii.h>
 *** WARNING C318 IN LINE 44 OF .\Source\ucos_ii.h: can't open file 'app_cfg.h'
-*** WARNING C318 IN LINE 45 OF .\Source\ucos_ii.h: can't open file 'os_cfg.h'
-*** WARNING C322 IN LINE 72 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 81 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 170 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 345 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 419 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 463 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 479 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 506 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 520 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 537 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 2   
-
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 577 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 581 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 589 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 593 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 605 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 656 OF .\Source\ucos_ii.h: unknown identifier
-*** ERROR C202 IN LINE 672 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
-*** ERROR C136 IN LINE 672 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** ERROR C202 IN LINE 684 OF .\Source\ucos_ii.h: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
-*** ERROR C136 IN LINE 684 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** ERROR C202 IN LINE 691 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
-*** ERROR C136 IN LINE 691 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** ERROR C202 IN LINE 692 OF .\Source\ucos_ii.h: 'OS_MAX_TASKS': undefined identifier
-*** ERROR C136 IN LINE 692 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** WARNING C322 IN LINE 694 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 708 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 712 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 823 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 904 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 999 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1044 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1049 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1056 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1068 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1073 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1083 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1093 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1100 OF .\Source\ucos_ii.h: unknown identifier
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 3   
-
-*** WARNING C322 IN LINE 1120 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1127 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1131 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1144 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1193 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1212 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1253 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1267 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1289 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1301 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1321 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1327 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1339 OF .\Source\ucos_ii.h: unknown identifier
-*** ERROR C320 IN LINE 1393 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generat
-             -ion for Event Flags"
-*** ERROR C320 IN LINE 1435 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generat
-             -ion for MAILBOXES"
-*** ERROR C320 IN LINE 1469 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generati
-             -on for MEMORY MANAGER"
-*** ERROR C320 IN LINE 1495 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code genera
-             -tion for MUTEX"
-*** ERROR C320 IN LINE 1517 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation
-             - for QUEUES"
-*** ERROR C320 IN LINE 1567 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generati
-             -on for SEMAPHORES"
-*** ERROR C320 IN LINE 1597 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your applica
-             -tion"
-*** WARNING C322 IN LINE 1609 OF .\Source\ucos_ii.h: unknown identifier
-*** ERROR C320 IN LINE 1614 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
-*** ERROR C320 IN LINE 1618 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the stat
-             -istics task"
-*** ERROR C320 IN LINE 1622 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
-*** ERROR C320 IN LINE 1626 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from st
-             -atistics task"
-*** ERROR C320 IN LINE 1630 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskCha
-             -ngePrio()"
-*** ERROR C320 IN LINE 1634 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()
-             -"
-*** ERROR C320 IN LINE 1638 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCrea
-             -teExt()"
-*** ERROR C320 IN LINE 1642 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
-*** ERROR C320 IN LINE 1646 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
-*** ERROR C320 IN LINE 1650 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend
-             -() and OSTaskResume()"
-*** ERROR C320 IN LINE 1654 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 4   
-
-*** ERROR C320 IN LINE 1658 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specif
-             -ic registers"
-*** ERROR C320 IN LINE 1672 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one 
-             -second"
-*** ERROR C320 IN LINE 1676 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMS
-             -M()"
-*** ERROR C320 IN LINE 1680 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyR
-             -esume()"
-*** ERROR C320 IN LINE 1684 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() a
-             -nd OSTimeSet()"
-*** ERROR C320 IN LINE 1694 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Ti
-             -mer Management"
-*** ERROR C320 IN LINE 1746 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument 
-             -checking"
-*** ERROR C320 IN LINE 1751 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the p
-             -rocessor port files when 1"
-*** ERROR C320 IN LINE 1756 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are cal
-             -led from the uC/OS-II hooks"
-*** ERROR C320 IN LINE 1761 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for d
-             -ebugging or not"
-*** ERROR C320 IN LINE 1766 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that c
-             -an be assigned"
-*** ERROR C320 IN LINE 1771 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks
-             - in your application"
-*** ERROR C320 IN LINE 1780 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() a
-             -nd OSSchedUnlock()"
-*** ERROR C320 IN LINE 1785 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMul
-             -ti()"
-*** ERROR C320 IN LINE 1790 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run
-             --time task profiling"
-*** ERROR C320 IN LINE 1795 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code
-             - for OSTaskSwHook() or not"
-*** ERROR C320 IN LINE 1800 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a ti
-             -me with uC/OS-View"
-*** ERROR C320 IN LINE 1805 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the co
-             -de for OSTimeTickHook() or not"
   26          #endif
   27          
   28          #if (OS_Q_EN > 0u) && (OS_MAX_QS > 0u)
-*** WARNING C322 IN LINE 28 OF Source\os_q.c: unknown identifier
-*** WARNING C322 IN LINE 28 OF Source\os_q.c: unknown identifier
-              /*
-              *********************************************************************************************************
-              *                                      ACCEPT MESSAGE FROM QUEUE
-              *
-              * Description: This function checks the queue to see if a message is available.  Unlike OSQPend(),
-              *              OSQAccept() does not suspend the calling task if a message is not available.
-              *
-              * Arguments  : pevent        is a pointer to the event control block
-              *
-              *              perr          is a pointer to where an error message will be deposited.  Possible error
-              *                            messages are:
-              *
-              *                            OS_ERR_NONE         The call was successful and your task received a
-              *                                                message.
-              *                            OS_ERR_EVENT_TYPE   You didn't pass a pointer to a queue
-              *                            OS_ERR_PEVENT_NULL  If 'pevent' is a NULL pointer
-              *                            OS_ERR_Q_EMPTY      The queue did not contain any messages
-              *
-              * Returns    : != (void *)0  is the message in the queue if one is available.  The message is removed
-              *                            from the so the next time OSQAccept() is called, the queue will contain
-              *                            one less entry.
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 5   
+  29          /*
+  30          *********************************************************************************************************
+  31          *                                      ACCEPT MESSAGE FROM QUEUE
+  32          *
+  33          * Description: This function checks the queue to see if a message is available.  Unlike OSQPend(),
+  34          *              OSQAccept() does not suspend the calling task if a message is not available.
+  35          *
+  36          * Arguments  : pevent        is a pointer to the event control block
+  37          *
+  38          *              perr          is a pointer to where an error message will be deposited.  Possible error
+  39          *                            messages are:
+  40          *
+  41          *                            OS_ERR_NONE         The call was successful and your task received a
+  42          *                                                message.
+  43          *                            OS_ERR_EVENT_TYPE   You didn't pass a pointer to a queue
+  44          *                            OS_ERR_PEVENT_NULL  If 'pevent' is a NULL pointer
+  45          *                            OS_ERR_Q_EMPTY      The queue did not contain any messages
+  46          *
+  47          * Returns    : != (void *)0  is the message in the queue if one is available.  The message is removed
+  48          *                            from the so the next time OSQAccept() is called, the queue will contain
+  49          *                            one less entry.
+  50          *              == (void *)0  if you received a NULL pointer message
+  51          *                            if the queue is empty or,
+  52          *                            if 'pevent' is a NULL pointer or,
+  53          *                            if you passed an invalid event type
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 2   
 
-              *              == (void *)0  if you received a NULL pointer message
-              *                            if the queue is empty or,
-              *                            if 'pevent' is a NULL pointer or,
-              *                            if you passed an invalid event type
-              *
-              * Note(s)    : As of V2.60, you can now pass NULL pointers through queues.  Because of this, the argument
-              *              'perr' has been added to the API to tell you about the outcome of the call.
-              *********************************************************************************************************
-              */
-              
-              #if OS_Q_ACCEPT_EN > 0u
-              void  *OSQAccept (OS_EVENT  *pevent,
-                                INT8U     *perr)
-              {
-                  void      *pmsg;
-                  OS_Q      *pq;
-              #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
+  54          *
+  55          * Note(s)    : As of V2.60, you can now pass NULL pointers through queues.  Because of this, the argument
+  56          *              'perr' has been added to the API to tell you about the outcome of the call.
+  57          *********************************************************************************************************
+  58          */
+  59          
+  60          #if OS_Q_ACCEPT_EN > 0u
+  61          void  *OSQAccept (OS_EVENT  *pevent,
+  62                            INT8U     *perr)
+  63          {
+  64   1          void      *pmsg;
+  65   1          OS_Q      *pq;
+  66   1      #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
+*** WARNING C322 IN LINE 66 OF Source\os_q.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-              
-              
-              
-              #ifdef OS_SAFETY_CRITICAL
+  69   1      
+  70   1      
+  71   1      
+  72   1      #ifdef OS_SAFETY_CRITICAL
                   if (perr == (INT8U *)0) {
                       OS_SAFETY_CRITICAL_EXCEPTION();
                   }
               #endif
-              
-              #if OS_ARG_CHK_EN > 0u
+  77   1      
+  78   1      #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {               /* Validate 'pevent'                                  */
                       *perr = OS_ERR_PEVENT_NULL;
                       return ((void *)0);
                   }
               #endif
-                  if (pevent->OSEventType != OS_EVENT_TYPE_Q) {/* Validate event block type                          */
-                      *perr = OS_ERR_EVENT_TYPE;
-                      return ((void *)0);
-                  }
-                  OS_ENTER_CRITICAL();
-                  pq = (OS_Q *)pevent->OSEventPtr;             /* Point at queue control block                       */
-                  if (pq->OSQEntries > 0u) {                   /* See if any messages in the queue                   */
-                      pmsg = *pq->OSQOut++;                    /* Yes, extract oldest message from the queue         */
-                      pq->OSQEntries--;                        /* Update the number of entries in the queue          */
-                      if (pq->OSQOut == pq->OSQEnd) {          /* Wrap OUT pointer if we are at the end of the queue */
-                          pq->OSQOut = pq->OSQStart;
-                      }
-                      *perr = OS_ERR_NONE;
-                  } else {
-                      *perr = OS_ERR_Q_EMPTY;
-                      pmsg  = (void *)0;                       /* Queue is empty                                     */
-                  }
-                  OS_EXIT_CRITICAL();
-                  return (pmsg);                               /* Return message received (or NULL)                  */
-              }
-              #endif
-              /*$PAGE*/
-              /*
-              *********************************************************************************************************
-              *                                        CREATE A MESSAGE QUEUE
-              *
-              * Description: This function creates a message queue if free event control blocks are available.
-              *
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 6   
+  84   1          if (pevent->OSEventType != OS_EVENT_TYPE_Q) {/* Validate event block type                          */
+  85   2              *perr = OS_ERR_EVENT_TYPE;
+  86   2              return ((void *)0);
+  87   2          }
+  88   1          OS_ENTER_CRITICAL();
+  89   1          pq = (OS_Q *)pevent->OSEventPtr;             /* Point at queue control block                       */
+  90   1          if (pq->OSQEntries > 0u) {                   /* See if any messages in the queue                   */
+  91   2              pmsg = *pq->OSQOut++;                    /* Yes, extract oldest message from the queue         */
+  92   2              pq->OSQEntries--;                        /* Update the number of entries in the queue          */
+  93   2              if (pq->OSQOut == pq->OSQEnd) {          /* Wrap OUT pointer if we are at the end of the queue */
+  94   3                  pq->OSQOut = pq->OSQStart;
+  95   3              }
+  96   2              *perr = OS_ERR_NONE;
+  97   2          } else {
+  98   2              *perr = OS_ERR_Q_EMPTY;
+  99   2              pmsg  = (void *)0;                       /* Queue is empty                                     */
+ 100   2          }
+ 101   1          OS_EXIT_CRITICAL();
+ 102   1          return (pmsg);                               /* Return message received (or NULL)                  */
+ 103   1      }
+ 104          #endif
+ 105          /*$PAGE*/
+ 106          /*
+ 107          *********************************************************************************************************
+ 108          *                                        CREATE A MESSAGE QUEUE
+ 109          *
+ 110          * Description: This function creates a message queue if free event control blocks are available.
+ 111          *
+ 112          * Arguments  : start         is a pointer to the base address of the message queue storage area.  The
+ 113          *                            storage area MUST be declared as an array of pointers to 'void' as follows
+ 114          *
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 3   
 
-              * Arguments  : start         is a pointer to the base address of the message queue storage area.  The
-              *                            storage area MUST be declared as an array of pointers to 'void' as follows
-              *
-              *                            void *MessageStorage[size]
-              *
-              *              size          is the number of elements in the storage area
-              *
-              * Returns    : != (OS_EVENT *)0  is a pointer to the event control clock (OS_EVENT) associated with the
-              *                                created queue
-              *              == (OS_EVENT *)0  if no event control blocks were available or an error was detected
-              *********************************************************************************************************
-              */
-              
-              OS_EVENT  *OSQCreate (void    **start,
-                                    INT16U    size)
-              {
-                  OS_EVENT  *pevent;
-                  OS_Q      *pq;
-              #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
+ 115          *                            void *MessageStorage[size]
+ 116          *
+ 117          *              size          is the number of elements in the storage area
+ 118          *
+ 119          * Returns    : != (OS_EVENT *)0  is a pointer to the event control clock (OS_EVENT) associated with the
+ 120          *                                created queue
+ 121          *              == (OS_EVENT *)0  if no event control blocks were available or an error was detected
+ 122          *********************************************************************************************************
+ 123          */
+ 124          
+ 125          OS_EVENT  *OSQCreate (void    **start,
+ 126                                INT16U    size)
+ 127          {
+ 128   1          OS_EVENT  *pevent;
+ 129   1          OS_Q      *pq;
+ 130   1      #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
+*** WARNING C322 IN LINE 130 OF Source\os_q.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-              
-              
-              
-              #ifdef OS_SAFETY_CRITICAL_IEC61508
+ 133   1      
+ 134   1      
+ 135   1      
+ 136   1      #ifdef OS_SAFETY_CRITICAL_IEC61508
                   if (OSSafetyCriticalStartFlag == OS_TRUE) {
                       OS_SAFETY_CRITICAL_EXCEPTION();
                   }
               #endif
-              
-                  if (OSIntNesting > 0u) {                     /* See if called from ISR ...                         */
-                      return ((OS_EVENT *)0);                  /* ... can't CREATE from an ISR                       */
-                  }
-                  OS_ENTER_CRITICAL();
-                  pevent = OSEventFreeList;                    /* Get next free event control block                  */
-                  if (OSEventFreeList != (OS_EVENT *)0) {      /* See if pool of free ECB pool was empty             */
-                      OSEventFreeList = (OS_EVENT *)OSEventFreeList->OSEventPtr;
-                  }
-                  OS_EXIT_CRITICAL();
-                  if (pevent != (OS_EVENT *)0) {               /* See if we have an event control block              */
-                      OS_ENTER_CRITICAL();
-                      pq = OSQFreeList;                        /* Get a free queue control block                     */
-                      if (pq != (OS_Q *)0) {                   /* Were we able to get a queue control block ?        */
-                          OSQFreeList            = OSQFreeList->OSQPtr; /* Yes, Adjust free list pointer to next free*/
-                          OS_EXIT_CRITICAL();
-                          pq->OSQStart           = start;               /*      Initialize the queue                 */
-                          pq->OSQEnd             = &start[size];
-                          pq->OSQIn              = start;
-                          pq->OSQOut             = start;
-                          pq->OSQSize            = size;
-                          pq->OSQEntries         = 0u;
-                          pevent->OSEventType    = OS_EVENT_TYPE_Q;
-                          pevent->OSEventCnt     = 0u;
-                          pevent->OSEventPtr     = pq;
-              #if OS_EVENT_NAME_EN > 0u
-                          pevent->OSEventName    = (INT8U *)(void *)"?";
-              #endif
-                          OS_EventWaitListInit(pevent);                 /*      Initalize the wait list              */
-                      } else {
-                          pevent->OSEventPtr = (void *)OSEventFreeList; /* No,  Return event control block on error  */
-                          OSEventFreeList    = pevent;
-                          OS_EXIT_CRITICAL();
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 7   
+ 141   1      
+ 142   1          if (OSIntNesting > 0u) {                     /* See if called from ISR ...                         */
+ 143   2              return ((OS_EVENT *)0);                  /* ... can't CREATE from an ISR                       */
+ 144   2          }
+ 145   1          OS_ENTER_CRITICAL();
+ 146   1          pevent = OSEventFreeList;                    /* Get next free event control block                  */
+ 147   1          if (OSEventFreeList != (OS_EVENT *)0) {      /* See if pool of free ECB pool was empty             */
+ 148   2              OSEventFreeList = (OS_EVENT *)OSEventFreeList->OSEventPtr;
+ 149   2          }
+ 150   1          OS_EXIT_CRITICAL();
+ 151   1          if (pevent != (OS_EVENT *)0) {               /* See if we have an event control block              */
+ 152   2              OS_ENTER_CRITICAL();
+ 153   2              pq = OSQFreeList;                        /* Get a free queue control block                     */
+ 154   2              if (pq != (OS_Q *)0) {                   /* Were we able to get a queue control block ?        */
+ 155   3                  OSQFreeList            = OSQFreeList->OSQPtr; /* Yes, Adjust free list pointer to next free*/
+ 156   3                  OS_EXIT_CRITICAL();
+ 157   3                  pq->OSQStart           = start;               /*      Initialize the queue                 */
+ 158   3                  pq->OSQEnd             = &start[size];
+ 159   3                  pq->OSQIn              = start;
+ 160   3                  pq->OSQOut             = start;
+ 161   3                  pq->OSQSize            = size;
+ 162   3                  pq->OSQEntries         = 0u;
+ 163   3                  pevent->OSEventType    = OS_EVENT_TYPE_Q;
+ 164   3                  pevent->OSEventCnt     = 0u;
+ 165   3                  pevent->OSEventPtr     = pq;
+ 166   3      #if OS_EVENT_NAME_EN > 0u
+ 167   3                  pevent->OSEventName    = (INT8U *)(void *)"?";
+ 168   3      #endif
+ 169   3                  OS_EventWaitListInit(pevent);                 /*      Initalize the wait list              */
+ 170   3              } else {
+ 171   3                  pevent->OSEventPtr = (void *)OSEventFreeList; /* No,  Return event control block on error  */
+ 172   3                  OSEventFreeList    = pevent;
+ 173   3                  OS_EXIT_CRITICAL();
+ 174   3                  pevent = (OS_EVENT *)0;
+ 175   3              }
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 4   
 
-                          pevent = (OS_EVENT *)0;
-                      }
-                  }
-                  return (pevent);
-              }
-              /*$PAGE*/
-              /*
-              *********************************************************************************************************
-              *                                        DELETE A MESSAGE QUEUE
-              *
-              * Description: This function deletes a message queue and readies all tasks pending on the queue.
-              *
-              * Arguments  : pevent        is a pointer to the event control block associated with the desired
-              *                            queue.
-              *
-              *              opt           determines delete options as follows:
-              *                            opt == OS_DEL_NO_PEND   Delete the queue ONLY if no task pending
-              *                            opt == OS_DEL_ALWAYS    Deletes the queue even if tasks are waiting.
-              *                                                    In this case, all the tasks pending will be readied.
-              *
-              *              perr          is a pointer to an error code that can contain one of the following values:
-              *                            OS_ERR_NONE             The call was successful and the queue was deleted
-              *                            OS_ERR_DEL_ISR          If you tried to delete the queue from an ISR
-              *                            OS_ERR_INVALID_OPT      An invalid option was specified
-              *                            OS_ERR_TASK_WAITING     One or more tasks were waiting on the queue
-              *                            OS_ERR_EVENT_TYPE       If you didn't pass a pointer to a queue
-              *                            OS_ERR_PEVENT_NULL      If 'pevent' is a NULL pointer.
-              *
-              * Returns    : pevent        upon error
-              *              (OS_EVENT *)0 if the queue was successfully deleted.
-              *
-              * Note(s)    : 1) This function must be used with care.  Tasks that would normally expect the presence of
-              *                 the queue MUST check the return code of OSQPend().
-              *              2) OSQAccept() callers will not know that the intended queue has been deleted unless
-              *                 they check 'pevent' to see that it's a NULL pointer.
-              *              3) This call can potentially disable interrupts for a long time.  The interrupt disable
-              *                 time is directly proportional to the number of tasks waiting on the queue.
-              *              4) Because ALL tasks pending on the queue will be readied, you MUST be careful in
-              *                 applications where the queue is used for mutual exclusion because the resource(s)
-              *                 will no longer be guarded by the queue.
-              *              5) If the storage for the message queue was allocated dynamically (i.e. using a malloc()
-              *                 type call) then your application MUST release the memory storage by call the counterpart
-              *                 call of the dynamic allocation scheme used.  If the queue storage was created statically
-              *                 then, the storage can be reused.
-              *********************************************************************************************************
-              */
-              
-              #if OS_Q_DEL_EN > 0u
-              OS_EVENT  *OSQDel (OS_EVENT  *pevent,
-                                 INT8U      opt,
-                                 INT8U     *perr)
-              {
-                  BOOLEAN    tasks_waiting;
-                  OS_EVENT  *pevent_return;
-                  OS_Q      *pq;
-              #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register */
+ 176   2          }
+ 177   1          return (pevent);
+ 178   1      }
+ 179          /*$PAGE*/
+ 180          /*
+ 181          *********************************************************************************************************
+ 182          *                                        DELETE A MESSAGE QUEUE
+ 183          *
+ 184          * Description: This function deletes a message queue and readies all tasks pending on the queue.
+ 185          *
+ 186          * Arguments  : pevent        is a pointer to the event control block associated with the desired
+ 187          *                            queue.
+ 188          *
+ 189          *              opt           determines delete options as follows:
+ 190          *                            opt == OS_DEL_NO_PEND   Delete the queue ONLY if no task pending
+ 191          *                            opt == OS_DEL_ALWAYS    Deletes the queue even if tasks are waiting.
+ 192          *                                                    In this case, all the tasks pending will be readied.
+ 193          *
+ 194          *              perr          is a pointer to an error code that can contain one of the following values:
+ 195          *                            OS_ERR_NONE             The call was successful and the queue was deleted
+ 196          *                            OS_ERR_DEL_ISR          If you tried to delete the queue from an ISR
+ 197          *                            OS_ERR_INVALID_OPT      An invalid option was specified
+ 198          *                            OS_ERR_TASK_WAITING     One or more tasks were waiting on the queue
+ 199          *                            OS_ERR_EVENT_TYPE       If you didn't pass a pointer to a queue
+ 200          *                            OS_ERR_PEVENT_NULL      If 'pevent' is a NULL pointer.
+ 201          *
+ 202          * Returns    : pevent        upon error
+ 203          *              (OS_EVENT *)0 if the queue was successfully deleted.
+ 204          *
+ 205          * Note(s)    : 1) This function must be used with care.  Tasks that would normally expect the presence of
+ 206          *                 the queue MUST check the return code of OSQPend().
+ 207          *              2) OSQAccept() callers will not know that the intended queue has been deleted unless
+ 208          *                 they check 'pevent' to see that it's a NULL pointer.
+ 209          *              3) This call can potentially disable interrupts for a long time.  The interrupt disable
+ 210          *                 time is directly proportional to the number of tasks waiting on the queue.
+ 211          *              4) Because ALL tasks pending on the queue will be readied, you MUST be careful in
+ 212          *                 applications where the queue is used for mutual exclusion because the resource(s)
+ 213          *                 will no longer be guarded by the queue.
+ 214          *              5) If the storage for the message queue was allocated dynamically (i.e. using a malloc()
+ 215          *                 type call) then your application MUST release the memory storage by call the counterpart
+ 216          *                 call of the dynamic allocation scheme used.  If the queue storage was created statically
+ 217          *                 then, the storage can be reused.
+ 218          *********************************************************************************************************
+ 219          */
+ 220          
+ 221          #if OS_Q_DEL_EN > 0u
+ 222          OS_EVENT  *OSQDel (OS_EVENT  *pevent,
+ 223                             INT8U      opt,
+ 224                             INT8U     *perr)
+ 225          {
+ 226   1          BOOLEAN    tasks_waiting;
+ 227   1          OS_EVENT  *pevent_return;
+ 228   1          OS_Q      *pq;
+ 229   1      #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register */
+*** WARNING C322 IN LINE 229 OF Source\os_q.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-              
-              
-              
-              #ifdef OS_SAFETY_CRITICAL
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 8   
-
+ 232   1      
+ 233   1      
+ 234   1      
+ 235   1      #ifdef OS_SAFETY_CRITICAL
                   if (perr == (INT8U *)0) {
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 5   
+
                       OS_SAFETY_CRITICAL_EXCEPTION();
                   }
               #endif
-              
-              #if OS_ARG_CHK_EN > 0u
+ 240   1      
+ 241   1      #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {                         /* Validate 'pevent'                        */
                       *perr = OS_ERR_PEVENT_NULL;
                       return (pevent);
                   }
               #endif
-                  if (pevent->OSEventType != OS_EVENT_TYPE_Q) {          /* Validate event block type                */
-                      *perr = OS_ERR_EVENT_TYPE;
-                      return (pevent);
-                  }
-                  if (OSIntNesting > 0u) {                               /* See if called from ISR ...               */
-                      *perr = OS_ERR_DEL_ISR;                            /* ... can't DELETE from an ISR             */
-                      return (pevent);
-                  }
-                  OS_ENTER_CRITICAL();
-                  if (pevent->OSEventGrp != 0u) {                        /* See if any tasks waiting on queue        */
-                      tasks_waiting = OS_TRUE;                           /* Yes                                      */
-                  } else {
-                      tasks_waiting = OS_FALSE;                          /* No                                       */
-                  }
-                  switch (opt) {
-                      case OS_DEL_NO_PEND:                               /* Delete queue only if no task waiting     */
-                           if (tasks_waiting == OS_FALSE) {
-              #if OS_EVENT_NAME_EN > 0u
-                               pevent->OSEventName    = (INT8U *)(void *)"?";
-              #endif
-                               pq                     = (OS_Q *)pevent->OSEventPtr;  /* Return OS_Q to free list     */
-                               pq->OSQPtr             = OSQFreeList;
-                               OSQFreeList            = pq;
-                               pevent->OSEventType    = OS_EVENT_TYPE_UNUSED;
-                               pevent->OSEventPtr     = OSEventFreeList; /* Return Event Control Block to free list  */
-                               pevent->OSEventCnt     = 0u;
-                               OSEventFreeList        = pevent;          /* Get next free event control block        */
-                               OS_EXIT_CRITICAL();
-                               *perr                  = OS_ERR_NONE;
-                               pevent_return          = (OS_EVENT *)0;   /* Queue has been deleted                   */
-                           } else {
-                               OS_EXIT_CRITICAL();
-                               *perr                  = OS_ERR_TASK_WAITING;
-                               pevent_return          = pevent;
-                           }
-                           break;
-              
-                      case OS_DEL_ALWAYS:                                /* Always delete the queue                  */
-                           while (pevent->OSEventGrp != 0u) {            /* Ready ALL tasks waiting for queue        */
-                               (void)OS_EventTaskRdy(pevent, (void *)0, OS_STAT_Q, OS_STAT_PEND_OK);
-                           }
-              #if OS_EVENT_NAME_EN > 0u
-                           pevent->OSEventName    = (INT8U *)(void *)"?";
-              #endif
-                           pq                     = (OS_Q *)pevent->OSEventPtr;   /* Return OS_Q to free list        */
-                           pq->OSQPtr             = OSQFreeList;
-                           OSQFreeList            = pq;
-                           pevent->OSEventType    = OS_EVENT_TYPE_UNUSED;
-                           pevent->OSEventPtr     = OSEventFreeList;     /* Return Event Control Block to free list  */
-                           pevent->OSEventCnt     = 0u;
-                           OSEventFreeList        = pevent;              /* Get next free event control block        */
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 9   
+ 247   1          if (pevent->OSEventType != OS_EVENT_TYPE_Q) {          /* Validate event block type                */
+ 248   2              *perr = OS_ERR_EVENT_TYPE;
+ 249   2              return (pevent);
+ 250   2          }
+ 251   1          if (OSIntNesting > 0u) {                               /* See if called from ISR ...               */
+ 252   2              *perr = OS_ERR_DEL_ISR;                            /* ... can't DELETE from an ISR             */
+ 253   2              return (pevent);
+ 254   2          }
+ 255   1          OS_ENTER_CRITICAL();
+ 256   1          if (pevent->OSEventGrp != 0u) {                        /* See if any tasks waiting on queue        */
+ 257   2              tasks_waiting = OS_TRUE;                           /* Yes                                      */
+ 258   2          } else {
+ 259   2              tasks_waiting = OS_FALSE;                          /* No                                       */
+ 260   2          }
+ 261   1          switch (opt) {
+ 262   2              case OS_DEL_NO_PEND:                               /* Delete queue only if no task waiting     */
+ 263   2                   if (tasks_waiting == OS_FALSE) {
+ 264   3      #if OS_EVENT_NAME_EN > 0u
+ 265   3                       pevent->OSEventName    = (INT8U *)(void *)"?";
+ 266   3      #endif
+ 267   3                       pq                     = (OS_Q *)pevent->OSEventPtr;  /* Return OS_Q to free list     */
+ 268   3                       pq->OSQPtr             = OSQFreeList;
+ 269   3                       OSQFreeList            = pq;
+ 270   3                       pevent->OSEventType    = OS_EVENT_TYPE_UNUSED;
+ 271   3                       pevent->OSEventPtr     = OSEventFreeList; /* Return Event Control Block to free list  */
+ 272   3                       pevent->OSEventCnt     = 0u;
+ 273   3                       OSEventFreeList        = pevent;          /* Get next free event control block        */
+ 274   3                       OS_EXIT_CRITICAL();
+ 275   3                       *perr                  = OS_ERR_NONE;
+ 276   3                       pevent_return          = (OS_EVENT *)0;   /* Queue has been deleted                   */
+ 277   3                   } else {
+ 278   3                       OS_EXIT_CRITICAL();
+ 279   3                       *perr                  = OS_ERR_TASK_WAITING;
+ 280   3                       pevent_return          = pevent;
+ 281   3                   }
+ 282   2                   break;
+ 283   2      
+ 284   2              case OS_DEL_ALWAYS:                                /* Always delete the queue                  */
+ 285   2                   while (pevent->OSEventGrp != 0u) {            /* Ready ALL tasks waiting for queue        */
+ 286   3                       (void)OS_EventTaskRdy(pevent, (void *)0, OS_STAT_Q, OS_STAT_PEND_OK);
+ 287   3                   }
+ 288   2      #if OS_EVENT_NAME_EN > 0u
+ 289   2                   pevent->OSEventName    = (INT8U *)(void *)"?";
+ 290   2      #endif
+ 291   2                   pq                     = (OS_Q *)pevent->OSEventPtr;   /* Return OS_Q to free list        */
+ 292   2                   pq->OSQPtr             = OSQFreeList;
+ 293   2                   OSQFreeList            = pq;
+ 294   2                   pevent->OSEventType    = OS_EVENT_TYPE_UNUSED;
+ 295   2                   pevent->OSEventPtr     = OSEventFreeList;     /* Return Event Control Block to free list  */
+ 296   2                   pevent->OSEventCnt     = 0u;
+ 297   2                   OSEventFreeList        = pevent;              /* Get next free event control block        */
+ 298   2                   OS_EXIT_CRITICAL();
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 6   
 
-                           OS_EXIT_CRITICAL();
-                           if (tasks_waiting == OS_TRUE) {               /* Reschedule only if task(s) were waiting  */
-                               OS_Sched();                               /* Find highest priority task ready to run  */
-                           }
-                           *perr                  = OS_ERR_NONE;
-                           pevent_return          = (OS_EVENT *)0;       /* Queue has been deleted                   */
-                           break;
-              
-                      default:
-                           OS_EXIT_CRITICAL();
-                           *perr                  = OS_ERR_INVALID_OPT;
-                           pevent_return          = pevent;
-                           break;
-                  }
-                  return (pevent_return);
-              }
-              #endif
-              
-              /*$PAGE*/
-              /*
-              *********************************************************************************************************
-              *                                             FLUSH QUEUE
-              *
-              * Description : This function is used to flush the contents of the message queue.
-              *
-              * Arguments   : none
-              *
-              * Returns     : OS_ERR_NONE         upon success
-              *               OS_ERR_EVENT_TYPE   If you didn't pass a pointer to a queue
-              *               OS_ERR_PEVENT_NULL  If 'pevent' is a NULL pointer
-              *
-              * WARNING     : You should use this function with great care because, when to flush the queue, you LOOSE
-              *               the references to what the queue entries are pointing to and thus, you could cause
-              *               'memory leaks'.  In other words, the data you are pointing to that's being referenced
-              *               by the queue entries should, most likely, need to be de-allocated (i.e. freed).
-              *********************************************************************************************************
-              */
-              
-              #if OS_Q_FLUSH_EN > 0u
-              INT8U  OSQFlush (OS_EVENT *pevent)
-              {
-                  OS_Q      *pq;
-              #if OS_CRITICAL_METHOD == 3u                          /* Allocate storage for CPU status register      */
+ 299   2                   if (tasks_waiting == OS_TRUE) {               /* Reschedule only if task(s) were waiting  */
+ 300   3                       OS_Sched();                               /* Find highest priority task ready to run  */
+ 301   3                   }
+ 302   2                   *perr                  = OS_ERR_NONE;
+ 303   2                   pevent_return          = (OS_EVENT *)0;       /* Queue has been deleted                   */
+ 304   2                   break;
+ 305   2      
+ 306   2              default:
+ 307   2                   OS_EXIT_CRITICAL();
+ 308   2                   *perr                  = OS_ERR_INVALID_OPT;
+ 309   2                   pevent_return          = pevent;
+ 310   2                   break;
+ 311   2          }
+ 312   1          return (pevent_return);
+ 313   1      }
+ 314          #endif
+ 315          
+ 316          /*$PAGE*/
+ 317          /*
+ 318          *********************************************************************************************************
+ 319          *                                             FLUSH QUEUE
+ 320          *
+ 321          * Description : This function is used to flush the contents of the message queue.
+ 322          *
+ 323          * Arguments   : none
+ 324          *
+ 325          * Returns     : OS_ERR_NONE         upon success
+ 326          *               OS_ERR_EVENT_TYPE   If you didn't pass a pointer to a queue
+ 327          *               OS_ERR_PEVENT_NULL  If 'pevent' is a NULL pointer
+ 328          *
+ 329          * WARNING     : You should use this function with great care because, when to flush the queue, you LOOSE
+ 330          *               the references to what the queue entries are pointing to and thus, you could cause
+ 331          *               'memory leaks'.  In other words, the data you are pointing to that's being referenced
+ 332          *               by the queue entries should, most likely, need to be de-allocated (i.e. freed).
+ 333          *********************************************************************************************************
+ 334          */
+ 335          
+ 336          #if OS_Q_FLUSH_EN > 0u
+ 337          INT8U  OSQFlush (OS_EVENT *pevent)
+ 338          {
+ 339   1          OS_Q      *pq;
+ 340   1      #if OS_CRITICAL_METHOD == 3u                          /* Allocate storage for CPU status register      */
+*** WARNING C322 IN LINE 340 OF Source\os_q.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-              
-              
-              
-              #if OS_ARG_CHK_EN > 0u
+ 343   1      
+ 344   1      
+ 345   1      
+ 346   1      #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {                    /* Validate 'pevent'                             */
                       return (OS_ERR_PEVENT_NULL);
                   }
@@ -568,488 +376,494 @@ line level    source
                       return (OS_ERR_EVENT_TYPE);
                   }
               #endif
-                  OS_ENTER_CRITICAL();
-                  pq             = (OS_Q *)pevent->OSEventPtr;      /* Point to queue storage structure              */
-                  pq->OSQIn      = pq->OSQStart;
-                  pq->OSQOut     = pq->OSQStart;
-                  pq->OSQEntries = 0u;
-                  OS_EXIT_CRITICAL();
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 10  
+ 354   1          OS_ENTER_CRITICAL();
+ 355   1          pq             = (OS_Q *)pevent->OSEventPtr;      /* Point to queue storage structure              */
+ 356   1          pq->OSQIn      = pq->OSQStart;
+ 357   1          pq->OSQOut     = pq->OSQStart;
+ 358   1          pq->OSQEntries = 0u;
+ 359   1          OS_EXIT_CRITICAL();
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 7   
 
-                  return (OS_ERR_NONE);
-              }
-              #endif
-              
-              /*$PAGE*/
-              /*
-              *********************************************************************************************************
-              *                                     PEND ON A QUEUE FOR A MESSAGE
-              *
-              * Description: This function waits for a message to be sent to a queue
-              *
-              * Arguments  : pevent        is a pointer to the event control block associated with the desired queue
-              *
-              *              timeout       is an optional timeout period (in clock ticks).  If non-zero, your task will
-              *                            wait for a message to arrive at the queue up to the amount of time
-              *                            specified by this argument.  If you specify 0, however, your task will wait
-              *                            forever at the specified queue or, until a message arrives.
-              *
-              *              perr          is a pointer to where an error message will be deposited.  Possible error
-              *                            messages are:
-              *
-              *                            OS_ERR_NONE         The call was successful and your task received a
-              *                                                message.
-              *                            OS_ERR_TIMEOUT      A message was not received within the specified 'timeout'
+ 360   1          return (OS_ERR_NONE);
+ 361   1      }
+ 362          #endif
+ 363          
+ 364          /*$PAGE*/
+ 365          /*
+ 366          *********************************************************************************************************
+ 367          *                                     PEND ON A QUEUE FOR A MESSAGE
+ 368          *
+ 369          * Description: This function waits for a message to be sent to a queue
+ 370          *
+ 371          * Arguments  : pevent        is a pointer to the event control block associated with the desired queue
+ 372          *
+ 373          *              timeout       is an optional timeout period (in clock ticks).  If non-zero, your task will
+ 374          *                            wait for a message to arrive at the queue up to the amount of time
+ 375          *                            specified by this argument.  If you specify 0, however, your task will wait
+ 376          *                            forever at the specified queue or, until a message arrives.
+ 377          *
+ 378          *              perr          is a pointer to where an error message will be deposited.  Possible error
+ 379          *                            messages are:
+ 380          *
+ 381          *                            OS_ERR_NONE         The call was successful and your task received a
+ 382          *                                                message.
+ 383          *                            OS_ERR_TIMEOUT      A message was not received within the specified 'timeout'
              -.
-              *                            OS_ERR_PEND_ABORT   The wait on the queue was aborted.
-              *                            OS_ERR_EVENT_TYPE   You didn't pass a pointer to a queue
-              *                            OS_ERR_PEVENT_NULL  If 'pevent' is a NULL pointer
-              *                            OS_ERR_PEND_ISR     If you called this function from an ISR and the result
-              *                                                would lead to a suspension.
-              *                            OS_ERR_PEND_LOCKED  If you called this function with the scheduler is locked
-              *
-              * Returns    : != (void *)0  is a pointer to the message received
-              *              == (void *)0  if you received a NULL pointer message or,
-              *                            if no message was received or,
-              *                            if 'pevent' is a NULL pointer or,
-              *                            if you didn't pass a pointer to a queue.
-              *
-              * Note(s)    : As of V2.60, this function allows you to receive NULL pointer messages.
-              *********************************************************************************************************
-              */
-              
-              void  *OSQPend (OS_EVENT  *pevent,
-                              INT32U     timeout,
-                              INT8U     *perr)
-              {
-                  void      *pmsg;
-                  OS_Q      *pq;
-              #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
+ 384          *                            OS_ERR_PEND_ABORT   The wait on the queue was aborted.
+ 385          *                            OS_ERR_EVENT_TYPE   You didn't pass a pointer to a queue
+ 386          *                            OS_ERR_PEVENT_NULL  If 'pevent' is a NULL pointer
+ 387          *                            OS_ERR_PEND_ISR     If you called this function from an ISR and the result
+ 388          *                                                would lead to a suspension.
+ 389          *                            OS_ERR_PEND_LOCKED  If you called this function with the scheduler is locked
+ 390          *
+ 391          * Returns    : != (void *)0  is a pointer to the message received
+ 392          *              == (void *)0  if you received a NULL pointer message or,
+ 393          *                            if no message was received or,
+ 394          *                            if 'pevent' is a NULL pointer or,
+ 395          *                            if you didn't pass a pointer to a queue.
+ 396          *
+ 397          * Note(s)    : As of V2.60, this function allows you to receive NULL pointer messages.
+ 398          *********************************************************************************************************
+ 399          */
+ 400          
+ 401          void  *OSQPend (OS_EVENT  *pevent,
+ 402                          INT32U     timeout,
+ 403                          INT8U     *perr)
+ 404          {
+ 405   1          void      *pmsg;
+ 406   1          OS_Q      *pq;
+ 407   1      #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
+*** WARNING C322 IN LINE 407 OF Source\os_q.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-              
-              
-              
-              #ifdef OS_SAFETY_CRITICAL
+ 410   1      
+ 411   1      
+ 412   1      
+ 413   1      #ifdef OS_SAFETY_CRITICAL
                   if (perr == (INT8U *)0) {
                       OS_SAFETY_CRITICAL_EXCEPTION();
                   }
               #endif
-              
-              #if OS_ARG_CHK_EN > 0u
-                  if (pevent == (OS_EVENT *)0) {               /* Validate 'pevent'                                  */
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 11  
+ 418   1      
+ 419   1      #if OS_ARG_CHK_EN > 0u
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 8   
 
+                  if (pevent == (OS_EVENT *)0) {               /* Validate 'pevent'                                  */
                       *perr = OS_ERR_PEVENT_NULL;
                       return ((void *)0);
                   }
               #endif
-                  if (pevent->OSEventType != OS_EVENT_TYPE_Q) {/* Validate event block type                          */
-                      *perr = OS_ERR_EVENT_TYPE;
-                      return ((void *)0);
-                  }
-                  if (OSIntNesting > 0u) {                     /* See if called from ISR ...                         */
-                      *perr = OS_ERR_PEND_ISR;                 /* ... can't PEND from an ISR                         */
-                      return ((void *)0);
-                  }
-                  if (OSLockNesting > 0u) {                    /* See if called with scheduler locked ...            */
-                      *perr = OS_ERR_PEND_LOCKED;              /* ... can't PEND when locked                         */
-                      return ((void *)0);
-                  }
-                  OS_ENTER_CRITICAL();
-                  pq = (OS_Q *)pevent->OSEventPtr;             /* Point at queue control block                       */
-                  if (pq->OSQEntries > 0u) {                   /* See if any messages in the queue                   */
-                      pmsg = *pq->OSQOut++;                    /* Yes, extract oldest message from the queue         */
-                      pq->OSQEntries--;                        /* Update the number of entries in the queue          */
-                      if (pq->OSQOut == pq->OSQEnd) {          /* Wrap OUT pointer if we are at the end of the queue */
-                          pq->OSQOut = pq->OSQStart;
-                      }
-                      OS_EXIT_CRITICAL();
-                      *perr = OS_ERR_NONE;
-                      return (pmsg);                           /* Return message received                            */
-                  }
-                  OSTCBCur->OSTCBStat     |= OS_STAT_Q;        /* Task will have to pend for a message to be posted  */
-                  OSTCBCur->OSTCBStatPend  = OS_STAT_PEND_OK;
-                  OSTCBCur->OSTCBDly       = timeout;          /* Load timeout into TCB                              */
-                  OS_EventTaskWait(pevent);                    /* Suspend task until event or timeout occurs         */
-                  OS_EXIT_CRITICAL();
-                  OS_Sched();                                  /* Find next highest priority task ready to run       */
-                  OS_ENTER_CRITICAL();
-                  switch (OSTCBCur->OSTCBStatPend) {                /* See if we timed-out or aborted                */
-                      case OS_STAT_PEND_OK:                         /* Extract message from TCB (Put there by QPost) */
-                           pmsg =  OSTCBCur->OSTCBMsg;
-                          *perr =  OS_ERR_NONE;
-                           break;
-              
-                      case OS_STAT_PEND_ABORT:
-                           pmsg = (void *)0;
-                          *perr =  OS_ERR_PEND_ABORT;               /* Indicate that we aborted                      */
-                           break;
-              
-                      case OS_STAT_PEND_TO:
-                      default:
-                           OS_EventTaskRemove(OSTCBCur, pevent);
-                           pmsg = (void *)0;
-                          *perr =  OS_ERR_TIMEOUT;                  /* Indicate that we didn't get event within TO   */
-                           break;
-                  }
-                  OSTCBCur->OSTCBStat          =  OS_STAT_RDY;      /* Set   task  status to ready                   */
-                  OSTCBCur->OSTCBStatPend      =  OS_STAT_PEND_OK;  /* Clear pend  status                            */
-                  OSTCBCur->OSTCBEventPtr      = (OS_EVENT  *)0;    /* Clear event pointers                          */
-              #if (OS_EVENT_MULTI_EN > 0u)
-                  OSTCBCur->OSTCBEventMultiPtr = (OS_EVENT **)0;
-              #endif
-                  OSTCBCur->OSTCBMsg           = (void      *)0;    /* Clear  received message                       */
-                  OS_EXIT_CRITICAL();
-                  return (pmsg);                                    /* Return received message                       */
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 12  
+ 425   1          if (pevent->OSEventType != OS_EVENT_TYPE_Q) {/* Validate event block type                          */
+ 426   2              *perr = OS_ERR_EVENT_TYPE;
+ 427   2              return ((void *)0);
+ 428   2          }
+ 429   1          if (OSIntNesting > 0u) {                     /* See if called from ISR ...                         */
+ 430   2              *perr = OS_ERR_PEND_ISR;                 /* ... can't PEND from an ISR                         */
+ 431   2              return ((void *)0);
+ 432   2          }
+ 433   1          if (OSLockNesting > 0u) {                    /* See if called with scheduler locked ...            */
+ 434   2              *perr = OS_ERR_PEND_LOCKED;              /* ... can't PEND when locked                         */
+ 435   2              return ((void *)0);
+ 436   2          }
+ 437   1          OS_ENTER_CRITICAL();
+ 438   1          pq = (OS_Q *)pevent->OSEventPtr;             /* Point at queue control block                       */
+ 439   1          if (pq->OSQEntries > 0u) {                   /* See if any messages in the queue                   */
+ 440   2              pmsg = *pq->OSQOut++;                    /* Yes, extract oldest message from the queue         */
+ 441   2              pq->OSQEntries--;                        /* Update the number of entries in the queue          */
+ 442   2              if (pq->OSQOut == pq->OSQEnd) {          /* Wrap OUT pointer if we are at the end of the queue */
+ 443   3                  pq->OSQOut = pq->OSQStart;
+ 444   3              }
+ 445   2              OS_EXIT_CRITICAL();
+ 446   2              *perr = OS_ERR_NONE;
+ 447   2              return (pmsg);                           /* Return message received                            */
+ 448   2          }
+ 449   1          OSTCBCur->OSTCBStat     |= OS_STAT_Q;        /* Task will have to pend for a message to be posted  */
+ 450   1          OSTCBCur->OSTCBStatPend  = OS_STAT_PEND_OK;
+ 451   1          OSTCBCur->OSTCBDly       = timeout;          /* Load timeout into TCB                              */
+ 452   1          OS_EventTaskWait(pevent);                    /* Suspend task until event or timeout occurs         */
+ 453   1          OS_EXIT_CRITICAL();
+ 454   1          OS_Sched();                                  /* Find next highest priority task ready to run       */
+ 455   1          OS_ENTER_CRITICAL();
+ 456   1          switch (OSTCBCur->OSTCBStatPend) {                /* See if we timed-out or aborted                */
+ 457   2              case OS_STAT_PEND_OK:                         /* Extract message from TCB (Put there by QPost) */
+ 458   2                   pmsg =  OSTCBCur->OSTCBMsg;
+ 459   2                  *perr =  OS_ERR_NONE;
+ 460   2                   break;
+ 461   2      
+ 462   2              case OS_STAT_PEND_ABORT:
+ 463   2                   pmsg = (void *)0;
+ 464   2                  *perr =  OS_ERR_PEND_ABORT;               /* Indicate that we aborted                      */
+ 465   2                   break;
+ 466   2      
+ 467   2              case OS_STAT_PEND_TO:
+ 468   2              default:
+ 469   2                   OS_EventTaskRemove(OSTCBCur, pevent);
+ 470   2                   pmsg = (void *)0;
+ 471   2                  *perr =  OS_ERR_TIMEOUT;                  /* Indicate that we didn't get event within TO   */
+ 472   2                   break;
+ 473   2          }
+ 474   1          OSTCBCur->OSTCBStat          =  OS_STAT_RDY;      /* Set   task  status to ready                   */
+ 475   1          OSTCBCur->OSTCBStatPend      =  OS_STAT_PEND_OK;  /* Clear pend  status                            */
+ 476   1          OSTCBCur->OSTCBEventPtr      = (OS_EVENT  *)0;    /* Clear event pointers                          */
+ 477   1      #if (OS_EVENT_MULTI_EN > 0u)
+ 478   1          OSTCBCur->OSTCBEventMultiPtr = (OS_EVENT **)0;
+ 479   1      #endif
+ 480   1          OSTCBCur->OSTCBMsg           = (void      *)0;    /* Clear  received message                       */
+ 481   1          OS_EXIT_CRITICAL();
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 9   
 
-              }
-              /*$PAGE*/
-              /*
-              *********************************************************************************************************
-              *                                      ABORT WAITING ON A MESSAGE QUEUE
-              *
-              * Description: This function aborts & readies any tasks currently waiting on a queue.  This function
-              *              should be used to fault-abort the wait on the queue, rather than to normally signal
-              *              the queue via OSQPost(), OSQPostFront() or OSQPostOpt().
-              *
-              * Arguments  : pevent        is a pointer to the event control block associated with the desired queue.
-              *
-              *              opt           determines the type of ABORT performed:
-              *                            OS_PEND_OPT_NONE         ABORT wait for a single task (HPT) waiting on the
-              *                                                     queue
-              *                            OS_PEND_OPT_BROADCAST    ABORT wait for ALL tasks that are  waiting on the
-              *                                                     queue
-              *
-              *              perr          is a pointer to where an error message will be deposited.  Possible error
-              *                            messages are:
-              *
-              *                            OS_ERR_NONE         No tasks were     waiting on the queue.
-              *                            OS_ERR_PEND_ABORT   At least one task waiting on the queue was readied
-              *                                                and informed of the aborted wait; check return value
-              *                                                for the number of tasks whose wait on the queue
-              *                                                was aborted.
-              *                            OS_ERR_EVENT_TYPE   If you didn't pass a pointer to a queue.
-              *                            OS_ERR_PEVENT_NULL  If 'pevent' is a NULL pointer.
-              *
-              * Returns    : == 0          if no tasks were waiting on the queue, or upon error.
-              *              >  0          if one or more tasks waiting on the queue are now readied and informed.
-              *********************************************************************************************************
-              */
-              
-              #if OS_Q_PEND_ABORT_EN > 0u
-              INT8U  OSQPendAbort (OS_EVENT  *pevent,
-                                   INT8U      opt,
-                                   INT8U     *perr)
-              {
-                  INT8U      nbr_tasks;
-              #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register */
+ 482   1          return (pmsg);                                    /* Return received message                       */
+ 483   1      }
+ 484          /*$PAGE*/
+ 485          /*
+ 486          *********************************************************************************************************
+ 487          *                                      ABORT WAITING ON A MESSAGE QUEUE
+ 488          *
+ 489          * Description: This function aborts & readies any tasks currently waiting on a queue.  This function
+ 490          *              should be used to fault-abort the wait on the queue, rather than to normally signal
+ 491          *              the queue via OSQPost(), OSQPostFront() or OSQPostOpt().
+ 492          *
+ 493          * Arguments  : pevent        is a pointer to the event control block associated with the desired queue.
+ 494          *
+ 495          *              opt           determines the type of ABORT performed:
+ 496          *                            OS_PEND_OPT_NONE         ABORT wait for a single task (HPT) waiting on the
+ 497          *                                                     queue
+ 498          *                            OS_PEND_OPT_BROADCAST    ABORT wait for ALL tasks that are  waiting on the
+ 499          *                                                     queue
+ 500          *
+ 501          *              perr          is a pointer to where an error message will be deposited.  Possible error
+ 502          *                            messages are:
+ 503          *
+ 504          *                            OS_ERR_NONE         No tasks were     waiting on the queue.
+ 505          *                            OS_ERR_PEND_ABORT   At least one task waiting on the queue was readied
+ 506          *                                                and informed of the aborted wait; check return value
+ 507          *                                                for the number of tasks whose wait on the queue
+ 508          *                                                was aborted.
+ 509          *                            OS_ERR_EVENT_TYPE   If you didn't pass a pointer to a queue.
+ 510          *                            OS_ERR_PEVENT_NULL  If 'pevent' is a NULL pointer.
+ 511          *
+ 512          * Returns    : == 0          if no tasks were waiting on the queue, or upon error.
+ 513          *              >  0          if one or more tasks waiting on the queue are now readied and informed.
+ 514          *********************************************************************************************************
+ 515          */
+ 516          
+ 517          #if OS_Q_PEND_ABORT_EN > 0u
+ 518          INT8U  OSQPendAbort (OS_EVENT  *pevent,
+ 519                               INT8U      opt,
+ 520                               INT8U     *perr)
+ 521          {
+ 522   1          INT8U      nbr_tasks;
+ 523   1      #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register */
+*** WARNING C322 IN LINE 523 OF Source\os_q.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-              
-              
-              
-              #ifdef OS_SAFETY_CRITICAL
+ 526   1      
+ 527   1      
+ 528   1      
+ 529   1      #ifdef OS_SAFETY_CRITICAL
                   if (perr == (INT8U *)0) {
                       OS_SAFETY_CRITICAL_EXCEPTION();
                   }
               #endif
-              
-              #if OS_ARG_CHK_EN > 0u
+ 534   1      
+ 535   1      #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {                         /* Validate 'pevent'                        */
                       *perr = OS_ERR_PEVENT_NULL;
                       return (0u);
                   }
               #endif
-                  if (pevent->OSEventType != OS_EVENT_TYPE_Q) {          /* Validate event block type                */
-                      *perr = OS_ERR_EVENT_TYPE;
-                      return (0u);
-                  }
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 13  
+ 541   1          if (pevent->OSEventType != OS_EVENT_TYPE_Q) {          /* Validate event block type                */
+ 542   2              *perr = OS_ERR_EVENT_TYPE;
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 10  
 
-                  OS_ENTER_CRITICAL();
-                  if (pevent->OSEventGrp != 0u) {                        /* See if any task waiting on queue?        */
-                      nbr_tasks = 0u;
-                      switch (opt) {
-                          case OS_PEND_OPT_BROADCAST:                    /* Do we need to abort ALL waiting tasks?   */
-                               while (pevent->OSEventGrp != 0u) {        /* Yes, ready ALL tasks waiting on queue    */
-                                   (void)OS_EventTaskRdy(pevent, (void *)0, OS_STAT_Q, OS_STAT_PEND_ABORT);
-                                   nbr_tasks++;
-                               }
-                               break;
-              
-                          case OS_PEND_OPT_NONE:
-                          default:                                       /* No,  ready HPT       waiting on queue    */
-                               (void)OS_EventTaskRdy(pevent, (void *)0, OS_STAT_Q, OS_STAT_PEND_ABORT);
-                               nbr_tasks++;
-                               break;
-                      }
-                      OS_EXIT_CRITICAL();
-                      OS_Sched();                                        /* Find HPT ready to run                    */
-                      *perr = OS_ERR_PEND_ABORT;
-                      return (nbr_tasks);
-                  }
-                  OS_EXIT_CRITICAL();
-                  *perr = OS_ERR_NONE;
-                  return (0u);                                           /* No tasks waiting on queue                */
-              }
-              #endif
-              
-              /*$PAGE*/
-              /*
-              *********************************************************************************************************
-              *                                        POST MESSAGE TO A QUEUE
-              *
-              * Description: This function sends a message to a queue
-              *
-              * Arguments  : pevent        is a pointer to the event control block associated with the desired queue
-              *
-              *              pmsg          is a pointer to the message to send.
-              *
-              * Returns    : OS_ERR_NONE           The call was successful and the message was sent
-              *              OS_ERR_Q_FULL         If the queue cannot accept any more messages because it is full.
-              *              OS_ERR_EVENT_TYPE     If you didn't pass a pointer to a queue.
-              *              OS_ERR_PEVENT_NULL    If 'pevent' is a NULL pointer
-              *
-              * Note(s)    : As of V2.60, this function allows you to send NULL pointer messages.
-              *********************************************************************************************************
-              */
-              
-              #if OS_Q_POST_EN > 0u
-              INT8U  OSQPost (OS_EVENT  *pevent,
-                              void      *pmsg)
-              {
-                  OS_Q      *pq;
-              #if OS_CRITICAL_METHOD == 3u                           /* Allocate storage for CPU status register     */
+ 543   2              return (0u);
+ 544   2          }
+ 545   1          OS_ENTER_CRITICAL();
+ 546   1          if (pevent->OSEventGrp != 0u) {                        /* See if any task waiting on queue?        */
+ 547   2              nbr_tasks = 0u;
+ 548   2              switch (opt) {
+ 549   3                  case OS_PEND_OPT_BROADCAST:                    /* Do we need to abort ALL waiting tasks?   */
+ 550   3                       while (pevent->OSEventGrp != 0u) {        /* Yes, ready ALL tasks waiting on queue    */
+ 551   4                           (void)OS_EventTaskRdy(pevent, (void *)0, OS_STAT_Q, OS_STAT_PEND_ABORT);
+ 552   4                           nbr_tasks++;
+ 553   4                       }
+ 554   3                       break;
+ 555   3      
+ 556   3                  case OS_PEND_OPT_NONE:
+ 557   3                  default:                                       /* No,  ready HPT       waiting on queue    */
+ 558   3                       (void)OS_EventTaskRdy(pevent, (void *)0, OS_STAT_Q, OS_STAT_PEND_ABORT);
+ 559   3                       nbr_tasks++;
+ 560   3                       break;
+ 561   3              }
+ 562   2              OS_EXIT_CRITICAL();
+ 563   2              OS_Sched();                                        /* Find HPT ready to run                    */
+ 564   2              *perr = OS_ERR_PEND_ABORT;
+ 565   2              return (nbr_tasks);
+ 566   2          }
+ 567   1          OS_EXIT_CRITICAL();
+ 568   1          *perr = OS_ERR_NONE;
+ 569   1          return (0u);                                           /* No tasks waiting on queue                */
+ 570   1      }
+ 571          #endif
+ 572          
+ 573          /*$PAGE*/
+ 574          /*
+ 575          *********************************************************************************************************
+ 576          *                                        POST MESSAGE TO A QUEUE
+ 577          *
+ 578          * Description: This function sends a message to a queue
+ 579          *
+ 580          * Arguments  : pevent        is a pointer to the event control block associated with the desired queue
+ 581          *
+ 582          *              pmsg          is a pointer to the message to send.
+ 583          *
+ 584          * Returns    : OS_ERR_NONE           The call was successful and the message was sent
+ 585          *              OS_ERR_Q_FULL         If the queue cannot accept any more messages because it is full.
+ 586          *              OS_ERR_EVENT_TYPE     If you didn't pass a pointer to a queue.
+ 587          *              OS_ERR_PEVENT_NULL    If 'pevent' is a NULL pointer
+ 588          *
+ 589          * Note(s)    : As of V2.60, this function allows you to send NULL pointer messages.
+ 590          *********************************************************************************************************
+ 591          */
+ 592          
+ 593          #if OS_Q_POST_EN > 0u
+ 594          INT8U  OSQPost (OS_EVENT  *pevent,
+ 595                          void      *pmsg)
+ 596          {
+ 597   1          OS_Q      *pq;
+ 598   1      #if OS_CRITICAL_METHOD == 3u                           /* Allocate storage for CPU status register     */
+*** WARNING C322 IN LINE 598 OF Source\os_q.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-              
-              
-              
-              #if OS_ARG_CHK_EN > 0u
+ 601   1      
+ 602   1      
+ 603   1      
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 11  
+
+ 604   1      #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {                     /* Validate 'pevent'                            */
                       return (OS_ERR_PEVENT_NULL);
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 14  
-
                   }
               #endif
-                  if (pevent->OSEventType != OS_EVENT_TYPE_Q) {      /* Validate event block type                    */
-                      return (OS_ERR_EVENT_TYPE);
-                  }
-                  OS_ENTER_CRITICAL();
-                  if (pevent->OSEventGrp != 0u) {                    /* See if any task pending on queue             */
-                                                                     /* Ready highest priority task waiting on event */
-                      (void)OS_EventTaskRdy(pevent, pmsg, OS_STAT_Q, OS_STAT_PEND_OK);
-                      OS_EXIT_CRITICAL();
-                      OS_Sched();                                    /* Find highest priority task ready to run      */
-                      return (OS_ERR_NONE);
-                  }
-                  pq = (OS_Q *)pevent->OSEventPtr;                   /* Point to queue control block                 */
-                  if (pq->OSQEntries >= pq->OSQSize) {               /* Make sure queue is not full                  */
-                      OS_EXIT_CRITICAL();
-                      return (OS_ERR_Q_FULL);
-                  }
-                  *pq->OSQIn++ = pmsg;                               /* Insert message into queue                    */
-                  pq->OSQEntries++;                                  /* Update the nbr of entries in the queue       */
-                  if (pq->OSQIn == pq->OSQEnd) {                     /* Wrap IN ptr if we are at end of queue        */
-                      pq->OSQIn = pq->OSQStart;
-                  }
-                  OS_EXIT_CRITICAL();
-                  return (OS_ERR_NONE);
-              }
-              #endif
-              /*$PAGE*/
-              /*
-              *********************************************************************************************************
-              *                                   POST MESSAGE TO THE FRONT OF A QUEUE
-              *
-              * Description: This function sends a message to a queue but unlike OSQPost(), the message is posted at
-              *              the front instead of the end of the queue.  Using OSQPostFront() allows you to send
-              *              'priority' messages.
-              *
-              * Arguments  : pevent        is a pointer to the event control block associated with the desired queue
-              *
-              *              pmsg          is a pointer to the message to send.
-              *
-              * Returns    : OS_ERR_NONE           The call was successful and the message was sent
-              *              OS_ERR_Q_FULL         If the queue cannot accept any more messages because it is full.
-              *              OS_ERR_EVENT_TYPE     If you didn't pass a pointer to a queue.
-              *              OS_ERR_PEVENT_NULL    If 'pevent' is a NULL pointer
-              *
-              * Note(s)    : As of V2.60, this function allows you to send NULL pointer messages.
-              *********************************************************************************************************
-              */
-              
-              #if OS_Q_POST_FRONT_EN > 0u
-              INT8U  OSQPostFront (OS_EVENT  *pevent,
-                                   void      *pmsg)
-              {
-                  OS_Q      *pq;
-              #if OS_CRITICAL_METHOD == 3u                          /* Allocate storage for CPU status register      */
+ 609   1          if (pevent->OSEventType != OS_EVENT_TYPE_Q) {      /* Validate event block type                    */
+ 610   2              return (OS_ERR_EVENT_TYPE);
+ 611   2          }
+ 612   1          OS_ENTER_CRITICAL();
+ 613   1          if (pevent->OSEventGrp != 0u) {                    /* See if any task pending on queue             */
+ 614   2                                                             /* Ready highest priority task waiting on event */
+ 615   2              (void)OS_EventTaskRdy(pevent, pmsg, OS_STAT_Q, OS_STAT_PEND_OK);
+ 616   2              OS_EXIT_CRITICAL();
+ 617   2              OS_Sched();                                    /* Find highest priority task ready to run      */
+ 618   2              return (OS_ERR_NONE);
+ 619   2          }
+ 620   1          pq = (OS_Q *)pevent->OSEventPtr;                   /* Point to queue control block                 */
+ 621   1          if (pq->OSQEntries >= pq->OSQSize) {               /* Make sure queue is not full                  */
+ 622   2              OS_EXIT_CRITICAL();
+ 623   2              return (OS_ERR_Q_FULL);
+ 624   2          }
+ 625   1          *pq->OSQIn++ = pmsg;                               /* Insert message into queue                    */
+ 626   1          pq->OSQEntries++;                                  /* Update the nbr of entries in the queue       */
+ 627   1          if (pq->OSQIn == pq->OSQEnd) {                     /* Wrap IN ptr if we are at end of queue        */
+ 628   2              pq->OSQIn = pq->OSQStart;
+ 629   2          }
+ 630   1          OS_EXIT_CRITICAL();
+ 631   1          return (OS_ERR_NONE);
+ 632   1      }
+ 633          #endif
+ 634          /*$PAGE*/
+ 635          /*
+ 636          *********************************************************************************************************
+ 637          *                                   POST MESSAGE TO THE FRONT OF A QUEUE
+ 638          *
+ 639          * Description: This function sends a message to a queue but unlike OSQPost(), the message is posted at
+ 640          *              the front instead of the end of the queue.  Using OSQPostFront() allows you to send
+ 641          *              'priority' messages.
+ 642          *
+ 643          * Arguments  : pevent        is a pointer to the event control block associated with the desired queue
+ 644          *
+ 645          *              pmsg          is a pointer to the message to send.
+ 646          *
+ 647          * Returns    : OS_ERR_NONE           The call was successful and the message was sent
+ 648          *              OS_ERR_Q_FULL         If the queue cannot accept any more messages because it is full.
+ 649          *              OS_ERR_EVENT_TYPE     If you didn't pass a pointer to a queue.
+ 650          *              OS_ERR_PEVENT_NULL    If 'pevent' is a NULL pointer
+ 651          *
+ 652          * Note(s)    : As of V2.60, this function allows you to send NULL pointer messages.
+ 653          *********************************************************************************************************
+ 654          */
+ 655          
+ 656          #if OS_Q_POST_FRONT_EN > 0u
+ 657          INT8U  OSQPostFront (OS_EVENT  *pevent,
+ 658                               void      *pmsg)
+ 659          {
+ 660   1          OS_Q      *pq;
+ 661   1      #if OS_CRITICAL_METHOD == 3u                          /* Allocate storage for CPU status register      */
+*** WARNING C322 IN LINE 661 OF Source\os_q.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-              
-              
-              
-              #if OS_ARG_CHK_EN > 0u
-                  if (pevent == (OS_EVENT *)0) {                    /* Validate 'pevent'                             */
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 15  
+ 664   1      
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 12  
 
-                      return (OS_ERR_PEVENT_NULL);
-                  }
-              #endif
-                  if (pevent->OSEventType != OS_EVENT_TYPE_Q) {     /* Validate event block type                     */
-                      return (OS_ERR_EVENT_TYPE);
-                  }
-                  OS_ENTER_CRITICAL();
-                  if (pevent->OSEventGrp != 0u) {                   /* See if any task pending on queue              */
-                                                                    /* Ready highest priority task waiting on event  */
-                      (void)OS_EventTaskRdy(pevent, pmsg, OS_STAT_Q, OS_STAT_PEND_OK);
-                      OS_EXIT_CRITICAL();
-                      OS_Sched();                                   /* Find highest priority task ready to run       */
-                      return (OS_ERR_NONE);
-                  }
-                  pq = (OS_Q *)pevent->OSEventPtr;                  /* Point to queue control block                  */
-                  if (pq->OSQEntries >= pq->OSQSize) {              /* Make sure queue is not full                   */
-                      OS_EXIT_CRITICAL();
-                      return (OS_ERR_Q_FULL);
-                  }
-                  if (pq->OSQOut == pq->OSQStart) {                 /* Wrap OUT ptr if we are at the 1st queue entry */
-                      pq->OSQOut = pq->OSQEnd;
-                  }
-                  pq->OSQOut--;
-                  *pq->OSQOut = pmsg;                               /* Insert message into queue                     */
-                  pq->OSQEntries++;                                 /* Update the nbr of entries in the queue        */
-                  OS_EXIT_CRITICAL();
-                  return (OS_ERR_NONE);
-              }
-              #endif
-              /*$PAGE*/
-              /*
-              *********************************************************************************************************
-              *                                        POST MESSAGE TO A QUEUE
-              *
-              * Description: This function sends a message to a queue.  This call has been added to reduce code size
-              *              since it can replace both OSQPost() and OSQPostFront().  Also, this function adds the
-              *              capability to broadcast a message to ALL tasks waiting on the message queue.
-              *
-              * Arguments  : pevent        is a pointer to the event control block associated with the desired queue
-              *
-              *              pmsg          is a pointer to the message to send.
-              *
-              *              opt           determines the type of POST performed:
-              *                            OS_POST_OPT_NONE         POST to a single waiting task
-              *                                                     (Identical to OSQPost())
-              *                            OS_POST_OPT_BROADCAST    POST to ALL tasks that are waiting on the queue
-              *                            OS_POST_OPT_FRONT        POST as LIFO (Simulates OSQPostFront())
-              *                            OS_POST_OPT_NO_SCHED     Indicates that the scheduler will NOT be invoked
-              *
-              * Returns    : OS_ERR_NONE           The call was successful and the message was sent
-              *              OS_ERR_Q_FULL         If the queue cannot accept any more messages because it is full.
-              *              OS_ERR_EVENT_TYPE     If you didn't pass a pointer to a queue.
-              *              OS_ERR_PEVENT_NULL    If 'pevent' is a NULL pointer
-              *
-              * Warning    : Interrupts can be disabled for a long time if you do a 'broadcast'.  In fact, the
-              *              interrupt disable time is proportional to the number of tasks waiting on the queue.
-              *********************************************************************************************************
-              */
-              
-              #if OS_Q_POST_OPT_EN > 0u
-              INT8U  OSQPostOpt (OS_EVENT  *pevent,
-                                 void      *pmsg,
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 16  
-
-                                 INT8U      opt)
-              {
-                  OS_Q      *pq;
-              #if OS_CRITICAL_METHOD == 3u                          /* Allocate storage for CPU status register      */
-                  OS_CPU_SR  cpu_sr = 0u;
-              #endif
-              
-              
-              
-              #if OS_ARG_CHK_EN > 0u
+ 665   1      
+ 666   1      
+ 667   1      #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {                    /* Validate 'pevent'                             */
                       return (OS_ERR_PEVENT_NULL);
                   }
               #endif
-                  if (pevent->OSEventType != OS_EVENT_TYPE_Q) {     /* Validate event block type                     */
-                      return (OS_ERR_EVENT_TYPE);
-                  }
-                  OS_ENTER_CRITICAL();
-                  if (pevent->OSEventGrp != 0x00u) {                /* See if any task pending on queue              */
-                      if ((opt & OS_POST_OPT_BROADCAST) != 0x00u) { /* Do we need to post msg to ALL waiting tasks ? */
-                          while (pevent->OSEventGrp != 0u) {        /* Yes, Post to ALL tasks waiting on queue       */
-                              (void)OS_EventTaskRdy(pevent, pmsg, OS_STAT_Q, OS_STAT_PEND_OK);
-                          }
-                      } else {                                      /* No,  Post to HPT waiting on queue             */
-                          (void)OS_EventTaskRdy(pevent, pmsg, OS_STAT_Q, OS_STAT_PEND_OK);
-                      }
-                      OS_EXIT_CRITICAL();
-                      if ((opt & OS_POST_OPT_NO_SCHED) == 0u) {   /* See if scheduler needs to be invoked          */
-                          OS_Sched();                               /* Find highest priority task ready to run       */
-                      }
-                      return (OS_ERR_NONE);
-                  }
-                  pq = (OS_Q *)pevent->OSEventPtr;                  /* Point to queue control block                  */
-                  if (pq->OSQEntries >= pq->OSQSize) {              /* Make sure queue is not full                   */
-                      OS_EXIT_CRITICAL();
-                      return (OS_ERR_Q_FULL);
-                  }
-                  if ((opt & OS_POST_OPT_FRONT) != 0x00u) {         /* Do we post to the FRONT of the queue?         */
-                      if (pq->OSQOut == pq->OSQStart) {             /* Yes, Post as LIFO, Wrap OUT pointer if we ... */
-                          pq->OSQOut = pq->OSQEnd;                  /*      ... are at the 1st queue entry           */
-                      }
-                      pq->OSQOut--;
-                      *pq->OSQOut = pmsg;                           /*      Insert message into queue                */
-                  } else {                                          /* No,  Post as FIFO                             */
-                      *pq->OSQIn++ = pmsg;                          /*      Insert message into queue                */
-                      if (pq->OSQIn == pq->OSQEnd) {                /*      Wrap IN ptr if we are at end of queue    */
-                          pq->OSQIn = pq->OSQStart;
-                      }
-                  }
-                  pq->OSQEntries++;                                 /* Update the nbr of entries in the queue        */
-                  OS_EXIT_CRITICAL();
-                  return (OS_ERR_NONE);
-              }
-              #endif
-              /*$PAGE*/
-              /*
-              *********************************************************************************************************
-              *                                        QUERY A MESSAGE QUEUE
-              *
-              * Description: This function obtains information about a message queue.
-              *
-              * Arguments  : pevent        is a pointer to the event control block associated with the desired queue
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 17  
+ 672   1          if (pevent->OSEventType != OS_EVENT_TYPE_Q) {     /* Validate event block type                     */
+ 673   2              return (OS_ERR_EVENT_TYPE);
+ 674   2          }
+ 675   1          OS_ENTER_CRITICAL();
+ 676   1          if (pevent->OSEventGrp != 0u) {                   /* See if any task pending on queue              */
+ 677   2                                                            /* Ready highest priority task waiting on event  */
+ 678   2              (void)OS_EventTaskRdy(pevent, pmsg, OS_STAT_Q, OS_STAT_PEND_OK);
+ 679   2              OS_EXIT_CRITICAL();
+ 680   2              OS_Sched();                                   /* Find highest priority task ready to run       */
+ 681   2              return (OS_ERR_NONE);
+ 682   2          }
+ 683   1          pq = (OS_Q *)pevent->OSEventPtr;                  /* Point to queue control block                  */
+ 684   1          if (pq->OSQEntries >= pq->OSQSize) {              /* Make sure queue is not full                   */
+ 685   2              OS_EXIT_CRITICAL();
+ 686   2              return (OS_ERR_Q_FULL);
+ 687   2          }
+ 688   1          if (pq->OSQOut == pq->OSQStart) {                 /* Wrap OUT ptr if we are at the 1st queue entry */
+ 689   2              pq->OSQOut = pq->OSQEnd;
+ 690   2          }
+ 691   1          pq->OSQOut--;
+ 692   1          *pq->OSQOut = pmsg;                               /* Insert message into queue                     */
+ 693   1          pq->OSQEntries++;                                 /* Update the nbr of entries in the queue        */
+ 694   1          OS_EXIT_CRITICAL();
+ 695   1          return (OS_ERR_NONE);
+ 696   1      }
+ 697          #endif
+ 698          /*$PAGE*/
+ 699          /*
+ 700          *********************************************************************************************************
+ 701          *                                        POST MESSAGE TO A QUEUE
+ 702          *
+ 703          * Description: This function sends a message to a queue.  This call has been added to reduce code size
+ 704          *              since it can replace both OSQPost() and OSQPostFront().  Also, this function adds the
+ 705          *              capability to broadcast a message to ALL tasks waiting on the message queue.
+ 706          *
+ 707          * Arguments  : pevent        is a pointer to the event control block associated with the desired queue
+ 708          *
+ 709          *              pmsg          is a pointer to the message to send.
+ 710          *
+ 711          *              opt           determines the type of POST performed:
+ 712          *                            OS_POST_OPT_NONE         POST to a single waiting task
+ 713          *                                                     (Identical to OSQPost())
+ 714          *                            OS_POST_OPT_BROADCAST    POST to ALL tasks that are waiting on the queue
+ 715          *                            OS_POST_OPT_FRONT        POST as LIFO (Simulates OSQPostFront())
+ 716          *                            OS_POST_OPT_NO_SCHED     Indicates that the scheduler will NOT be invoked
+ 717          *
+ 718          * Returns    : OS_ERR_NONE           The call was successful and the message was sent
+ 719          *              OS_ERR_Q_FULL         If the queue cannot accept any more messages because it is full.
+ 720          *              OS_ERR_EVENT_TYPE     If you didn't pass a pointer to a queue.
+ 721          *              OS_ERR_PEVENT_NULL    If 'pevent' is a NULL pointer
+ 722          *
+ 723          * Warning    : Interrupts can be disabled for a long time if you do a 'broadcast'.  In fact, the
+ 724          *              interrupt disable time is proportional to the number of tasks waiting on the queue.
+ 725          *********************************************************************************************************
+ 726          */
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 13  
 
-              *
-              *              p_q_data      is a pointer to a structure that will contain information about the message
-              *                            queue.
-              *
-              * Returns    : OS_ERR_NONE         The call was successful and the message was sent
-              *              OS_ERR_EVENT_TYPE   If you are attempting to obtain data from a non queue.
-              *              OS_ERR_PEVENT_NULL  If 'pevent'   is a NULL pointer
-              *              OS_ERR_PDATA_NULL   If 'p_q_data' is a NULL pointer
-              *********************************************************************************************************
-              */
-              
-              #if OS_Q_QUERY_EN > 0u
-              INT8U  OSQQuery (OS_EVENT  *pevent,
-                               OS_Q_DATA *p_q_data)
-              {
-                  OS_Q       *pq;
-                  INT8U       i;
-                  OS_PRIO    *psrc;
-                  OS_PRIO    *pdest;
-              #if OS_CRITICAL_METHOD == 3u                           /* Allocate storage for CPU status register     */
+ 727          
+ 728          #if OS_Q_POST_OPT_EN > 0u
+ 729          INT8U  OSQPostOpt (OS_EVENT  *pevent,
+ 730                             void      *pmsg,
+ 731                             INT8U      opt)
+ 732          {
+ 733   1          OS_Q      *pq;
+ 734   1      #if OS_CRITICAL_METHOD == 3u                          /* Allocate storage for CPU status register      */
+*** WARNING C322 IN LINE 734 OF Source\os_q.c: unknown identifier
+                  OS_CPU_SR  cpu_sr = 0u;
+              #endif
+ 737   1      
+ 738   1      
+ 739   1      
+ 740   1      #if OS_ARG_CHK_EN > 0u
+                  if (pevent == (OS_EVENT *)0) {                    /* Validate 'pevent'                             */
+                      return (OS_ERR_PEVENT_NULL);
+                  }
+              #endif
+ 745   1          if (pevent->OSEventType != OS_EVENT_TYPE_Q) {     /* Validate event block type                     */
+ 746   2              return (OS_ERR_EVENT_TYPE);
+ 747   2          }
+ 748   1          OS_ENTER_CRITICAL();
+ 749   1          if (pevent->OSEventGrp != 0x00u) {                /* See if any task pending on queue              */
+ 750   2              if ((opt & OS_POST_OPT_BROADCAST) != 0x00u) { /* Do we need to post msg to ALL waiting tasks ? */
+ 751   3                  while (pevent->OSEventGrp != 0u) {        /* Yes, Post to ALL tasks waiting on queue       */
+ 752   4                      (void)OS_EventTaskRdy(pevent, pmsg, OS_STAT_Q, OS_STAT_PEND_OK);
+ 753   4                  }
+ 754   3              } else {                                      /* No,  Post to HPT waiting on queue             */
+ 755   3                  (void)OS_EventTaskRdy(pevent, pmsg, OS_STAT_Q, OS_STAT_PEND_OK);
+ 756   3              }
+ 757   2              OS_EXIT_CRITICAL();
+ 758   2              if ((opt & OS_POST_OPT_NO_SCHED) == 0u) {   /* See if scheduler needs to be invoked          */
+ 759   3                  OS_Sched();                               /* Find highest priority task ready to run       */
+ 760   3              }
+ 761   2              return (OS_ERR_NONE);
+ 762   2          }
+ 763   1          pq = (OS_Q *)pevent->OSEventPtr;                  /* Point to queue control block                  */
+ 764   1          if (pq->OSQEntries >= pq->OSQSize) {              /* Make sure queue is not full                   */
+ 765   2              OS_EXIT_CRITICAL();
+ 766   2              return (OS_ERR_Q_FULL);
+ 767   2          }
+ 768   1          if ((opt & OS_POST_OPT_FRONT) != 0x00u) {         /* Do we post to the FRONT of the queue?         */
+ 769   2              if (pq->OSQOut == pq->OSQStart) {             /* Yes, Post as LIFO, Wrap OUT pointer if we ... */
+ 770   3                  pq->OSQOut = pq->OSQEnd;                  /*      ... are at the 1st queue entry           */
+ 771   3              }
+ 772   2              pq->OSQOut--;
+ 773   2              *pq->OSQOut = pmsg;                           /*      Insert message into queue                */
+ 774   2          } else {                                          /* No,  Post as FIFO                             */
+ 775   2              *pq->OSQIn++ = pmsg;                          /*      Insert message into queue                */
+ 776   2              if (pq->OSQIn == pq->OSQEnd) {                /*      Wrap IN ptr if we are at end of queue    */
+ 777   3                  pq->OSQIn = pq->OSQStart;
+ 778   3              }
+ 779   2          }
+ 780   1          pq->OSQEntries++;                                 /* Update the nbr of entries in the queue        */
+ 781   1          OS_EXIT_CRITICAL();
+ 782   1          return (OS_ERR_NONE);
+ 783   1      }
+ 784          #endif
+ 785          /*$PAGE*/
+ 786          /*
+ 787          *********************************************************************************************************
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 14  
+
+ 788          *                                        QUERY A MESSAGE QUEUE
+ 789          *
+ 790          * Description: This function obtains information about a message queue.
+ 791          *
+ 792          * Arguments  : pevent        is a pointer to the event control block associated with the desired queue
+ 793          *
+ 794          *              p_q_data      is a pointer to a structure that will contain information about the message
+ 795          *                            queue.
+ 796          *
+ 797          * Returns    : OS_ERR_NONE         The call was successful and the message was sent
+ 798          *              OS_ERR_EVENT_TYPE   If you are attempting to obtain data from a non queue.
+ 799          *              OS_ERR_PEVENT_NULL  If 'pevent'   is a NULL pointer
+ 800          *              OS_ERR_PDATA_NULL   If 'p_q_data' is a NULL pointer
+ 801          *********************************************************************************************************
+ 802          */
+ 803          
+ 804          #if OS_Q_QUERY_EN > 0u
+ 805          INT8U  OSQQuery (OS_EVENT  *pevent,
+ 806                           OS_Q_DATA *p_q_data)
+ 807          {
+ 808   1          OS_Q       *pq;
+ 809   1          INT8U       i;
+ 810   1          OS_PRIO    *psrc;
+ 811   1          OS_PRIO    *pdest;
+ 812   1      #if OS_CRITICAL_METHOD == 3u                           /* Allocate storage for CPU status register     */
+*** WARNING C322 IN LINE 812 OF Source\os_q.c: unknown identifier
                   OS_CPU_SR   cpu_sr = 0u;
               #endif
-              
-              
-              
-              #if OS_ARG_CHK_EN > 0u
+ 815   1      
+ 816   1      
+ 817   1      
+ 818   1      #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {                     /* Validate 'pevent'                            */
                       return (OS_ERR_PEVENT_NULL);
                   }
@@ -1057,76 +871,88 @@ line level    source
                       return (OS_ERR_PDATA_NULL);
                   }
               #endif
-                  if (pevent->OSEventType != OS_EVENT_TYPE_Q) {      /* Validate event block type                    */
-                      return (OS_ERR_EVENT_TYPE);
-                  }
-                  OS_ENTER_CRITICAL();
-                  p_q_data->OSEventGrp = pevent->OSEventGrp;         /* Copy message queue wait list                 */
-                  psrc                 = &pevent->OSEventTbl[0];
-                  pdest                = &p_q_data->OSEventTbl[0];
-                  for (i = 0u; i < OS_EVENT_TBL_SIZE; i++) {
-                      *pdest++ = *psrc++;
-                  }
-                  pq = (OS_Q *)pevent->OSEventPtr;
-                  if (pq->OSQEntries > 0u) {
-                      p_q_data->OSMsg = *pq->OSQOut;                 /* Get next message to return if available      */
-                  } else {
-                      p_q_data->OSMsg = (void *)0;
-                  }
-                  p_q_data->OSNMsgs = pq->OSQEntries;
-                  p_q_data->OSQSize = pq->OSQSize;
-                  OS_EXIT_CRITICAL();
-                  return (OS_ERR_NONE);
-              }
-              #endif                                                 /* OS_Q_QUERY_EN                                */
-              
-              /*$PAGE*/
-              /*
-              *********************************************************************************************************
-              *                                      QUEUE MODULE INITIALIZATION
-              *
-              * Description : This function is called by uC/OS-II to initialize the message queue module.  Your
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 10:39:19 PAGE 18  
+ 826   1          if (pevent->OSEventType != OS_EVENT_TYPE_Q) {      /* Validate event block type                    */
+ 827   2              return (OS_ERR_EVENT_TYPE);
+ 828   2          }
+ 829   1          OS_ENTER_CRITICAL();
+ 830   1          p_q_data->OSEventGrp = pevent->OSEventGrp;         /* Copy message queue wait list                 */
+ 831   1          psrc                 = &pevent->OSEventTbl[0];
+ 832   1          pdest                = &p_q_data->OSEventTbl[0];
+ 833   1          for (i = 0u; i < OS_EVENT_TBL_SIZE; i++) {
+ 834   2              *pdest++ = *psrc++;
+ 835   2          }
+ 836   1          pq = (OS_Q *)pevent->OSEventPtr;
+ 837   1          if (pq->OSQEntries > 0u) {
+ 838   2              p_q_data->OSMsg = *pq->OSQOut;                 /* Get next message to return if available      */
+ 839   2          } else {
+ 840   2              p_q_data->OSMsg = (void *)0;
+ 841   2          }
+ 842   1          p_q_data->OSNMsgs = pq->OSQEntries;
+ 843   1          p_q_data->OSQSize = pq->OSQSize;
+ 844   1          OS_EXIT_CRITICAL();
+ 845   1          return (OS_ERR_NONE);
+ 846   1      }
+ 847          #endif                                                 /* OS_Q_QUERY_EN                                */
+ 848          
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 15  
 
-              *               application MUST NOT call this function.
-              *
-              * Arguments   :  none
-              *
-              * Returns     : none
-              *
-              * Note(s)    : This function is INTERNAL to uC/OS-II and your application should not call it.
-              *********************************************************************************************************
-              */
-              
-              void  OS_QInit (void)
-              {
-              #if OS_MAX_QS == 1u
+ 849          /*$PAGE*/
+ 850          /*
+ 851          *********************************************************************************************************
+ 852          *                                      QUEUE MODULE INITIALIZATION
+ 853          *
+ 854          * Description : This function is called by uC/OS-II to initialize the message queue module.  Your
+ 855          *               application MUST NOT call this function.
+ 856          *
+ 857          * Arguments   :  none
+ 858          *
+ 859          * Returns     : none
+ 860          *
+ 861          * Note(s)    : This function is INTERNAL to uC/OS-II and your application should not call it.
+ 862          *********************************************************************************************************
+ 863          */
+ 864          
+ 865          void  OS_QInit (void)
+ 866          {
+ 867   1      #if OS_MAX_QS == 1u
                   OSQFreeList         = &OSQTbl[0];                /* Only ONE queue!                                */
                   OSQFreeList->OSQPtr = (OS_Q *)0;
               #endif
-              
-              #if OS_MAX_QS >= 2u
-                  INT16U   ix;
-                  INT16U   ix_next;
-                  OS_Q    *pq1;
-                  OS_Q    *pq2;
-              
-              
-              
-                  OS_MemClr((INT8U *)&OSQTbl[0], sizeof(OSQTbl));  /* Clear the queue table                          */
-                  for (ix = 0u; ix < (OS_MAX_QS - 1u); ix++) {     /* Init. list of free QUEUE control blocks        */
-                      ix_next = ix + 1u;
-                      pq1 = &OSQTbl[ix];
-                      pq2 = &OSQTbl[ix_next];
-                      pq1->OSQPtr = pq2;
-                  }
-                  pq1         = &OSQTbl[ix];
-                  pq1->OSQPtr = (OS_Q *)0;
-                  OSQFreeList = &OSQTbl[0];
-              #endif
-              }
-              #endif                                               /* OS_Q_EN                                        */
+ 871   1      
+ 872   1      #if OS_MAX_QS >= 2u
+ 873   1          INT16U   ix;
+ 874   1          INT16U   ix_next;
+ 875   1          OS_Q    *pq1;
+ 876   1          OS_Q    *pq2;
+ 877   1      
+ 878   1      
+ 879   1      
+ 880   1          OS_MemClr((INT8U *)&OSQTbl[0], sizeof(OSQTbl));  /* Clear the queue table                          */
+ 881   1          for (ix = 0u; ix < (OS_MAX_QS - 1u); ix++) {     /* Init. list of free QUEUE control blocks        */
+ 882   2              ix_next = ix + 1u;
+ 883   2              pq1 = &OSQTbl[ix];
+ 884   2              pq2 = &OSQTbl[ix_next];
+ 885   2              pq1->OSQPtr = pq2;
+ 886   2          }
+ 887   1          pq1         = &OSQTbl[ix];
+ 888   1          pq1->OSQPtr = (OS_Q *)0;
+ 889   1          OSQFreeList = &OSQTbl[0];
+ 890   1      #endif
+ 891   1      }
+ 892          #endif                                               /* OS_Q_EN                                        */
  893                                                                                                                                                       
              -                                                                                
 
-C51 COMPILATION COMPLETE.  116 WARNING(S),  44 ERROR(S)
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   2974    ----
+   CONSTANT SIZE    =      2    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----     114
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  11 WARNING(S),  0 ERROR(S)

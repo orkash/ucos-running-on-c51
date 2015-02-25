@@ -1,4 +1,4 @@
-C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 10:39:15 PAGE 1   
+C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 11:31:50 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_DBG_R
@@ -34,200 +34,6 @@ line level    source
   23          
   24          #include <ucos_ii.h>
 *** WARNING C318 IN LINE 44 OF .\Source\ucos_ii.h: can't open file 'app_cfg.h'
-*** WARNING C318 IN LINE 45 OF .\Source\ucos_ii.h: can't open file 'os_cfg.h'
-*** WARNING C322 IN LINE 72 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 81 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 170 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 345 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 351 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 372 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 419 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 433 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 463 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 479 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 506 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 520 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 537 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 548 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 10:39:15 PAGE 2   
-
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 552 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 556 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 560 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 577 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 581 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 589 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 593 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 605 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 646 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 651 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 656 OF .\Source\ucos_ii.h: unknown identifier
-*** ERROR C202 IN LINE 672 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
-*** ERROR C136 IN LINE 672 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** ERROR C202 IN LINE 684 OF .\Source\ucos_ii.h: 'OS_TASK_IDLE_STK_SIZE': undefined identifier
-*** ERROR C136 IN LINE 684 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** ERROR C202 IN LINE 691 OF .\Source\ucos_ii.h: 'OS_LOWEST_PRIO': undefined identifier
-*** ERROR C136 IN LINE 691 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** ERROR C202 IN LINE 692 OF .\Source\ucos_ii.h: 'OS_MAX_TASKS': undefined identifier
-*** ERROR C136 IN LINE 692 OF .\Source\ucos_ii.h: invalid dimension size: [0]
-*** WARNING C322 IN LINE 694 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 698 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 703 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 708 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 712 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 743 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 771 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 823 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 870 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 904 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 940 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 999 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1044 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1049 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1056 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1068 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1073 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1083 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1088 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1093 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1100 OF .\Source\ucos_ii.h: unknown identifier
-C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 10:39:15 PAGE 3   
-
-*** WARNING C322 IN LINE 1120 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1127 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1131 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1144 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1193 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1212 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1216 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1237 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1249 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1253 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1259 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1267 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1271 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1277 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1289 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1301 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1321 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1327 OF .\Source\ucos_ii.h: unknown identifier
-*** WARNING C322 IN LINE 1339 OF .\Source\ucos_ii.h: unknown identifier
-*** ERROR C320 IN LINE 1393 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_FLAG_EN: Enable (1) or Disable (0) code generat
-             -ion for Event Flags"
-*** ERROR C320 IN LINE 1435 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MBOX_EN: Enable (1) or Disable (0) code generat
-             -ion for MAILBOXES"
-*** ERROR C320 IN LINE 1469 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MEM_EN: Enable (1) or Disable (0) code generati
-             -on for MEMORY MANAGER"
-*** ERROR C320 IN LINE 1495 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MUTEX_EN: Enable (1) or Disable (0) code genera
-             -tion for MUTEX"
-*** ERROR C320 IN LINE 1517 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_Q_EN: Enable (1) or Disable (0) code generation
-             - for QUEUES"
-*** ERROR C320 IN LINE 1567 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SEM_EN: Enable (1) or Disable (0) code generati
-             -on for SEMAPHORES"
-*** ERROR C320 IN LINE 1597 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_TASKS: Max. number of tasks in your applica
-             -tion"
-*** WARNING C322 IN LINE 1609 OF .\Source\ucos_ii.h: unknown identifier
-*** ERROR C320 IN LINE 1614 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_IDLE_STK_SIZE: Idle task stack size"
-*** ERROR C320 IN LINE 1618 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_EN: Enable (1) or Disable(0) the stat
-             -istics task"
-*** ERROR C320 IN LINE 1622 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_SIZE: Statistics task stack size"
-*** ERROR C320 IN LINE 1626 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_STAT_STK_CHK_EN: Check task stacks from st
-             -atistics task"
-*** ERROR C320 IN LINE 1630 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CHANGE_PRIO_EN: Include code for OSTaskCha
-             -ngePrio()"
-*** ERROR C320 IN LINE 1634 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EN: Include code for OSTaskCreate()
-             -"
-*** ERROR C320 IN LINE 1638 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_CREATE_EXT_EN: Include code for OSTaskCrea
-             -teExt()"
-*** ERROR C320 IN LINE 1642 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_DEL_EN: Include code for OSTaskDel()"
-*** ERROR C320 IN LINE 1646 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_NAME_EN: Enable task names"
-*** ERROR C320 IN LINE 1650 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SUSPEND_EN: Include code for OSTaskSuspend
-             -() and OSTaskResume()"
-*** ERROR C320 IN LINE 1654 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_QUERY_EN: Include code for OSTaskQuery()"
-C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 10:39:15 PAGE 4   
-
-*** ERROR C320 IN LINE 1658 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_REG_TBL_SIZE: Include code for task specif
-             -ic registers"
-*** ERROR C320 IN LINE 1672 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICKS_PER_SEC: Sets the number of ticks in one 
-             -second"
-*** ERROR C320 IN LINE 1676 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_HMSM_EN: Include code for OSTimeDlyHMS
-             -M()"
-*** ERROR C320 IN LINE 1680 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_DLY_RESUME_EN: Include code for OSTimeDlyR
-             -esume()"
-*** ERROR C320 IN LINE 1684 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_GET_SET_EN: Include code for OSTimeGet() a
-             -nd OSTimeSet()"
-*** ERROR C320 IN LINE 1694 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TMR_EN: When (1) enables code generation for Ti
-             -mer Management"
-*** ERROR C320 IN LINE 1746 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_ARG_CHK_EN: Enable (1) or Disable (0) argument 
-             -checking"
-*** ERROR C320 IN LINE 1751 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_CPU_HOOKS_EN: uC/OS-II hooks are found in the p
-             -rocessor port files when 1"
-*** ERROR C320 IN LINE 1756 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_APP_HOOKS_EN: Application-defined hooks are cal
-             -led from the uC/OS-II hooks"
-*** ERROR C320 IN LINE 1761 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_DEBUG_EN: Allows you to include variables for d
-             -ebugging or not"
-*** ERROR C320 IN LINE 1766 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_LOWEST_PRIO: Defines the lowest priority that c
-             -an be assigned"
-*** ERROR C320 IN LINE 1771 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_MAX_EVENTS: Max. number of event control blocks
-             - in your application"
-*** ERROR C320 IN LINE 1780 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_SCHED_LOCK_EN: Include code for OSSchedLock() a
-             -nd OSSchedUnlock()"
-*** ERROR C320 IN LINE 1785 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_EVENT_MULTI_EN: Include code for OSEventPendMul
-             -ti()"
-*** ERROR C320 IN LINE 1790 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_PROFILE_EN: Include data structure for run
-             --time task profiling"
-*** ERROR C320 IN LINE 1795 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TASK_SW_HOOK_EN: Allows you to include the code
-             - for OSTaskSwHook() or not"
-*** ERROR C320 IN LINE 1800 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TICK_STEP_EN: Allows to 'step' one tick at a ti
-             -me with uC/OS-View"
-*** ERROR C320 IN LINE 1805 OF .\Source\ucos_ii.h: "OS_CFG.H, Missing OS_TIME_TICK_HOOK_EN: Allows you to include the co
-             -de for OSTimeTickHook() or not"
   25          
   26          /*
   27          *********************************************************************************************************
@@ -236,113 +42,111 @@ line level    source
   30          */
   31          
   32          INT16U  const  OSDebugEn           = OS_DEBUG_EN;               /* Debug constants are defined below   */
-*** ERROR C202 IN LINE 32 OF Source\os_dbg_r.c: 'OS_DEBUG_EN': undefined identifier
   33          
   34          #if OS_DEBUG_EN > 0u
-*** WARNING C322 IN LINE 34 OF Source\os_dbg_r.c: unknown identifier
-              
-              INT32U  const  OSEndiannessTest    = 0x12345678uL;              /* Variable to test CPU endianness     */
-              
-              INT16U  const  OSEventEn           = OS_EVENT_EN;
-              INT16U  const  OSEventMax          = OS_MAX_EVENTS;             /* Number of event control blocks      */
-              INT16U  const  OSEventNameEn       = OS_EVENT_NAME_EN;
-              #if (OS_EVENT_EN) && (OS_MAX_EVENTS > 0u)
-              INT16U  const  OSEventSize         = sizeof(OS_EVENT);          /* Size in Bytes of OS_EVENT           */
-              INT16U  const  OSEventTblSize      = sizeof(OSEventTbl);        /* Size of OSEventTbl[] in bytes       */
-              #else
+  35          
+  36          INT32U  const  OSEndiannessTest    = 0x12345678uL;              /* Variable to test CPU endianness     */
+  37          
+  38          INT16U  const  OSEventEn           = OS_EVENT_EN;
+  39          INT16U  const  OSEventMax          = OS_MAX_EVENTS;             /* Number of event control blocks      */
+  40          INT16U  const  OSEventNameEn       = OS_EVENT_NAME_EN;
+  41          #if (OS_EVENT_EN) && (OS_MAX_EVENTS > 0u)
+  42          INT16U  const  OSEventSize         = sizeof(OS_EVENT);          /* Size in Bytes of OS_EVENT           */
+  43          INT16U  const  OSEventTblSize      = sizeof(OSEventTbl);        /* Size of OSEventTbl[] in bytes       */
+  44          #else
               INT16U  const  OSEventSize         = 0u;
               INT16U  const  OSEventTblSize      = 0u;
               #endif
-              INT16U  const  OSEventMultiEn      = OS_EVENT_MULTI_EN;
-C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 10:39:15 PAGE 5   
+  48          INT16U  const  OSEventMultiEn      = OS_EVENT_MULTI_EN;
+  49          
+  50          
+  51          INT16U  const  OSFlagEn            = OS_FLAG_EN;
+  52          #if (OS_FLAG_EN > 0u) && (OS_MAX_FLAGS > 0u)
+C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 11:31:50 PAGE 2   
 
-              
-              
-              INT16U  const  OSFlagEn            = OS_FLAG_EN;
-              #if (OS_FLAG_EN > 0u) && (OS_MAX_FLAGS > 0u)
-              INT16U  const  OSFlagGrpSize       = sizeof(OS_FLAG_GRP);       /* Size in Bytes of OS_FLAG_GRP        */
-              INT16U  const  OSFlagNodeSize      = sizeof(OS_FLAG_NODE);      /* Size in Bytes of OS_FLAG_NODE       */
-              INT16U  const  OSFlagWidth         = sizeof(OS_FLAGS);          /* Width (in bytes) of OS_FLAGS        */
-              #else
+  53          INT16U  const  OSFlagGrpSize       = sizeof(OS_FLAG_GRP);       /* Size in Bytes of OS_FLAG_GRP        */
+  54          INT16U  const  OSFlagNodeSize      = sizeof(OS_FLAG_NODE);      /* Size in Bytes of OS_FLAG_NODE       */
+  55          INT16U  const  OSFlagWidth         = sizeof(OS_FLAGS);          /* Width (in bytes) of OS_FLAGS        */
+  56          #else
               INT16U  const  OSFlagGrpSize       = 0u;
               INT16U  const  OSFlagNodeSize      = 0u;
               INT16U  const  OSFlagWidth         = 0u;
               #endif
-              INT16U  const  OSFlagMax           = OS_MAX_FLAGS;
-              INT16U  const  OSFlagNameEn        = OS_FLAG_NAME_EN;
-              
-              INT16U  const  OSLowestPrio        = OS_LOWEST_PRIO;
-              
-              INT16U  const  OSMboxEn            = OS_MBOX_EN;
-              
-              INT16U  const  OSMemEn             = OS_MEM_EN;
-              INT16U  const  OSMemMax            = OS_MAX_MEM_PART;           /* Number of memory partitions         */
-              INT16U  const  OSMemNameEn         = OS_MEM_NAME_EN;
-              #if (OS_MEM_EN > 0u) && (OS_MAX_MEM_PART > 0u)
-              INT16U  const  OSMemSize           = sizeof(OS_MEM);            /* Mem. Partition header sine (bytes)  */
-              INT16U  const  OSMemTblSize        = sizeof(OSMemTbl);
-              #else
+  61          INT16U  const  OSFlagMax           = OS_MAX_FLAGS;
+  62          INT16U  const  OSFlagNameEn        = OS_FLAG_NAME_EN;
+  63          
+  64          INT16U  const  OSLowestPrio        = OS_LOWEST_PRIO;
+  65          
+  66          INT16U  const  OSMboxEn            = OS_MBOX_EN;
+  67          
+  68          INT16U  const  OSMemEn             = OS_MEM_EN;
+  69          INT16U  const  OSMemMax            = OS_MAX_MEM_PART;           /* Number of memory partitions         */
+  70          INT16U  const  OSMemNameEn         = OS_MEM_NAME_EN;
+  71          #if (OS_MEM_EN > 0u) && (OS_MAX_MEM_PART > 0u)
+  72          INT16U  const  OSMemSize           = sizeof(OS_MEM);            /* Mem. Partition header sine (bytes)  */
+  73          INT16U  const  OSMemTblSize        = sizeof(OSMemTbl);
+  74          #else
               INT16U  const  OSMemSize           = 0u;
               INT16U  const  OSMemTblSize        = 0u;
               #endif
-              INT16U  const  OSMutexEn           = OS_MUTEX_EN;
-              
-              INT16U  const  OSPtrSize           = sizeof(void *);            /* Size in Bytes of a pointer          */
-              
-              INT16U  const  OSQEn               = OS_Q_EN;
-              INT16U  const  OSQMax              = OS_MAX_QS;                 /* Number of queues                    */
-              #if (OS_Q_EN > 0u) && (OS_MAX_QS > 0u)
-              INT16U  const  OSQSize             = sizeof(OS_Q);              /* Size in bytes of OS_Q structure     */
-              #else
+  78          INT16U  const  OSMutexEn           = OS_MUTEX_EN;
+  79          
+  80          INT16U  const  OSPtrSize           = sizeof(void *);            /* Size in Bytes of a pointer          */
+  81          
+  82          INT16U  const  OSQEn               = OS_Q_EN;
+  83          INT16U  const  OSQMax              = OS_MAX_QS;                 /* Number of queues                    */
+  84          #if (OS_Q_EN > 0u) && (OS_MAX_QS > 0u)
+  85          INT16U  const  OSQSize             = sizeof(OS_Q);              /* Size in bytes of OS_Q structure     */
+  86          #else
               INT16U  const  OSQSize             = 0u;
               #endif
-              
-              INT16U  const  OSRdyTblSize        = OS_RDY_TBL_SIZE;           /* Number of bytes in the ready table  */
-              
-              INT16U  const  OSSemEn             = OS_SEM_EN;
-              
-              INT16U  const  OSStkWidth          = sizeof(OS_STK);            /* Size in Bytes of a stack entry      */
-              
-              INT16U  const  OSTaskCreateEn      = OS_TASK_CREATE_EN;
-              INT16U  const  OSTaskCreateExtEn   = OS_TASK_CREATE_EXT_EN;
-              INT16U  const  OSTaskDelEn         = OS_TASK_DEL_EN;
-              INT16U  const  OSTaskIdleStkSize   = OS_TASK_IDLE_STK_SIZE;
-              INT16U  const  OSTaskProfileEn     = OS_TASK_PROFILE_EN;
-              INT16U  const  OSTaskMax           = OS_MAX_TASKS + OS_N_SYS_TASKS; /* Total max. number of tasks      */
-              INT16U  const  OSTaskNameEn        = OS_TASK_NAME_EN;  
-              INT16U  const  OSTaskStatEn        = OS_TASK_STAT_EN;
-              INT16U  const  OSTaskStatStkSize   = OS_TASK_STAT_STK_SIZE;
-              INT16U  const  OSTaskStatStkChkEn  = OS_TASK_STAT_STK_CHK_EN;
-              INT16U  const  OSTaskSwHookEn      = OS_TASK_SW_HOOK_EN;
-              INT16U  const  OSTaskRegTblSize    = OS_TASK_REG_TBL_SIZE;
-              
-              INT16U  const  OSTCBPrioTblMax     = OS_LOWEST_PRIO + 1u;       /* Number of entries in OSTCBPrioTbl[] */
-              INT16U  const  OSTCBSize           = sizeof(OS_TCB);            /* Size in Bytes of OS_TCB             */
-C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 10:39:15 PAGE 6   
+  89          
+  90          INT16U  const  OSRdyTblSize        = OS_RDY_TBL_SIZE;           /* Number of bytes in the ready table  */
+  91          
+  92          INT16U  const  OSSemEn             = OS_SEM_EN;
+  93          
+  94          INT16U  const  OSStkWidth          = sizeof(OS_STK);            /* Size in Bytes of a stack entry      */
+  95          
+  96          INT16U  const  OSTaskCreateEn      = OS_TASK_CREATE_EN;
+  97          INT16U  const  OSTaskCreateExtEn   = OS_TASK_CREATE_EXT_EN;
+  98          INT16U  const  OSTaskDelEn         = OS_TASK_DEL_EN;
+  99          INT16U  const  OSTaskIdleStkSize   = OS_TASK_IDLE_STK_SIZE;
+ 100          INT16U  const  OSTaskProfileEn     = OS_TASK_PROFILE_EN;
+ 101          INT16U  const  OSTaskMax           = OS_MAX_TASKS + OS_N_SYS_TASKS; /* Total max. number of tasks      */
+ 102          INT16U  const  OSTaskNameEn        = OS_TASK_NAME_EN;  
+ 103          INT16U  const  OSTaskStatEn        = OS_TASK_STAT_EN;
+ 104          INT16U  const  OSTaskStatStkSize   = OS_TASK_STAT_STK_SIZE;
+ 105          INT16U  const  OSTaskStatStkChkEn  = OS_TASK_STAT_STK_CHK_EN;
+ 106          INT16U  const  OSTaskSwHookEn      = OS_TASK_SW_HOOK_EN;
+ 107          INT16U  const  OSTaskRegTblSize    = OS_TASK_REG_TBL_SIZE;
+ 108          
+ 109          INT16U  const  OSTCBPrioTblMax     = OS_LOWEST_PRIO + 1u;       /* Number of entries in OSTCBPrioTbl[] */
+ 110          INT16U  const  OSTCBSize           = sizeof(OS_TCB);            /* Size in Bytes of OS_TCB             */
+ 111          INT16U  const  OSTicksPerSec       = OS_TICKS_PER_SEC;
+ 112          INT16U  const  OSTimeTickHookEn    = OS_TIME_TICK_HOOK_EN;
+ 113          INT16U  const  OSVersionNbr        = OS_VERSION;
+ 114          
+C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 11:31:50 PAGE 3   
 
-              INT16U  const  OSTicksPerSec       = OS_TICKS_PER_SEC;
-              INT16U  const  OSTimeTickHookEn    = OS_TIME_TICK_HOOK_EN;
-              INT16U  const  OSVersionNbr        = OS_VERSION;
-              
-              INT16U  const  OSTmrEn             = OS_TMR_EN;
-              INT16U  const  OSTmrCfgMax         = OS_TMR_CFG_MAX;
-              INT16U  const  OSTmrCfgNameEn      = OS_TMR_CFG_NAME_EN;
-              INT16U  const  OSTmrCfgWheelSize   = OS_TMR_CFG_WHEEL_SIZE;
-              INT16U  const  OSTmrCfgTicksPerSec = OS_TMR_CFG_TICKS_PER_SEC;
-              
-              #if (OS_TMR_EN > 0u) && (OS_TMR_CFG_MAX > 0u)
-              INT16U  const  OSTmrSize           = sizeof(OS_TMR);
-              INT16U  const  OSTmrTblSize        = sizeof(OSTmrTbl);
-              INT16U  const  OSTmrWheelSize      = sizeof(OS_TMR_WHEEL);
-              INT16U  const  OSTmrWheelTblSize   = sizeof(OSTmrWheelTbl);
-              #else
+ 115          INT16U  const  OSTmrEn             = OS_TMR_EN;
+ 116          INT16U  const  OSTmrCfgMax         = OS_TMR_CFG_MAX;
+ 117          INT16U  const  OSTmrCfgNameEn      = OS_TMR_CFG_NAME_EN;
+ 118          INT16U  const  OSTmrCfgWheelSize   = OS_TMR_CFG_WHEEL_SIZE;
+ 119          INT16U  const  OSTmrCfgTicksPerSec = OS_TMR_CFG_TICKS_PER_SEC;
+ 120          
+ 121          #if (OS_TMR_EN > 0u) && (OS_TMR_CFG_MAX > 0u)
+ 122          INT16U  const  OSTmrSize           = sizeof(OS_TMR);
+ 123          INT16U  const  OSTmrTblSize        = sizeof(OSTmrTbl);
+ 124          INT16U  const  OSTmrWheelSize      = sizeof(OS_TMR_WHEEL);
+ 125          INT16U  const  OSTmrWheelTblSize   = sizeof(OSTmrWheelTbl);
+ 126          #else
               INT16U  const  OSTmrSize           = 0u;
               INT16U  const  OSTmrTblSize        = 0u;
               INT16U  const  OSTmrWheelSize      = 0u;
               INT16U  const  OSTmrWheelTblSize   = 0u;
               #endif
-              
-              #endif
+ 132          
+ 133          #endif
  134          
  135          /*$PAGE*/
  136          /*
@@ -352,69 +156,68 @@ line level    source
  140          *********************************************************************************************************
  141          */
  142          #if OS_DEBUG_EN > 0u
-*** WARNING C322 IN LINE 142 OF Source\os_dbg_r.c: unknown identifier
-              
-              INT16U  const  OSDataSize = sizeof(OSCtxSwCtr)
-              #if (OS_EVENT_EN) && (OS_MAX_EVENTS > 0u)
-                                        + sizeof(OSEventFreeList)
-                                        + sizeof(OSEventTbl)
-              #endif
-              #if (OS_FLAG_EN > 0u) && (OS_MAX_FLAGS > 0u)
-                                        + sizeof(OSFlagTbl)
-                                        + sizeof(OSFlagFreeList)
-              #endif
-              #if OS_TASK_STAT_EN > 0u
-                                        + sizeof(OSCPUUsage)
-                                        + sizeof(OSIdleCtrMax)
-                                        + sizeof(OSIdleCtrRun)
-                                        + sizeof(OSStatRdy)
-                                        + sizeof(OSTaskStatStk)
-              #endif
-              #if OS_TICK_STEP_EN > 0u
-                                        + sizeof(OSTickStepState)
-              #endif
-              #if (OS_MEM_EN > 0u) && (OS_MAX_MEM_PART > 0u)
-                                        + sizeof(OSMemFreeList)
-                                        + sizeof(OSMemTbl)
-              #endif
-              #if (OS_Q_EN > 0u) && (OS_MAX_QS > 0u)
-                                        + sizeof(OSQFreeList)
-                                        + sizeof(OSQTbl)
-              #endif
-              #if OS_TIME_GET_SET_EN > 0u   
-C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 10:39:15 PAGE 7   
+ 143          
+ 144          INT16U  const  OSDataSize = sizeof(OSCtxSwCtr)
+ 145          #if (OS_EVENT_EN) && (OS_MAX_EVENTS > 0u)
+ 146                                    + sizeof(OSEventFreeList)
+ 147                                    + sizeof(OSEventTbl)
+ 148          #endif
+ 149          #if (OS_FLAG_EN > 0u) && (OS_MAX_FLAGS > 0u)
+ 150                                    + sizeof(OSFlagTbl)
+ 151                                    + sizeof(OSFlagFreeList)
+ 152          #endif
+ 153          #if OS_TASK_STAT_EN > 0u
+ 154                                    + sizeof(OSCPUUsage)
+ 155                                    + sizeof(OSIdleCtrMax)
+ 156                                    + sizeof(OSIdleCtrRun)
+ 157                                    + sizeof(OSStatRdy)
+ 158                                    + sizeof(OSTaskStatStk)
+ 159          #endif
+ 160          #if OS_TICK_STEP_EN > 0u
+ 161                                    + sizeof(OSTickStepState)
+ 162          #endif
+ 163          #if (OS_MEM_EN > 0u) && (OS_MAX_MEM_PART > 0u)
+ 164                                    + sizeof(OSMemFreeList)
+ 165                                    + sizeof(OSMemTbl)
+ 166          #endif
+ 167          #if (OS_Q_EN > 0u) && (OS_MAX_QS > 0u)
+ 168                                    + sizeof(OSQFreeList)
+ 169                                    + sizeof(OSQTbl)
+ 170          #endif
+ 171          #if OS_TIME_GET_SET_EN > 0u   
+ 172                                    + sizeof(OSTime)
+ 173          #endif
+ 174          #if (OS_TMR_EN > 0u) && (OS_TMR_CFG_MAX > 0u)
+ 175                                    + sizeof(OSTmrFree)
+ 176                                    + sizeof(OSTmrUsed)
+C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 11:31:50 PAGE 4   
 
-                                        + sizeof(OSTime)
-              #endif
-              #if (OS_TMR_EN > 0u) && (OS_TMR_CFG_MAX > 0u)
-                                        + sizeof(OSTmrFree)
-                                        + sizeof(OSTmrUsed)
-                                        + sizeof(OSTmrTime)
-                                        + sizeof(OSTmrSem)
-                                        + sizeof(OSTmrSemSignal)
-                                        + sizeof(OSTmrTbl)
-                                        + sizeof(OSTmrFreeList)
-                                        + sizeof(OSTmrTaskStk)
-                                        + sizeof(OSTmrWheelTbl)
-              #endif
-                                        + sizeof(OSIntNesting)
-                                        + sizeof(OSLockNesting)
-                                        + sizeof(OSPrioCur)
-                                        + sizeof(OSPrioHighRdy)
-                                        + sizeof(OSRdyGrp)
-                                        + sizeof(OSRdyTbl)
-                                        + sizeof(OSRunning)
-                                        + sizeof(OSTaskCtr)
-                                        + sizeof(OSIdleCtr)
-                                        + sizeof(OSTaskIdleStk)
-                                        + sizeof(OSTCBCur)
-                                        + sizeof(OSTCBFreeList)
-                                        + sizeof(OSTCBHighRdy)
-                                        + sizeof(OSTCBList)
-                                        + sizeof(OSTCBPrioTbl)
-                                        + sizeof(OSTCBTbl);
-              
-              #endif
+ 177                                    + sizeof(OSTmrTime)
+ 178                                    + sizeof(OSTmrSem)
+ 179                                    + sizeof(OSTmrSemSignal)
+ 180                                    + sizeof(OSTmrTbl)
+ 181                                    + sizeof(OSTmrFreeList)
+ 182                                    + sizeof(OSTmrTaskStk)
+ 183                                    + sizeof(OSTmrWheelTbl)
+ 184          #endif
+ 185                                    + sizeof(OSIntNesting)
+ 186                                    + sizeof(OSLockNesting)
+ 187                                    + sizeof(OSPrioCur)
+ 188                                    + sizeof(OSPrioHighRdy)
+ 189                                    + sizeof(OSRdyGrp)
+ 190                                    + sizeof(OSRdyTbl)
+ 191                                    + sizeof(OSRunning)
+ 192                                    + sizeof(OSTaskCtr)
+ 193                                    + sizeof(OSIdleCtr)
+ 194                                    + sizeof(OSTaskIdleStk)
+ 195                                    + sizeof(OSTCBCur)
+ 196                                    + sizeof(OSTCBFreeList)
+ 197                                    + sizeof(OSTCBHighRdy)
+ 198                                    + sizeof(OSTCBList)
+ 199                                    + sizeof(OSTCBPrioTbl)
+ 200                                    + sizeof(OSTCBTbl);
+ 201          
+ 202          #endif
  203          
  204          /*$PAGE*/
  205          /*
@@ -439,100 +242,111 @@ line level    source
  223          */
  224          
  225          #if OS_DEBUG_EN > 0u
-*** WARNING C322 IN LINE 225 OF Source\os_dbg_r.c: unknown identifier
-              void  OSDebugInit (void)
-              {
-                  void  const  *ptemp;
-              
-              
-                  ptemp = (void const *)&OSDebugEn;
-C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 10:39:15 PAGE 8   
+ 226          void  OSDebugInit (void)
+ 227          {
+ 228   1          void  const  *ptemp;
+ 229   1      
+ 230   1      
+ 231   1          ptemp = (void const *)&OSDebugEn;
+ 232   1      
+ 233   1          ptemp = (void const *)&OSEndiannessTest;
+ 234   1      
+ 235   1          ptemp = (void const *)&OSEventMax;
+ 236   1          ptemp = (void const *)&OSEventNameEn;
+ 237   1          ptemp = (void const *)&OSEventEn;
+C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 11:31:50 PAGE 5   
 
-              
-                  ptemp = (void const *)&OSEndiannessTest;
-              
-                  ptemp = (void const *)&OSEventMax;
-                  ptemp = (void const *)&OSEventNameEn;
-                  ptemp = (void const *)&OSEventEn;
-                  ptemp = (void const *)&OSEventSize;
-                  ptemp = (void const *)&OSEventTblSize;
-                  ptemp = (void const *)&OSEventMultiEn;
-              
-                  ptemp = (void const *)&OSFlagEn;
-                  ptemp = (void const *)&OSFlagGrpSize;
-                  ptemp = (void const *)&OSFlagNodeSize;
-                  ptemp = (void const *)&OSFlagWidth;
-                  ptemp = (void const *)&OSFlagMax;
-                  ptemp = (void const *)&OSFlagNameEn;
-              
-                  ptemp = (void const *)&OSLowestPrio;
-              
-                  ptemp = (void const *)&OSMboxEn;
-              
-                  ptemp = (void const *)&OSMemEn;
-                  ptemp = (void const *)&OSMemMax;
-                  ptemp = (void const *)&OSMemNameEn;
-                  ptemp = (void const *)&OSMemSize;
-                  ptemp = (void const *)&OSMemTblSize;
-              
-                  ptemp = (void const *)&OSMutexEn;
-              
-                  ptemp = (void const *)&OSPtrSize;
-              
-                  ptemp = (void const *)&OSQEn;
-                  ptemp = (void const *)&OSQMax;
-                  ptemp = (void const *)&OSQSize;
-              
-                  ptemp = (void const *)&OSRdyTblSize;
-              
-                  ptemp = (void const *)&OSSemEn;
-              
-                  ptemp = (void const *)&OSStkWidth;
-              
-                  ptemp = (void const *)&OSTaskCreateEn;
-                  ptemp = (void const *)&OSTaskCreateExtEn;
-                  ptemp = (void const *)&OSTaskDelEn;
-                  ptemp = (void const *)&OSTaskIdleStkSize;
-                  ptemp = (void const *)&OSTaskProfileEn;
-                  ptemp = (void const *)&OSTaskMax;
-                  ptemp = (void const *)&OSTaskNameEn;
-                  ptemp = (void const *)&OSTaskStatEn;
-                  ptemp = (void const *)&OSTaskStatStkSize;
-                  ptemp = (void const *)&OSTaskStatStkChkEn;
-                  ptemp = (void const *)&OSTaskSwHookEn;
-              
-                  ptemp = (void const *)&OSTCBPrioTblMax;
-                  ptemp = (void const *)&OSTCBSize;
-              
-                  ptemp = (void const *)&OSTicksPerSec;
-                  ptemp = (void const *)&OSTimeTickHookEn;
-              
-              #if OS_TMR_EN > 0u
-                  ptemp = (void const *)&OSTmrTbl[0];
-                  ptemp = (void const *)&OSTmrWheelTbl[0];
-C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 10:39:15 PAGE 9   
+ 238   1          ptemp = (void const *)&OSEventSize;
+ 239   1          ptemp = (void const *)&OSEventTblSize;
+ 240   1          ptemp = (void const *)&OSEventMultiEn;
+ 241   1      
+ 242   1          ptemp = (void const *)&OSFlagEn;
+ 243   1          ptemp = (void const *)&OSFlagGrpSize;
+ 244   1          ptemp = (void const *)&OSFlagNodeSize;
+ 245   1          ptemp = (void const *)&OSFlagWidth;
+ 246   1          ptemp = (void const *)&OSFlagMax;
+ 247   1          ptemp = (void const *)&OSFlagNameEn;
+ 248   1      
+ 249   1          ptemp = (void const *)&OSLowestPrio;
+ 250   1      
+ 251   1          ptemp = (void const *)&OSMboxEn;
+ 252   1      
+ 253   1          ptemp = (void const *)&OSMemEn;
+ 254   1          ptemp = (void const *)&OSMemMax;
+ 255   1          ptemp = (void const *)&OSMemNameEn;
+ 256   1          ptemp = (void const *)&OSMemSize;
+ 257   1          ptemp = (void const *)&OSMemTblSize;
+ 258   1      
+ 259   1          ptemp = (void const *)&OSMutexEn;
+ 260   1      
+ 261   1          ptemp = (void const *)&OSPtrSize;
+ 262   1      
+ 263   1          ptemp = (void const *)&OSQEn;
+ 264   1          ptemp = (void const *)&OSQMax;
+ 265   1          ptemp = (void const *)&OSQSize;
+ 266   1      
+ 267   1          ptemp = (void const *)&OSRdyTblSize;
+ 268   1      
+ 269   1          ptemp = (void const *)&OSSemEn;
+ 270   1      
+ 271   1          ptemp = (void const *)&OSStkWidth;
+ 272   1      
+ 273   1          ptemp = (void const *)&OSTaskCreateEn;
+ 274   1          ptemp = (void const *)&OSTaskCreateExtEn;
+ 275   1          ptemp = (void const *)&OSTaskDelEn;
+ 276   1          ptemp = (void const *)&OSTaskIdleStkSize;
+ 277   1          ptemp = (void const *)&OSTaskProfileEn;
+ 278   1          ptemp = (void const *)&OSTaskMax;
+ 279   1          ptemp = (void const *)&OSTaskNameEn;
+ 280   1          ptemp = (void const *)&OSTaskStatEn;
+ 281   1          ptemp = (void const *)&OSTaskStatStkSize;
+ 282   1          ptemp = (void const *)&OSTaskStatStkChkEn;
+ 283   1          ptemp = (void const *)&OSTaskSwHookEn;
+ 284   1      
+ 285   1          ptemp = (void const *)&OSTCBPrioTblMax;
+ 286   1          ptemp = (void const *)&OSTCBSize;
+ 287   1      
+ 288   1          ptemp = (void const *)&OSTicksPerSec;
+ 289   1          ptemp = (void const *)&OSTimeTickHookEn;
+ 290   1      
+ 291   1      #if OS_TMR_EN > 0u
+ 292   1          ptemp = (void const *)&OSTmrTbl[0];
+ 293   1          ptemp = (void const *)&OSTmrWheelTbl[0];
+ 294   1          
+ 295   1          ptemp = (void const *)&OSTmrEn;
+ 296   1          ptemp = (void const *)&OSTmrCfgMax;
+ 297   1          ptemp = (void const *)&OSTmrCfgNameEn;
+ 298   1          ptemp = (void const *)&OSTmrCfgWheelSize;
+ 299   1          ptemp = (void const *)&OSTmrCfgTicksPerSec;
+C51 COMPILER V9.51   OS_DBG_R                                                              02/25/2015 11:31:50 PAGE 6   
 
-                  
-                  ptemp = (void const *)&OSTmrEn;
-                  ptemp = (void const *)&OSTmrCfgMax;
-                  ptemp = (void const *)&OSTmrCfgNameEn;
-                  ptemp = (void const *)&OSTmrCfgWheelSize;
-                  ptemp = (void const *)&OSTmrCfgTicksPerSec;
-                  ptemp = (void const *)&OSTmrSize;
-                  ptemp = (void const *)&OSTmrTblSize;
-              
-                  ptemp = (void const *)&OSTmrWheelSize;
-                  ptemp = (void const *)&OSTmrWheelTblSize;
-              #endif
-              
-                  ptemp = (void const *)&OSVersionNbr;
-              
-                  ptemp = (void const *)&OSDataSize;
-              
-                  ptemp = ptemp;                             /* Prevent compiler warning for 'ptemp' not being used! */
-              }
-              #endif
+ 300   1          ptemp = (void const *)&OSTmrSize;
+ 301   1          ptemp = (void const *)&OSTmrTblSize;
+ 302   1      
+ 303   1          ptemp = (void const *)&OSTmrWheelSize;
+ 304   1          ptemp = (void const *)&OSTmrWheelTblSize;
+ 305   1      #endif
+ 306   1      
+ 307   1          ptemp = (void const *)&OSVersionNbr;
+ 308   1      
+ 309   1          ptemp = (void const *)&OSDataSize;
+ 310   1      
+ 311   1          ptemp = ptemp;                             /* Prevent compiler warning for 'ptemp' not being used! */
+ 312   1      }
+ 313          #endif
  314                                                                                                                                                       
              -                                                                                
 
-C51 COMPILATION COMPLETE.  117 WARNING(S),  45 ERROR(S)
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      1    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     59    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

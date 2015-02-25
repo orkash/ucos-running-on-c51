@@ -1,10 +1,10 @@
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 1   
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_CORE
 OBJECT MODULE PLACED IN .\Output\os_core.obj
-COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_core.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os
-                    -_core.lst) TABS(2) OBJECT(.\Output\os_core.obj)
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE Source\os_core.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List
+                    -\os_core.lst) TABS(2) OBJECT(.\Output\os_core.obj)
 
 line level    source
 
@@ -62,7 +62,7 @@ line level    source
   51              6u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0xC0 to 0xCF                   */
   52              4u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0xD0 to 0xDF                   */
   53              5u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, /* 0xE0 to 0xEF                   */
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 2   
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 2   
 
   54              4u, 0u, 1u, 0u, 2u, 0u, 1u, 0u, 3u, 0u, 1u, 0u, 2u, 0u, 1u, 0u  /* 0xF0 to 0xFF                   */
   55          };
@@ -126,7 +126,7 @@ line level    source
  112   1          INT8U      len;
  113   1      #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
 *** WARNING C322 IN LINE 113 OF Source\os_core.c: unknown identifier
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 3   
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 3   
 
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
@@ -190,7 +190,7 @@ line level    source
  173          *              perr      is a pointer to an error code that can contain one of the following values:
  174          *
  175          *                        OS_ERR_NONE                if the requested task is resumed
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 4   
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 4   
 
  176          *                        OS_ERR_EVENT_TYPE          if 'pevent' is not pointing to the proper event
  177          *                                                   control block type.
@@ -254,7 +254,7 @@ line level    source
  234          
  235          /*$PAGE*/
  236          /*
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 5   
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 5   
 
  237          *********************************************************************************************************
  238          *                                      PEND ON MULTIPLE EVENTS
@@ -318,7 +318,7 @@ line level    source
  296          *                      Performed in OS_EventTaskRdy(), if events posted or aborted
  297          *
  298          *                 f. Return any event posted or aborted, if any
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 6   
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 6   
 
  299          *                      else
  300          *                    Return timeout
@@ -382,7 +382,7 @@ line level    source
  357   1          while  (pevent != (OS_EVENT *)0) {
  358   2              switch (pevent->OSEventType) {                  /* Validate event block types                  */
  359   3      #if (OS_SEM_EN  > 0u)
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 7   
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 7   
 
  360   3                  case OS_EVENT_TYPE_SEM:
  361   3                       break;
@@ -446,7 +446,7 @@ line level    source
  419   4                          *pmsgs_rdy++         = (void *)pevent->OSEventPtr;
  420   4                           pevent->OSEventPtr  = (void *)0;
  421   4                          *pevents_rdy++       =  pevent;     /* ... and return available mailbox event      */
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 8   
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 8   
 
  422   4                            events_rdy         =  OS_TRUE;
  423   4                            events_rdy_nbr++;
@@ -510,7 +510,7 @@ line level    source
  481   1          switch (OSTCBCur->OSTCBStatPend) {                  /* Handle event posted, aborted, or timed-out  */
  482   2              case OS_STAT_PEND_OK:
  483   2              case OS_STAT_PEND_ABORT:
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 9   
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 9   
 
  484   2                   pevent = OSTCBCur->OSTCBEventPtr;
  485   2                   if (pevent != (OS_EVENT *)0) {             /* If task event ptr != NULL, ...              */
@@ -574,7 +574,7 @@ line level    source
  543   1          OSTCBCur->OSTCBStatPend      =  OS_STAT_PEND_OK;    /* Clear pend  status                          */
  544   1          OSTCBCur->OSTCBEventPtr      = (OS_EVENT  *)0;      /* Clear event pointers                        */
  545   1          OSTCBCur->OSTCBEventMultiPtr = (OS_EVENT **)0;
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 10  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 10  
 
  546   1      #if ((OS_MBOX_EN > 0u) ||                 \
  547   1          ((OS_Q_EN    > 0u) && (OS_MAX_QS > 0u)))
@@ -638,7 +638,7 @@ line level    source
  596   1          OS_InitTaskStat();                                           /* Create the Statistic Task             
              -   */
  597   1      #endif
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 11  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 11  
 
  598   1      
  599   1      #if OS_TMR_EN > 0u
@@ -702,7 +702,7 @@ line level    source
  655          *
  656          * Notes      : 1) You MUST invoke OSIntEnter() and OSIntExit() in pair.  In other words, for every call
  657          *                 to OSIntEnter() at the beginning of the ISR you MUST have a call to OSIntExit() at the
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 12  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 12  
 
  658          *                 end of the ISR.
  659          *              2) Rescheduling is prevented when the scheduler is locked (see OS_SchedLock())
@@ -766,7 +766,7 @@ line level    source
               
               #endif
  717          
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 13  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 13  
 
  718          /*$PAGE*/
  719          /*
@@ -830,7 +830,7 @@ line level    source
 *** WARNING C322 IN LINE 775 OF Source\os_core.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 14  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 14  
 
  778   1      
  779   1      
@@ -894,7 +894,7 @@ line level    source
  836          *                                        STATISTICS INITIALIZATION
  837          *
  838          * Description: This function is called by your application to establish CPU usage by first determining
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 15  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 15  
 
  839          *              how high a 32-bit counter would count to in 1 second if no other tasks were to execute
  840          *              during that time.  CPU usage is then determined by a low priority task which keeps track
@@ -958,7 +958,7 @@ line level    source
 *** WARNING C322 IN LINE 895 OF Source\os_core.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 16  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 16  
 
  898   1      
  899   1      
@@ -1022,7 +1022,7 @@ line level    source
  942   6                              ptcb->OSTCBStat  &= (INT8U)~(INT8U)OS_STAT_PEND_ANY;          /* Yes, Clear status
              - flag   */
  943   6                              ptcb->OSTCBStatPend = OS_STAT_PEND_TO;                 /* Indicate PEND timeout   
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 17  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 17  
 
              - */
  944   6                          } else {
@@ -1086,7 +1086,7 @@ line level    source
  999          /*$PAGE*/
 1000          /*
 1001          *********************************************************************************************************
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 18  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 18  
 
 1002          *                             MAKE TASK READY TO RUN BASED ON EVENT OCCURING
 1003          *
@@ -1150,7 +1150,7 @@ line level    source
 1061   1          ptcb                  =  OSTCBPrioTbl[prio];        /* Point to this task's OS_TCB                 */
 1062   1          ptcb->OSTCBDly        =  0u;                        /* Prevent OSTimeTick() from readying task     */
 1063   1      #if ((OS_Q_EN > 0u) && (OS_MAX_QS > 0u)) || (OS_MBOX_EN > 0u)
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 19  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 19  
 
 1064   1          ptcb->OSTCBMsg        =  pmsg;                      /* Send message directly to waiting task       */
 1065   1      #else
@@ -1214,7 +1214,7 @@ line level    source
 1123          *                          MAKE TASK WAIT FOR ANY OF MULTIPLE EVENTS TO OCCUR
 1124          *
 1125          * Description: This function is called by other uC/OS-II services to suspend a task because any one of
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 20  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 20  
 
 1126          *              multiple events has not occurred.
 1127          *
@@ -1278,7 +1278,7 @@ line level    source
 1185   1      
 1186   1          y                       =  ptcb->OSTCBY;
 1187   1          pevent->OSEventTbl[y]  &= (OS_PRIO)~ptcb->OSTCBBitX;    /* Remove task from wait list              */
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 21  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 21  
 
 1188   1          if (pevent->OSEventTbl[y] == 0u) {
 1189   2              pevent->OSEventGrp &= (OS_PRIO)~ptcb->OSTCBBitY;
@@ -1342,7 +1342,7 @@ line level    source
 1247          *********************************************************************************************************
 1248          */
 1249          #if (OS_EVENT_EN)
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 22  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 22  
 
 1250          void  OS_EventWaitListInit (OS_EVENT *pevent)
 1251          {
@@ -1406,7 +1406,7 @@ line level    source
               #endif
               #endif
 1311   1      #endif
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 23  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 23  
 
 1312   1      }
 1313          /*$PAGE*/
@@ -1470,7 +1470,7 @@ line level    source
 1371   1      
 1372   1          OSRdyGrp      = 0u;                                    /* Clear the ready list                     */
 1373   1          for (i = 0u; i < OS_RDY_TBL_SIZE; i++) {
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 24  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 24  
 
 1374   2              OSRdyTbl[i] = 0u;
 1375   2          }
@@ -1534,7 +1534,7 @@ line level    source
              -   */
 1423   1                                OS_TASK_IDLE_STK_SIZE,
 1424   1                                (void *)0,                                 /* No TCB extension                  
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 25  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 25  
 
              -   */
 1425   1                                OS_TASK_OPT_STK_CHK | OS_TASK_OPT_STK_CLR);/* Enable stack checking + clear stac
@@ -1598,7 +1598,7 @@ line level    source
              -/
                                         OS_TASK_OPT_STK_CHK | OS_TASK_OPT_STK_CLR);  /* Enable stack checking + clear  *
              -/
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 26  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 26  
 
                   #else
 1479   1          (void)OSTaskCreateExt(OS_TaskStat,
@@ -1662,7 +1662,7 @@ line level    source
 1525   1          INT8U    ix_next;
 1526   1          OS_TCB  *ptcb1;
 1527   1          OS_TCB  *ptcb2;
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 27  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 27  
 
 1528   1      
 1529   1      
@@ -1726,7 +1726,7 @@ line level    source
 1587          *
 1588          *              psrc     is a pointer to the 'source'      memory block
 1589          *
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 28  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 28  
 
 1590          *              size     is the number of bytes to copy.
 1591          *
@@ -1790,7 +1790,7 @@ line level    source
 1647   4                      OSCtxSwCtr++;                          /* Increment context switch counter             */
 1648   4                      OS_TASK_SW();                          /* Perform a context switch                     */
 *** WARNING C206 IN LINE 1648 OF Source\os_core.c: 'OSCtxSw': missing function-prototype
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 29  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 29  
 
 1649   4                  }
 1650   3              }
@@ -1854,7 +1854,7 @@ line level    source
 1708          *
 1709          * Returns    : The size of the string (excluding the NUL terminating character)
 1710          *
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 30  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 30  
 
 1711          * Notes      : 1) This function is INTERNAL to uC/OS-II and your application should not call it.
 1712          *              2) The string to check must be less than 255 characters long.
@@ -1918,7 +1918,7 @@ line level    source
 1768          /*$PAGE*/
 1769          /*
 1770          *********************************************************************************************************
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 31  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 31  
 
 1771          *                                            STATISTICS TASK
 1772          *
@@ -1982,7 +1982,7 @@ line level    source
 1829   1      }
 1830          #endif
 1831          /*$PAGE*/
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 32  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 32  
 
 1832          /*
 1833          *********************************************************************************************************
@@ -2046,7 +2046,7 @@ line level    source
 1890          *                            'OSTaskCreate()'.
 1891          *
 1892          *              id            is the task's ID (0..65535)
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 33  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 33  
 
 1893          *
 1894          *              stk_size      is the size of the stack (in 'stack units').  If the stack units are INT8Us
@@ -2110,7 +2110,7 @@ line level    source
 1950   2              ptcb->OSTCBId            = id;                     /* Store task ID                            */
 1951   2      #else
                       pext                     = pext;                   /* Prevent compiler warning if not used     */
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 34  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 34  
 
                       stk_size                 = stk_size;
                       pbos                     = pbos;
@@ -2174,7 +2174,7 @@ line level    source
 2012   2              OSTCBPrioTbl[prio] = ptcb;
 2013   2              ptcb->OSTCBNext    = OSTCBList;                    /* Link into TCB chain                      */
 2014   2              ptcb->OSTCBPrev    = (OS_TCB *)0;
-C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 11:31:50 PAGE 35  
+C51 COMPILER V9.51   OS_CORE                                                               02/25/2015 14:57:57 PAGE 35  
 
 2015   2              if (OSTCBList != (OS_TCB *)0) {
 2016   3                  OSTCBList->OSTCBPrev = ptcb;

@@ -1,10 +1,10 @@
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 1   
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_TASK
 OBJECT MODULE PLACED IN .\Output\os_task.obj
-COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_task.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os
-                    -_task.lst) TABS(2) OBJECT(.\Output\os_task.obj)
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE Source\os_task.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List
+                    -\os_task.lst) TABS(2) OBJECT(.\Output\os_task.obj)
 
 line level    source
 
@@ -62,7 +62,7 @@ line level    source
   50          #if OS_TASK_CHANGE_PRIO_EN > 0u
   51          INT8U  OSTaskChangePrio (INT8U  oldprio,
   52                                   INT8U  newprio)
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 2   
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 2   
 
   53          {
   54   1      #if (OS_EVENT_EN)
@@ -126,7 +126,7 @@ line level    source
  111   1          OSTCBPrioTbl[oldprio] = (OS_TCB *)0;                    /* Remove TCB from old priority            */
  112   1          OSTCBPrioTbl[newprio] =  ptcb;                          /* Place pointer to TCB @ new priority     */
  113   1          y_old                 =  ptcb->OSTCBY;
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 3   
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 3   
 
  114   1          bity_old              =  ptcb->OSTCBBitY;
  115   1          bitx_old              =  ptcb->OSTCBBitX;
@@ -190,7 +190,7 @@ line level    source
  173          *
  174          * Arguments  : task     is a pointer to the task's code
  175          *
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 4   
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 4   
 
  176          *              p_arg    is a pointer to an optional data area which can be used to pass parameters to
  177          *                       the task when the task first executes.  Where the task is concerned it thinks
@@ -254,7 +254,7 @@ line level    source
  234   2              return (OS_ERR_TASK_CREATE_ISR);
  235   2          }
  236   1          if (OSTCBPrioTbl[prio] == (OS_TCB *)0) { /* Make sure task doesn't already exist at this priority  */
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 5   
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 5   
 
  237   2              OSTCBPrioTbl[prio] = OS_TCB_RESERVED;/* Reserve the priority to prevent others from doing ...  */
  238   2                                                   /* ... the same thing until task is created.              */
@@ -318,7 +318,7 @@ line level    source
  296          *                        HIGHEST memory location of the stack and the stack will grow with increasing
  297          *                        memory locations.  'pbos' MUST point to a valid 'free' data item.
  298          *
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 6   
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 6   
 
  299          *              stk_size  is the size of the stack in number of elements.  If OS_STK is set to INT8U,
  300          *                        'stk_size' corresponds to the number of bytes available.  If OS_STK is set to
@@ -382,7 +382,7 @@ line level    source
               #endif
  358   1          OS_ENTER_CRITICAL();
  359   1          if (OSIntNesting > 0u) {                 /* Make sure we don't create the task from within an ISR  */
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 7   
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 7   
 
  360   2              OS_EXIT_CRITICAL();
  361   2              return (OS_ERR_TASK_CREATE_ISR);
@@ -446,7 +446,7 @@ line level    source
  419          *                 task is being deleted, the current task would not be able to be rescheduled because it
  420          *                 is removed from the ready list.  Incrementing the nesting counter prevents another task
  421          *                 from being schedule.  This means that an ISR would return to the current task which is
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 8   
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 8   
 
  422          *                 being deleted.  The rest of the deletion would thus be able to be completed.
  423          *********************************************************************************************************
@@ -510,7 +510,7 @@ line level    source
  480   2          }
  481   1      #endif
  482   1      #endif
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 9   
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 9   
 
  483   1      
  484   1      #if (OS_FLAG_EN > 0u) && (OS_MAX_FLAGS > 0u)
@@ -574,7 +574,7 @@ line level    source
              -ke
  542          *              this:
  543          *
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 10  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 10  
 
  544          *                   void Task(void *p_arg)
  545          *                   {
@@ -638,7 +638,7 @@ line level    source
  601   1          if (ptcb == (OS_TCB *)0) {                                  /* Task to delete must exist           */
  602   2              OS_EXIT_CRITICAL();
  603   2              return (OS_ERR_TASK_NOT_EXIST);                         /* Task must already be deleted        */
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 11  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 11  
 
  604   2          }
  605   1          if (ptcb == OS_TCB_RESERVED) {                              /* Must NOT be assigned to a Mutex     */
@@ -702,7 +702,7 @@ line level    source
                       if (prio != OS_PRIO_SELF) {
                           *perr = OS_ERR_PRIO_INVALID;                 /* No                                         */
                           return (0u);
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 12  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 12  
 
                       }
                   }
@@ -766,7 +766,7 @@ line level    source
  721          void  OSTaskNameSet (INT8U   prio,
  722                               INT8U  *pname,
  723                               INT8U  *perr)
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 13  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 13  
 
  724          {
  725   1          OS_TCB    *ptcb;
@@ -830,7 +830,7 @@ line level    source
  782          *
  783          * Arguments  : prio     is the priority of the task to resume.
  784          *
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 14  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 14  
 
  785          * Returns    : OS_ERR_NONE                if the requested task is resumed
  786          *              OS_ERR_PRIO_INVALID        if the priority you specify is higher that the maximum allowed
@@ -894,7 +894,7 @@ line level    source
  843          *********************************************************************************************************
  844          *                                             STACK CHECKING
  845          *
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 15  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 15  
 
  846          * Description: This function is called to check the amount of free memory left on the specified task's
  847          *              stack.
@@ -958,7 +958,7 @@ line level    source
  902   2              return (OS_ERR_TASK_OPT);
  903   2          }
  904   1          nfree = 0u;
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 16  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 16  
 
  905   1          size  = ptcb->OSTCBStkSize;
  906   1          pchk  = ptcb->OSTCBStkBottom;
@@ -1022,7 +1022,7 @@ line level    source
                   if (prio >= OS_LOWEST_PRIO) {                               /* Task priority valid ?               */
                       if (prio != OS_PRIO_SELF) {
                           return (OS_ERR_PRIO_INVALID);
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 17  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 17  
 
                       }
                   }
@@ -1086,7 +1086,7 @@ line level    source
 1024   1      #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
 *** WARNING C322 IN LINE 1024 OF Source\os_task.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 18  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 18  
 
               #endif
 1027   1      
@@ -1150,7 +1150,7 @@ line level    source
 1085          
 1086          #if OS_TASK_REG_TBL_SIZE > 0u
 1087          INT32U  OSTaskRegGet (INT8U   prio,
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 19  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 19  
 
 1088                                INT8U   id,
 1089                                INT8U  *perr)
@@ -1214,7 +1214,7 @@ line level    source
 1146          * Returns    : The current value of the task's variable or 0 if an error is detected.
 1147          *
 1148          * Note(s)    : The maximum number of task variables is 254
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 20  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 20  
 
 1149          *********************************************************************************************************
 1150          */
@@ -1278,7 +1278,7 @@ line level    source
 1207   1      
 1208   1      #if OS_TASK_DEL_EN > 0u
 1209   1          (void)OSTaskDel(OS_PRIO_SELF);                /* Delete task if it accidentally returns!           */
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 21  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 21  
 
 1210   1      #else
                   for (;;) {
@@ -1342,7 +1342,7 @@ MODULE INFORMATION:   STATIC OVERLAYABLE
    CODE SIZE        =   2964    ----
    CONSTANT SIZE    =      2    ----
    XDATA SIZE       =   ----    ----
-C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 11:31:53 PAGE 22  
+C51 COMPILER V9.51   OS_TASK                                                               02/25/2015 14:57:59 PAGE 22  
 
    PDATA SIZE       =   ----    ----
    DATA SIZE        =   ----     135

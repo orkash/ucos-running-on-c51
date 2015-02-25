@@ -1,10 +1,10 @@
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 1   
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_MUTEX
 OBJECT MODULE PLACED IN .\Output\os_mutex.obj
-COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_mutex.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\o
-                    -s_mutex.lst) TABS(2) OBJECT(.\Output\os_mutex.obj)
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE Source\os_mutex.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\Lis
+                    -t\os_mutex.lst) TABS(2) OBJECT(.\Output\os_mutex.obj)
 
 line level    source
 
@@ -62,7 +62,7 @@ line level    source
   51          *********************************************************************************************************
   52          *                                   ACCEPT MUTUAL EXCLUSION SEMAPHORE
   53          *
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 2   
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 2   
 
   54          * Description: This  function checks the mutual exclusion semaphore to see if a resource is available.
   55          *              Unlike OSMutexPend(), OSMutexAccept() does not suspend the calling task if the resource is
@@ -126,7 +126,7 @@ line level    source
  112   2              return (OS_FALSE);
  113   2          }
  114   1          OS_ENTER_CRITICAL();                               /* Get value (0 or 1) of Mutex                  */
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 3   
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 3   
 
  115   1          pip = (INT8U)(pevent->OSEventCnt >> 8u);           /* Get PIP from mutex                           */
  116   1          if ((pevent->OSEventCnt & OS_MUTEX_KEEP_LOWER_8) == OS_MUTEX_AVAILABLE) {
@@ -190,7 +190,7 @@ line level    source
  174   1      #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register */
 *** WARNING C322 IN LINE 174 OF Source\os_mutex.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 4   
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 4   
 
               #endif
  177   1      
@@ -254,7 +254,7 @@ line level    source
  235          *
  236          * Arguments  : pevent        is a pointer to the event control block associated with the desired mutex.
  237          *
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 5   
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 5   
 
  238          *              opt           determines delete options as follows:
  239          *                            opt == OS_DEL_NO_PEND   Delete mutex ONLY if no task pending
@@ -318,7 +318,7 @@ line level    source
                   }
               #endif
  298   1          if (pevent->OSEventType != OS_EVENT_TYPE_MUTEX) {      /* Validate event block type                */
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 6   
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 6   
 
  299   2              *perr = OS_ERR_EVENT_TYPE;
  300   2              return (pevent);
@@ -382,7 +382,7 @@ line level    source
  358   3                   }
  359   2                   *perr         = OS_ERR_NONE;
  360   2                   pevent_return = (OS_EVENT *)0;                /* Mutex has been deleted                   */
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 7   
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 7   
 
  361   2                   break;
  362   2      
@@ -446,7 +446,7 @@ line level    source
  417          {
  418   1          INT8U      pip;                                        /* Priority Inheritance Priority (PIP)      */
  419   1          INT8U      mprio;                                      /* Mutex owner priority                     */
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 8   
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 8   
 
  420   1          BOOLEAN    rdy;                                        /* Flag indicating task was ready           */
  421   1          OS_TCB    *ptcb;
@@ -510,7 +510,7 @@ line level    source
  478   4                      if (OSRdyTbl[y] == 0u) {                          /*          ... list at current prio */
  479   5                          OSRdyGrp &= (OS_PRIO)~ptcb->OSTCBBitY;
  480   5                      }
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 9   
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 9   
 
  481   4                      rdy = OS_TRUE;
  482   4                  } else {
@@ -574,7 +574,7 @@ line level    source
  540   1          OSTCBCur->OSTCBStatPend      =  OS_STAT_PEND_OK;  /* Clear pend  status                            */
  541   1          OSTCBCur->OSTCBEventPtr      = (OS_EVENT  *)0;    /* Clear event pointers                          */
  542   1      #if (OS_EVENT_MULTI_EN > 0u)
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 10  
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 10  
 
  543   1          OSTCBCur->OSTCBEventMultiPtr = (OS_EVENT **)0;
  544   1      #endif
@@ -638,7 +638,7 @@ line level    source
  601   2              OSMutex_RdyAtPrio(OSTCBCur, prio);            /* Restore the task's original priority          */
  602   2          }
  603   1          OSTCBPrioTbl[pip] = OS_TCB_RESERVED;              /* Reserve table entry                           */
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 11  
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 11  
 
  604   1          if (pevent->OSEventGrp != 0u) {                   /* Any task waiting for the mutex?               */
  605   2                                                            /* Yes, Make HPT waiting for mutex ready         */
@@ -702,7 +702,7 @@ line level    source
                       return (OS_ERR_PEVENT_NULL);
                   }
                   if (p_mutex_data == (OS_MUTEX_DATA *)0) {              /* Validate 'p_mutex_data'                  */
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 12  
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 12  
 
                       return (OS_ERR_PDATA_NULL);
                   }
@@ -766,7 +766,7 @@ line level    source
               #endif
  725   1          ptcb->OSTCBBitY         = (OS_PRIO)(1uL << ptcb->OSTCBY);
  726   1          ptcb->OSTCBBitX         = (OS_PRIO)(1uL << ptcb->OSTCBX);
-C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 11:31:52 PAGE 13  
+C51 COMPILER V9.51   OS_MUTEX                                                              02/25/2015 14:57:59 PAGE 13  
 
  727   1          OSRdyGrp               |= ptcb->OSTCBBitY;             /* Make task ready at original priority     */
  728   1          OSRdyTbl[ptcb->OSTCBY] |= ptcb->OSTCBBitX;

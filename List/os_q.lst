@@ -1,10 +1,10 @@
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 1   
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_Q
 OBJECT MODULE PLACED IN .\Output\os_q.obj
-COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_q.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os_q.
-                    -lst) TABS(2) OBJECT(.\Output\os_q.obj)
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE Source\os_q.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os
+                    -_q.lst) TABS(2) OBJECT(.\Output\os_q.obj)
 
 line level    source
 
@@ -62,7 +62,7 @@ line level    source
   51          *                            if the queue is empty or,
   52          *                            if 'pevent' is a NULL pointer or,
   53          *                            if you passed an invalid event type
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 2   
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 2   
 
   54          *
   55          * Note(s)    : As of V2.60, you can now pass NULL pointers through queues.  Because of this, the argument
@@ -126,7 +126,7 @@ line level    source
  112          * Arguments  : start         is a pointer to the base address of the message queue storage area.  The
  113          *                            storage area MUST be declared as an array of pointers to 'void' as follows
  114          *
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 3   
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 3   
 
  115          *                            void *MessageStorage[size]
  116          *
@@ -190,7 +190,7 @@ line level    source
  173   3                  OS_EXIT_CRITICAL();
  174   3                  pevent = (OS_EVENT *)0;
  175   3              }
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 4   
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 4   
 
  176   2          }
  177   1          return (pevent);
@@ -254,7 +254,7 @@ line level    source
  234   1      
  235   1      #ifdef OS_SAFETY_CRITICAL
                   if (perr == (INT8U *)0) {
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 5   
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 5   
 
                       OS_SAFETY_CRITICAL_EXCEPTION();
                   }
@@ -318,7 +318,7 @@ line level    source
  296   2                   pevent->OSEventCnt     = 0u;
  297   2                   OSEventFreeList        = pevent;              /* Get next free event control block        */
  298   2                   OS_EXIT_CRITICAL();
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 6   
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 6   
 
  299   2                   if (tasks_waiting == OS_TRUE) {               /* Reschedule only if task(s) were waiting  */
  300   3                       OS_Sched();                               /* Find highest priority task ready to run  */
@@ -382,7 +382,7 @@ line level    source
  357   1          pq->OSQOut     = pq->OSQStart;
  358   1          pq->OSQEntries = 0u;
  359   1          OS_EXIT_CRITICAL();
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 7   
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 7   
 
  360   1          return (OS_ERR_NONE);
  361   1      }
@@ -446,7 +446,7 @@ line level    source
               #endif
  418   1      
  419   1      #if OS_ARG_CHK_EN > 0u
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 8   
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 8   
 
                   if (pevent == (OS_EVENT *)0) {               /* Validate 'pevent'                                  */
                       *perr = OS_ERR_PEVENT_NULL;
@@ -510,7 +510,7 @@ line level    source
  479   1      #endif
  480   1          OSTCBCur->OSTCBMsg           = (void      *)0;    /* Clear  received message                       */
  481   1          OS_EXIT_CRITICAL();
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 9   
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 9   
 
  482   1          return (pmsg);                                    /* Return received message                       */
  483   1      }
@@ -574,7 +574,7 @@ line level    source
               #endif
  541   1          if (pevent->OSEventType != OS_EVENT_TYPE_Q) {          /* Validate event block type                */
  542   2              *perr = OS_ERR_EVENT_TYPE;
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 10  
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 10  
 
  543   2              return (0u);
  544   2          }
@@ -638,7 +638,7 @@ line level    source
  601   1      
  602   1      
  603   1      
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 11  
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 11  
 
  604   1      #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {                     /* Validate 'pevent'                            */
@@ -702,7 +702,7 @@ line level    source
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
  664   1      
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 12  
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 12  
 
  665   1      
  666   1      
@@ -766,7 +766,7 @@ line level    source
  724          *              interrupt disable time is proportional to the number of tasks waiting on the queue.
  725          *********************************************************************************************************
  726          */
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 13  
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 13  
 
  727          
  728          #if OS_Q_POST_OPT_EN > 0u
@@ -830,7 +830,7 @@ line level    source
  785          /*$PAGE*/
  786          /*
  787          *********************************************************************************************************
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 14  
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 14  
 
  788          *                                        QUERY A MESSAGE QUEUE
  789          *
@@ -894,7 +894,7 @@ line level    source
  846   1      }
  847          #endif                                                 /* OS_Q_QUERY_EN                                */
  848          
-C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 11:31:52 PAGE 15  
+C51 COMPILER V9.51   OS_Q                                                                  02/25/2015 14:57:59 PAGE 15  
 
  849          /*$PAGE*/
  850          /*

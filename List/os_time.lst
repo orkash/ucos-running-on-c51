@@ -1,10 +1,10 @@
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 11:31:53 PAGE 1   
+C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 14:58:00 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_TIME
 OBJECT MODULE PLACED IN .\Output\os_time.obj
-COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_time.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os
-                    -_time.lst) TABS(2) OBJECT(.\Output\os_time.obj)
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE Source\os_time.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List
+                    -\os_time.lst) TABS(2) OBJECT(.\Output\os_time.obj)
 
 line level    source
 
@@ -62,7 +62,7 @@ line level    source
   50   1      
   51   1      
   52   1      
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 11:31:53 PAGE 2   
+C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 14:58:00 PAGE 2   
 
   53   1          if (OSIntNesting > 0u) {                     /* See if trying to call from an ISR                  */
   54   2              return;
@@ -126,7 +126,7 @@ line level    source
  112   2          }
  113   1      #if OS_ARG_CHK_EN > 0u
                   if (hours == 0u) {
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 11:31:53 PAGE 3   
+C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 14:58:00 PAGE 3   
 
                       if (minutes == 0u) {
                           if (seconds == 0u) {
@@ -190,7 +190,7 @@ line level    source
  172   2              return (OS_ERR_PRIO_INVALID);
  173   2          }
  174   1          OS_ENTER_CRITICAL();
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 11:31:53 PAGE 4   
+C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 14:58:00 PAGE 4   
 
  175   1          ptcb = OSTCBPrioTbl[prio];                                 /* Make sure that task exist            */
  176   1          if (ptcb == (OS_TCB *)0) {
@@ -254,7 +254,7 @@ line level    source
  233   1          OS_EXIT_CRITICAL();
  234   1          return (ticks);
  235   1      }
-C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 11:31:53 PAGE 5   
+C51 COMPILER V9.51   OS_TIME                                                               02/25/2015 14:58:00 PAGE 5   
 
  236          #endif
  237          

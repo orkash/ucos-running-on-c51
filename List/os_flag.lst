@@ -1,10 +1,10 @@
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 1   
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_FLAG
 OBJECT MODULE PLACED IN .\Output\os_flag.obj
-COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_flag.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os
-                    -_flag.lst) TABS(2) OBJECT(.\Output\os_flag.obj)
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE Source\os_flag.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List
+                    -\os_flag.lst) TABS(2) OBJECT(.\Output\os_flag.obj)
 
 line level    source
 
@@ -62,7 +62,7 @@ line level    source
   50          *
   51          *              flags         Is a bit pattern indicating which bit(s) (i.e. flags) you wish to check.
   52          *                            The bits you want are specified by setting the corresponding bits in
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 2   
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 2   
 
   53          *                            'flags'.  e.g. if your application wants to wait for bits 0 and 1 then
   54          *                            'flags' would contain 0x03.
@@ -126,7 +126,7 @@ line level    source
  111   1      
  112   1      #if OS_ARG_CHK_EN > 0u
                   if (pgrp == (OS_FLAG_GRP *)0) {                        /* Validate 'pgrp'                          */
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 3   
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 3   
 
                       *perr = OS_ERR_FLAG_INVALID_PGRP;
                       return ((OS_FLAGS)0);
@@ -190,7 +190,7 @@ line level    source
  173   3                       if (consume == OS_TRUE) {                 /* See if we need to consume the flags      */
  174   4                           pgrp->OSFlagFlags |= flags_rdy;       /* Set ONLY the flags that we got           */
  175   4                       }
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 4   
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 4   
 
  176   3                   } else {
  177   3                       *perr = OS_ERR_FLAG_NOT_RDY;
@@ -254,7 +254,7 @@ line level    source
               #endif
  235   1      
  236   1          if (OSIntNesting > 0u) {                        /* See if called from ISR ...                      */
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 5   
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 5   
 
  237   2              *perr = OS_ERR_CREATE_ISR;                  /* ... can't CREATE from an ISR                    */
  238   2              return ((OS_FLAG_GRP *)0);
@@ -318,7 +318,7 @@ line level    source
  294          *********************************************************************************************************
  295          */
  296          
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 6   
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 6   
 
  297          #if OS_FLAG_DEL_EN > 0u
  298          OS_FLAG_GRP  *OSFlagDel (OS_FLAG_GRP  *pgrp,
@@ -382,7 +382,7 @@ line level    source
  355   2                   break;
  356   2      
  357   2              case OS_DEL_ALWAYS:                                /* Always delete the event flag group       */
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 7   
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 7   
 
  358   2                   pnode = (OS_FLAG_NODE *)pgrp->OSFlagWaitList;
  359   2                   while (pnode != (OS_FLAG_NODE *)0) {          /* Ready ALL tasks waiting for flags        */
@@ -446,7 +446,7 @@ line level    source
  416   1          INT8U      len;
  417   1      #if OS_CRITICAL_METHOD == 3u                     /* Allocate storage for CPU status register           */
 *** WARNING C322 IN LINE 417 OF Source\os_flag.c: unknown identifier
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 8   
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 8   
 
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
@@ -510,7 +510,7 @@ line level    source
  477          * Returns    : None
  478          *********************************************************************************************************
  479          */
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 9   
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 9   
 
  480          
  481          #if OS_FLAG_NAME_EN > 0u
@@ -574,7 +574,7 @@ line level    source
  538          *                            'flags' would contain 0x03.
  539          *
  540          *              wait_type     specifies whether you want ALL bits to be set or ANY of the bits to be set.
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 10  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 10  
 
  541          *                            You can specify the following argument:
  542          *
@@ -638,7 +638,7 @@ line level    source
                       OS_SAFETY_CRITICAL_EXCEPTION();
                   }
               #endif
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 11  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 11  
 
  602   1      
  603   1      #if OS_ARG_CHK_EN > 0u
@@ -702,7 +702,7 @@ line level    source
  661   2                   break;
  662   2      
  663   2      #if OS_FLAG_WAIT_CLR_EN > 0u
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 12  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 12  
 
  664   2              case OS_FLAG_WAIT_CLR_ALL:                         /* See if all required flags are cleared    */
  665   2                   flags_rdy = (OS_FLAGS)~pgrp->OSFlagFlags & flags;    /* Extract only the bits we want     */
@@ -766,7 +766,7 @@ line level    source
  723   2              return (flags_rdy);
  724   2          }
  725   1          flags_rdy = OSTCBCur->OSTCBFlagsRdy;
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 13  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 13  
 
  726   1          if (consume == OS_TRUE) {                              /* See if we need to consume the flags      */
  727   2              switch (wait_type) {
@@ -830,7 +830,7 @@ line level    source
  784          *
  785          * Description: This function is called to set or clear some bits in an event flag group.  The bits to
  786          *              set or clear are specified by a 'bit mask'.
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 14  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 14  
 
  787          *
  788          * Arguments  : pgrp          is a pointer to the desired event flag group.
@@ -894,7 +894,7 @@ line level    source
                   if (pgrp == (OS_FLAG_GRP *)0) {                  /* Validate 'pgrp'                                */
                       *perr = OS_ERR_FLAG_INVALID_PGRP;
                       return ((OS_FLAGS)0);
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 15  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 15  
 
                   }
               #endif
@@ -958,7 +958,7 @@ line level    source
  907   3                       if (flags_rdy != (OS_FLAGS)0) {
  908   4                           rdy = OS_FlagTaskRdy(pnode, flags_rdy);  /* Make task RTR, event(s) Rx'd          */
  909   4                           if (rdy == OS_TRUE) {
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 16  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 16  
 
  910   5                               sched = OS_TRUE;                     /* When done we will reschedule          */
  911   5                           }
@@ -1022,7 +1022,7 @@ line level    source
  968   1      
  969   1      #if OS_ARG_CHK_EN > 0u
                   if (pgrp == (OS_FLAG_GRP *)0) {               /* Validate 'pgrp'                                   */
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 17  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 17  
 
                       *perr = OS_ERR_FLAG_INVALID_PGRP;
                       return ((OS_FLAGS)0);
@@ -1086,7 +1086,7 @@ line level    source
 1030          {
 1031   1          OS_FLAG_NODE  *pnode_next;
 1032   1          INT8U          y;
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 18  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 18  
 
 1033   1      
 1034   1      
@@ -1150,7 +1150,7 @@ line level    source
 1092   1          OS_FLAG_GRP  *pgrp2;
 1093   1      
 1094   1      
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 19  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 19  
 
 1095   1          OS_MemClr((INT8U *)&OSFlagTbl[0], sizeof(OSFlagTbl));           /* Clear the flag group table      */
 1096   1          for (ix = 0u; ix < (OS_MAX_FLAGS - 1u); ix++) {                 /* Init. list of free EVENT FLAGS  */
@@ -1214,7 +1214,7 @@ line level    source
 1154   2              OSRdyTbl[ptcb->OSTCBY] |= ptcb->OSTCBBitX;
 1155   2              sched                   = OS_TRUE;
 1156   2          } else {
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 20  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 20  
 
 1157   2              sched                   = OS_FALSE;
 1158   2          }
@@ -1278,7 +1278,7 @@ line level    source
              -                                                                                
 
 
-C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 11:31:51 PAGE 21  
+C51 COMPILER V9.51   OS_FLAG                                                               02/25/2015 14:57:58 PAGE 21  
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
    CODE SIZE        =   2895    ----

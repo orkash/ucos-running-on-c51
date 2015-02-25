@@ -182,10 +182,10 @@
       <FileType>2</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>16</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>119</TopLine>
-      <CurrentLine>85</CurrentLine>
+      <TopLine>21</TopLine>
+      <CurrentLine>23</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\Source\OS_CPU_A.asm</PathWithFileName>
       <FilenameWithoutPath>OS_CPU_A.asm</FilenameWithoutPath>

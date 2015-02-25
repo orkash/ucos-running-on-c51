@@ -1,10 +1,10 @@
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 1   
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_TMR
 OBJECT MODULE PLACED IN .\Output\os_tmr.obj
-COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE Source\os_tmr.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os_
-                    -tmr.lst) TABS(2) OBJECT(.\Output\os_tmr.obj)
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE Source\os_tmr.c BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\
+                    -os_tmr.lst) TABS(2) OBJECT(.\Output\os_tmr.obj)
 
 line level    source
 
@@ -62,7 +62,7 @@ line level    source
   45          
   46          #define  OS_TMR_LINK_DLY       0u
   47          #define  OS_TMR_LINK_PERIODIC  1u
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 2   
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 2   
 
   48          
   49          /*
@@ -126,7 +126,7 @@ line level    source
   99          *                               OS_ERR_TMR_ISR             if the call was made from an ISR
  100          *                               OS_ERR_TMR_NON_AVAIL       if there are no free timers from the timer pool
  101          *
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 3   
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 3   
 
  102          * Returns    : A pointer to an OS_TMR data structure.
  103          *              This is the 'handle' that your application will use to reference the timer created.
@@ -190,7 +190,7 @@ line level    source
              -            */
  158   1          if (ptmr == (OS_TMR *)0) {
  159   2              OSSchedUnlock();
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 4   
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 4   
 
  160   2              *perr = OS_ERR_TMR_NON_AVAIL;
  161   2              return ((OS_TMR *)0);
@@ -254,7 +254,7 @@ line level    source
  216   1          if (ptmr->OSTmrType != OS_TMR_TYPE) {                   /* Validate timer structure                   
              -            */
  217   2              *perr = OS_ERR_TMR_INVALID_TYPE;
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 5   
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 5   
 
  218   2              return (OS_FALSE);
  219   2          }
@@ -318,7 +318,7 @@ line level    source
  269          *                               OS_ERR_NAME_GET_ISR       if the call was made from an ISR
  270          *                               OS_ERR_TMR_INACTIVE       'ptmr'  points to a timer that is not active
  271          *                               OS_ERR_TMR_INVALID_STATE  the timer is in an invalid state
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 6   
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 6   
 
  272          *
  273          * Returns    : The length of the string or 0 if the timer does not exist.
@@ -382,7 +382,7 @@ line level    source
  327   2                   *perr = OS_ERR_TMR_INVALID_STATE;
  328   2                   return (0u);
  329   2          }
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 7   
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 7   
 
  330   1      }
  331          #endif
@@ -446,7 +446,7 @@ line level    source
  383   1          OSSchedLock();
  384   1          switch (ptmr->OSTmrState) {
  385   2              case OS_TMR_STATE_RUNNING:
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 8   
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 8   
 
  386   2                   remain = ptmr->OSTmrMatch - OSTmrTime;    /* Determine how much time is left to timeout      
              -            */
@@ -510,7 +510,7 @@ line level    source
  440          *                  OS_TMR_RUNNING          the timer is currently running
  441          *
  442          * Arguments  : ptmr          Is a pointer to the desired timer
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 9   
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 9   
 
  443          *
  444          *              perr          Is a pointer to an error code.  '*perr' will contain one of the following:
@@ -574,7 +574,7 @@ line level    source
  499   1      }
  500          #endif
  501          
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 10  
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 10  
 
  502          /*$PAGE*/
  503          /*
@@ -638,7 +638,7 @@ line level    source
  554   2                   *perr = OS_ERR_NONE;
  555   2                   return (OS_TRUE);
  556   2      
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 11  
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 11  
 
  557   2              case OS_TMR_STATE_STOPPED:                          /* Start the timer                            
              -            */
@@ -702,7 +702,7 @@ line level    source
              -defined
  608          *
  609          * Returns    : OS_TRUE       If we stopped the timer (if the timer is already stopped, we also return OS_T
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 12  
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 12  
 
              -RUE)
  610          *              OS_FALSE      If not
@@ -766,7 +766,7 @@ line level    source
  660   3                            if (pfnct != (OS_TMR_CALLBACK)0) {
  661   4                                (*pfnct)((void *)ptmr, callback_arg);   /* ... using the 'callback_arg' provided
              - in call    */
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 13  
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 13  
 
 *** ERROR C212 IN LINE 661 OF Source\os_tmr.c: indirect call: parameters do not fit within registers
  662   4                            } else {
@@ -830,7 +830,7 @@ line level    source
  712          *                                  is created by uC/OS-II.
  713          **********************************************************************************************************
              -**************
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 14  
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 14  
 
  714          */
  715          
@@ -894,7 +894,7 @@ line level    source
              -**************
  770          */
  771          
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 15  
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 15  
 
  772          #if OS_TMR_EN > 0u
  773          static  void  OSTmr_Free (OS_TMR *ptmr)
@@ -958,7 +958,7 @@ line level    source
              -            */
  824   2              ix_next = ix + 1u;
  825   2              ptmr1 = &OSTmrTbl[ix];
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 16  
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 16  
 
  826   2              ptmr2 = &OSTmrTbl[ix_next];
  827   2              ptmr1->OSTmrType    = OS_TMR_TYPE;
@@ -1022,7 +1022,7 @@ line level    source
  878   1          #if OS_STK_GROWTH == 1u
 *** WARNING C322 IN LINE 878 OF Source\os_tmr.c: unknown identifier
                   (void)OSTaskCreateExt(OSTmr_Task,
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 17  
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 17  
 
                                         (void *)0,                                       /* No arguments passed to OSTmr
              -Task()      */
@@ -1086,7 +1086,7 @@ line level    source
  925          *              beginning of the list.
  926          *
  927          * Arguments  : ptmr          Is a pointer to the timer to insert.
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 18  
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 18  
 
  928          *
  929          *              type          Is either:
@@ -1150,7 +1150,7 @@ line level    source
  980          *
  981          * Arguments  : ptmr          Is a pointer to the timer to remove.
  982          *
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 19  
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 19  
 
  983          * Returns    : none
  984          **********************************************************************************************************
@@ -1214,7 +1214,7 @@ line level    source
 1037   1          OS_TMR          *ptmr;
 1038   1          OS_TMR          *ptmr_next;
 1039   1          OS_TMR_CALLBACK  pfnct;
-C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 11:31:54 PAGE 20  
+C51 COMPILER V9.51   OS_TMR                                                                02/25/2015 14:58:00 PAGE 20  
 
 1040   1          OS_TMR_WHEEL    *pspoke;
 1041   1          INT16U           spoke;

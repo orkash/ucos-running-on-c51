@@ -191,3 +191,31 @@ save_stack:
 	   LJMP OSCtxSw_in
 	   
 ;-----------------------------------------------------------------------
+       RSEG?PR?OSIntCtxSw?OS_CPU_A
+OSIntCtxSw:
+       ; 调整sp指针去掉在调用OSIntExit(),OSIntCtxSw()过程中压入栈的多余内容
+	   ;SP=SP-4
+	   MOV  A, SP
+	   CLR  C
+	   SUBB A, #4
+	   MOV  SP, A
+	   LJMP OSIntCtXSw_in
+
+;-----------------------------------------------------------------------
+       CSEG AT 000BH      ;OSTickISR
+	   LJMP OSTickISR
+	   RSEG?PR?OSTickISR?OS_CPU_A
+OSTickISR:
+       USING 0
+	   PUSHALL
+	   CLR   TR0
+	   MOV   TH0, #0B1H
+	   MOV   TL0, #0E0H
+	   SETB  TR0
+	   LCALL _?OSIntEnter
+	   LCALL _?OSTimeTick
+	   LCALL _?OSIntExit
+	   POPALL
+	   RETI
+	   
+	   END

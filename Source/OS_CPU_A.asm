@@ -84,7 +84,7 @@ POPALL MACRO
 ; 子程序
        RSEG?PR?OSStartRdy?OS_CPU_A
 OSStartHighRdy:
-       USING 0       ; 使用寄存器第0组。上电后51自动关中断，此处不必CLR EA指令，因为到此处还未中断，本程序退出后开中断
+       USING 0               ; 使用寄存器第0组。上电后51自动关中断，此处不必CLR EA指令，因为到此处还未中断，本程序退出后开中断
 	   LCALL _?OSTackSwHook
 OSCtxSw_in:
        ;OSTCBCur ===> DPTR   ; 获得当前TCB指针
@@ -130,4 +130,64 @@ restore_stack:
 	   RETI
 	   
 ;----------------------------------------------------------------------
-       
+       RSEG?PR?OSCtxSw?OS_CPU_A
+OSCtxSw:
+       PUSHALL
+OSIntCtxSw_in:
+       ; 获得堆栈长度和起始地址
+	   MOV  A, SP
+	   CLR  C
+	   SUBB A, #OSStkStart
+	   MOV  R5, A            ; 获得堆栈长度
+	   ;OSTCBCur===>DPTR     ; 获得当前TCB指针
+	   MOV  R0, #LOW(OSTCBCur)
+	   ; 获得OSTCBCur指针低地址，指针占3字节。+0类型+1高八位数据+2低八位数据
+	   INC  R0
+	   MOV  DPH, @R0
+	   INC  R0
+	   MOV  DPL, @R0
+	   ;OSTCBCur->OSTCBStkPtr===>DPTR    ; 获得用户堆栈指针
+	   INC  DPTR
+	   MOVX A, @DPTR         ; OSTCBStkPtr是void指针
+	   MOV  R0, A
+	   INC  DPTR
+	   MOVX A, @DPTR
+	   MOV  R1, A
+	   MOV  DPH, R0
+	   MOV  DPL, R1
+	   ; 保存堆栈长度
+	   MOV  A, R5
+	   MOVX @DPTR, A
+	   MOV  R0, #OSStkStart  ; 获得堆栈指针
+save_stack:
+       INC  DPTR
+	   INC  R0
+	   MOV  A, @R0
+	   MOVX @DPTR, A
+	   DJNZ R5, sava_stack
+	   ; 保存仿真堆栈指针?C_XBP
+	   INC  DPTR
+	   MOV  A, ?C_XBP        ; C_XBP仿真堆栈指针高8位
+	   MOVX @DPTR, A
+	   INC  DPTR
+	   MOV  A, ?C_XBP+1      ; C_XBP仿真堆栈指针低8位
+	   MOVX @DPTR, A
+	   ; 调用用户程序
+	   LCALL _?OSTaskSwHook
+	   ;OSTCBCur=OSTCBHighRdy
+	   MOV  R0, #OSTCBCur
+	   MOV  R1, #OSTCBHighRdy
+	   MOV  A, @R1
+	   MOV  @R0, A
+	   INC  R0
+	   INC  R1
+	   MOV  A, @R1
+	   MOV  @R0, A
+	   ;OSPrioCur=OSPrioHighRdy   ; 使用这两个变量主要目的是为了使指针比较变为字节比较，以便节省空间
+	   MOV  R0, #OSPrioCur
+	   MOV  R1, #OSPrioHighRdy
+	   MOV  A, @R1
+	   MOV  @R0, A
+	   LJMP OSCtxSw_in
+	   
+;-----------------------------------------------------------------------

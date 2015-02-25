@@ -355,6 +355,16 @@
               <FileType>2</FileType>
               <FilePath>.\STARTUP.A51</FilePath>
             </File>
+            <File>
+              <FileName>OS_CPU_A.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Source\OS_CPU_A.asm</FilePath>
+            </File>
+            <File>
+              <FileName>OS_CPU.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Source\OS_CPU.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

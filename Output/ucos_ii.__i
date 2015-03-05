@@ -1,0 +1,1 @@
+"Source\ucos_ii.c" BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\ucos_ii.lst) TABS (2) OBJECT(.\Output\ucos_ii.obj)

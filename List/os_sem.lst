@@ -1,4 +1,4 @@
-C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 14:57:59 PAGE 1   
+C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 18:13:30 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_SEM
@@ -62,7 +62,7 @@ line level    source
   51   1          INT16U     cnt;
   52   1      #if OS_CRITICAL_METHOD == 3u                          /* Allocate storage for CPU status register      */
 *** WARNING C322 IN LINE 52 OF Source\os_sem.c: unknown identifier
-C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 14:57:59 PAGE 2   
+C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 18:13:30 PAGE 2   
 
                   OS_CPU_SR  cpu_sr = 0u;
               #endif
@@ -126,7 +126,7 @@ line level    source
  111   2          }
  112   1          OS_ENTER_CRITICAL();
  113   1          pevent = OSEventFreeList;                              /* Get next free event control block        */
-C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 14:57:59 PAGE 3   
+C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 18:13:30 PAGE 3   
 
  114   1          if (OSEventFreeList != (OS_EVENT *)0) {                /* See if pool of free ECB pool was empty   */
  115   2              OSEventFreeList = (OS_EVENT *)OSEventFreeList->OSEventPtr;
@@ -190,7 +190,7 @@ line level    source
  173   1          BOOLEAN    tasks_waiting;
  174   1          OS_EVENT  *pevent_return;
  175   1      #if OS_CRITICAL_METHOD == 3u                               /* Allocate storage for CPU status register */
-C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 14:57:59 PAGE 4   
+C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 18:13:30 PAGE 4   
 
 *** WARNING C322 IN LINE 175 OF Source\os_sem.c: unknown identifier
                   OS_CPU_SR  cpu_sr = 0u;
@@ -254,7 +254,7 @@ line level    source
  234   2                   pevent->OSEventType    = OS_EVENT_TYPE_UNUSED;
  235   2                   pevent->OSEventPtr     = OSEventFreeList;     /* Return Event Control Block to free list  */
  236   2                   pevent->OSEventCnt     = 0u;
-C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 14:57:59 PAGE 5   
+C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 18:13:30 PAGE 5   
 
  237   2                   OSEventFreeList        = pevent;              /* Get next free event control block        */
  238   2                   OS_EXIT_CRITICAL();
@@ -318,7 +318,7 @@ line level    source
               #endif
  296   1      
  297   1      
-C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 14:57:59 PAGE 6   
+C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 18:13:30 PAGE 6   
 
  298   1      
  299   1      #ifdef OS_SAFETY_CRITICAL
@@ -382,7 +382,7 @@ line level    source
  357   1          OSTCBCur->OSTCBEventMultiPtr = (OS_EVENT **)0;
  358   1      #endif
  359   1          OS_EXIT_CRITICAL();
-C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 14:57:59 PAGE 7   
+C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 18:13:30 PAGE 7   
 
  360   1      }
  361          
@@ -446,7 +446,7 @@ line level    source
                   }
               #endif
  420   1          if (pevent->OSEventType != OS_EVENT_TYPE_SEM) {   /* Validate event block type                     */
-C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 14:57:59 PAGE 8   
+C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 18:13:30 PAGE 8   
 
  421   2              *perr = OS_ERR_EVENT_TYPE;
  422   2              return (0u);
@@ -510,7 +510,7 @@ line level    source
  479   1      #if OS_ARG_CHK_EN > 0u
                   if (pevent == (OS_EVENT *)0) {                    /* Validate 'pevent'                             */
                       return (OS_ERR_PEVENT_NULL);
-C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 14:57:59 PAGE 9   
+C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 18:13:30 PAGE 9   
 
                   }
               #endif
@@ -574,7 +574,7 @@ line level    source
                   }
                   if (p_sem_data == (OS_SEM_DATA *)0) {                  /* Validate 'p_sem_data'                    */
                       return (OS_ERR_PDATA_NULL);
-C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 14:57:59 PAGE 10  
+C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 18:13:30 PAGE 10  
 
                   }
               #endif
@@ -638,7 +638,7 @@ line level    source
               #endif
  602   1      
  603   1      #if OS_ARG_CHK_EN > 0u
-C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 14:57:59 PAGE 11  
+C51 COMPILER V9.51   OS_SEM                                                                02/25/2015 18:13:30 PAGE 11  
 
                   if (pevent == (OS_EVENT *)0) {                    /* Validate 'pevent'                             */
                       *perr = OS_ERR_PEVENT_NULL;

@@ -1,4 +1,4 @@
-C51 COMPILER V9.51   OS_CPU_C                                                              02/25/2015 14:57:57 PAGE 1   
+C51 COMPILER V9.51   OS_CPU_C                                                              02/25/2015 18:14:35 PAGE 1   
 
 
 C51 COMPILER V9.51, COMPILATION OF MODULE OS_CPU_C
@@ -62,7 +62,7 @@ line level    source
   30   1        *stk++ = 0x07;                     //R7
 *** ERROR C202 IN LINE 30 OF Source\OS_CPU_C.c: 'stk': undefined identifier
   31   1        //不保存SP，任务切换时根据用户堆栈长度计算得出
-C51 COMPILER V9.51   OS_CPU_C                                                              02/25/2015 14:57:57 PAGE 2   
+C51 COMPILER V9.51   OS_CPU_C                                                              02/25/2015 18:14:35 PAGE 2   
 
   32   1        *stk++ = (INT16U)(ptos+MaxStkSize) >> 8;      //?C_XBP仿真堆栈指针高8位
 *** ERROR C202 IN LINE 32 OF Source\OS_CPU_C.c: 'stk': undefined identifier
@@ -126,7 +126,7 @@ line level    source
   88   1        TMOD = TMOD & 0x00;
   89   1        TMOD = TMOD | 0x01;         //方式1（16位定时器），仅受TR0控制
   90   1        TH0 = 0xB1;                 //定义Tick=50次/秒（即0.02秒/次）
-C51 COMPILER V9.51   OS_CPU_C                                                              02/25/2015 14:57:57 PAGE 3   
+C51 COMPILER V9.51   OS_CPU_C                                                              02/25/2015 18:14:35 PAGE 3   
 
   91   1        TL0 = 0xE0;
   92   1        ET0 = 1;                    //允许T0中断

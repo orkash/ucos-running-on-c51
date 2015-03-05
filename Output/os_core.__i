@@ -1,0 +1,1 @@
+"Source\os_core.c" BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\os_core.lst) TABS (2) OBJECT(.\Output\os_core.obj)

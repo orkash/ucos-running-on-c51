@@ -1,4 +1,4 @@
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 14:57:57 PAGE     1
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 18:14:35 PAGE     1
 
 
 MACRO ASSEMBLER A51 V8.02b
@@ -8,544 +8,392 @@ ASSEMBLER INVOKED BY: D:\Keil_v5\C51\BIN\A51.EXE Source\OS_CPU_A.asm SET(SMALL) 
 
 LOC  OBJ            LINE     SOURCE
 
-                       1     ; ∂®“Â÷ÿ∂®Œª∂Œ
-                       2     ?PR?OSStartHighRdy?OS_CPU_A SEGMENT CODE
-                       3     ?PR?OSCtxSw?OS_CPU_A SEGMENT CODE
-                       4     ?PR?OSIntCtxSw?OS_CPU_A SEGMENT CODE
-                       5     ?PR?OSTickISR?OS_CPU_A SEGMENT CODE
-                       6     
-                       7     ; …˘√˜“”√»´æ÷±‰¡ø∫ÕÕ‚≤ø◊”≥Ã–Ú
-                       8               EXTRN IDATA(?C_XBP)   ; ∑¬’Ê∂—’ª÷∏’Î”√”⁄÷ÿ»Îæ÷≤ø±‰¡ø±£¥Ê
-                       9                       EXTRN IDATA(OSTCBCur)
-                      10                       EXTRN IDATA(OSTCBHighRdy)
-                      11                       EXTRN IDATA(OSRunning)
-                      12                       EXTRN IDATA(OSPrioCur)
-                      13                       EXTRN IDATA(OSPrioHighRdy)
-                      14                       EXTRN CODE (_?OSTaskSwHook)
-                      15                       EXTRN CODE (_?OSIntEnter)
-                      16                       EXTRN CODE (_?OSIntExit)
-                      17                       EXTRN CODE (_?OSTimeTick)
-                      18     
-                      19     ; ∂‘Õ‚…˘√˜4∏ˆ≤ªø…÷ÿ»Î∫Ø 
-                      20               PUBLIC OSStartHighRdy
-                      21                       PUBLIC OSCtxSw
-                      22                       PUBLIC OSIntCtxSw
-                      23                       PUBLIC OSTickISR
-                      24                       
-                      25     ; ∑÷≈‰∂—’ªø’º‰°£÷ªπÿ–ƒ¥Û–°£¨∂—’ª∆µ„”…keilæˆ∂®£¨Õ®π±Í∫≈ø…“‘ªÒµ√keil∑÷≈‰µƒSP∆µ„°£
-                      26     ?STACK SEGMENT IDATA
-----                  27            RSEG ?STACK
-0000                  28     OSStack:
-0000                  29            DS 40H
-  FFFF                30     OSStkStart IDATA OSStack-1
-                      31     
-                      32     ; ∂®“Â—π’ª∫Í
-                      33     PUSHALL MACRO
-                      34            PUSH PSW
-                      35                PUSH ACC
-                      36                PUSH B
-                      37                PUSH DPL
-                      38                PUSH DPH
-                      39                MOV  A,R0     ; R0-R7»Î’ª
-                      40                PUSH ACC
-                      41                MOV  A,R1
-                      42                PUSH ACC
-                      43                MOV  A,R2
-                      44                PUSH ACC
-                      45                MOV  A,R3
-                      46                PUSH ACC
-                      47                MOV  A,R4
-                      48                PUSH ACC
-                      49                MOV  A,R5
+                       1     $nomod51 
+  00AF                 2     EA      BIT     0A8H.7
+  0081                 3     SP      DATA    081H
+  00F0                 4     B       DATA    0F0H
+  00E0                 5     ACC     DATA    0E0H
+  0083                 6     DPH     DATA    083H
+  0082                 7     DPL     DATA    082H
+  00D0                 8     PSW     DATA    0D0H
+  008C                 9     TR0     BIT     088H.4
+  008C                10     TH0     DATA    08CH
+  008A                11     TL0     DATA    08AH
+                      12     
+                      13     NAME OS_CPU_A    ;ƒ£øÈ√˚
+                      14     
+                      15     
+                      16     ; ∂®“Â÷ÿ∂®Œª∂Œ
+                      17     ?PR?OSStartHighRdy?OS_CPU_A SEGMENT CODE
+                      18     ?PR?OSCtxSw?OS_CPU_A SEGMENT CODE
+                      19     ?PR?OSIntCtxSw?OS_CPU_A SEGMENT CODE
+                      20     ?PR?OSTickISR?OS_CPU_A SEGMENT CODE
+                      21     
+                      22     ; …˘√˜“”√»´æ÷±‰¡ø∫ÕÕ‚≤ø◊”≥Ã–Ú
+                      23               EXTRN IDATA(?C_XBP)   ; ∑¬’Ê∂—’ª÷∏’Î”√”⁄÷ÿ»Îæ÷≤ø±‰¡ø±£¥Ê
+                      24                       EXTRN IDATA(OSTCBCur)
+                      25                       EXTRN IDATA(OSTCBHighRdy)
+                      26                       EXTRN IDATA(OSRunning)
+                      27                       EXTRN IDATA(OSPrioCur)
+                      28                       EXTRN IDATA(OSPrioHighRdy)
+                      29                       EXTRN CODE (_?OSTaskSwHook)
+                      30                       EXTRN CODE (_?OSIntEnter)
+                      31                       EXTRN CODE (_?OSIntExit)
+                      32                       EXTRN CODE (_?OSTimeTick)
+                      33     
+                      34     ; ∂‘Õ‚…˘√˜4∏ˆ≤ªø…÷ÿ»Î∫Ø 
+                      35               PUBLIC OSStartHighRdy
+                      36                       PUBLIC OSCtxSw
+                      37                       PUBLIC OSIntCtxSw
+                      38                       PUBLIC OSTickISR
+                      39                       
+                      40     ; ∑÷≈‰∂—’ªø’º‰°£÷ªπÿ–ƒ¥Û–°£¨∂—’ª∆µ„”…keilæˆ∂®£¨Õ®π±Í∫≈ø…“‘ªÒµ√keil∑÷≈‰µƒSP∆µ„°£
+                      41     ?STACK SEGMENT IDATA
+----                  42            RSEG ?STACK
+0000                  43     OSStack:
+0000                  44            DS 40H
+  FFFF                45     OSStkStart IDATA OSStack-1
+                      46     
+                      47     ; ∂®“Â—π’ª∫Í
+                      48     PUSHALL MACRO
+                      49            PUSH PSW
                       50                PUSH ACC
-                      51                MOV  A,R6
-                      52                PUSH ACC
-                      53                MOV  A,R7
-                      54                PUSH ACC
-                      55                ; PUSH SP      ; ≤ª±»±£¥ÊSP£¨»ŒŒÒ«–ªª ±”…œ‡”¶≥Ã–Úµ˜’˚
-                      56                ENDM
-                      57     
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 14:57:57 PAGE     2
+                      51                PUSH B
+                      52                PUSH DPL
+                      53                PUSH DPH
+                      54                MOV  A,R0     ; R0-R7»Î’ª
+                      55                PUSH ACC
+                      56                MOV  A,R1
+                      57                PUSH ACC
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 18:14:35 PAGE     2
 
-                      58     ; ∂®“Â≥ˆ’ª∫Í
-                      59     POPALL MACRO
-                      60            ;POP SP        ; ≤ª±ÿ±£¥ÊSP£¨»ŒŒÒ«–ªª ±”…œ‡”¶≥Ã–Úµ˜’˚
-                      61                POP ACC       ; R0-R7≥ˆ’ª
-                      62                MOV R7,A
-                      63                POP ACC
-                      64                MOV R6,A
-                      65                POP ACC
-                      66                MOV R5,A
-                      67                POP ACC
-                      68                MOV R4,A
-                      69                POP ACC
-                      70                MOV R3,A
-                      71                POP ACC
-                      72                MOV R2,A
-                      73                POP ACC
-                      74                MOV R1,A
-                      75                POP ACC
-                      76                MOV R0,A
-                      77                POP DPH
-                      78                POP DPL
-                      79                POP B
+                      58                MOV  A,R2
+                      59                PUSH ACC
+                      60                MOV  A,R3
+                      61                PUSH ACC
+                      62                MOV  A,R4
+                      63                PUSH ACC
+                      64                MOV  A,R5
+                      65                PUSH ACC
+                      66                MOV  A,R6
+                      67                PUSH ACC
+                      68                MOV  A,R7
+                      69                PUSH ACC
+                      70                ; PUSH SP      ; ≤ª±»±£¥ÊSP£¨»ŒŒÒ«–ªª ±”…œ‡”¶≥Ã–Úµ˜’˚
+                      71                ENDM
+                      72     
+                      73     ; ∂®“Â≥ˆ’ª∫Í
+                      74     POPALL MACRO
+                      75            ;POP SP        ; ≤ª±ÿ±£¥ÊSP£¨»ŒŒÒ«–ªª ±”…œ‡”¶≥Ã–Úµ˜’˚
+                      76                POP ACC       ; R0-R7≥ˆ’ª
+                      77                MOV R7,A
+                      78                POP ACC
+                      79                MOV R6,A
                       80                POP ACC
-                      81                POP PSW
-                      82                ENDM
-                      83                
-                      84     ; ◊”≥Ã–Ú
-                      85            RSEG?PR?OSStartRdy?OS_CPU_A
-*** ________________________________^
-*** ERROR #A9 IN 85 (Source\OS_CPU_A.asm, LINE 85): SYNTAX ERROR
-0040                  86     OSStartHighRdy:
-                      87            USING 0               ;  π”√ºƒ¥Ê∆˜µ⁄0◊È°£…œµÁ∫Û51◊‘∂Øπÿ÷–∂œ£¨¥À¥¶≤ª±ÿCLR EA÷∏¡Ó£¨“ÚŒ™µΩ¥À¥¶ªπŒ¥÷–∂œ£¨±æ≥Ã–ÚÕÀ≥ˆ∫Ûø™÷–∂œ
-                      88                LCALL _?OSTackSwHook
-*** ____________________________________^
-*** ERROR #A37 IN 88 (Source\OS_CPU_A.asm, LINE 88): OPERATION INVALID IN THIS SEGMENT
-0040                  89     OSCtxSw_in:
-                      90            ;OSTCBCur ===> DPTR   ; ªÒµ√µ±«∞TCB÷∏’Î
-                      91                MOV  R0,#LOW(OSTCBCur); ªÒµ√OSTCBCur÷∏’ÎµÕµÿ÷∑£¨÷∏’Î’º3◊÷Ω⁄°£+0¿‡–Õ+1∏ﬂ8Œª æ›+2µÕ8Œª æ›
-*** ____________________________________^
-*** ERROR #A37 IN 91 (Source\OS_CPU_A.asm, LINE 91): OPERATION INVALID IN THIS SEGMENT
-                      92                INC  R0
-*** ____________________________________^
-*** ERROR #A37 IN 92 (Source\OS_CPU_A.asm, LINE 92): OPERATION INVALID IN THIS SEGMENT
-                      93                MOV  DPH, @R0
-*** ____________________________________^
-*** ERROR #A37 IN 93 (Source\OS_CPU_A.asm, LINE 93): OPERATION INVALID IN THIS SEGMENT
-                      94                INC  R0
-*** ____________________________________^
-*** ERROR #A37 IN 94 (Source\OS_CPU_A.asm, LINE 94): OPERATION INVALID IN THIS SEGMENT
-                      95                MOV  DPL, @R0
-*** ____________________________________^
-*** ERROR #A37 IN 95 (Source\OS_CPU_A.asm, LINE 95): OPERATION INVALID IN THIS SEGMENT
-                      96                ;OSTCBCur->OSTCBStkPtr===>DPTR  ;ªÒµ√”√ªß∂—’ª÷∏’Î
-                      97                INC  DPTR
-*** ____________________________________^
-*** ERROR #A37 IN 97 (Source\OS_CPU_A.asm, LINE 97): OPERATION INVALID IN THIS SEGMENT
-                      98                MOVX A, @DPTR         ; OSTCBStkPtr «void÷∏’Î
-*** ____________________________________^
-*** ERROR #A37 IN 98 (Source\OS_CPU_A.asm, LINE 98): OPERATION INVALID IN THIS SEGMENT
-                      99                MOV  R0,A
-*** ____________________________________^
-*** ERROR #A37 IN 99 (Source\OS_CPU_A.asm, LINE 99): OPERATION INVALID IN THIS SEGMENT
-                     100                INC  DPTR
-*** ____________________________________^
-*** ERROR #A37 IN 100 (Source\OS_CPU_A.asm, LINE 100): OPERATION INVALID IN THIS SEGMENT
-                     101                MOVX A, @DPTR
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 14:57:57 PAGE     3
-
-*** ____________________________________^
-*** ERROR #A37 IN 101 (Source\OS_CPU_A.asm, LINE 101): OPERATION INVALID IN THIS SEGMENT
-                     102                MOV  R1,A
-*** ____________________________________^
-*** ERROR #A37 IN 102 (Source\OS_CPU_A.asm, LINE 102): OPERATION INVALID IN THIS SEGMENT
-                     103                MOV  DPH, R0
+                      81                MOV R5,A
+                      82                POP ACC
+                      83                MOV R4,A
+                      84                POP ACC
+                      85                MOV R3,A
+                      86                POP ACC
+                      87                MOV R2,A
+                      88                POP ACC
+                      89                MOV R1,A
+                      90                POP ACC
+                      91                MOV R0,A
+                      92                POP DPH
+                      93                POP DPL
+                      94                POP B
+                      95                POP ACC
+                      96                POP PSW
+                      97                ENDM
+                      98                
+                      99     ; ◊”≥Ã–Ú
+----                 100            RSEG ?PR?OSStartRdy?OS_CPU_A
+*** _____________________________________^
+*** ERROR #A30 IN 100 (Source\OS_CPU_A.asm, LINE 100): SEGMENT SYMBOL EXPECTED
+0040                 101     OSStartHighRdy:
+                     102            USING 0               ;  π”√ºƒ¥Ê∆˜µ⁄0◊È°£…œµÁ∫Û51◊‘∂Øπÿ÷–∂œ£¨¥À¥¶≤ª±ÿCLR EA÷∏¡Ó£¨“ÚŒ™µΩ¥À¥¶ªπŒ¥÷–∂œ£¨±æ≥Ã–ÚÕÀ≥ˆ∫Ûø™÷–∂œ
+                     103                LCALL _?OSTackSwHook
 *** ____________________________________^
 *** ERROR #A37 IN 103 (Source\OS_CPU_A.asm, LINE 103): OPERATION INVALID IN THIS SEGMENT
-                     104                MOV  DPL, R1
-*** ____________________________________^
-*** ERROR #A37 IN 104 (Source\OS_CPU_A.asm, LINE 104): OPERATION INVALID IN THIS SEGMENT
-                     105                ;*UserStrPtr ===> R5  ; ”√ªß∂—’ª∆ ºµÿ÷∑ƒ⁄»›£®º¥”√ªß∂—’ª≥§∂»∑≈‘⁄¥À¥¶£©
-                     106                MOVX A, @DPTR
+0040                 104     OSCtxSw_in:
+                     105            ;OSTCBCur ===> DPTR   ; ªÒµ√µ±«∞TCB÷∏’Î
+                     106                MOV  R0,#LOW(OSTCBCur); ªÒµ√OSTCBCur÷∏’ÎµÕµÿ÷∑£¨÷∏’Î’º3◊÷Ω⁄°£+0¿‡–Õ+1∏ﬂ8Œª æ›+2µÕ8Œª æ›
 *** ____________________________________^
 *** ERROR #A37 IN 106 (Source\OS_CPU_A.asm, LINE 106): OPERATION INVALID IN THIS SEGMENT
-                     107                MOV  R5, A            ; R5 = ”√ªß∂—’ª≥§∂»
+                     107                INC  R0
 *** ____________________________________^
 *** ERROR #A37 IN 107 (Source\OS_CPU_A.asm, LINE 107): OPERATION INVALID IN THIS SEGMENT
-                     108                ; ª÷∏¥œ÷≥°∂—’ªƒ⁄»›
-                     109                MOV  R0, #OSStkStart
+                     108                MOV  DPH, @R0
+*** ____________________________________^
+*** ERROR #A37 IN 108 (Source\OS_CPU_A.asm, LINE 108): OPERATION INVALID IN THIS SEGMENT
+                     109                INC  R0
 *** ____________________________________^
 *** ERROR #A37 IN 109 (Source\OS_CPU_A.asm, LINE 109): OPERATION INVALID IN THIS SEGMENT
-0040                 110     restore_stack:
-                     111            INC  DPTR
-*** ________________________________^
-*** ERROR #A37 IN 111 (Source\OS_CPU_A.asm, LINE 111): OPERATION INVALID IN THIS SEGMENT
-                     112                INC  R0
+                     110                MOV  DPL, @R0
+*** ____________________________________^
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 18:14:35 PAGE     3
+
+*** ERROR #A37 IN 110 (Source\OS_CPU_A.asm, LINE 110): OPERATION INVALID IN THIS SEGMENT
+                     111                ;OSTCBCur->OSTCBStkPtr===>DPTR  ;ªÒµ√”√ªß∂—’ª÷∏’Î
+                     112                INC  DPTR
 *** ____________________________________^
 *** ERROR #A37 IN 112 (Source\OS_CPU_A.asm, LINE 112): OPERATION INVALID IN THIS SEGMENT
-                     113                MOVX A, @DPTR
+                     113                MOVX A, @DPTR         ; OSTCBStkPtr «void÷∏’Î
 *** ____________________________________^
 *** ERROR #A37 IN 113 (Source\OS_CPU_A.asm, LINE 113): OPERATION INVALID IN THIS SEGMENT
-                     114                MOV  @R0, A
+                     114                MOV  R0,A
 *** ____________________________________^
 *** ERROR #A37 IN 114 (Source\OS_CPU_A.asm, LINE 114): OPERATION INVALID IN THIS SEGMENT
-                     115                DJNZ R5, restore_stack
+                     115                INC  DPTR
 *** ____________________________________^
 *** ERROR #A37 IN 115 (Source\OS_CPU_A.asm, LINE 115): OPERATION INVALID IN THIS SEGMENT
-                     116                ; ª÷∏¥∂—’ª÷∏’ÎSP
-                     117                MOV  SP,R0
+                     116                MOVX A, @DPTR
+*** ____________________________________^
+*** ERROR #A37 IN 116 (Source\OS_CPU_A.asm, LINE 116): OPERATION INVALID IN THIS SEGMENT
+                     117                MOV  R1,A
 *** ____________________________________^
 *** ERROR #A37 IN 117 (Source\OS_CPU_A.asm, LINE 117): OPERATION INVALID IN THIS SEGMENT
-                     118                ; ª÷∏¥∑¬’Ê∂—’ª÷∏’Î?C_XBP
-                     119                INC  DPTR
+                     118                MOV  DPH, R0
+*** ____________________________________^
+*** ERROR #A37 IN 118 (Source\OS_CPU_A.asm, LINE 118): OPERATION INVALID IN THIS SEGMENT
+                     119                MOV  DPL, R1
 *** ____________________________________^
 *** ERROR #A37 IN 119 (Source\OS_CPU_A.asm, LINE 119): OPERATION INVALID IN THIS SEGMENT
-                     120                MOVX A, @DPTR
-*** ____________________________________^
-*** ERROR #A37 IN 120 (Source\OS_CPU_A.asm, LINE 120): OPERATION INVALID IN THIS SEGMENT
-                     121                MOV  ?C_XBP, A        ; ?C_XBP∑¬’Ê∂—’ª÷∏’Î∏ﬂ8Œª
+                     120                ;*UserStrPtr ===> R5  ; ”√ªß∂—’ª∆ ºµÿ÷∑ƒ⁄»›£®º¥”√ªß∂—’ª≥§∂»∑≈‘⁄¥À¥¶£©
+                     121                MOVX A, @DPTR
 *** ____________________________________^
 *** ERROR #A37 IN 121 (Source\OS_CPU_A.asm, LINE 121): OPERATION INVALID IN THIS SEGMENT
-                     122                INC  DPTR
+                     122                MOV  R5, A            ; R5 = ”√ªß∂—’ª≥§∂»
 *** ____________________________________^
 *** ERROR #A37 IN 122 (Source\OS_CPU_A.asm, LINE 122): OPERATION INVALID IN THIS SEGMENT
-                     123                MOVX A, @DPTR
-*** ____________________________________^
-*** ERROR #A37 IN 123 (Source\OS_CPU_A.asm, LINE 123): OPERATION INVALID IN THIS SEGMENT
-                     124                MOV  ?C_XBP+1, A      ; ?C_XBP∑¬’Ê∂—’ª÷∏’ÎµÕ8Œª
+                     123                ; ª÷∏¥œ÷≥°∂—’ªƒ⁄»›
+                     124                MOV  R0, #OSStkStart
 *** ____________________________________^
 *** ERROR #A37 IN 124 (Source\OS_CPU_A.asm, LINE 124): OPERATION INVALID IN THIS SEGMENT
-                     125                ;OSRunning=TRUE
-                     126                MOV  R0, #LOW(OSRunning)
-*** ____________________________________^
+0040                 125     restore_stack:
+                     126            INC  DPTR
+*** ________________________________^
 *** ERROR #A37 IN 126 (Source\OS_CPU_A.asm, LINE 126): OPERATION INVALID IN THIS SEGMENT
-                     127                MOV  @R0, #01
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 14:57:57 PAGE     4
-
+                     127                INC  R0
 *** ____________________________________^
 *** ERROR #A37 IN 127 (Source\OS_CPU_A.asm, LINE 127): OPERATION INVALID IN THIS SEGMENT
-                     128                POPALL
-                     130+1              POP ACC       ; R0-R7ˆ
+                     128                MOVX A, @DPTR
 *** ____________________________________^
-*** ERROR #A37 IN 130 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     131+1              MOV R7,A
+*** ERROR #A37 IN 128 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
+                     129                MOV  @R0, A
 *** ____________________________________^
-*** ERROR #A37 IN 131 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     132+1              POP ACC
+*** ERROR #A37 IN 129 (Source\OS_CPU_A.asm, LINE 129): OPERATION INVALID IN THIS SEGMENT
+                     130                DJNZ R5, restore_stack
 *** ____________________________________^
-*** ERROR #A37 IN 132 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     133+1              MOV R6,A
+*** ERROR #A37 IN 130 (Source\OS_CPU_A.asm, LINE 130): OPERATION INVALID IN THIS SEGMENT
+                     131                ; ª÷∏¥∂—’ª÷∏’ÎSP
+                     132                MOV  SP,R0
 *** ____________________________________^
-*** ERROR #A37 IN 133 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     134+1              POP ACC
+*** ERROR #A37 IN 132 (Source\OS_CPU_A.asm, LINE 132): OPERATION INVALID IN THIS SEGMENT
+                     133                ; ª÷∏¥∑¬’Ê∂—’ª÷∏’Î?C_XBP
+                     134                INC  DPTR
 *** ____________________________________^
-*** ERROR #A37 IN 134 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     135+1              MOV R5,A
+*** ERROR #A37 IN 134 (Source\OS_CPU_A.asm, LINE 134): OPERATION INVALID IN THIS SEGMENT
+                     135                MOVX A, @DPTR
 *** ____________________________________^
-*** ERROR #A37 IN 135 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     136+1              POP ACC
+*** ERROR #A37 IN 135 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
+                     136                MOV  ?C_XBP, A        ; ?C_XBP∑¬’Ê∂—’ª÷∏’Î∏ﬂ8Œª
 *** ____________________________________^
-*** ERROR #A37 IN 136 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     137+1              MOV R4,A
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 18:14:35 PAGE     4
+
+*** ERROR #A37 IN 136 (Source\OS_CPU_A.asm, LINE 136): OPERATION INVALID IN THIS SEGMENT
+                     137                INC  DPTR
 *** ____________________________________^
-*** ERROR #A37 IN 137 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     138+1              POP ACC
+*** ERROR #A37 IN 137 (Source\OS_CPU_A.asm, LINE 137): OPERATION INVALID IN THIS SEGMENT
+                     138                MOVX A, @DPTR
 *** ____________________________________^
-*** ERROR #A37 IN 138 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     139+1              MOV R3,A
+*** ERROR #A37 IN 138 (Source\OS_CPU_A.asm, LINE 138): OPERATION INVALID IN THIS SEGMENT
+                     139                MOV  ?C_XBP+1, A      ; ?C_XBP∑¬’Ê∂—’ª÷∏’ÎµÕ8Œª
 *** ____________________________________^
-*** ERROR #A37 IN 139 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     140+1              POP ACC
+*** ERROR #A37 IN 139 (Source\OS_CPU_A.asm, LINE 139): OPERATION INVALID IN THIS SEGMENT
+                     140                ;OSRunning=TRUE
+                     141                MOV  R0, #LOW(OSRunning)
 *** ____________________________________^
-*** ERROR #A37 IN 140 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     141+1              MOV R2,A
+*** ERROR #A37 IN 141 (Source\OS_CPU_A.asm, LINE 141): OPERATION INVALID IN THIS SEGMENT
+                     142                MOV  @R0, #01
 *** ____________________________________^
-*** ERROR #A37 IN 141 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     142+1              POP ACC
+*** ERROR #A37 IN 142 (Source\OS_CPU_A.asm, LINE 142): OPERATION INVALID IN THIS SEGMENT
+                     143                POPALL
+                     145+1              POP ACC       ; R0-R7ˆ
 *** ____________________________________^
-*** ERROR #A37 IN 142 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     143+1              MOV R1,A
+*** ERROR #A37 IN 145 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     146+1              MOV R7,A
 *** ____________________________________^
-*** ERROR #A37 IN 143 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     144+1              POP ACC
+*** ERROR #A37 IN 146 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     147+1              POP ACC
 *** ____________________________________^
-*** ERROR #A37 IN 144 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     145+1              MOV R0,A
+*** ERROR #A37 IN 147 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     148+1              MOV R6,A
 *** ____________________________________^
-*** ERROR #A37 IN 145 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     146+1              POP DPH
-*** ____________________________________^
-*** ERROR #A37 IN 146 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     147+1              POP DPL
-*** ____________________________________^
-*** ERROR #A37 IN 147 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     148+1              POP B
-*** ____________________________________^
-*** ERROR #A37 IN 148 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
+*** ERROR #A37 IN 148 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
                      149+1              POP ACC
 *** ____________________________________^
-*** ERROR #A37 IN 149 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-                     150+1              POP PSW
+*** ERROR #A37 IN 149 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     150+1              MOV R5,A
 *** ____________________________________^
-*** ERROR #A37 IN 150 (Source\OS_CPU_A.asm, LINE 128): OPERATION INVALID IN THIS SEGMENT
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 14:57:57 PAGE     5
+*** ERROR #A37 IN 150 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     151+1              POP ACC
+*** ____________________________________^
+*** ERROR #A37 IN 151 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     152+1              MOV R4,A
+*** ____________________________________^
+*** ERROR #A37 IN 152 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     153+1              POP ACC
+*** ____________________________________^
+*** ERROR #A37 IN 153 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     154+1              MOV R3,A
+*** ____________________________________^
+*** ERROR #A37 IN 154 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     155+1              POP ACC
+*** ____________________________________^
+*** ERROR #A37 IN 155 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     156+1              MOV R2,A
+*** ____________________________________^
+*** ERROR #A37 IN 156 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     157+1              POP ACC
+*** ____________________________________^
+*** ERROR #A37 IN 157 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     158+1              MOV R1,A
+*** ____________________________________^
+*** ERROR #A37 IN 158 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     159+1              POP ACC
+*** ____________________________________^
+*** ERROR #A37 IN 159 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     160+1              MOV R0,A
+*** ____________________________________^
+*** ERROR #A37 IN 160 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 18:14:35 PAGE     5
 
-                     151                SETB EA
+                     161+1              POP DPH
 *** ____________________________________^
-*** ERROR #A37 IN 151 (Source\OS_CPU_A.asm, LINE 129): OPERATION INVALID IN THIS SEGMENT
-                     152                RETI
+*** ERROR #A37 IN 161 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     162+1              POP DPL
 *** ____________________________________^
-*** ERROR #A37 IN 152 (Source\OS_CPU_A.asm, LINE 130): OPERATION INVALID IN THIS SEGMENT
-                     153                
-                     154     ;----------------------------------------------------------------------
-                     155            RSEG?PR?OSCtxSw?OS_CPU_A
-*** ________________________________^
-*** ERROR #A9 IN 155 (Source\OS_CPU_A.asm, LINE 133): SYNTAX ERROR
-0040                 156     OSCtxSw:
-                     157            PUSHALL
-                     158+1          PUSH PSW
-*** ________________________________^
-*** ERROR #A37 IN 158 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     159+1              PUSH ACC
+*** ERROR #A37 IN 162 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     163+1              POP B
 *** ____________________________________^
-*** ERROR #A37 IN 159 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     160+1              PUSH B
+*** ERROR #A37 IN 163 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     164+1              POP ACC
 *** ____________________________________^
-*** ERROR #A37 IN 160 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     161+1              PUSH DPL
+*** ERROR #A37 IN 164 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     165+1              POP PSW
 *** ____________________________________^
-*** ERROR #A37 IN 161 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     162+1              PUSH DPH
+*** ERROR #A37 IN 165 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
+                     166                SETB EA
 *** ____________________________________^
-*** ERROR #A37 IN 162 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     163+1              MOV  A,R0     ; R0-R7??0008Î
+*** ERROR #A37 IN 166 (Source\OS_CPU_A.asm, LINE 144): OPERATION INVALID IN THIS SEGMENT
+                     167                RETI
 *** ____________________________________^
-*** ERROR #A37 IN 163 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     164+1              PUSH ACC
-*** ____________________________________^
-*** ERROR #A37 IN 164 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     165+1              MOV  A,R1
-*** ____________________________________^
-*** ERROR #A37 IN 165 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     166+1              PUSH ACC
-*** ____________________________________^
-*** ERROR #A37 IN 166 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     167+1              MOV  A,R2
-*** ____________________________________^
-*** ERROR #A37 IN 167 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     168+1              PUSH ACC
-*** ____________________________________^
-*** ERROR #A37 IN 168 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     169+1              MOV  A,R3
-*** ____________________________________^
-*** ERROR #A37 IN 169 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     170+1              PUSH ACC
-*** ____________________________________^
-*** ERROR #A37 IN 170 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     171+1              MOV  A,R4
-*** ____________________________________^
-*** ERROR #A37 IN 171 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     172+1              PUSH ACC
-*** ____________________________________^
-*** ERROR #A37 IN 172 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     173+1              MOV  A,R5
-*** ____________________________________^
-*** ERROR #A37 IN 173 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     174+1              PUSH ACC
-*** ____________________________________^
-*** ERROR #A37 IN 174 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     175+1              MOV  A,R6
-*** ____________________________________^
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 14:57:57 PAGE     6
+*** ERROR #A37 IN 167 (Source\OS_CPU_A.asm, LINE 145): OPERATION INVALID IN THIS SEGMENT
+                     168                
+                     169     ;----------------------------------------------------------------------
+----                 170            RSEG ?PR?OSCtxSw?OS_CPU_A
+0000                 171     OSCtxSw:
+                     172            PUSHALL
+0022                 195     OSIntCtxSw_in:
+                     196            ; ªÒµ√∂—’ª≥§∂»∫Õ∆ ºµÿ÷∑
+0022 E581            197                MOV  A, SP
+0024 C3              198                CLR  C
+0025 9400     F      199                SUBB A, #OSStkStart
+0027 FD              200                MOV  R5, A            ; ªÒµ√∂—’ª≥§∂»
+                     201                ;OSTCBCur===>DPTR     ; ªÒµ√µ±«∞TCB÷∏’Î
+0028 7800     F      202                MOV  R0, #LOW(OSTCBCur)
+                     203                ; ªÒµ√OSTCBCur÷∏’ÎµÕµÿ÷∑£¨÷∏’Î’º3◊÷Ω⁄°£+0¿‡–Õ+1∏ﬂ∞ÀŒª æ›+2µÕ∞ÀŒª æ›
+002A 08              204                INC  R0
+002B 8683            205                MOV  DPH, @R0
+002D 08              206                INC  R0
+002E 8682            207                MOV  DPL, @R0
+                     208                ;OSTCBCur->OSTCBStkPtr===>DPTR    ; ªÒµ√”√ªß∂—’ª÷∏’Î
+0030 A3              209                INC  DPTR
+0031 E0              210                MOVX A, @DPTR         ; OSTCBStkPtr «void÷∏’Î
+0032 F8              211                MOV  R0, A
+0033 A3              212                INC  DPTR
+0034 E0              213                MOVX A, @DPTR
+0035 F9              214                MOV  R1, A
+0036 8883            215                MOV  DPH, R0
+0038 8982            216                MOV  DPL, R1
+                     217                ; ±£¥Ê∂—’ª≥§∂»
+003A ED              218                MOV  A, R5
+003B F0              219                MOVX @DPTR, A
+003C 7800     F      220                MOV  R0, #OSStkStart  ; ªÒµ√∂—’ª÷∏’Î
+003E                 221     save_stack:
+003E A3              222            INC  DPTR
+003F 08              223                INC  R0
+0040 E6              224                MOV  A, @R0
+0041 F0              225                MOVX @DPTR, A
+0042                 226                DJNZ R5, sava_stack
+*** _____________________________________________^
+*** ERROR #A45 IN 226 (Source\OS_CPU_A.asm, LINE 182): UNDEFINED SYMBOL (PASS-2)
+                     227                ; ±£¥Ê∑¬’Ê∂—’ª÷∏’Î?C_XBP
+0044 A3              228                INC  DPTR
+0045 E500            229                MOV  A, ?C_XBP        ; C_XBP∑¬’Ê∂—’ª÷∏’Î∏ﬂ8Œª
+*** ____________________________________________^
+*** ERROR #A48 IN 229 (Source\OS_CPU_A.asm, LINE 185): DATA-ADDRESS EXPECTED
+0047 F0              230                MOVX @DPTR, A
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 18:14:35 PAGE     6
 
-*** ERROR #A37 IN 175 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     176+1              PUSH ACC
-*** ____________________________________^
-*** ERROR #A37 IN 176 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     177+1              MOV  A,R7
-*** ____________________________________^
-*** ERROR #A37 IN 177 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-                     178+1              PUSH ACC
-*** ____________________________________^
-*** ERROR #A37 IN 178 (Source\OS_CPU_A.asm, LINE 135): OPERATION INVALID IN THIS SEGMENT
-0040                 180     OSIntCtxSw_in:
-                     181            ; ªÒµ√∂—’ª≥§∂»∫Õ∆ ºµÿ÷∑
-                     182                MOV  A, SP
-*** ____________________________________^
-*** ERROR #A37 IN 182 (Source\OS_CPU_A.asm, LINE 138): OPERATION INVALID IN THIS SEGMENT
-                     183                CLR  C
-*** ____________________________________^
-*** ERROR #A37 IN 183 (Source\OS_CPU_A.asm, LINE 139): OPERATION INVALID IN THIS SEGMENT
-                     184                SUBB A, #OSStkStart
-*** ____________________________________^
-*** ERROR #A37 IN 184 (Source\OS_CPU_A.asm, LINE 140): OPERATION INVALID IN THIS SEGMENT
-                     185                MOV  R5, A            ; ªÒµ√∂—’ª≥§∂»
-*** ____________________________________^
-*** ERROR #A37 IN 185 (Source\OS_CPU_A.asm, LINE 141): OPERATION INVALID IN THIS SEGMENT
-                     186                ;OSTCBCur===>DPTR     ; ªÒµ√µ±«∞TCB÷∏’Î
-                     187                MOV  R0, #LOW(OSTCBCur)
-*** ____________________________________^
-*** ERROR #A37 IN 187 (Source\OS_CPU_A.asm, LINE 143): OPERATION INVALID IN THIS SEGMENT
-                     188                ; ªÒµ√OSTCBCur÷∏’ÎµÕµÿ÷∑£¨÷∏’Î’º3◊÷Ω⁄°£+0¿‡–Õ+1∏ﬂ∞ÀŒª æ›+2µÕ∞ÀŒª æ›
-                     189                INC  R0
-*** ____________________________________^
-*** ERROR #A37 IN 189 (Source\OS_CPU_A.asm, LINE 145): OPERATION INVALID IN THIS SEGMENT
-                     190                MOV  DPH, @R0
-*** ____________________________________^
-*** ERROR #A37 IN 190 (Source\OS_CPU_A.asm, LINE 146): OPERATION INVALID IN THIS SEGMENT
-                     191                INC  R0
-*** ____________________________________^
-*** ERROR #A37 IN 191 (Source\OS_CPU_A.asm, LINE 147): OPERATION INVALID IN THIS SEGMENT
-                     192                MOV  DPL, @R0
-*** ____________________________________^
-*** ERROR #A37 IN 192 (Source\OS_CPU_A.asm, LINE 148): OPERATION INVALID IN THIS SEGMENT
-                     193                ;OSTCBCur->OSTCBStkPtr===>DPTR    ; ªÒµ√”√ªß∂—’ª÷∏’Î
-                     194                INC  DPTR
-*** ____________________________________^
-*** ERROR #A37 IN 194 (Source\OS_CPU_A.asm, LINE 150): OPERATION INVALID IN THIS SEGMENT
-                     195                MOVX A, @DPTR         ; OSTCBStkPtr «void÷∏’Î
-*** ____________________________________^
-*** ERROR #A37 IN 195 (Source\OS_CPU_A.asm, LINE 151): OPERATION INVALID IN THIS SEGMENT
-                     196                MOV  R0, A
-*** ____________________________________^
-*** ERROR #A37 IN 196 (Source\OS_CPU_A.asm, LINE 152): OPERATION INVALID IN THIS SEGMENT
-                     197                INC  DPTR
-*** ____________________________________^
-*** ERROR #A37 IN 197 (Source\OS_CPU_A.asm, LINE 153): OPERATION INVALID IN THIS SEGMENT
-                     198                MOVX A, @DPTR
-*** ____________________________________^
-*** ERROR #A37 IN 198 (Source\OS_CPU_A.asm, LINE 154): OPERATION INVALID IN THIS SEGMENT
-                     199                MOV  R1, A
-*** ____________________________________^
-*** ERROR #A37 IN 199 (Source\OS_CPU_A.asm, LINE 155): OPERATION INVALID IN THIS SEGMENT
-                     200                MOV  DPH, R0
-*** ____________________________________^
-*** ERROR #A37 IN 200 (Source\OS_CPU_A.asm, LINE 156): OPERATION INVALID IN THIS SEGMENT
-                     201                MOV  DPL, R1
-*** ____________________________________^
-*** ERROR #A37 IN 201 (Source\OS_CPU_A.asm, LINE 157): OPERATION INVALID IN THIS SEGMENT
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 14:57:57 PAGE     7
-
-                     202                ; ±£¥Ê∂—’ª≥§∂»
-                     203                MOV  A, R5
-*** ____________________________________^
-*** ERROR #A37 IN 203 (Source\OS_CPU_A.asm, LINE 159): OPERATION INVALID IN THIS SEGMENT
-                     204                MOVX @DPTR, A
-*** ____________________________________^
-*** ERROR #A37 IN 204 (Source\OS_CPU_A.asm, LINE 160): OPERATION INVALID IN THIS SEGMENT
-                     205                MOV  R0, #OSStkStart  ; ªÒµ√∂—’ª÷∏’Î
-*** ____________________________________^
-*** ERROR #A37 IN 205 (Source\OS_CPU_A.asm, LINE 161): OPERATION INVALID IN THIS SEGMENT
-0040                 206     save_stack:
-                     207            INC  DPTR
-*** ________________________________^
-*** ERROR #A37 IN 207 (Source\OS_CPU_A.asm, LINE 163): OPERATION INVALID IN THIS SEGMENT
-                     208                INC  R0
-*** ____________________________________^
-*** ERROR #A37 IN 208 (Source\OS_CPU_A.asm, LINE 164): OPERATION INVALID IN THIS SEGMENT
-                     209                MOV  A, @R0
-*** ____________________________________^
-*** ERROR #A37 IN 209 (Source\OS_CPU_A.asm, LINE 165): OPERATION INVALID IN THIS SEGMENT
-                     210                MOVX @DPTR, A
-*** ____________________________________^
-*** ERROR #A37 IN 210 (Source\OS_CPU_A.asm, LINE 166): OPERATION INVALID IN THIS SEGMENT
-                     211                DJNZ R5, sava_stack
-*** ____________________________________^
-*** ERROR #A37 IN 211 (Source\OS_CPU_A.asm, LINE 167): OPERATION INVALID IN THIS SEGMENT
-                     212                ; ±£¥Ê∑¬’Ê∂—’ª÷∏’Î?C_XBP
-                     213                INC  DPTR
-*** ____________________________________^
-*** ERROR #A37 IN 213 (Source\OS_CPU_A.asm, LINE 169): OPERATION INVALID IN THIS SEGMENT
-                     214                MOV  A, ?C_XBP        ; C_XBP∑¬’Ê∂—’ª÷∏’Î∏ﬂ8Œª
-*** ____________________________________^
-*** ERROR #A37 IN 214 (Source\OS_CPU_A.asm, LINE 170): OPERATION INVALID IN THIS SEGMENT
-                     215                MOVX @DPTR, A
-*** ____________________________________^
-*** ERROR #A37 IN 215 (Source\OS_CPU_A.asm, LINE 171): OPERATION INVALID IN THIS SEGMENT
-                     216                INC  DPTR
-*** ____________________________________^
-*** ERROR #A37 IN 216 (Source\OS_CPU_A.asm, LINE 172): OPERATION INVALID IN THIS SEGMENT
-                     217                MOV  A, ?C_XBP+1      ; C_XBP∑¬’Ê∂—’ª÷∏’ÎµÕ8Œª
-*** ____________________________________^
-*** ERROR #A37 IN 217 (Source\OS_CPU_A.asm, LINE 173): OPERATION INVALID IN THIS SEGMENT
-                     218                MOVX @DPTR, A
-*** ____________________________________^
-*** ERROR #A37 IN 218 (Source\OS_CPU_A.asm, LINE 174): OPERATION INVALID IN THIS SEGMENT
-                     219                ; µ˜”√”√ªß≥Ã–Ú
-                     220                LCALL _?OSTaskSwHook
-*** ____________________________________^
-*** ERROR #A37 IN 220 (Source\OS_CPU_A.asm, LINE 176): OPERATION INVALID IN THIS SEGMENT
-                     221                ;OSTCBCur=OSTCBHighRdy
-                     222                MOV  R0, #OSTCBCur
-*** ____________________________________^
-*** ERROR #A37 IN 222 (Source\OS_CPU_A.asm, LINE 178): OPERATION INVALID IN THIS SEGMENT
-                     223                MOV  R1, #OSTCBHighRdy
-*** ____________________________________^
-*** ERROR #A37 IN 223 (Source\OS_CPU_A.asm, LINE 179): OPERATION INVALID IN THIS SEGMENT
-                     224                MOV  A, @R1
-*** ____________________________________^
-*** ERROR #A37 IN 224 (Source\OS_CPU_A.asm, LINE 180): OPERATION INVALID IN THIS SEGMENT
-                     225                MOV  @R0, A
-*** ____________________________________^
-*** ERROR #A37 IN 225 (Source\OS_CPU_A.asm, LINE 181): OPERATION INVALID IN THIS SEGMENT
-                     226                INC  R0
-*** ____________________________________^
-*** ERROR #A37 IN 226 (Source\OS_CPU_A.asm, LINE 182): OPERATION INVALID IN THIS SEGMENT
-                     227                INC  R1
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 14:57:57 PAGE     8
-
-*** ____________________________________^
-*** ERROR #A37 IN 227 (Source\OS_CPU_A.asm, LINE 183): OPERATION INVALID IN THIS SEGMENT
-                     228                MOV  A, @R1
-*** ____________________________________^
-*** ERROR #A37 IN 228 (Source\OS_CPU_A.asm, LINE 184): OPERATION INVALID IN THIS SEGMENT
-                     229                MOV  @R0, A
-*** ____________________________________^
-*** ERROR #A37 IN 229 (Source\OS_CPU_A.asm, LINE 185): OPERATION INVALID IN THIS SEGMENT
-                     230                ;OSPrioCur=OSPrioHighRdy   ;  π”√’‚¡Ω∏ˆ±‰¡ø÷˜“™ƒøµƒ «Œ™¡À π÷∏’Î±»Ωœ±‰Œ™◊÷Ω⁄±»Ωœ£¨“‘±„Ω⁄ °ø’º‰
-                     231                MOV  R0, #OSPrioCur
-*** ____________________________________^
-*** ERROR #A37 IN 231 (Source\OS_CPU_A.asm, LINE 187): OPERATION INVALID IN THIS SEGMENT
-                     232                MOV  R1, #OSPrioHighRdy
-*** ____________________________________^
-*** ERROR #A37 IN 232 (Source\OS_CPU_A.asm, LINE 188): OPERATION INVALID IN THIS SEGMENT
-                     233                MOV  A, @R1
-*** ____________________________________^
-*** ERROR #A37 IN 233 (Source\OS_CPU_A.asm, LINE 189): OPERATION INVALID IN THIS SEGMENT
-                     234                MOV  @R0, A
-*** ____________________________________^
-*** ERROR #A37 IN 234 (Source\OS_CPU_A.asm, LINE 190): OPERATION INVALID IN THIS SEGMENT
-                     235                LJMP OSCtxSw_in
-*** ____________________________________^
-*** ERROR #A37 IN 235 (Source\OS_CPU_A.asm, LINE 191): OPERATION INVALID IN THIS SEGMENT
-                     236                
-                     237     ;-----------------------------------------------------------------------
-                     238            RSEG?PR?OSIntCtxSw?OS_CPU_A
-*** ________________________________^
-*** ERROR #A9 IN 238 (Source\OS_CPU_A.asm, LINE 194): SYNTAX ERROR
-0040                 239     OSIntCtxSw:
-                     240            ; µ˜’˚sp÷∏’Î»•µÙ‘⁄µ˜”√OSIntExit(),OSIntCtxSw()π≥Ã÷–—π»Î’ªµƒ∂‡”‡ƒ⁄»›
-                     241                ;SP=SP-4
-                     242                MOV  A, SP
-*** ____________________________________^
-*** ERROR #A37 IN 242 (Source\OS_CPU_A.asm, LINE 198): OPERATION INVALID IN THIS SEGMENT
-                     243                CLR  C
-*** ____________________________________^
-*** ERROR #A37 IN 243 (Source\OS_CPU_A.asm, LINE 199): OPERATION INVALID IN THIS SEGMENT
-                     244                SUBB A, #4
-*** ____________________________________^
-*** ERROR #A37 IN 244 (Source\OS_CPU_A.asm, LINE 200): OPERATION INVALID IN THIS SEGMENT
-                     245                MOV  SP, A
-*** ____________________________________^
-*** ERROR #A37 IN 245 (Source\OS_CPU_A.asm, LINE 201): OPERATION INVALID IN THIS SEGMENT
-                     246                LJMP OSIntCtXSw_in
-*** ____________________________________^
-*** ERROR #A37 IN 246 (Source\OS_CPU_A.asm, LINE 202): OPERATION INVALID IN THIS SEGMENT
-                     247     
-                     248     ;-----------------------------------------------------------------------
-----                 249            CSEG AT 000BH      ;OSTickISR
-000B 02000E          250                LJMP OSTickISR
-                     251                RSEG?PR?OSTickISR?OS_CPU_A
-*** ____________________________________^
-*** ERROR #A9 IN 251 (Source\OS_CPU_A.asm, LINE 207): SYNTAX ERROR
-000E                 252     OSTickISR:
-                     253            USING 0
-                     254                PUSHALL
-0030 C28C            277                CLR   TR0
-0032 758CB1          278                MOV   TH0, #0B1H
-0035 758AE0          279                MOV   TL0, #0E0H
-0038 D28C            280                SETB  TR0
-003A 120000   F      281                LCALL _?OSIntEnter
-003D 120000   F      282                LCALL _?OSTimeTick
-0040 120000   F      283                LCALL _?OSIntExit
-                     284                POPALL
-0065 32              307                RETI
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 14:57:57 PAGE     9
-
-                     308                
-                     309                END
-A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 14:57:57 PAGE    10
+0048 A3              231                INC  DPTR
+0049 E500            232                MOV  A, ?C_XBP+1      ; C_XBP∑¬’Ê∂—’ª÷∏’ÎµÕ8Œª
+*** ____________________________________________^
+*** ERROR #A48 IN 232 (Source\OS_CPU_A.asm, LINE 188): DATA-ADDRESS EXPECTED
+004B F0              233                MOVX @DPTR, A
+                     234                ; µ˜”√”√ªß≥Ã–Ú
+004C 120000   F      235                LCALL _?OSTaskSwHook
+                     236                ;OSTCBCur=OSTCBHighRdy
+004F 7800     F      237                MOV  R0, #OSTCBCur
+0051 7900     F      238                MOV  R1, #OSTCBHighRdy
+0053 E7              239                MOV  A, @R1
+0054 F6              240                MOV  @R0, A
+0055 08              241                INC  R0
+0056 09              242                INC  R1
+0057 E7              243                MOV  A, @R1
+0058 F6              244                MOV  @R0, A
+                     245                ;OSPrioCur=OSPrioHighRdy   ;  π”√’‚¡Ω∏ˆ±‰¡ø÷˜“™ƒøµƒ «Œ™¡À π÷∏’Î±»Ωœ±‰Œ™◊÷Ω⁄±»Ωœ£¨“‘±„Ω⁄ °ø’º‰
+0059 7800     F      246                MOV  R0, #OSPrioCur
+005B 7900     F      247                MOV  R1, #OSPrioHighRdy
+005D E7              248                MOV  A, @R1
+005E F6              249                MOV  @R0, A
+005F 020000          250                LJMP OSCtxSw_in
+*** _________________________________________^
+*** ERROR #A46 IN 250 (Source\OS_CPU_A.asm, LINE 206): CODE-ADDRESS EXPECTED
+                     251                
+                     252     ;-----------------------------------------------------------------------
+----                 253            RSEG ?PR?OSIntCtxSw?OS_CPU_A
+0000                 254     OSIntCtxSw:
+                     255            ; µ˜’˚sp÷∏’Î»•µÙ‘⁄µ˜”√OSIntExit(),OSIntCtxSw()π≥Ã÷–—π»Î’ªµƒ∂‡”‡ƒ⁄»›
+                     256                ;SP=SP-4
+0000 E581            257                MOV  A, SP
+0002 C3              258                CLR  C
+0003 9404            259                SUBB A, #4
+0005 F581            260                MOV  SP, A
+0007 020000   F      261                LJMP OSIntCtXSw_in
+                     262     
+                     263     ;-----------------------------------------------------------------------
+----                 264            CSEG AT 000BH      ;OSTickISR
+000B 020000   F      265                LJMP OSTickISR
+----                 266                RSEG ?PR?OSTickISR?OS_CPU_A
+0000                 267     OSTickISR:
+                     268            USING 0
+                     269                PUSHALL
+0022 C28C            292                CLR   TR0
+0024 758CB1          293                MOV   TH0, #0B1H
+0027 758AE0          294                MOV   TL0, #0E0H
+002A D28C            295                SETB  TR0
+002C 120000   F      296                LCALL _?OSIntEnter
+002F 120000   F      297                LCALL _?OSTimeTick
+0032 120000   F      298                LCALL _?OSIntExit
+                     299                POPALL
+0057 32              322                RETI
+                     323                
+                     324     END 
+A51 MACRO ASSEMBLER  OS_CPU_A                                                             02/25/2015 18:14:35 PAGE     7
 
 SYMBOL TABLE LISTING
 ------ ----- -------
@@ -554,20 +402,21 @@ SYMBOL TABLE LISTING
 N A M E                      T Y P E  V A L U E   ATTRIBUTES
 
 ?C_XBP. . . . . . . . . . .  I ADDR   -----       EXT
-?PR?OSCTXSW?OS_CPU_A. . . .  C SEG    0000H       REL=UNIT
-?PR?OSINTCTXSW?OS_CPU_A . .  C SEG    0000H       REL=UNIT
+?PR?OSCTXSW?OS_CPU_A. . . .  C SEG    0062H       REL=UNIT
+?PR?OSINTCTXSW?OS_CPU_A . .  C SEG    000AH       REL=UNIT
 ?PR?OSSTARTHIGHRDY?OS_CPU_A  C SEG    0000H       REL=UNIT
-?PR?OSTICKISR?OS_CPU_A. . .  C SEG    0000H       REL=UNIT
+?PR?OSSTARTRDY?OS_CPU_A . .    ----   -----       
+?PR?OSTICKISR?OS_CPU_A. . .  C SEG    0058H       REL=UNIT
 ?STACK. . . . . . . . . . .  I SEG    0040H       REL=UNIT
 ACC . . . . . . . . . . . .  D ADDR   00E0H   A   
 B . . . . . . . . . . . . .  D ADDR   00F0H   A   
 DPH . . . . . . . . . . . .  D ADDR   0083H   A   
 DPL . . . . . . . . . . . .  D ADDR   0082H   A   
 EA. . . . . . . . . . . . .  B ADDR   00A8H.7 A   
-OSCTXSW . . . . . . . . . .  I ADDR   0040H   R   SEG=?STACK
+OSCTXSW . . . . . . . . . .  C ADDR   0000H   R   SEG=?PR?OSCTXSW?OS_CPU_A
 OSCTXSW_IN. . . . . . . . .  I ADDR   0040H   R   SEG=?STACK
-OSINTCTXSW. . . . . . . . .  I ADDR   0040H   R   SEG=?STACK
-OSINTCTXSW_IN . . . . . . .  I ADDR   0040H   R   SEG=?STACK
+OSINTCTXSW. . . . . . . . .  C ADDR   0000H   R   SEG=?PR?OSINTCTXSW?OS_CPU_A
+OSINTCTXSW_IN . . . . . . .  C ADDR   0022H   R   SEG=?PR?OSCTXSW?OS_CPU_A
 OSPRIOCUR . . . . . . . . .  I ADDR   -----       EXT
 OSPRIOHIGHRDY . . . . . . .  I ADDR   -----       EXT
 OSRUNNING . . . . . . . . .  I ADDR   -----       EXT
@@ -576,15 +425,12 @@ OSSTARTHIGHRDY. . . . . . .  I ADDR   0040H   R   SEG=?STACK
 OSSTKSTART. . . . . . . . .  I ADDR   FFFFH   R   SEG=?STACK
 OSTCBCUR. . . . . . . . . .  I ADDR   -----       EXT
 OSTCBHIGHRDY. . . . . . . .  I ADDR   -----       EXT
-OSTICKISR . . . . . . . . .  C ADDR   000EH   A   
+OSTICKISR . . . . . . . . .  C ADDR   0000H   R   SEG=?PR?OSTICKISR?OS_CPU_A
+OS_CPU_A. . . . . . . . . .  N NUMB   -----       
 PSW . . . . . . . . . . . .  D ADDR   00D0H   A   
 RESTORE_STACK . . . . . . .  I ADDR   0040H   R   SEG=?STACK
-RSEG?PR?OSCTXSW?OS_CPU_A. .    ----   -----       
-RSEG?PR?OSINTCTXSW?OS_CPU_A    ----   -----       
-RSEG?PR?OSSTARTRDY?OS_CPU_A    ----   -----       
-RSEG?PR?OSTICKISR?OS_CPU_A.    ----   -----       
 SAVA_STACK. . . . . . . . .    ----   -----       
-SAVE_STACK. . . . . . . . .  I ADDR   0040H   R   SEG=?STACK
+SAVE_STACK. . . . . . . . .  C ADDR   003EH   R   SEG=?PR?OSCTXSW?OS_CPU_A
 SP. . . . . . . . . . . . .  D ADDR   0081H   A   
 TH0 . . . . . . . . . . . .  D ADDR   008CH   A   
 TL0 . . . . . . . . . . . .  D ADDR   008AH   A   
@@ -599,4 +445,4 @@ _?OSTIMETICK. . . . . . . .  C ADDR   -----       EXT
 REGISTER BANK(S) USED: 0 
 
 
-ASSEMBLY COMPLETE.  0 WARNING(S), 129 ERROR(S)
+ASSEMBLY COMPLETE.  0 WARNING(S), 59 ERROR(S)

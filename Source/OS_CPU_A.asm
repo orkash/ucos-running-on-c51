@@ -1,3 +1,18 @@
+$NOMOD51
+EA	BIT	0A8H.7
+SP	DATA	081H
+B	DATA	0F0H
+ACC	DATA	0E0H
+DPH	DATA	083H
+DPL	DATA	082H
+PSW	DATA	0D0H
+TR0	BIT	088H.4
+TH0	DATA	08CH
+TL0	DATA	08AH
+
+NAME OS_CPU_A    ;模块名
+
+
 ; 定义重定位段
 ?PR?OSStartHighRdy?OS_CPU_A SEGMENT CODE
 ?PR?OSCtxSw?OS_CPU_A SEGMENT CODE
@@ -82,7 +97,7 @@ POPALL MACRO
 	   ENDM
 	   
 ; 子程序
-       RSEG?PR?OSStartRdy?OS_CPU_A
+       RSEG ?PR?OSStartRdy?OS_CPU_A
 OSStartHighRdy:
        USING 0               ; 使用寄存器第0组。上电后51自动关中断，此处不必CLR EA指令，因为到此处还未中断，本程序退出后开中断
 	   LCALL _?OSTackSwHook
@@ -130,7 +145,7 @@ restore_stack:
 	   RETI
 	   
 ;----------------------------------------------------------------------
-       RSEG?PR?OSCtxSw?OS_CPU_A
+       RSEG ?PR?OSCtxSw?OS_CPU_A
 OSCtxSw:
        PUSHALL
 OSIntCtxSw_in:
@@ -191,7 +206,7 @@ save_stack:
 	   LJMP OSCtxSw_in
 	   
 ;-----------------------------------------------------------------------
-       RSEG?PR?OSIntCtxSw?OS_CPU_A
+       RSEG ?PR?OSIntCtxSw?OS_CPU_A
 OSIntCtxSw:
        ; 调整sp指针去掉在调用OSIntExit(),OSIntCtxSw()过程中压入栈的多余内容
 	   ;SP=SP-4
@@ -204,7 +219,7 @@ OSIntCtxSw:
 ;-----------------------------------------------------------------------
        CSEG AT 000BH      ;OSTickISR
 	   LJMP OSTickISR
-	   RSEG?PR?OSTickISR?OS_CPU_A
+	   RSEG ?PR?OSTickISR?OS_CPU_A
 OSTickISR:
        USING 0
 	   PUSHALL
@@ -218,4 +233,4 @@ OSTickISR:
 	   POPALL
 	   RETI
 	   
-	   END
+END 

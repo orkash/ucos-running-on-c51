@@ -1,0 +1,1 @@
+"Source\OS_CPU_A.asm" SET (SMALL) DEBUG PRINT(.\List\OS_CPU_A.lst) OBJECT(.\Output\OS_CPU_A.obj) EP

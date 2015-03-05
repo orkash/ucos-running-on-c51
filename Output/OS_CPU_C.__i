@@ -1,0 +1,1 @@
+"Source\OS_CPU_C.c" BROWSE INCDIR(.\Source) DEBUG OBJECTEXTEND PRINT(.\List\OS_CPU_C.lst) TABS (2) OBJECT(.\Output\OS_CPU_C.obj)
